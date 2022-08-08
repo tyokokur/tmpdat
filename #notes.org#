@@ -1,4 +1,5 @@
 #+STARTUP: overview
+#+STARTUP: indent
 * NLH
 ** EAD0710
 *** v14 runs
@@ -34,7 +35,7 @@ Wait until Tues to remind Carlet
   - [X] Read through
   - [X] References
   - [X] Supp Notes
-
+- [ ] Model and Theory [0/0]
 *** SCFT Write
 ** Presentation
 *** SCFT Buildup
