@@ -30,11 +30,13 @@ Continue
 *** b14v12
 Completely rerun
 * SYSG
-** Reflectivity spectra [0/4]
-- [ ] Read more on R_F
-- [ ] Check other literature
-- [ ] Check with Chao
-- [ ] Check with Rui
+** Reflectivity spectra [0/3]
+- [ ] Pick regular R_F
+- [ ] Shift spectra up (like XRD)
+- [ ] Needs to be useful for experimentalists
+  - How to determine height
+  - How to determine conformations
+  - M
 
 ** p4a4/6 (1.35)
 Not totally converged, but freeE barely changing, graph looks good
