@@ -30,14 +30,14 @@ Continue
 *** b14v12
 Completely rerun
 * SYSG
-** Reflectivity spectra [0/3]
+** Reflectivity spectra [0/4]
 - [ ] Pick regular R_F
 - [ ] Shift spectra up (like XRD)
 - [ ] Needs to be useful for experimentalists
   - How to determine height
   - How to determine conformations
-  - M
-
+  - Can train ML model given these new conformations?
+- [ ] Need to be done for Quals
 ** p4a4/6 (1.35)
 Not totally converged, but freeE barely changing, graph looks good
 ** p1a3 (p1 - p2 transition)
@@ -48,7 +48,9 @@ Continue--freeDiff good, inCompmax trend good, AndErr still O(1e-01)
 Try 2 end: 08/08 -- bad inCompMax trend, wcmp 5 -
 * NAF
 ** MD learn-ask Chao
-- [ ] Read references from email (08/09)
+- Read references from email (08/09) [1/1]
+  - [X] MD.pdf
+  - [ ] 
 ** Confirm with Rui and Clay
 * Quals
 ** Misc. [0/2]
