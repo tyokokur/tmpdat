@@ -4,7 +4,6 @@
 ** Check if signs of charge treated correctly
 ** EAD0710
 *** v14 runs
-
 * NFH
 ** v14 full runs
 - Profiles until 4mM look good
@@ -32,7 +31,7 @@ Completely rerun
 * SYSG
 ** Reflectivity spectra [1/5]
 - [X] Initial coding
-- [ ] Pick regular R_F
+- [-] Pick regular R_F
 - [ ] Shift spectra up (like XRD)
 - [ ] Needs to be useful for experimentalists
   - How to determine height
