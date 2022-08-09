@@ -38,7 +38,7 @@ Completely rerun
   - How to determine conformations
   - Can train ML model given these new conformations?
 - [ ] Need to be done for Quals
-** p4a4/6 (1.35)
+** [X] p4a4/6 (1.35)
 Not totally converged, but freeE barely changing, graph looks good
 ** p1a3 (p1 - p2 transition)
 *** 1.15 (34)
