@@ -1,4 +1,4 @@
-#+STARTUP: overview
+#+STARTUP: show2levels
 #+STARTUP: indent
 * NLH
 ** Check if signs of charge treated correctly
@@ -31,11 +31,13 @@ Continue
 Completely rerun
 * SYSG
 ** Reflectivity spectra [0/4]
-- [ ] Read more on R_F
-- [ ] Check other literature
-- [ ] Check with Chao
-- [ ] Check with Rui
-
+- [ ] Pick regular R_F
+- [ ] Shift spectra up (like XRD)
+- [ ] Needs to be useful for experimentalists
+  - How to determine height
+  - How to determine conformations
+  - Can train ML model given these new conformations?
+- [ ] Need to be done for Quals
 ** p4a4/6 (1.35)
 Not totally converged, but freeE barely changing, graph looks good
 ** p1a3 (p1 - p2 transition)
@@ -46,11 +48,16 @@ Continue--freeDiff good, inCompmax trend good, AndErr still O(1e-01)
 Try 2 end: 08/08 -- bad inCompMax trend, wcmp 5 -
 * NAF
 ** MD learn-ask Chao
-- [ ] Read references from email (08/09)
+- Read references from email (08/09) [1/4]
+  - [X] MD.pdf
+  - [ ] Polymer MD.pdf
+  - [ ] LAMMPS tutorial
+  - [ ] LAAMPS examples with scripts
 ** Confirm with Rui and Clay
 * Quals
 ** Misc. [0/2]
 - [-] Waiting for Carlet about Carlo
+  - If Carlo not avail, Sanjay
 - [ ] Application for QE (calcentral/higher ...)
 ** Manuscript
 *** Editing
