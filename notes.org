@@ -16,7 +16,19 @@
   - @2.8 4, 5, 6    re-init 08/09
   - @3.0 4, 5, 6, 8 re-init 08/09
 ** v10 runs
+*** b10v10
+Continue
+*** b12v10
+Selective to rerun
+*** b14v10
+Completely rerun
 ** v12 runs
+*** b10v12
+Continue
+*** b12v12
+4, 5 rerun
+*** b14v12
+Completely rerun
 * SYSG
 ** Reflectivity spectra [0/4]
 - [ ] Read more on R_F
