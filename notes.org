@@ -35,10 +35,29 @@ Wait until Tues to remind Carlet
   - [X] Read through
   - [X] References
   - [X] Supp Notes
-- [ ] Model and Theory [0/3]
+- [-] Model and Theory [2/4]
+  - [X] Read through
+  - [X] References
+  - [ ] Supp Notes
+  - [ ] Final b/v adapted from Zhulina 2007?
+- [-] Results and Discussion [0/3]
+  - [-] Read through
+    Up to 3.2 done
+  - [ ] References
+  - [ ] Supp Notes
+- [ ] Conclusions and Future Work [0/3]
   - [ ] Read through
   - [ ] References
   - [ ] Supp Notes
-*** SCFT Write
+- [ ] Figure Update [0/2]
+  - [ ] Full H prof
+  - [ ] a040 only
+*** Supplemental materials [0/4]
+- [-] Variable List
+- [-] SCFT Write up
+- [ ] Numerics Flowchart
+- [-] NFH Information [1/2]
+  - [X] NFH Sequences
+  - [-] Final chis 
 ** Presentation
 *** SCFT Buildup
