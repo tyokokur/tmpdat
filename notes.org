@@ -117,5 +117,19 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
 - [-] NFH Information [1/2]
   - [X] NFH Sequences
   - [-] Final chis 
-** Presentation
-*** SCFT Buildup
+** Presentation [1/6]
+- [ ] Button to supp slides into slide master
+- [ ] Introduction
+- [X] SCFT Buildup
+- [ ] SCFT Equation check
+  + eta update
+  + chi cross terms
+- [ ] Data pres buildup
+  + Density profile
+  + Height profile
+  + FreeE profile
+- [ ] Key figures
+  + a040 only video
+  + Full H prof video
+  + xC reflectrometry
+  + Sr2014 comparison
