@@ -28,6 +28,14 @@ Continue
 4, 5 rerun
 *** b14v12
 Completely rerun
+* NAF
+** MD learn
+- Read references from email (08/09) [1/4]
+  - [X] MD.pdf
+  - [ ] Polymer MD.pdf
+  - [ ] LAMMPS tutorial
+  - [ ] LAAMPS examples with scripts
+** Confirm with Rui and Clay
 * SYSG
 ** Reflectivity spectra [1/5]
 - [X] Initial coding
@@ -38,7 +46,7 @@ Completely rerun
   - How to determine conformations
   - Can train ML model given these new conformations?
 - [ ] Need to be done for Quals
-** [X] p4a4/6 (1.35)
+** p4a4/6 (1.35)
 Not totally converged, but freeE barely changing, graph looks good
 ** p1a3 (p1 - p2 transition)
 *** 1.15 (34)
@@ -50,14 +58,23 @@ Not totally converged, but freeE barely changing, graph looks good
 *** 1.50 (9)
 Try 2 end: 08/08 -- bad inCompMax trend, wcmp 5 -> 8
 Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
-* NAF
-** MD learn
-- Read references from email (08/09) [1/4]
-  - [X] MD.pdf
-  - [ ] Polymer MD.pdf
-  - [ ] LAMMPS tutorial
-  - [ ] LAAMPS examples with scripts
-** Confirm with Rui and Clay
+** a040 calcs
+| a4       |  ax1 |       ay1 |  ax2 |       ay2 | am     |  bx1 |       by1 |  bx2 |       by2 | bm      | px        |        py |
+|          |      |           |      |           |        |      |           |      |           |         |           |           |
+|----------+------+-----------+------+-----------+--------+------+-----------+------+-----------+---------+-----------+-----------|
+| p1p4 in  | 1.10 | 0.0710305 | 1.11 | 0.0973985 | 2.6368 | 1.10 | 0.0713081 | 1.11 | 0.0973226 | 2.60145 | 722.33568 | 1901.8253 |
+| p1p4 out |    0 |         0 |    2 |         2 | 1      |    0 |         2 |    2 |         0 | -1      | 0.5       |        0. |
+| p4p3 in  |      |           |      |           | 0/0    |      |           |      |           | 0/0     | 1/0       |         0 |
+| p4p3 out |      |           |      |           | 0/0    |      |           |      |           | 0/0     | 1/0       |         0 |
+| p3p2 in  |      |           |      |           | 0/0    |      |           |      |           | 0/0     | 1/0       |         0 |
+| p3a2 out |      |           |      |           | 0/0    |      |           |      |           | 0/0     | 1/0       |         0 |
+| p2p1 in  |      |           |      |           | 0/0    |      |           |      |           | 0/0     | 1/0       |         0 |
+| p2p1 out |      |           |      |           | 0/0    |      |           |      |           | 0/0     | 1/0       |         0 |
+|----------+------+-----------+------+-----------+--------+------+-----------+------+-----------+---------+-----------+-----------|
+| a3       |  ax1 |       ay1 |  ax2 |       ay2 | am     |  by1 |       bx2 |  by2 |        px |         |           |           |
+|----------+------+-----------+------+-----------+--------+------+-----------+------+-----------+---------+-----------+-----------|
+|          |      |           |      |           | 0/0    |      |           |      |           | 0/0     | 1/0       |         0 |
+#+TBLFM: $6=($5-$3)/($4-$2)::$11=($10-$8)/($9-$7)::$12=1/($6-$11)*($6*$2-$11*$7+$8-$3)::$13=$6*($12-$2)+$3
 * Quals
 ** Misc. [0/2]
 - [-] Waiting for Carlet about Carlo
@@ -76,7 +93,6 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
   - [ ] Final b/v adapted from Zhulina 2007?
 - [-] Results and Discussion [0/3]
   - [-] Read through
-    Up to 3.2 done
   - [ ] References
   - [ ] Supp Notes
 - [ ] Conclusions and Future Work [0/3]
