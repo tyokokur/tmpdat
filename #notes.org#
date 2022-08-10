@@ -117,7 +117,7 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
 - [-] NFH Information [1/2]
   - [X] NFH Sequences
   - [-] Final chis 
-** Presentation [1/3]
+** Presentation [1/4]
 - [ ] Button to supp slides into slide master
 - [X] SCFT Buildup
 - [ ] SCFT Equation check
@@ -125,4 +125,6 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
   + chi cross terms
 - [ ] Data pres buildup
   + Density profile
-  + Height
+  + Height profile
+  + FreeE profile
+- 
