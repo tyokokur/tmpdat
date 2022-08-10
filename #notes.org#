@@ -59,16 +59,18 @@ Not totally converged, but freeE barely changing, graph looks good
 Try 2 end: 08/08 -- bad inCompMax trend, wcmp 5 -> 8
 Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
 ** a040 calcs
-| a4       |  ax1 | ay1 |  ax2 | ay2 | bx1 | by1 | bx2 | by2 | px | py |
-|----------+------+-----+------+-----+-----+-----+-----+-----+----+----|
-| p1p4 in  | 1.10 |   0 | 1.11 |     |     |     |     |     |    |    |
-| p1p4 out |      |     |      |     |     |     |     |     |    |    |
-| p4p3 in  |      |     |      |     |     |     |     |     |    |    |
-| p4p3 out |      |     |      |     |     |     |     |     |    |    |
-| p3p2 in  |      |     |      |     |     |     |     |     |    |    |
-| p3a2 out |      |     |      |     |     |     |     |     |    |    |
-| p2p1 in  |      |     |      |     |     |     |     |     |    |    |
-| p2p1 out |      |     |      |     |     |     |     |     |    |    |
+| a4       | ax1 | ay1 | ax2 | ay2 |  bx1 | by1 |  bx2 | by2 | px | py |
+|----------+-----+-----+-----+-----+------+-----+------+-----+----+----|
+| p1p4 in  |     |     |     |     | 1.10 |   0 | 1.11 |     |    |    |
+| p1p4 out |     |     |     |     |      |     |      |     |    |    |
+| p4p3 in  |     |     |     |     |      |     |      |     |    |    |
+| p4p3 out |     |     |     |     |      |     |      |     |    |    |
+| p3p2 in  |     |     |     |     |      |     |      |     |    |    |
+| p3a2 out |     |     |     |     |      |     |      |     |    |    |
+| p2p1 in  |     |     |     |     |      |     |      |     |    |    |
+| p2p1 out |     |     |     |     |      |     |      |     |    |    |
+|----------+-----+-----+-----+-----+------+-----+------+-----+----+----|
+| a3       |     |     |     |     |      |     |      |     |    |    |
 * Quals
 ** Misc. [0/2]
 - [-] Waiting for Carlet about Carlo
