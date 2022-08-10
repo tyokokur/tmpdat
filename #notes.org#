@@ -1,0 +1,97 @@
+#+STARTUP: show2levels
+#+STARTUP: indent
+* NLH
+** Check if signs of charge treated correctly
+** EAD0710
+*** v14 runs
+* NFH
+** v14 full runs
+- Profiles until 4mM look good
+- b10v14 continue
+- b12v14
+  - @3.0 4, 5       re-init 08/09
+- b14v14 NaN too soon to tell if trend good
+  - @2.6 4, 5       re-init 08/09
+  - @2.8 4, 5, 6    re-init 08/09
+  - @3.0 4, 5, 6, 8 re-init 08/09
+** v10 runs
+*** b10v10
+Continue
+*** b12v10
+Selective to rerun
+*** b14v10
+Completely rerun
+** v12 runs
+*** b10v12
+Continue
+*** b12v12
+4, 5 rerun
+*** b14v12
+Completely rerun
+* NAF
+** MD learn
+- Read references from email (08/09) [1/4]
+  - [X] MD.pdf
+  - [ ] Polymer MD.pdf
+  - [ ] LAMMPS tutorial
+  - [ ] LAAMPS examples with scripts
+** Confirm with Rui and Clay
+* SYSG
+** Reflectivity spectra [1/5]
+- [X] Initial coding
+- [-] Pick regular R_F
+- [ ] Find characteristic peaks
+- [ ] Needs to be useful for experimentalists
+  - How to determine height
+  - How to determine conformations
+  - Can train ML model given these new conformations?
+- [ ] Need to be done for Quals
+** [X] p4a4/6 (1.35)
+Not totally converged, but freeE barely changing, graph looks good
+** [-] p1a3 (p1 - p2 transition)
+*** 1.15 (34)
+- Continue--freeDiff good, inCompmax trend good, AndErr still O(1e-01)
+- 08/10: continue, AndErr O(1e-02)
+*** 1.10 (33)
+- From 1.15 
+** [-] p3a3 (Last try)
+*** 1.50 (9)
+Try 2 end: 08/08 -- bad inCompMax trend, wcmp 5 -> 8
+Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
+* Quals
+** Misc. [0/2]
+- [-] Waiting for Carlet about Carlo
+  - If Carlo not avail, Sanjay
+- [ ] Application for QE (calcentral/higher ...)
+** Manuscript
+*** Editing
+- [X] Intro [3/3]
+  - [X] Read through
+  - [X] References
+  - [X] Supp Notes
+- [-] Model and Theory [2/4]
+  - [X] Read through
+  - [X] References
+  - [ ] Supp Notes
+  - [ ] Final b/v adapted from Zhulina 2007?
+- [-] Results and Discussion [0/3]
+  - [-] Read through
+    Up to 3.2 done
+  - [ ] References
+  - [ ] Supp Notes
+- [ ] Conclusions and Future Work [0/3]
+  - [ ] Read through
+  - [ ] References
+  - [ ] Supp Notes
+- [ ] Figure Update [0/2]
+  - [ ] Full H prof
+  - [ ] a040 only
+*** Supplemental materials [0/4]
+- [-] Variable List
+- [-] SCFT Write up
+- [ ] Numerics Flowchart
+- [-] NFH Information [1/2]
+  - [X] NFH Sequences
+  - [-] Final chis 
+** Presentation
+*** SCFT Buildup
