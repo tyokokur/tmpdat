@@ -39,6 +39,7 @@ Completely rerun
 * SYSG
 ** Reflectivity spectra [1/5]
 - [X] Initial coding
+- [ ] Code in subtrate--different rho_e than polymer?
 - [-] Pick regular R_F
 - [ ] Find characteristic peaks
 - [ ] Needs to be useful for experimentalists
