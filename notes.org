@@ -4,7 +4,6 @@
 ** Check if signs of charge treated correctly
 ** EAD0710
 *** v14 runs
-
 * NFH
 ** v14 full runs
 - Profiles until 4mM look good
@@ -30,15 +29,16 @@ Continue
 *** b14v12
 Completely rerun
 * SYSG
-** Reflectivity spectra [0/4]
-- [ ] Pick regular R_F
-- [ ] Shift spectra up (like XRD)
+** Reflectivity spectra [1/5]
+- [X] Initial coding
+- [-] Pick regular R_F
+- [ ] Find characteristic peaks
 - [ ] Needs to be useful for experimentalists
   - How to determine height
   - How to determine conformations
   - Can train ML model given these new conformations?
 - [ ] Need to be done for Quals
-** p4a4/6 (1.35)
+** [X] p4a4/6 (1.35)
 Not totally converged, but freeE barely changing, graph looks good
 ** p1a3 (p1 - p2 transition)
 *** 1.15 (34)
