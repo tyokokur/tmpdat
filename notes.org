@@ -44,7 +44,7 @@ Not totally converged, but freeE barely changing, graph looks good
 *** 1.15 (34)
 - Continue--freeDiff good, inCompmax trend good, AndErr still O(1e-01)
 - 08/10: continue, AndErr O(1e-02)
-  *** 1.10 (33)
+*** 1.10 (33)
 - From 1.15 
 ** p3a3 (Last try)
 *** 1.50 (9)
