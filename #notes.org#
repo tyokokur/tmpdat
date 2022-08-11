@@ -117,17 +117,16 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
 - [-] NFH Information [1/2]
   - [X] NFH Sequences
   - [-] Final chis 
-** Presentation [1/6]
+** Presentation [2/6]
 - [ ] Button to supp slides into slide master
 - [ ] Introduction
 - [X] SCFT Buildup
-- [ ] SCFT Equation check
-  + eta update
+- [X] SCFT Equation check
 - [ ] Data pres buildup
   + Density profile
   + Height profile
   + FreeE profile
-- [-] Key figures [1/4]
+- [-] Key figures [1/5]
   + [ ] a040 only video
   + [ ] Sample coarse-graining--update with larger font/symbols
   + [X] Full H prof video
