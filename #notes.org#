@@ -122,9 +122,10 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
 - [ ] Introduction
 - [X] SCFT Buildup
 - [X] SCFT Equation check
-- [ ] Data pres buildup
-  + Density profile
-  + Height profile
+- [-] Data pres buildup
+  + Height profile, no color
+  + Height profile, with color and meta
+  + Density profiles
   + FreeE profile
 - [-] Key figures [1/5]
   + [ ] a040 only video
