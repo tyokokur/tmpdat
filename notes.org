@@ -82,7 +82,7 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
 #+TBLFM: $11=($12-$7)*($10-$8)/($9-$7)+$8::$6=($12-$2)*($5-$3)/($4-$2)+$3
 
 * Quals
-** Misc. [0/2]
+** Admin [0/2]
 - [-] Waiting for Carlet about Carlo
   - If Carlo not avail, Sanjay
 - [ ] Application for QE (calcentral/higher ...)
@@ -123,7 +123,6 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
 - [X] SCFT Buildup
 - [ ] SCFT Equation check
   + eta update
-  + chi cross terms
 - [ ] Data pres buildup
   + Density profile
   + Height profile
@@ -132,4 +131,14 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
   + a040 only video
   + Full H prof video
   + xC reflectrometry
-  + Sr2014 comparison
+  + Sr2014
+** Things to go over [0/7]
+- [ ] Instant operator Fourier transforms
+- [ ] Hubbard Stratonovich (Coulomb operator)
+- [ ] Propagator derivation
+- [ ] Gaussian chain derivation
+- [ ] Saddle-point approx (ZG Wang chapter)
+- [ ] Functional Derivative and Integration
+- [ ] PB equation derivation
+* Misc.
+** RW Poster
