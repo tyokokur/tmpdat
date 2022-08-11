@@ -127,8 +127,9 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
   + Density profile
   + Height profile
   + FreeE profile
-- [ ] Key figures [1/4]
+- [-] Key figures [1/4]
   + [ ] a040 only video
+  + [ ] Sample coarse-graining--update with larger font/symbols
   + [X] Full H prof video
   + [ ] xC reflectrometry
   + [ ] Sr2014
