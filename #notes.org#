@@ -82,7 +82,7 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
 #+TBLFM: $11=($12-$7)*($10-$8)/($9-$7)+$8::$6=($12-$2)*($5-$3)/($4-$2)+$3
 
 * Quals
-** Misc. [0/2]
+** Admin [0/2]
 - [-] Waiting for Carlet about Carlo
   - If Carlo not avail, Sanjay
 - [ ] Application for QE (calcentral/higher ...)
@@ -133,5 +133,9 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
   + Full H prof video
   + xC reflectrometry
   + Sr2014
+** Things to go over [/]
+- [ ] Instant operator Fourier transforms
+- [ ] Hubbard Stratonovich (Coulomb operator)
+ 
 * Misc.
 ** RW Poster
