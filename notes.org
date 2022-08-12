@@ -100,7 +100,20 @@ End
 
 
 
-** [-] Reflectivity spectra [1/5]
+** Eq video [1/4]
+- [X] a040
+  - [X] Meta calcs
+  - [X] Video transitions
+- [ ] a030
+  - [ ] Meta calcs
+  - [ ] Video transitions
+- [ ] a020
+  - [ ] Meta calcs
+  - [ ] Video transitions
+- [ ] a000
+  - [ ] Meta calcs
+  - [ ]  Video transitions
+** Reflectivity spectra [1/5]
 - [X] Initial coding
 - [ ] Code in subtrate--different rho_e than polymer?
 - [-] Pick regular R_F
@@ -110,7 +123,7 @@ End
   - How to determine height
   - How to determine conformations
   - Can train ML model given these new conformations?
-
+    
     
 * Quals
 ** Admin [0/2]
