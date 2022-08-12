@@ -53,7 +53,7 @@ Not totally converged, but freeE barely changing, graph looks good
 *** 1.15 (34)
 - Continue--freeDiff good, inCompmax trend good, AndErr still O(1e-01)
 - 08/10: continue, AndErr O(1e-02)
-- 08/12: continue, AndErr approx 
+- 08/12: continue, AndErr approx 3e-02
 *** 1.10 (33)
 - From 1.15
 - Turned into p3 -- moved for p3a3/1
