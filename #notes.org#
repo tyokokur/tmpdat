@@ -55,10 +55,12 @@ Not totally converged, but freeE barely changing, graph looks good
 - 08/10: continue, AndErr O(1e-02)
 *** 1.10 (33)
 - From 1.15 
-** - [-] p3a3 (Last try)
+** - [X] p3a3 (Last try)
 *** 1.50 (9)
 Try 2 end: 08/08 -- bad inCompMax trend, wcmp 5 -> 8
 Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
+Try 4 end: 08/12 -- inCompMax bad trend, looks like it will turn into 2C
+End
 ** - [X] a040 calcs
 #+NAME: Fa4
 |      |  ax1 |       ay1 |  ax2 |       ay2 |     am |  bx1 |       by1 |  bx2 |       by2 |      bm |        px |
@@ -82,7 +84,7 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
 #+TBLFM: $11=($12-$7)*($10-$8)/($9-$7)+$8::$6=($12-$2)*($5-$3)/($4-$2)+$3
 
 * Quals
-** Misc. [0/2]
+** Admin [0/2]
 - [-] Waiting for Carlet about Carlo
   - If Carlo not avail, Sanjay
 - [ ] Application for QE (calcentral/higher ...)
@@ -117,20 +119,29 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
 - [-] NFH Information [1/2]
   - [X] NFH Sequences
   - [-] Final chis 
-** Presentation [1/6]
+** Presentation [2/6]
 - [ ] Button to supp slides into slide master
 - [ ] Introduction
 - [X] SCFT Buildup
-- [ ] SCFT Equation check
-  + eta update
-  + chi cross terms
-- [ ] Data pres buildup
-  + Density profile
-  + Height profile
+- [X] SCFT Equation check
+- [-] Data pres buildup
+  + Height profile, no color
+  + Height profile, with color and meta
+  + Density profiles
   + FreeE profile
-- [ ] Key figures
-  + a040 only video
-  + Full H prof video
-  + xC reflectrometry
-  + Sr2014 comparison
-    
+- [-] Key figures [1/5]
+  + [ ] a040 only video
+  + [ ] Sample coarse-graining--update with larger font/symbols
+  + [X] Full H prof video
+  + [ ] xC reflectrometry
+  + [ ] Sr2014
+** Things to go over [0/7]
+- [ ] Instant operator Fourier transforms
+- [ ] Hubbard Stratonovich (Coulomb operator)
+- [ ] Propagator derivation
+- [ ] Gaussian chain derivation
+- [ ] Saddle-point approx (ZG Wang chapter)
+- [ ] Functional Derivative and Integration
+- [ ] PB equation derivation
+* Misc.
+** RW Poster
