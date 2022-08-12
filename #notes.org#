@@ -37,16 +37,16 @@ Completely rerun
   - [ ] LAAMPS examples with scripts
 ** Confirm with Rui and Clay
 * SYSG
-** - [-] Reflectivity spectra [1/6]
+** - [-] Reflectivity spectra [2/5]
 - [X] Initial coding
 - [ ] Code in subtrate--different rho_e than polymer?
-- [-] Pick regular R_F
+- [X] Pick regular R_F
+  Traced from textbook chapter
 - [ ] Find characteristic peaks
 - [ ] Needs to be useful for experimentalists
   - How to determine height
   - How to determine conformations
   - Can train ML model given these new conformations?
-- [ ] Need to be done for Quals
 ** - [X] p4a4/6 (1.35)
 Not totally converged, but freeE barely changing, graph looks good
 ** - [-] p1a3 (p1 - p2 transition)
