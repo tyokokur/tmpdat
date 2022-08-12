@@ -53,10 +53,12 @@ Not totally converged, but freeE barely changing, graph looks good
 *** 1.15 (34)
 - Continue--freeDiff good, inCompmax trend good, AndErr still O(1e-01)
 - 08/10: continue, AndErr O(1e-02)
+- 08/12: continue, AndErr approx 
 *** 1.10 (33)
-- From 1.15 
+- From 1.15
+- Turned into p3 -- moved for p3a3/1
 ** - [X] p3a3 (Last try)
-*** 1.10 (33)
+*** 1.10 (1)
 Try 1 end: 08/12 -- Init from 1.15 (34) p1a3
 Continue
 *** 1.50 (9)
@@ -89,7 +91,6 @@ End
 * Quals
 ** Admin [0/2]
 - [-] Waiting for Carlet about Carlo
-  - If Carlo not avail, Sanjay
 - [ ] Application for QE (calcentral/higher ...)
 ** Manuscript
 *** Editing
