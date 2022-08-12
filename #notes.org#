@@ -37,33 +37,33 @@ Completely rerun
   - [ ] LAAMPS examples with scripts
 ** Confirm with Rui and Clay
 * SYSG
-** - [-] Reflectivity spectra [2/5]
+** [-] Reflectivity spectra [5/5]
 - [X] Initial coding
-- [ ] Code in subtrate--different rho_e than polymer?
+- [X] Code in subtrate--different rho_e than polymer?
 - [X] Pick regular R_F
   Traced from textbook chapter
-- [ ] Find characteristic peaks
-- [ ] Needs to be useful for experimentalists
+- [X] Find characteristic peaks
+- [X] Needs to be useful for experimentalists
   - How to determine height
   - How to determine conformations
   - Can train ML model given these new conformations?
 ** - [X] p4a4/6 (1.35)
 Not totally converged, but freeE barely changing, graph looks good
-** - [-] p1a3 (p1 - p2 transition)
-*** 1.15 (34)
-- Continue--freeDiff good, inCompmax trend good, AndErr still O(1e-01)
-- 08/10: continue, AndErr O(1e-02)
-- 08/12: continue, AndErr approx 3e-02
-*** 1.10 (33)
+** - [-] p1a3 (p1 - p2 transition) [0/1]
+- [-] 1.15 (34)
+  - Continue--freeDiff good, inCompmax trend good, AndErr still O(1e-01)
+  - 08/10: continue, AndErr O(1e-02)
+  - 08/12: continue, AndErr approx 3e-02
+*** - [-] 1.10 (33)
 - From 1.15
 - Turned into p3 -- moved for p3a3/1
 - 08/12: again, andit 10 -> 0
-*** 0.95 (
-** - [X] p3a3 (Last try)
-*** 1.10 (1)
+*** - [X] 0.95 (18)
+** - [X] p3a3 (Last try) [0/0]
+*** - [-] 1.10 (1)
 Try 1 end: 08/12 -- Init from 1.15 (34) p1a3
 Continue
-*** 1.50 (9)
+*** - [X] 1.50 (9)
 Try 2 end: 08/08 -- bad inCompMax trend, wcmp 5 -> 8
 Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
 Try 4 end: 08/12 -- inCompMax bad trend, looks like it will turn into 2C
