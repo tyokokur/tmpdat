@@ -43,17 +43,26 @@ Completely rerun
 
 
 * SYSG
-** p1a3 [1/3]
-- [-] 1.15 (34)
-  - Continue--freeDiff good, inCompmax trend good, AndErr still O(1e-01)
-  - 08/10: continue, AndErr O(1e-02)
-  - 08/12: continue, AndErr approx 3e-02
+** a3
+- p2 at low chi (0.95) for p1 crossover
+- p3 at low chi (0.95 - 1.10) for any freeE min behavior
+*** p1a3 [1/5]
+- [X] 0.95 (18)
+- [-] 1.00 (21)
+  - 08/12: From 0.97 (19)
+- [ ] 1.05 (23)
 - [-] 1.10 (33)
   - From 1.15
   - Turned into p3 -- moved for p3a3/1
   - 08/12: again, andit 10 -> 0
-- [X] 0.95 (18)
-** p3a3 [1/2]
+- [-] 1.15 (34)
+  - Continue--freeDiff good, inCompmax trend good, AndErr still O(1e-01)
+  - 08/10: continue, AndErr O(1e-02)
+  - 08/12: continue, AndErr approx 3e-02
+*** p2a3 [0/1]
+- [-] 0.95 (14)
+  - 08/12: From 0.98 (12)
+*** p3a3 [1/2]
 - [-] 1.10 (1)
   Try 1 end: 08/12 -- Init from 1.15 (34) p1a3
   Continue
@@ -63,10 +72,8 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
 Try 4 end: 08/12 -- inCompMax bad trend, looks like it will turn into 2C
 End
 
-** p2a3 [0/1]
-- [-] 0.95 (14)
-  - 08/12: From 0.98 (12)
-** p4a4 [1/1]
+** a4 (DONE)
+*** p4a4 [1/1]
 - 1.35 (6)
 - [X] Not totally converged, but freeE barely changing, graph looks good
 
