@@ -43,18 +43,23 @@ Completely rerun
 
 
 * SYSG
-** p1a3 [1/3]
-- [-] 1.15 (34)
-  - Continue--freeDiff good, inCompmax trend good, AndErr still O(1e-01)
-  - 08/10: continue, AndErr O(1e-02)
-  - 08/12: continue, AndErr approx 3e-02
+- a4 finished
+- a3
+  - p2 at low chi (0.95) for p1 crossover
+  - p3 at low chi (0.95 - 1.10) for any freeE min
+** p1a3 [1/5]
+- [X] 0.95 (18)
+- [-] 1.00 (21)
+  - 08/12: From 0.97 (19)
+- [ ] 1.05 (23)
 - [-] 1.10 (33)
   - From 1.15
   - Turned into p3 -- moved for p3a3/1
   - 08/12: again, andit 10 -> 0
-- [X] 0.95 (18)
-- [ ] 1.00 (21)
-- [ ] 1.05 (23)
+- [-] 1.15 (34)
+  - Continue--freeDiff good, inCompmax trend good, AndErr still O(1e-01)
+  - 08/10: continue, AndErr O(1e-02)
+  - 08/12: continue, AndErr approx 3e-02
 ** p3a3 [1/2]
 - [-] 1.10 (1)
   Try 1 end: 08/12 -- Init from 1.15 (34) p1a3
