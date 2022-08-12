@@ -75,20 +75,8 @@ End
 ** a4 (DONE)
 *** p4a4 [1/1]
 - 1.35 (6)
-- [X] Not totally converged, but freeE barely changing, graph looks good
-
-  
-** [-] Reflectivity spectra [1/5]
-- [X] Initial coding
-- [ ] Code in subtrate--different rho_e than polymer?
-- [-] Pick regular R_F
-  Traced from textbook chapter
-- [ ] Find characteristic peaks
-- [ ] Needs to be useful for experimentalists
-  - How to determine height
-  - How to determine conformations
-  - Can train ML model given these new conformations?
-** [X] a040 calcs
+- [X] Not totally converged, but freeE barely changing, graph looks good  
+*** a040 calcs
 #+NAME: Fa4
 |      |  ax1 |       ay1 |  ax2 |       ay2 |     am |  bx1 |       by1 |  bx2 |       by2 |      bm |        px |
 |------+------+-----------+------+-----------+--------+------+-----------+------+-----------+---------+-----------|
@@ -112,6 +100,18 @@ End
 
 
 
+** [-] Reflectivity spectra [1/5]
+- [X] Initial coding
+- [ ] Code in subtrate--different rho_e than polymer?
+- [-] Pick regular R_F
+  Traced from textbook chapter
+- [ ] Find characteristic peaks
+- [ ] Needs to be useful for experimentalists
+  - How to determine height
+  - How to determine conformations
+  - Can train ML model given these new conformations?
+
+    
 * Quals
 ** Admin [0/2]
 - [-] Waiting for Carlet about Carlo
