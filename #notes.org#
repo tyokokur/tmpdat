@@ -65,8 +65,8 @@ Completely rerun
   - 08/10: continue, AndErr O(1e-02)
   - 08/12: continue, AndErr approx 3e-02
   - 08/15: pause; AndErr approx 2.9e-02; maybe coil-p3?
-*** p2a3 [0/1]
-- [-] 0.95 (14)
+*** p2a3 [1/1]
+- [X] 0.95 (14)
   - 08/12: From 0.98 (12)
 *** p3a3 [1/2]
 - [-] 1.10 (1)
