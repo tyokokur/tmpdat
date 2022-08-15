@@ -3,6 +3,10 @@
 * NLH
 ** Check if signs of charge treated correctly
 ** EAD0710
+- Overall: 
+  - Good convergence
+  - H profile not bad
+  - L profile wrong--H increase at high Cs?
 *** b10v14
 - H: 10, 25
 *** b12v14
