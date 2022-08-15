@@ -59,11 +59,12 @@ Completely rerun
   - From 1.15
   - Turned into p3 -- moved for p3a3/1
   - 08/12: again, andit 10 -> 0
-- [-] 1.15 (34)
+  - 08/15: pause; maybe coil-p3?
+- [ ] 1.15 (34)
   - Continue--freeDiff good, inCompmax trend good, AndErr still O(1e-01)
   - 08/10: continue, AndErr O(1e-02)
   - 08/12: continue, AndErr approx 3e-02
-  - 08/15: continue, AndErr approx 2.9e-02
+  - 08/15: pause; AndErr approx 2.9e-02; maybe coil-p3?
 *** p2a3 [0/1]
 - [-] 0.95 (14)
   - 08/12: From 0.98 (12)
