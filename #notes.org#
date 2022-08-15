@@ -75,7 +75,7 @@ Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
 Try 4 end: 08/12 -- inCompMax bad trend, looks like it will turn into 2C
 End
 
-** a4
+** a4 (DONE)
 *** p4a4 [1/1]
 - 1.35 (6)
 - [X] Not totally converged, but freeE barely changing, graph looks good  
@@ -100,7 +100,7 @@ End
 |------+------+-------+------+-------+-----------+------+-------+------+-------+-----------+-----------|
 #+TBLFM: $1=remote(Fa4,@@#$1)::$2=remote(Fa4,@@#$2)::$4=remote(Fa4,@@#$4)::$7=remote(Fa4,@@#$7)::$9=remote(Fa4,@@#$9)::$12=remote(Fa4,@@#$12)
 #+TBLFM: $11=($12-$7)*($10-$8)/($9-$7)+$8::$6=($12-$2)*($5-$3)/($4-$2)+$3
-*** a040 eq plot
+
 
 
 ** Eq video [1/4]
@@ -191,3 +191,18 @@ End
   
 * Misc.
 ** RW Poster
+
+* TODAY
+** SYSG catch up
+** NFH catch up
+** NFL catch up
+** Quals presentation
+
+
+
+
+
+
+
+
+
