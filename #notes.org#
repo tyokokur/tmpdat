@@ -63,6 +63,7 @@ Completely rerun
   - Continue--freeDiff good, inCompmax trend good, AndErr still O(1e-01)
   - 08/10: continue, AndErr O(1e-02)
   - 08/12: continue, AndErr approx 3e-02
+  - 08/15: continue, AndErr approx 2.9e-02
 *** p2a3 [0/1]
 - [-] 0.95 (14)
   - 08/12: From 0.98 (12)
