@@ -186,22 +186,22 @@ Completely rerun
 - [-] NFH Information [1/2]
   - [X] NFH Sequences
   - [-] Final chis 
-** Presentation [2/6]
+** Presentation [3/6]
 - [ ] Button to supp slides into slide master
 - [ ] Introduction
 - [X] SCFT Buildup
 - [X] SCFT Equation check
-- [-] Data pres buildup
+- [X] Data pres buildup
   + Height profile, no color
   + Height profile, with color and meta
   + Density profiles
   + FreeE profile
-- [-] Key figures [1/5]
-  + [ ] a040 only video
+- [-] Key figures [3/5]
+  + [X] a040 only video
   + [ ] Sample coarse-graining--update with larger font/symbols
   + [X] Full H prof video
   + [ ] xC reflectrometry
-  + [ ] Sr2014
+  + [X] Sr2014
 ** Things to go over [0/7]
 - [ ] Instant operator Fourier transforms
 - [ ] Hubbard Stratonovich (Coulomb operator)
