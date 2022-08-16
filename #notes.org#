@@ -64,8 +64,8 @@ Completely rerun
 ** a3
 - p2 at low chi (0.95) for p1 crossover
 - p3 at low chi (0.95 - 1.10) for any freeE min behavior
-*** p1a3 [1/6]
-- [-] 0.90 (9)
+*** p1a3 [2/6]
+- [X] 0.90 (9)
 - [X] 0.95 (18)
 - [ ] 1.00 (21)
   - 08/12: From 0.97 (19)
