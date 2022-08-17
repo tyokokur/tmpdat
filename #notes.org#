@@ -202,16 +202,20 @@ Completely rerun
     Colors/lines/arrows clear?
     Should this be in main pres, or supp only?
     Correct expression for maximum on disc grid?
-- [ ] Supplemental Slides [0/2]
+- [ ] Supplemental Slides [0/3]
   - [ ] SCFT Derivation [0/4]
     - [ ] Instant Fourier transform
     - [ ] HS, PB Derive
     - [ ] Propagator integral to PDE
     - [ ] Saddle-point approx
-  - [ ] Polymer Theory [0/0]
+  - [ ] Polymer Theory [0/3]
     - [ ] Gaussian chain derivation
     - [ ] Worm-like chain model
-    - [ ] Gibbs interfa
+    - [ ] Gibbs interface
+  - [ ] Reflectivity [0/0]
+    - [ ] Apparatus
+    - [ ] Procedure
+    - [ ] Master Equation
 - [X] SCFT Equation check
 - [X] Data pres buildup
   + Height profile, no color
