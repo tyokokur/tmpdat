@@ -139,10 +139,10 @@ Completely rerun
 - [ ] a000
   - [ ] Meta calcs
   - [ ]  Video transitions
-** Reflectivity spectra [1/5]
+** Reflectivity spectra [3/5]
 - [X] Initial coding
-- [ ] Code in subtrate--different rho_e than polymer?
-- [-] Pick regular R_F
+- [X] Code in subtrate--different rho_e than polymer?
+- [X] Pick regular R_F
   Traced from textbook chapter
 - [ ] Find characteristic peaks
 - [ ] Needs to be useful for experimentalists
