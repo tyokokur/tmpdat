@@ -214,10 +214,10 @@ Completely rerun
     - [ ] Gaussian chain derivation
     - [ ] Worm-like chain model
     - [ ] Gibbs interface
-  - [ ] Reflectivity [0/0]
+  - [ ] Reflectivity [0/3]
     - [ ] Apparatus
     - [ ] Procedure
-    - [ ] Master Equation
+    - [ ] Master Equation derivation (?)
 - [X] SCFT Equation check
 - [X] Data pres buildup
   + Height profile, no color
