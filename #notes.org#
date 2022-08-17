@@ -188,6 +188,14 @@ Completely rerun
   - [X] NFH Sequences
   - [-] Final chis 
 ** Presentation [3/8]
+- [ ] New slide feedback
+  - [ ] "Flowchart" slide:
+    Too equation dense?
+    Colors/lines/arrows clear?
+    Should this be in main pres, or supp only?
+    Correct expression for maximum on disc grid?
+  - [ ] Reflectivity slide
+    Need to put equation?
 - [-] Key figures [4/5]
   + [X] a040 only video
   + [ ] Sample coarse-graining--update with larger font/symbols
@@ -196,12 +204,6 @@ Completely rerun
   + [X] Sr2014
 - [ ] Button to supp slides into slide master
 - [ ] Introduction
-- [ ] New slide feedback
-  - [ ] "Flowchart" slide:
-    Too equation dense?
-    Colors/lines/arrows clear?
-    Should this be in main pres, or supp only?
-    Correct expression for maximum on disc grid?
 - [ ] Supplemental Slides [0/3]
   - [ ] SCFT Derivation [0/4]
     - [ ] Instant Fourier transform
