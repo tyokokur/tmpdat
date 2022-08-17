@@ -152,7 +152,7 @@ Completely rerun
     
     
 * Quals
-** Admin [1/2]
+** Admin [1/3]
 - [X] Scheduling
 - [ ] Application for QE (calcentral/higher ...)
 - [ ] Schedule practices
@@ -202,13 +202,16 @@ Completely rerun
     Colors/lines/arrows clear?
     Should this be in main pres, or supp only?
     Correct expression for maximum on disc grid?
-- [ ] Supplemental Slides [0/1]
-  - [ ] SCFT Derivation
+- [ ] Supplemental Slides [0/2]
+  - [ ] SCFT Derivation [0/4]
     - [ ] Instant Fourier transform
     - [ ] HS, PB Derive
     - [ ] Propagator integral to PDE
     - [ ] Saddle-point approx
-    - [ ] 
+  - [ ] Polymer Theory [0/0]
+    - [ ] Gaussian chain derivation
+    - [ ] Worm-like chain model
+    - [ ] Gibbs interfa
 - [X] SCFT Equation check
 - [X] Data pres buildup
   + Height profile, no color
@@ -227,7 +230,6 @@ Completely rerun
 
   
 * Misc.
-** RW Poster
 
 
 
