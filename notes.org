@@ -187,24 +187,23 @@ Completely rerun
 - [-] NFH Information [1/2]
   - [X] NFH Sequences
   - [-] Final chis 
-** Presentation [3/8]
-- [ ] New slide feedback
-  - [ ] "Flowchart" slide:
+** Presentation [5/8]
+- [X] New slide feedback
+  - [X] "Flowchart" slide:
     Too equation dense?
     Colors/lines/arrows clear?
     Should this be in main pres, or supp only?
     Correct expression for maximum on disc grid?
-  - [ ] Reflectivity slide
-    Need to put equation?
-- [-] Key figures [4/5]
-  + [X] a040 only video
-  + [ ] Sample coarse-graining--update with larger font/symbols
-  + [X] Full H prof video
-  + [X] xC reflectrometry
-  + [X] Sr2014
-- [ ] Button to supp slides into slide master
+- [-] Key figures [3/5]
+  - [X] a040 only video
+  - [ ] Sample coarse-graining--update with larger font/symbols
+  - [X] Full H prof video
+  - [-] xC reflectrometry
+    - NEED TO ADD INSIGHT--how can you tell which xC?
+  - [X] Sr2014
+- [X] Button to supp slides into slide master
 - [ ] Introduction
-- [ ] Supplemental Slides [0/3]
+- [-] Supplemental Slides [0/3]
   - [ ] SCFT Derivation [0/4]
     - [ ] Instant Fourier transform
     - [ ] HS, PB Derive
@@ -214,8 +213,8 @@ Completely rerun
     - [ ] Gaussian chain derivation
     - [ ] Worm-like chain model
     - [ ] Gibbs interface
-  - [ ] Reflectivity [0/3]
-    - [ ] Apparatus
+  - [-] Reflectivity [1/3]
+    - [X] Apparatus
     - [ ] Procedure
     - [ ] Master Equation derivation (?)
 - [X] SCFT Equation check
