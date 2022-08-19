@@ -186,7 +186,7 @@ Completely rerun
 *** Supplemental materials [1/4]
 - [X] Variable List
 - [-] SCFT Write up
-- [ ] Numerics Flowchart
+- [-] Numerics Flowchart
 - [-] NFH Information [1/2]
   - [X] NFH Sequences
   - [-] Final chis 
@@ -197,9 +197,9 @@ Completely rerun
     Colors/lines/arrows clear?
     Should this be in main pres, or supp only?
     Correct expression for maximum on disc grid?
-- [-] Key figures [3/5]
+- [-] Key figures [4/5]
   - [X] a040 only video
-  - [ ] Sample coarse-graining--update with larger font/symbols
+  - [X] Sample coarse-graining--update with larger font/symbols
   - [X] Full H prof video
   - [-] xC reflectrometry
     - NEED TO ADD INSIGHT--how can you tell which xC?
