@@ -6,12 +6,12 @@
 - Overall: 
   - Good convergence
   - H profile not bad
-  - L profile wrong--H increase at high Cs?
-*** b10v14
+  - L profile wrong--Height increase at high Cs?
+*** b10v14 (chimax 2.6)
 - H: 10, 25
-*** b12v14
+*** b12v14 (chimax 2.6)
 - H: 25 
-*** b14v14
+*** b14v14 (chimax 2.6)
 - H: 25
 
 
