@@ -39,6 +39,7 @@
     4,5,6              re-init 08/12
     4,5,6 (50 -> 30)   re-init 08/15
     4,5,6              re-init 08/22
+    re-run (with SIM, look for crashes) 08/22
     
 ** v10 runs
 *** b10v10
@@ -247,6 +248,6 @@ Completely rerun
   
 * Today: To do list
 ** DONE Finish script
-** TODO NFH b14 update 
+** DONE NFH b14 update 
 ** TODO NLH chi_max 3.0 (?)
 ** TODO Interaction to partition after particle-to-field
