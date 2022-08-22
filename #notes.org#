@@ -3,17 +3,20 @@
 * NLH
 ** Check if signs of charge treated correctly
 ** EAD0710
+*** Chimax = 2.6
 - Overall: 
   - Good convergence
   - H profile not bad
   - L profile wrong--Height increase at high Cs?
-*** b10v14 (chimax 2.6)
+**** b10v14 
 - H: 10, 25
-*** b12v14 (chimax 2.6)
+**** b12v14 
 - H: 25 
-*** b14v14 (chimax 2.6)
+**** b14v14 
 - H: 25
-
+*** Chimax = 3.0
+**** b14v14
+- Start 08/22
 
 
 * NFH
