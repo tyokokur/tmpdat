@@ -200,36 +200,36 @@ Completely rerun
 - [-] NFH Information [1/2]
   - [X] NFH Sequences
   - [-] Final chis 
-** Presentation [5/8]
-- [X] New slide feedback
-  - [X] "Flowchart" slide:
-    Too equation dense?
-    Colors/lines/arrows clear?
-    Should this be in main pres, or supp only?
-    Correct expression for maximum on disc grid?
+** Presentation [6/8]
 - [-] Key figures [4/5]
+  - [-] xC reflectrometry
+    - NEED TO ADD INSIGHT--how can you tell which xC?
   - [X] a040 only video
   - [X] Sample coarse-graining--update with larger font/symbols
   - [X] Full H prof video
-  - [-] xC reflectrometry
-    - NEED TO ADD INSIGHT--how can you tell which xC?
   - [X] Sr2014
-- [X] Button to supp slides into slide master
-- [ ] Introduction
 - [-] Supplemental Slides [0/3]
   - [ ] SCFT Derivation [0/4]
     - [ ] Instant Fourier transform
     - [ ] HS, PB Derive
     - [ ] Propagator integral to PDE
     - [ ] Saddle-point approx
-  - [ ] Polymer Theory [0/3]
-    - [ ] Gaussian chain derivation
+  - [-] Polymer Theory [1/3]
+    - [X] Gaussian chain derivation
     - [ ] Worm-like chain model
     - [ ] Gibbs interface
   - [-] Reflectivity [1/3]
     - [X] Apparatus
     - [ ] Procedure
     - [ ] Master Equation derivation (?)
+- [X] Button to supp slides into slide master
+- [X] Introduction
+- [X] New slide feedback
+  - [X] "Flowchart" slide:
+    Too equation dense?
+    Colors/lines/arrows clear?
+    Should this be in main pres, or supp only?
+    Correct expression for maximum on disc grid?
 - [X] SCFT Equation check
 - [X] Data pres buildup
   + Height profile, no color
@@ -237,11 +237,11 @@ Completely rerun
   + Density profiles
   + FreeE profile
 - [X] SCFT Buildup
-** Things to go over [0/7]
-- [ ] Instant operator Fourier transforms
+** Things to go over [2/8]
+- [X] Instant operator Fourier transforms
 - [ ] Hubbard Stratonovich (Coulomb operator)
 - [ ] Propagator derivation
-- [ ] Gaussian chain derivation
+- [X] Gaussian chain derivation
 - [ ] Saddle-point approx (ZG Wang chapter)
 - [ ] Functional Derivative and Integration
 - [ ] PB equation derivation
