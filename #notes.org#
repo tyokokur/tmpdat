@@ -101,14 +101,14 @@ Completely rerun
   - Try 1 end: 08/19 -- p2
   - Init from 1.10 (1, 08/19), 50 -> 30
   - Try 2 end: 08/23 -- p2
-  - Pause until closer p3 converge
+  - Init from 1.10 (1, 08/23), andIt = 0
 - [ ] 1.07 (7)
   - Init from 1.10 (1, 08/23)
 - [-] 1.10 (1)
   - Try 1 end: 08/12 -- Init from 1.15 (34) p1a3
   - Try 2 end: 08/15 -- AndErr approx 5.7e-02
   - Try 3 end: 08/19 -- AndErr approx 3.9e-02
-  - 
+  - andIt = 0 just to try if faster
 - [-] 1.15 (2)
   - Init from 1.10, 08/19
   - Try 1 end: 08/23 -- AndErr approx 1.4e-01
