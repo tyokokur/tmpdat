@@ -3,17 +3,20 @@
 * NLH
 ** Check if signs of charge treated correctly
 ** EAD0710
+*** Chimax = 2.6
 - Overall: 
   - Good convergence
   - H profile not bad
-  - L profile wrong--H increase at high Cs?
-*** b10v14
+  - L profile wrong--Height increase at high Cs?
+**** b10v14 
 - H: 10, 25
-*** b12v14
+**** b12v14 
 - H: 25 
-*** b14v14
+**** b14v14 
 - H: 25
-
+*** Chimax = 3.0
+**** b14v14
+- Start 08/22
 
 
 * NFH
@@ -21,19 +24,26 @@
 - Profiles until 4mM look good
 - b10v14 continue
   - 08/15: generally good progression
+  - 08/22: re-run without SIM
 - b12v14
   - @3.0 4, 5          re-init 08/09
-  - @3.0 4 (100 -> 50) re-init 08/16
+    4 (100 -> 50)      re-init 08/16
+    re-reun without SIM 08/22
 - b14v14 NaN too soon to tell if trend good
   - @2.6 4, 5          re-init 08/09
     4 (300 -> 350)     re-init 08/12
     4 (50 -> 30)       re-init 08/16
+    4                  re-init 08/22
   - @2.8 4, 5, 6       re-init 08/09
     4,5,6 (300 -> 350) re-init 08/12
     4,5,6 (50 -> 30)   re-init 08/16
+    4,5                re-init 08/22
   - @3.0 4, 5, 6, 8    re-init 08/09
-    4,5,6 (300 -> 350) re-init 08/12
+    4,5,6              re-init 08/12
     4,5,6 (50 -> 30)   re-init 08/15
+    4,5,6              re-init 08/22
+    re-run (with SIM, look for crashes) 08/22
+    
 ** v10 runs
 *** b10v10
 Continue
@@ -239,11 +249,10 @@ Completely rerun
   - Why is it Fourier transform for both? (Learn about Fourier space)
 
   
-* Misc.
-
-
-
-
-
-
+* Today: To do list
+** DONE Finish script
+** DONE NFH b14 update 
+** DONE NLH chi_max 3.0
+** DONE Gaussian chain derivation
+** DONE Interaction to partition after particle-to-field
 
