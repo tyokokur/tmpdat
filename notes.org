@@ -256,11 +256,11 @@ Completely rerun
 
   
 * Today: To do list
-** TODO SYSG update (p3a3)
-** TODO Application for QE (CalCentral)
+** DONE SYSG update (p3a3)
+** DONE Application for QE (CalCentral)
 ** TODO Scheduling
-*** Group
-*** Kranthi
+*** Kranthi (ask alhad)
 ** TODO Reflectivity reading
 ** TODO Propagator derivation
+** TODO Update wangweb with scholar scrape
 
