@@ -215,8 +215,8 @@ Completely rerun
   - [X] Full H prof video
   - [X] Sr2014
 - [-] Supplemental Slides [0/3]
-  - [ ] SCFT Derivation [0/4]
-    - [ ] Instant Fourier transform
+  - [-] SCFT Derivation [1/4]
+    - [X] Instant Fourier transform
     - [ ] HS, PB Derive
     - [ ] Propagator integral to PDE
     - [ ] Saddle-point approx
@@ -243,10 +243,10 @@ Completely rerun
   + Density profiles
   + FreeE profile
 - [X] SCFT Buildup
-** Things to go over [2/8]
+** Things to go over [3/8]
 - [X] Instant operator Fourier transforms
 - [ ] Hubbard Stratonovich (Coulomb operator)
-- [ ] Propagator derivation
+- [X] Propagator derivation
 - [X] Gaussian chain derivation
 - [ ] Saddle-point approx (ZG Wang chapter)
 - [ ] Functional Derivative and Integration
@@ -259,8 +259,12 @@ Completely rerun
 ** DONE SYSG update (p3a3)
 ** DONE Application for QE (CalCentral)
 ** TODO Scheduling
-*** Kranthi (ask alhad)
+- Dimitrius ?
+- Harsh ?
+- Erika GM W 2-4
+- Room scheduled with Carlet
+- Muhammad okay
+- Ahmad okay
+** DONE Update wangweb with scholar scrape
 ** TODO Reflectivity reading
-** TODO Propagator derivation
-** TODO Update wangweb with scholar scrape
-
+** DONE Propagator derivation
