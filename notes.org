@@ -276,3 +276,4 @@ Completely rerun
 ** TODO NFH paper conclusions
 *** What insight to put in this paper without overlapping next paper?
 ** TODO SYSG paper figure list
+** TODO SCFT Buildup single particle in field
