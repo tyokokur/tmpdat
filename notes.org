@@ -16,9 +16,16 @@
 - H: 25
 *** Chimax = 3.0
 **** b14v14
-- Start 08/22
+- End 08/24:
+  - Cs 5-100 still running
+  - H still much taller than L at all Cs
+    - Stiffness scales wrt b^3, but both will be affected
+  - L height goes up then down: switching conformations?
+  - H end block (5-7) bimodal. Ch dist. wrong?
+- 08/24: Rerun L @Cs 1-3 from Cs 5 (1A-3A) and Cs 5 from Cs 3 (4A).
+  - First order phase transition?
 
-
+    
 * NFH
 ** v14 full runs
 - Profiles until 4mM look good
@@ -34,14 +41,17 @@
     4 (300 -> 350)     re-init 08/12
     4 (50 -> 30)       re-init 08/16
     4                  re-init 08/22
+    4 (10->0, 30->50)  re-init 08/24
   - @2.8 4, 5, 6       re-init 08/09
     4,5,6 (300 -> 350) re-init 08/12
     4,5,6 (50 -> 30)   re-init 08/16
     4,5                re-init 08/22
+    4,5 (30->50, 10->0)re-init 08/24
   - @3.0 4, 5, 6, 8    re-init 08/09
     4,5,6              re-init 08/12
     4,5,6 (50 -> 30)   re-init 08/15
     4,5,6              re-init 08/22
+    4,5,6(30->50,10->0)re-init 08/24
     re-run (with SIM, look for crashes) 08/22
     
 ** v10 runs
@@ -171,49 +181,50 @@ Completely rerun
     
     
 * Quals
-** Admin [1/3]
+** Admin [3/3]
 - [X] Scheduling
-- [ ] Application for QE (calcentral/higher ...)
-- [ ] Schedule practices
-** Manuscript
-*** Editing
-- [X] Abstract
-- [X] Intro [3/3]
-  - [X] Read through
-  - [X] References
-  - [X] Supp Notes
-- [-] Model and Theory [2/4]
-  - [X] Read through
-  - [X] References
-  - [ ] Supp Notes
-  - [ ] Final b/v adapted from Zhulina 2007?
-- [-] Results and Discussion [1/4]
-  - [X] Read through
-  - [-] Reflectivity section add
-  - [ ] References
-  - [ ] Supp Notes
-- [-] Conclusions and Future Work [1/3]
-  - [X] Read through
-  - [ ] References
-  - [ ] Supp Notes
-- [-] Figure Update [0/2]
-  - [-] Full H prof
-  - [ ] a040 only
-*** Supplemental materials [1/4]
-- [X] Variable List
-- [-] SCFT Write up
-- [-] Numerics Flowchart
-- [-] NFH Information [1/2]
-  - [X] NFH Sequences
-  - [-] Final chis 
+- [X] Application for QE (calcentral/higher ...)
+- [X] Schedule practices
+** Manuscript [0/2]
+- [-] Editing [1/6]
+  - [-] Abstract
+  - [X] Intro [3/3]
+    - [X] Read through
+    - [X] References
+    - [X] Supp Notes
+  - [-] Model and Theory [2/4]
+    - [X] Read through
+    - [X] References
+    - [ ] Supp Notes
+    - [ ] Final b/v adapted from Zhulina 2007?
+  - [-] Results and Discussion [1/4]
+    - [X] Read through
+    - [-] Reflectivity section add
+    - [ ] References
+    - [ ] Supp Notes
+  - [-] Conclusions and Future Work [1/3]
+    - [X] Read through
+    - [ ] References
+    - [ ] Supp Notes
+  - [-] Figure Update [2/3]
+    - [-] Reflectivity
+    - [X] Full H prof
+    - [X] a040 on
+- [-] Supplemental materials [1/4]
+  - [X] Variable List
+  - [-] SCFT Write up
+  - [-] Numerics Flowchart
+  - [-] NFH Information [1/2]
+    - [X] NFH Sequences
+    - [-] Final chis 
 ** Presentation [6/8]
 - [-] Key figures [4/5]
-  - [-] xC reflectrometry
-    - NEED TO ADD INSIGHT--how can you tell which xC?
   - [X] a040 only video
   - [X] Sample coarse-graining--update with larger font/symbols
   - [X] Full H prof video
   - [X] Sr2014
+  - [-] xC reflectrometry
+    - *NEED TO ADD INSIGHT*--how can you tell which xC?
 - [-] Supplemental Slides [0/3]
   - [-] SCFT Derivation [1/4]
     - [X] Instant Fourier transform
@@ -243,28 +254,25 @@ Completely rerun
   + Density profiles
   + FreeE profile
 - [X] SCFT Buildup
-** Things to go over [3/8]
-- [X] Instant operator Fourier transforms
+** Things to go over [3/9]
 - [ ] Hubbard Stratonovich (Coulomb operator)
-- [X] Propagator derivation
-- [X] Gaussian chain derivation
 - [ ] Saddle-point approx (ZG Wang chapter)
+- [ ] Flory Huggins interaction derivation
 - [ ] Functional Derivative and Integration
 - [ ] PB equation derivation
 - [ ] Difference between reflectivity and diffraction
   - Why is it Fourier transform for both? (Learn about Fourier space)
+- [X] Instant operator Fourier transforms
+- [X] Propagator derivation
+- [X] Gaussian chain derivation
 
   
 * Today: To do list
-** DONE SYSG update (p3a3)
-** DONE Application for QE (CalCentral)
-** TODO Scheduling
-- Dimitrius ?
-- Harsh ?
-- Erika GM W 2-4
-- Room scheduled with Carlet
-- Muhammad okay
-- Ahmad okay
-** DONE Update wangweb with scholar scrape
 ** TODO Reflectivity reading
-** DONE Propagator derivation
+*** Additional insight (shape of layers, width of layers, etc.)
+*** 
+** DONE NFH update
+** DONE NLH update
+** TODO NFH paper conclusions
+*** What insight to put in this paper without overlapping next paper?
+** TODO SYSG paper figure list
