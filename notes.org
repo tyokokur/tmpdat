@@ -269,8 +269,10 @@ Completely rerun
   
 * Today: To do list
 ** TODO Reflectivity reading
-*** Additional insight (shape of layers, width of layers, etc.)
-*** 
+*** Relate to thickness of layers; pi/delta q
+*** Dilute layer on spectra
+*** Plot formatting and update 
+*** Characterization of number of peaks
 ** DONE NFH update
 ** DONE NLH update
 ** TODO NFH paper conclusions
