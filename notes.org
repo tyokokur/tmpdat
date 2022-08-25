@@ -280,6 +280,7 @@ Completely rerun
 *** Dilute layer on spectra
 *** Plot formatting and update 
 *** Characterization of number of peaks
+*** Plot pi/delta q as histogram, maybe produce widths fo peaks?
 ** DONE NFH update
 ** DONE NLH update
 ** TODO NFH paper conclusions
