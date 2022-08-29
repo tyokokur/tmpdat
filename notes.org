@@ -224,14 +224,13 @@ Completely rerun
   - [-] NFH Information [1/2]
     - [X] NFH Sequences
     - [-] Final chis 
-** Presentation [6/8]
-- [-] Key figures [4/5]
+** Presentation [7/8]
+- [X] Key figures [5/5]
   - [X] a040 only video
   - [X] Sample coarse-graining--update with larger font/symbols
   - [X] Full H prof video
   - [X] Sr2014
-  - [-] xC reflectrometry
-    - *NEED TO ADD INSIGHT*--how can you tell which xC?
+  - [X] xC reflectrometry
 - [-] Supplemental Slides [0/3]
   - [-] SCFT Derivation [1/4]
     - [X] Instant Fourier transform
@@ -275,15 +274,30 @@ Completely rerun
 
   
 * Today: To do list
+** TODO SYSG Update
+** TODO NFH Update
+** TODO NLH Update
+
+** TODO Quals manu final edits
+*** Add reflectivity figure
+*** Insight?
+*** Send to Rui afterwards
+
+
 ** TODO Reflectivity reading
-*** Relate to thickness of layers; pi/delta q
 *** Dilute layer on spectra
-*** Plot formatting and update 
 *** Characterization of number of peaks
-*** Plot pi/delta q as histogram, maybe produce widths fo peaks?
-** DONE NFH update
-** DONE NLH update
-** TODO NFH paper conclusions
-*** What insight to put in this paper without overlapping next paper?
+
+
 ** TODO SYSG paper figure list
-** TODO SCFT Buildup single particle in field
+*** System diagram? (Chao JCP Fig 1)
+*** a full, no a040
+*** a040 freeE
+*** Internal structure
+*** End peak compare? (Important enough?)
+*** Reflectivity
+
+
+** TODO NFH paper conclusions
+*** Providing insight without needing additional experiments
+*** Internal structure especially applicable to "smart materials"
