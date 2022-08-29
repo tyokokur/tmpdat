@@ -107,6 +107,7 @@ Completely rerun
   - 08/12: From 0.98 (12)
 - [-] 1.07 (19)
   - Init from 1.10 (11): 08/25
+  - Try 1 end: 08/29 -- AndErr approx 2.5e-02
 *** p3a3 [1/5]
 - [-] 1.05 (6)
   - Init from 1.10 (1)
@@ -119,6 +120,7 @@ Completely rerun
 - [-] 1.07 (7)
   - Init from 1.10 (1, 08/23)
   - Try 1 end: 08/25 -- AndErr approx 2.18e-02
+  - Try 2 end: 08/29 -- AndErr approx 1.85e-02
 - [-] 1.10 (1)
   - Try 1 end: 08/12 -- Init from 1.15 (34) p1a3
   - Try 2 end: 08/15 -- AndErr approx 5.7e-02
@@ -126,9 +128,12 @@ Completely rerun
   - andIt = 0 just to try if faster
   - Try 4 end: 08/25 -- AndErr approx 2.7e-02
   - wcmp 50 -> 60
+  - Try 5 end: 08/29 -- AndErr approx 2.52e-02
+  - wcmp 60 -> 70
 - [-] 1.15 (2)
   - Init from 1.10, 08/19
   - Try 1 end: 08/23 -- AndErr approx 1.4e-01
+  - Try 2 end: 08/29 -- AndErr approx 2.3e+00 (but looks fine)
 - [X] 1.50 (9)
   - Try 2 end: 08/08 -- bad inCompMax trend, wcmp 5 -> 8
   - Try 3 end: 08/10 -- turned into 2C, wcmp 8 -> 6
@@ -136,7 +141,7 @@ Completely rerun
   - End
 
     
-** a4 (DONE)
+** a4 (DONE)k
 *** p4a4 [1/1]
 - 1.35 (6)
 - [X] Not totally converged, but freeE barely changing, graph looks good  
@@ -161,7 +166,6 @@ Completely rerun
 |------+------+-------+------+-------+-----------+------+-------+------+-------+-----------+-----------|
 #+TBLFM: $1=remote(Fa4,@@#$1)::$2=remote(Fa4,@@#$2)::$4=remote(Fa4,@@#$4)::$7=remote(Fa4,@@#$7)::$9=remote(Fa4,@@#$9)::$12=remote(Fa4,@@#$12)
 #+TBLFM: $11=($12-$7)*($10-$8)/($9-$7)+$8::$6=($12-$2)*($5-$3)/($4-$2)+$3
-
 
 
 ** Eq video [3/4]
@@ -274,9 +278,11 @@ Completely rerun
 
   
 * Today: To do list
-** TODO SYSG Update
+** DONE SYSG Update
 ** TODO NFH Update
 ** TODO NLH Update
+
+** TODO Website pubs justify text
 
 ** TODO Quals manu final edits
 *** Add reflectivity figure
