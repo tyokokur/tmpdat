@@ -311,8 +311,9 @@ Completely rerun
 *** Providing insight without needing additional experiments
 *** Internal structure especially applicable to "smart materials"
 
+
 * New papers from New Slides
 ** Lubrication: multivalent paper
 ** Surface Tension: multivalent surfactant paper
-** Flory Scaling: textbook?
-** SFBox: Understand lattice-constrained
+** Flory Scaling: textbook: Rubinstein, 5.5
+** SFBox: Understand lattice-constrained,
