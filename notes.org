@@ -296,7 +296,7 @@ Completely rerun
 ** TODO NLH Update
 *** Update Erika, even if bad
 
-** TODO Website pubs justify text
+** DONE Website pubs justify text
 *** Rui will send "news"
 
 ** DONE Quals manu final edits
