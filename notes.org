@@ -299,7 +299,7 @@ Completely rerun
 ** TODO Website pubs justify text
 *** Rui will send "news"
 
-** TODO Quals manu final edits
+** DONE Quals manu final edits
 *** Add reflectivity figure
 *** Insight?
 
