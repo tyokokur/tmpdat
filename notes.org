@@ -24,8 +24,12 @@
   - H end block (5-7) bimodal. Ch dist. wrong?
 - 08/24: Rerun L @Cs 1-3 from Cs 5 (1A-3A) and Cs 5 from Cs 3 (4A).
   - First order phase transition?
+    |        1 |       1A |        2 |       2A |        3 |       3A |        4 |       4A |
+    |----------+----------+----------+----------+----------+----------+----------+----------|
+    | -5.46923 | -5.52008 | -4.95240 | -5.00074 | -4.68733 | -4.73383 | -4.46136 | -4.46136 |
+- WHY IS HEIGHT INCREASING?
 
-    
+
 * NFH
 ** v14 full runs
 - Profiles until 4mM look good
@@ -52,7 +56,14 @@
     4,5,6 (50 -> 30)   re-init 08/15
     4,5,6              re-init 08/22
     4,5,6(30->50,10->0)re-init 08/24
-    re-run (with SIM, look for crashes) 08/22
+    re-run             08/22
+    - (with SIM, look for crashes)
+    10-100             re-init 09/01
+    - (no SIM, lx change)
+    6 (50->30)         re-init 09/01
+    - SIM noise at it 2500; too drastic change?
+    - 4,5 pause until 6 is better
+    
     
 ** v10 runs
 *** b10v10
