@@ -1,36 +1,17 @@
 #+STARTUP: show2levels
 #+STARTUP: indent
-* NLH
-** Check if signs of charge treated correctly
-** EAD0710
-*** Chimax = 2.6
-- Overall: 
-  - Good convergence
-  - H profile not bad
-  - L profile wrong--Height increase at high Cs?
-**** b10v14 
-- H: 10, 25
-**** b12v14 
-- H: 25 
-**** b14v14 
-- H: 25
-*** Chimax = 3.0
-**** b14v14
-- End 08/24:
-  - Cs 5-100 still running
-  - H still much taller than L at all Cs
-    - Stiffness scales wrt b^3, but both will be affected
-  - L height goes up then down: switching conformations?
-  - H end block (5-7) bimodal. Ch dist. wrong?
-- 08/24: Rerun L @Cs 1-3 from Cs 5 (1A-3A) and Cs 5 from Cs 3 (4A).
-  - First order phase transition?
-    |        1 |       1A |        2 |       2A |        3 |       3A |        4 |       4A |
-    |----------+----------+----------+----------+----------+----------+----------+----------|
-    | -5.46923 | -5.52008 | -4.95240 | -5.00074 | -4.68733 | -4.73383 | -4.46136 | -4.46136 |
-- WHY IS HEIGHT INCREASING?
-
-
 * NFH
+** Paper [2/7]
+- [ ] Recover results
+  
+- [ ] Abstract
+- [ ] Introduction
+- [X] Model and Theory
+- [X] Results and Discussion
+- [ ] Conclusion
+- [-] SI
+
+
 ** v14 full runs
 - Profiles until 4mM look good
 - b10v14 continue
@@ -81,15 +62,7 @@ Continue
 Completely rerun
 
 
-* NAF
-** Clay meeting: SCFT to mass frac [0/3]
-*** TODO pervaded volume reading
-*** TODO prep slide (from quals)
-*** TODO schedule meeting 
-
-
 * SYSG
-
 ** Paper [0/3]
 - [ ] Figure list
 - [ ] Figure captions
@@ -156,7 +129,7 @@ Completely rerun
   - End
 
     
-** a4 (DONE)k
+** a4 (DONE)
 *** p4a4 [1/1]
 - 1.35 (6)
 - [X] Not totally converged, but freeE barely changing, graph looks good  
@@ -189,4 +162,42 @@ Completely rerun
   - [X] Video transitions
 - [X] a020
 - [X] a000
+
+  
+* NLH
+** Check if signs of charge treated correctly
+** EAD0710
+*** Chimax = 2.6
+- Overall: 
+  - Good convergence
+  - H profile not bad
+  - L profile wrong--Height increase at high Cs?
+**** b10v14 
+- H: 10, 25
+**** b12v14 
+- H: 25 
+**** b14v14 
+- H: 25
+*** Chimax = 3.0
+**** b14v14
+- End 08/24:
+  - Cs 5-100 still running
+  - H still much taller than L at all Cs
+    - Stiffness scales wrt b^3, but both will be affected
+  - L height goes up then down: switching conformations?
+  - H end block (5-7) bimodal. Ch dist. wrong?
+- 08/24: Rerun L @Cs 1-3 from Cs 5 (1A-3A) and Cs 5 from Cs 3 (4A).
+  - First order phase transition?
+    |        1 |       1A |        2 |       2A |        3 |       3A |        4 |       4A |
+    |----------+----------+----------+----------+----------+----------+----------+----------|
+    | -5.46923 | -5.52008 | -4.95240 | -5.00074 | -4.68733 | -4.73383 | -4.46136 | -4.46136 |
+- WHY IS HEIGHT INCREASING?
+
+
+* NAF
+** Clay meeting: SCFT to mass frac [0/3]
+*** TODO pervaded volume reading
+*** TODO prep slide (from quals)
+*** TODO schedule meeting 
+
 
