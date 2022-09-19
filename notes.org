@@ -82,16 +82,20 @@ Completely rerun
 
 
 * NAF
-** MD learn
-- Read references from email (08/09) [1/4]
-  - [X] MD.pdf
-  - [ ] Polymer MD.pdf
-  - [ ] LAMMPS tutorial
-  - [ ] LAAMPS examples with scripts
-** Confirm with Rui and Clay
+** Clay meeting: SCFT to mass frac [0/3]
+*** TODO pervaded volume reading
+*** TODO prep slide (from quals)
+*** TODO schedule meeting 
 
 
 * SYSG
+
+** Paper [0/3]
+- [ ] Figure list
+- [ ] Figure captions
+- [ ] Outline
+
+  
 ** a3
 - p2 at low chi (0.95) for p1 crossover
 - p3 at low chi (0.95 - 1.10) for any freeE min behavior
@@ -179,152 +183,10 @@ Completely rerun
 #+TBLFM: $11=($12-$7)*($10-$8)/($9-$7)+$8::$6=($12-$2)*($5-$3)/($4-$2)+$3
 
 
-** Eq video [3/4]
+** Eq video [3/3]
 - [X] a040
   - [X] Meta calcs
   - [X] Video transitions
-- [ ] a030
-  - [ ] Meta calcs
-  - [ ] Video transitions
 - [X] a020
 - [X] a000
 
-  
-** Reflectivity spectra [3/5]
-- [X] Initial coding
-- [X] Code in subtrate--different rho_e than polymer?
-- [X] Pick regular R_F
-  Traced from textbook chapter
-- [ ] Find characteristic peaks
-- [ ] Needs to be useful for experimentalists
-  - How to determine height
-  - How to determine conformations
-  - Can train ML model given these new conformations?
-    
-    
-* Quals
-** Admin [3/3]
-- [X] Scheduling
-- [X] Application for QE (calcentral/higher ...)
-- [X] Schedule practices
-** Manuscript [0/2]
-- [-] Editing [1/6]
-  - [-] Abstract
-  - [X] Intro [3/3]
-    - [X] Read through
-    - [X] References
-    - [X] Supp Notes
-  - [-] Model and Theory [2/4]
-    - [X] Read through
-    - [X] References
-    - [ ] Supp Notes
-    - [ ] Final b/v adapted from Zhulina 2007?
-  - [-] Results and Discussion [1/4]
-    - [X] Read through
-    - [-] Reflectivity section add
-    - [ ] References
-    - [ ] Supp Notes
-  - [-] Conclusions and Future Work [1/3]
-    - [X] Read through
-    - [ ] References
-    - [ ] Supp Notes
-  - [-] Figure Update [2/3]
-    - [-] Reflectivity
-    - [X] Full H prof
-    - [X] a040 on
-- [-] Supplemental materials [1/4]
-  - [X] Variable List
-  - [-] SCFT Write up
-  - [-] Numerics Flowchart
-  - [-] NFH Information [1/2]
-    - [X] NFH Sequences
-    - [-] Final chis 
-** Presentation [7/8]
-- [X] Key figures [5/5]
-  - [X] a040 only video
-  - [X] Sample coarse-graining--update with larger font/symbols
-  - [X] Full H prof video
-  - [X] Sr2014
-  - [X] xC reflectrometry
-- [-] Supplemental Slides [0/3]
-  - [-] SCFT Derivation [1/4]
-    - [X] Instant Fourier transform
-    - [ ] HS, PB Derive
-    - [ ] Propagator integral to PDE
-    - [ ] Saddle-point approx
-  - [-] Polymer Theory [1/3]
-    - [X] Gaussian chain derivation
-    - [ ] Worm-like chain model
-    - [ ] Gibbs interface
-  - [-] Reflectivity [1/3]
-    - [X] Apparatus
-    - [ ] Procedure
-    - [ ] Master Equation derivation (?)
-- [X] Button to supp slides into slide master
-- [X] Introduction
-- [X] New slide feedback
-  - [X] "Flowchart" slide:
-    Too equation dense?
-    Colors/lines/arrows clear?
-    Should this be in main pres, or supp only?
-    Correct expression for maximum on disc grid?
-- [X] SCFT Equation check
-- [X] Data pres buildup
-  + Height profile, no color
-  + Height profile, with color and meta
-  + Density profiles
-  + FreeE profile
-- [X] SCFT Buildup
-** Things to go over [2/9]
-- [ ] Hubbard Stratonovich (Coulomb operator)
-- [ ] Saddle-point approx (ZG Wang chapter)
-- [ ] Flory Huggins interaction derivation
-- [ ] Functional Derivative and Integration
-- [ ] PB equation derivation
-- [ ] Difference between reflectivity and diffraction
-  - Why is it Fourier transform for both? (Learn about Fourier space)
-- [X] Instant operator Fourier transforms
-- [X] Propagator derivation
-- [-] Gaussian chain derivation
-  - 3/2 origin, be comfortable with whole derivation, maybe more
-    info in supp slides
-
-  
-* Today: To do list
-** DONE SYSG Update
-** DONE NFH Update
-** TODO NLH Update
-*** Update Erika, even if bad
-
-** DONE Website pubs justify text
-*** Rui will send "news"
-
-** DONE Quals manu final edits
-*** Add reflectivity figure
-*** Insight?
-
-
-** TODO Reflectivity reading
-*** Dilute layer on spectra
-*** Characterization of number of peaks
-
-
-** TODO SYSG paper figure list
-*** System diagram? (Chao JCP Fig 1)
-*** a full, no a040
-*** a040 freeE
-*** Internal structure
-*** End peak compare? (Important enough?)
-*** Reflectivity
-
-
-** TODO NFH paper conclusions
-*** Providing insight without needing additional experiments
-*** Internal structure especially applicable to "smart materials"
-
-
-* New papers from New Slides
-** Lubrication: multivalent paper
-** Surface Tension: multivalent surfactant paper
-** Flory Scaling: textbook: Rubinstein, 5.5
-** SFBox: Understand lattice-constrained,
