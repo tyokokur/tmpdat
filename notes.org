@@ -1,14 +1,24 @@
 #+STARTUP: show2levels
 #+STARTUP: indent
 * NFH
-** Paper [2/7]
+** Paper [3/8]
 - [ ] Recover results
   
 - [ ] Abstract
+- [ ] Sig Statement
 - [ ] Introduction
+  * Stimuli-sensitive interfaces
+  * Previous theories (assumptions suppress conformations)
+  * What problems can we solve with a better theory
+  * What conformations have been discovered and what do we expect for PEB
+  * Comparison with Sr2014
+    * NFH as IDP
+    * NFH as stimuli-sensitive
+    * Reasoning for 2.4 pH only
+    * Main height response as dramatic collapse
 - [X] Model and Theory
 - [X] Results and Discussion
-- [ ] Conclusion
+- [X] Conclusion
 - [-] SI
 
 
