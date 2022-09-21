@@ -1,3 +1,5 @@
 #+STARTUP: indent
-* TODO takshis
+* TODO APS abstract submission
+* TODO NSF travel funds 
+* TODO 
 
