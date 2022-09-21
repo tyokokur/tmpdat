@@ -1,17 +1,16 @@
 #+STARTUP: show2levels
 #+STARTUP: indent
 * NFH
-** Paper [3/8]
+** Paper [5/8]
 - [ ] Recover results
   
 - [ ] Abstract
-- [ ] Sig Statement
-- [ ] Introduction
-  * Stimuli-sensitive interfaces
-  * Previous theories (assumptions suppress conformations)
-  * What problems can we solve with a better theory
-  * What conformations have been discovered and what do we expect for PEB
-  * Comparison with Sr2014
+- [X] Sig Statement
+- [X] Introduction [4/4]
+  * [X] Stimuli-sensitive interfaces
+  * [X] Previous theories (assumptions suppress conformations)
+  * [X] What problems can we solve with a better theory
+  * [X] Comparison with Sr2014
     * NFH as IDP
     * NFH as stimuli-sensitive
     * Reasoning for 2.4 pH only
@@ -20,6 +19,7 @@
 - [X] Results and Discussion
 - [X] Conclusion
 - [-] SI
+  - [-] SCF Derivation
 
 
 ** v14 full runs
