@@ -2,13 +2,16 @@
 * DONE Read Race and Racism paper(s)
 * TODO Revise NFH paper
 - [X] SI finish (from Quals manu)
-- [ ] Fix valency notation (\pm Z_\pm)
 - [-] General flow
+- [ ] Fix valency notation (\pm Z_\pm)
 - [ ] Bibliography
 * TODO Read Spectral collocation paper (Fredrickson, 2011)
 * TODO APS abstract submission
 * TODO NSF travel funds 
 * TODO Graft paper outline
+- [ ] Figure list
+- [ ] Descriptions
+- [ ] General narrative
 * TODO Read if brush response to AFM tip is good project
 - Cylindrical coordinate
 - Force curves measurable?
