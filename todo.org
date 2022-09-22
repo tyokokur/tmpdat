@@ -3,7 +3,6 @@
 * TODO Revise NFH paper
 - [X] SI finish (from Quals manu)
 - [-] General flow
-- [ ] Fix valency notation (\pm Z_\pm)
 - [ ] Bibliography
 * TODO Read Spectral collocation paper (Fredrickson, 2011)
 * TODO APS abstract submission
