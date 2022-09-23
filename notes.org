@@ -21,6 +21,11 @@
 - [-] SI
   - [-] SCF Derivation
 
+** Notes:
+- Ideally use same vals as NLH study--b14 too stiff for NFH to collapse
+  to 20 nm
+- Upper limit for b and v using Alexander de Gennes brush? Very high sigma
+- Lower limit should be spherical v = 4/3 pi b^3
 
 ** v14 full runs
 - Profiles until 4mM look good
