@@ -853,7 +853,7 @@ double getConc(double *phA, double **PHA, double **PHA_T, double *phB, double **
 		
 		//Begin backwards prop
 		for (i=0;i<Nx;i++){
-			qInt[i] = 1.0; //Graft at epsilon = 1*dx, discretized Dirac delta distribution
+			qInt[i] = 1.0;
 			qcA[i] = INIT(Ns[K_i[k]-1] + 1); 
 		} 
 		qInt[0] = 0.0;
