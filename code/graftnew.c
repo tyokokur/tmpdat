@@ -1,4 +1,5 @@
-/**UPDATED 202206028*/
+/**UPDATED 20220923*/
+//Gaussian intial condition
 //Anderson Mixing
 //SIM vis
 //getConc and sovDif_CR changed to piecewise wp
@@ -831,10 +832,13 @@ double getConc(double *phA, double **PHA, double **PHA_T, double *phB, double **
 
 		//Begin forwards prop
 		for (i=0;i<Nx;i++){
-			qInt[i] = 0.0;  //Graft at epsilon = 1*dx, discretized Dirac delta distribution
+			// qInt[i] = 0.0;  //Graft at epsilon = 1*dx, discretized Dirac delta distribution
+			qInt[i] = exp(-1*pow((i*dx - 1*dx),2)/dx); // Gaussian approximation
 			qA[i] = INIT(Ns[K_i[k]-1] + 1); 
 		} 
-		qInt[1] = 1.0/dx;
+		// qInt[1] = 1.0/dx; // disc Dirac Delta
+		qInt[0] = 0.0; // Gauss approx fix for boundary condition
+
 
 		sovDif_CR(qInt, qA, K_i[k], wA, Ns, 1); //Use previous CR algorithm		
 
