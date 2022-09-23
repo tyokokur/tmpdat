@@ -34,6 +34,9 @@
     - SIM noise at it 2500; too drastic change?
     - 4,5 pause until 6 is better
     6 (30->10)         re-init 09/23
+    - Numerical problem shown at it = 4000
+    6 (Guass init)     re-init 09/23
+
     
 ** v10 runs
 *** b10v10
