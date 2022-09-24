@@ -6,8 +6,10 @@
   - [X] Abstract/Sig Statement
   - [X] Introduction
   - [X] Model and Theory
-  - [-] Results and Discussion
-    - Matches well with exp [STILL NEED TO DO]
+  - [X] Results and Discussion
+    - Matches well with exp 
+      - [ ] Figure 3b: No xC notation, legend in Debye length
+      - [ ] Figure 4: No xC notation, Debye length?
     - Conformational transitions
     - Chain organization
   - [ ] Conclusions
