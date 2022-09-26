@@ -2,7 +2,7 @@
 * DONE Read Race and Racism paper(s)
 * TODO Revise NFH paper
 - [X] SI finish (from Quals manu)
-- [-] Proof reading (flow)
+- [X] Proof reading (flow)
   - [X] Abstract/Sig Statement
   - [X] Introduction
   - [X] Model and Theory
@@ -12,12 +12,14 @@
       - [ ] Figure 4: No xC notation, Debye length?
     - Conformational transitions
     - Chain organization
-  - [ ] Conclusions
+  - [X] Conclusions
 - [ ] Bibliography
 * TODO Read Spectral collocation paper (Fredrickson, 2011)
 * TODO APS abstract submission
-* TODO NSF travel funds 
-* TODO Graft paper outline
+** Due 10/20; Requires membership
+** Membership $174/year; $300/year through GA
+** Another $300/(2 years) for conference through GA?
+* TODO SYSG paper outline
 - [ ] Figure list
 - [ ] Descriptions
 - [ ] General narrative
@@ -25,9 +27,9 @@
 - Cylindrical coordinate
 - Force curves measurable?
 - Response of xC to incoming surface
+* TODO Begin monovalent limit of brush interactions
+- Talk to Chao re: correct parameter space
 * TODO Learn fluctuation numerical method from Chao
-*
-
 
 * General
 ** TODO Grad student highlight
