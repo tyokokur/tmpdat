@@ -42,12 +42,14 @@
     6 (/(3*dx))        re-init 09/26
     - Same problem
     6 (/(5*dx))        re-init 09/26
+    - Same problem
+    6 (/10dx)          re-init 09/27
 
     
 ** b10v106 check
 - Check 1,2,3 for increasing H (good trend so far)
-- If H not go up, try chi 2.2
-- If successful, try 2C conformation
+** b10v102 run
+- Init 09/27 from b10v106
     
 
 ** v10 runs
