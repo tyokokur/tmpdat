@@ -14,6 +14,13 @@
     - Chain organization
   - [X] Conclusions
 - [ ] Bibliography
+* TODO Clay slides
+** Simple calculations for Nafion against charged plate
+*** Guess b, v, chi (Teflon)
+*** Modeling paper for grafting density?
+** Volume frac to mass frac
+*** Fredrickson, Ch 1
+*** Rubinstein for 2 independent eqs for calculation of b
 * TODO Read Spectral collocation paper (Fredrickson, 2011)
 * TODO APS abstract submission
 ** Due 10/20; Requires membership
