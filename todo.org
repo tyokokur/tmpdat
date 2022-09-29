@@ -1,5 +1,5 @@
 #+STARTUP: indent
-* DONE Read Race and Racism paper(s)
+#+STARTUP: overview
 * PROGRESS Revise NFH paper
 - [X] SI finish (from Quals manu)
 - [X] Proof reading (flow)
