@@ -34,8 +34,6 @@
 - Cylindrical coordinate
 - Force curves measurable?
 - Response of xC to incoming surface
-* TODO Begin monovalent limit of brush interactions
-- Talk to Chao re: correct parameter space
 * TODO Learn fluctuation numerical method from Chao
 
 * General
