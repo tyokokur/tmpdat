@@ -1,5 +1,13 @@
 #+STARTUP: show2levels
 #+STARTUP: indent
+
+POTENTIAL FIX for NFH/NLH:
+- N_AA used instead of N_Kuhn.
+- N_Kuhn = f(b0)
+- Current re-sweeps:
+  - NFH: b6v46 (prev), b10v106, b14v146
+  - NLH: b10v100, b14v140
+
 * NFH
 ** v14 full runs
 - Profiles until 4mM look good
@@ -62,6 +70,42 @@ Continue
 *** b14v12
 Completely rerun
 
+
+* NLH
+** EAD0710
+*** Chimax = 2.6
+- Overall: 
+  - Good convergence
+  - H profile not bad
+  - L profile wrong--Height increase at high Cs?
+**** b10v14 
+- H: 10, 25
+**** b12v14 
+- H: 25 
+**** b14v14 
+- H: 25
+*** Chimax = 3.0
+**** b14v14
+- End 08/24:
+  - Cs 5-100 still running
+  - H still much taller than L at all Cs
+    - Stiffness scales wrt b^3, but both will be affected
+  - L height goes up then down: switching conformations?
+  - H end block (5-7) bimodal. Ch dist. wrong?
+- 08/24: Rerun L @Cs 1-3 from Cs 5 (1A-3A) and Cs 5 from Cs 3 (4A).
+  - First order phase transition?
+    |        1 |       1A |        2 |       2A |        3 |       3A |        4 |       4A |
+    |----------+----------+----------+----------+----------+----------+----------+----------|
+    | -5.46923 | -5.52008 | -4.95240 | -5.00074 | -4.68733 | -4.73383 | -4.46136 | -4.46136 |
+- WHY IS HEIGHT INCREASING?
+
+** b10v102
+
+* NAF
+** Clay meeting: SCFT to mass frac [0/3]
+*** TODO pervaded volume reading
+*** TODO prep slide (from quals)
+*** TODO schedule
 
 * SYSG
 ** a3
@@ -156,42 +200,3 @@ Completely rerun
 - [X] a000
 
   
-* NLH
-** Why ds0 function of b0? More accurate for stiffer chains?
-*** Make sure no difference in calculations from NFH codes
-** Check if signs of charge treated correctly
-** EAD0710
-*** Chimax = 2.6
-- Overall: 
-  - Good convergence
-  - H profile not bad
-  - L profile wrong--Height increase at high Cs?
-**** b10v14 
-- H: 10, 25
-**** b12v14 
-- H: 25 
-**** b14v14 
-- H: 25
-*** Chimax = 3.0
-**** b14v14
-- End 08/24:
-  - Cs 5-100 still running
-  - H still much taller than L at all Cs
-    - Stiffness scales wrt b^3, but both will be affected
-  - L height goes up then down: switching conformations?
-  - H end block (5-7) bimodal. Ch dist. wrong?
-- 08/24: Rerun L @Cs 1-3 from Cs 5 (1A-3A) and Cs 5 from Cs 3 (4A).
-  - First order phase transition?
-    |        1 |       1A |        2 |       2A |        3 |       3A |        4 |       4A |
-    |----------+----------+----------+----------+----------+----------+----------+----------|
-    | -5.46923 | -5.52008 | -4.95240 | -5.00074 | -4.68733 | -4.73383 | -4.46136 | -4.46136 |
-- WHY IS HEIGHT INCREASING?
-
-** b10v102
-
-* NAF
-** Clay meeting: SCFT to mass frac [0/3]
-*** TODO pervaded volume reading
-*** TODO prep slide (from quals)
-*** TODO schedule
-
