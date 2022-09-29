@@ -36,5 +36,6 @@
 - Response of xC to incoming surface
 * TODO Learn fluctuation numerical method from Chao
 
+
 * General
-** TODO Grad student highlight
+** PROGRESS Grad student highlight
