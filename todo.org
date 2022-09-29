@@ -1,6 +1,6 @@
 #+STARTUP: indent
 * DONE Read Race and Racism paper(s)
-* TODO Revise NFH paper
+* PROGRESS Revise NFH paper
 - [X] SI finish (from Quals manu)
 - [X] Proof reading (flow)
   - [X] Abstract/Sig Statement
@@ -22,11 +22,11 @@
 *** Fredrickson, Ch 1
 *** Rubinstein for 2 independent eqs for calculation of b
 * TODO Read Spectral collocation paper (Fredrickson, 2011)
-* TODO APS abstract submission
+* PROGRESS APS abstract submission
 ** Due 10/20; Requires membership
 ** Membership $174/year; $300/year through GA
 ** Another $300/(2 years) for conference through GA?
-* TODO SYSG paper outline
+* PROGRESS SYSG paper outline
 - [ ] Figure list
 - [ ] Descriptions
 - [ ] General narrative
