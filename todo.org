@@ -29,8 +29,8 @@
 ** Another $300/(2 years) for conference through GA?
 * PROG SYSG paper outline
 - [ ] Fix height profile
-- [ ] Figure list
-- [ ] Descriptions
+- [-] Figure list
+- [-] Descriptions
 - [ ] General narrative
 * TODO Read if brush response to AFM tip is good project
 - Cylindrical coordinate

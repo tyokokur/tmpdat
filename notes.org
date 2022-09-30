@@ -2,8 +2,8 @@
 #+STARTUP: indent
 
 POTENTIAL FIX for NFH/NLH:
-- N_AA used instead of N_Kuhn.
-- N_Kuhn = f(b0)
+- N_AA was used instead of N_Kuhn.
+- N_Kuhn = f(b0). Fixed version 09/29
 - Current re-sweeps:
   - NFH: b6v46 (prev), b10v106, b14v146
   - NLH: b10v100, b14v140
