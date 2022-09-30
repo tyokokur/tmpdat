@@ -28,7 +28,8 @@
 ** Membership $174/year; $300/year through GA
 ** Another $300/(2 years) for conference through GA?
 * PROG SYSG paper outline
-- [ ] Fix height profile
+- [-] Fix height profile
+  - If 0.2 is too close to 0.0, do 0.25? 
 - [-] Figure list
 - [-] Descriptions
 - [ ] General narrative
