@@ -3,7 +3,25 @@
 * PROG N_Kuhn code fix (NFH & NLH)
 * TODO Clay slides
 ** Volume frac to mass frac
-*** Fredrickson, Ch 1
+*** Fredrickson, Ch 2
+- For structural interfaces on order of 10 nm, any chain model should
+  be fine. If < 1 nm (e.g., highly immiscible polymer blends), local
+  rigidity of segment passing through interface is necessary.
+  - All under the constraint that no mesoscopic model will be accurate
+  
+- /Kuhn segment length/: At ideal and strongly stretched state,
+  R^2 = R_max
+  So, 
+    b = R^2_0/R_max: 
+    N = R^2_0/R_max^2
+      , where R^2_0 is from experiments
+    and R^2 \eqdef Nb^2
+    and R_max \eqdef bN
+  - However, such cases are "extremeley rare"
+- /Statistical Length/ 
+  Define N (e.g., number of repeat units) 
+  Fit b using either Rg^2 or R^2 
+  
 *** Rubinstein for 2 independent eqs for calculation of b
 ** Simple calculations for Nafion against charged plate
 *** Guess b, v, chi (Teflon)
