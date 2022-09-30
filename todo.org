@@ -1,6 +1,7 @@
 #+STARTUP: indent
 #+STARTUP: overview
-* PROGRESS Revise NFH paper
+* PROG N_Kuhn code fix (NFH & NLH)
+* PROG Revise NFH paper
 - [X] SI finish (from Quals manu)
 - [X] Proof reading (flow)
   - [X] Abstract/Sig Statement
@@ -22,11 +23,12 @@
 *** Fredrickson, Ch 1
 *** Rubinstein for 2 independent eqs for calculation of b
 * TODO Read Spectral collocation paper (Fredrickson, 2011)
-* PROGRESS APS abstract submission
+* PROG APS abstract submission
 ** Due 10/20; Requires membership
 ** Membership $174/year; $300/year through GA
 ** Another $300/(2 years) for conference through GA?
-* PROGRESS SYSG paper outline
+* PROG SYSG paper outline
+- [ ] Fix height profile
 - [ ] Figure list
 - [ ] Descriptions
 - [ ] General narrative
@@ -38,4 +40,4 @@
 
 
 * General
-** PROGRESS Grad student highlight
+** PROG Grad student highlight
