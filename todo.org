@@ -1,7 +1,8 @@
 #+STARTUP: indent
 #+STARTUP: overview
 * PROG N_Kuhn code fix (NFH & NLH)
-* TODO Clay slides
+* PROG Clay slides
+** 10/03: Email asking for mass prof of solvent
 ** Calculating b
 *** Fredrickson, Ch 2
 - For structural interfaces on order of 10 nm, any chain model should
@@ -27,11 +28,21 @@
 - 
   pdf pg 62 for Flory characteristic ratio
 - pdf pg 65,6 for C_\infty definition for freely jointed and worm-like
-  
-*** Rubinstein for 2 independent eqs for calculation of b
+
+*** Chao presentation paper
 ** Simple calculations for Nafion against charged plate
 *** Guess b, v, chi (Teflon)
 *** Modeling paper for grafting density?
+* PROG APS abstract submission
+** Due 10/20; Requires membership
+** Membership $174/year; $300/year through GA
+** Another $300/(2 years) for conference through GA?
+* PROG SYSG paper outline
+- [-] Fix height profile
+  - If 0.2 is too close to 0.0, do 0.25? 
+- [-] Figure list
+- [-] Descriptions
+- [ ] General narrative
 * PROG Revise NFH paper
 - [X] SI finish (from Quals manu)
 - [X] Proof reading (flow)
@@ -46,23 +57,14 @@
     - Chain organization
   - [X] Conclusions
 - [ ] Bibliography
+* PROG Learn fluctuation numerical method from Chao
+
+
 * TODO Read Spectral collocation paper (Fredrickson, 2011)
-* PROG APS abstract submission
-** Due 10/20; Requires membership
-** Membership $174/year; $300/year through GA
-** Another $300/(2 years) for conference through GA?
-* PROG SYSG paper outline
-- [-] Fix height profile
-  - If 0.2 is too close to 0.0, do 0.25? 
-- [-] Figure list
-- [-] Descriptions
-- [ ] General narrative
 * TODO Read if brush response to AFM tip is good project
 - Cylindrical coordinate
 - Force curves measurable?
 - Response of xC to incoming surface
-* TODO Learn fluctuation numerical method from Chao
-
 
 * General
 ** PROG Grad student highlight
