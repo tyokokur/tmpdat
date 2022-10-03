@@ -1,8 +1,9 @@
 #+STARTUP: indent
 #+STARTUP: overview
 * PROG N_Kuhn code fix (NFH & NLH)
+** NFH all short (5-10 nm); Ionic strength trend wrong way? Still running
+** NLH standyby
 * PROG Clay slides
-** 10/03: Email asking for mass prof of solvent
 ** Calculating b
 *** Fredrickson, Ch 2
 - For structural interfaces on order of 10 nm, any chain model should
