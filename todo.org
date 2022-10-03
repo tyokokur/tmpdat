@@ -2,7 +2,7 @@
 #+STARTUP: overview
 * PROG N_Kuhn code fix (NFH & NLH)
 * TODO Clay slides
-** Volume frac to mass frac
+** Calculating b
 *** Fredrickson, Ch 2
 - For structural interfaces on order of 10 nm, any chain model should
   be fine. If < 1 nm (e.g., highly immiscible polymer blends), local
@@ -18,9 +18,15 @@
     and R^2 \eqdef Nb^2
     and R_max \eqdef bN
   - However, such cases are "extremeley rare"
+    
 - /Statistical Length/ 
   Define N (e.g., number of repeat units) 
-  Fit b using either Rg^2 or R^2 
+  Fit b using either Rg^2 or R^2
+  
+*** Rubinstein, Ch.2
+- 
+  pdf pg 62 for Flory characteristic ratio
+- pdf pg 65,6 for C_\infty definition for freely jointed and worm-like
   
 *** Rubinstein for 2 independent eqs for calculation of b
 ** Simple calculations for Nafion against charged plate
