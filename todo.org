@@ -2,8 +2,8 @@
 #+STARTUP: overview
 * PROG N_Kuhn code fix (NFH & NLH)
 ** SEVERAL RUNS result wrong trend wrt to ionic strength; testing with homo
-- NLH/b10v10H/1: a0.00, x1.5 -- should be no response
-- NLH/b10v10H/1: a0.20, x1.5 -- should be linear wrt debye
+- NLH/b10v10H: a0.00, x1.5 -- should be no response
+- NLH/b10v10L: a0.20, x1.5 -- should be linear wrt debye
 ** NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
 *** p_update.pptx for all options
 ** NLH standyby
@@ -63,13 +63,12 @@
   - [X] Conclusions
 - [ ] Bibliography
 * PROG Learn fluctuation numerical method from Chao
+- Do self-derivations
 
-
+  
 * TODO Read Spectral collocation paper (Fredrickson, 2011)
 * TODO Read if brush response to AFM tip is good project
 - Cylindrical coordinate
 - Force curves measurable?
 - Response of xC to incoming surface
 
-* General
-** PROG Grad student highlight
