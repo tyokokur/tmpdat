@@ -1,7 +1,7 @@
 #+STARTUP: indent
 #+STARTUP: overview
 * PROG N_Kuhn code fix (NFH & NLH)
-** NFH all short (5-10 nm); Ionic strength trend wrong way? Still running
+** NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
 ** NLH standyby
 * PROG Clay slides
 ** Calculating b
@@ -19,7 +19,7 @@
       , where R^2_0 is from experiments
     and R^2 \eqdef Nb^2
     and R_max \eqdef bN
-  - However, such cases are "extremeley rare"
+  - However, such cases are "extremely rare"
     
 - /Statistical Length/ 
   Define N (e.g., number of repeat units) 
