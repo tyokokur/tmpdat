@@ -1,6 +1,9 @@
 #+STARTUP: indent
 #+STARTUP: overview
 * PROG N_Kuhn code fix (NFH & NLH)
+** SEVERAL RUNS result wrong trend wrt to ionic strength; testing with homo
+- NLH/b10v10H/1: a0.00, x1.5
+- NLH/b10v10H/1: a0.20, x1.5
 ** NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
 ** NLH standyby
 * PROG Clay slides
