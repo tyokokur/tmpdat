@@ -3,7 +3,11 @@
 * PROG N_Kuhn code fix (NFH & NLH)
 ** SEVERAL RUNS result wrong trend wrt to ionic strength; testing with homo
 - NLH/b10v10H: a0.00, x1.5 -- should be no response
+  - No response; good
 - NLH/b10v10L: a0.20, x1.5 -- should be linear wrt debye
+  - Response is backwards; height profile not linear (also not Gibbs though)
+    - Maybe chain length too small for this run? Try again with Nk = 216
+    - Should be same as a020 SYSG results
 ** NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
 *** p_update.pptx for all options
 ** NLH standyby
