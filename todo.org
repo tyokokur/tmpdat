@@ -7,7 +7,8 @@
 - NLH/b10v10L: a0.20, x1.5 -- should be linear wrt debye
   - Response is backwards; height profile not linear (also not Gibbs though)
     - Maybe chain length too small for this run? Try again with Nk = 216
-    - Should be same as a020 SYSG results
+      
+    - *Should be same as a020 SYSG results*
       - NOT the same -- pulled sysg into NFH and NLH (single.c)
         - Running in NLH/EAD*/b10*/*L/
 ** NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
