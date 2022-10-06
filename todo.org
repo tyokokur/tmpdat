@@ -14,6 +14,7 @@
 ** NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
 *** p_update.pptx for all options
 ** NLH standyby
+*** Rui recommendation: different b0, v0 for each chain
 * PROG Clay slides
 ** Calculating b
 *** Fredrickson, Ch 2
