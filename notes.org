@@ -72,6 +72,14 @@ Completely rerun
 
 
 * NLH
+** Erika narratives:
+1. Role of M vs. H. Despite similarities, why both necessary in a
+   neurofilament? Origin electrostatics and effect of phosphorylation
+   or something else (e.g. conformational)?
+2. Role of first neg. block in NFH. Makes sequence sharply
+   heterogeneous.
+
+   
 ** EAD0710
 *** Chimax = 2.6
 - Overall: 
@@ -172,6 +180,7 @@ Completely rerun
 - 1.35 (6)
 - [X] Not totally converged, but freeE barely changing, graph looks good  
 *** a040 calcs
+
 #+NAME: Fa4
 |      |  ax1 |       ay1 |  ax2 |       ay2 |     am |  bx1 |       by1 |  bx2 |       by2 |      bm |        px |
 |------+------+-----------+------+-----------+--------+------+-----------+------+-----------+---------+-----------|
