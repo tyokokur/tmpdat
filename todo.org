@@ -1,16 +1,7 @@
 #+STARTUP: indent
 #+STARTUP: overview
 * PROG N_Kuhn code fix (NFH & NLH)
-** DONE SEVERAL RUNS result wrong trend wrt to ionic strength; testing with homo
-- NLH/b10v10H: a0.00, x1.5 -- should be no response
-  - No response; good
-- NLH/b10v10L: a0.20, x1.5 -- should be linear wrt debye
-  
-- SYSG looks correct. Dilute layers forming, 2C considered but could be effect from too small box size
-
-- Move forward with SYSG code + changes for NF
-
-** NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
+** PROG NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
 *** DONE b15 looks good
 *** PROG b20 in
  |  bx |    v0 |   v1 |   v2 |   v3 |   v4 |
@@ -21,8 +12,17 @@
  #+TBLFM: $2=$1^3*(4/3)*$PI;%.2f::$3=$1^3;%.2f::$4=$1^3*0.50;%.2f::$5=$1^3*0.333;%.2f::$6=$1^3*0.15;%.2f
  #+CONSTANTS: PI=3.1415
 
-** NLH standyby
+** TODO NLH 
 *** TODO Need to update NFH code (from SYSG) for multichain
+** DONE SEVERAL RUNS result wrong trend wrt to ionic strength; testing with homo
+- NLH/b10v10H: a0.00, x1.5 -- should be no response
+  - No response; good
+- NLH/b10v10L: a0.20, x1.5 -- should be linear wrt debye
+  
+- SYSG looks correct. Dilute layers forming, 2C considered but could be effect from too small box size
+
+- Move forward with SYSG code + changes for NF
+
 
 
 * PROG Clay slides* Calculating b
@@ -61,7 +61,8 @@
 ** Another $300/(2 years) for conference through GA?
 * PROG SYSG paper outline
 - [-] Fix height profile
-  - If 0.2 is too close to 0.0, do 0.25? 
+  - If 0.2 is too close to 0.0, do 0.25?
+  - Problem: c020? 
 - [-] Figure list
 - [-] Descriptions
 - [ ] General narrative
