@@ -1,7 +1,7 @@
 #+STARTUP: indent
 #+STARTUP: overview
 * PROG N_Kuhn code fix (NFH & NLH)
-** SEVERAL RUNS result wrong trend wrt to ionic strength; testing with homo
+** DONE SEVERAL RUNS result wrong trend wrt to ionic strength; testing with homo
 - NLH/b10v10H: a0.00, x1.5 -- should be no response
   - No response; good
 - NLH/b10v10L: a0.20, x1.5 -- should be linear wrt debye
@@ -11,11 +11,11 @@
 - Move forward with SYSG code + changes for NF
 
 ** NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
-*** p_update.pptx for all options
+*** DONE b15 looks good
+*** PROG b20 in 
 ** NLH standyby
 *** Rui recommendation: different b0, v0 for each chain
-* PROG Clay slides
-** Calculating b
+* PROG Clay slides* Calculating b
 *** Fredrickson, Ch 2
 - For structural interfaces on order of 10 nm, any chain model should
   be fine. If < 1 nm (e.g., highly immiscible polymer blends), local
