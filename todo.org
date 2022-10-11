@@ -25,7 +25,8 @@
 
 
 
-* PROG Clay slides* Calculating b
+* PROG Clay slides
+** Calculating b
 *** Fredrickson, Ch 2
 - For structural interfaces on order of 10 nm, any chain model should
   be fine. If < 1 nm (e.g., highly immiscible polymer blends), local
@@ -61,8 +62,8 @@
 ** Another $300/(2 years) for conference through GA?
 * PROG SYSG paper outline
 - [-] Fix height profile
-  - Problem: c020 instead of c010?
-  - Reran p1a3, a4. Do grep "Oct 10" to find folders
+  - p1a3: 0.70-1.00 (14,1,2,6,9,18,21)
+  - p1a4: 0.80-0.85 (16,17)
 - [-] Figure list
   - 2.00, 1.70, 1.45, 1.25
 - [-] Descriptions
@@ -83,7 +84,6 @@
 - [ ] Bibliography
 * PROG Learn fluctuation numerical method from Chao
 - Do self-derivations
-
   
 * TODO Read Spectral collocation paper (Fredrickson, 2011)
 * TODO Read if brush response to AFM tip is good project
