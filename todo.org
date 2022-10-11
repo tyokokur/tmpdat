@@ -61,9 +61,10 @@
 ** Another $300/(2 years) for conference through GA?
 * PROG SYSG paper outline
 - [-] Fix height profile
-  - If 0.2 is too close to 0.0, do 0.25?
-  - Problem: c020? 
+  - Problem: c020 instead of c010?
+  - Reran p1a3, a4. Do grep "Oct 10" to find folders
 - [-] Figure list
+  - 2.00, 1.70, 1.45, 1.25
 - [-] Descriptions
 - [ ] General narrative
 * PROG Revise NFH paper
