@@ -2,9 +2,9 @@
 #+STARTUP: overview
 * PROG N_Kuhn code fix (NFH & NLH)
 ** PROG NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
+*** PROG b10: almost done
+*** PROG b20: only v1 finished
 *** DONE b15 looks good
-*** PROG b10 
-*** PROG b20
 ** TODO NLH 
 *** TODO Need to update NFH code (from SYSG) for multichain
 ** DONE SEVERAL RUNS result wrong trend wrt to ionic strength; testing with homo
