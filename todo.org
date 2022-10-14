@@ -39,8 +39,11 @@
 
 * PROG APS abstract submission
 ** Due 10/20; Requires membership
-** Membership $174/year; $300/year through GA
-** Another $300/(2 years) for conference through GA?
+** GA Travel Fund closed 
+*** Membership $174/year; GA $900 total in PhD
+
+** UCB Travel Fund apply in same semester
+*** Up to $900
 
 
 * PROG SYSG paper outline [0/4]
