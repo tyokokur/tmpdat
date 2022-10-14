@@ -1,12 +1,11 @@
 #+STARTUP: indent
 #+STARTUP: overview
 * PROG N_Kuhn code fix (NFH & NLH)
-** PROG NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
-*** DONE Initial b/v sweep: 
-**** DONE b10: only b101/1,2 left
-**** DONE b15 looks good
-**** DONE b20: only b200/1,3,4,7,10 left
-*** PROG Perturb (~%20) sweep:
+** DONE NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
+*** DONE b10: only b101/1,2 left
+*** DONE b15 looks good
+*** DONE b20: only b200/1,3,4,7,10 left
+** PROG Perturb (~%20) sweep:
 **** PROG b10 v2=0.50: 
 ***** v = 0.40, 0.60
 ***** b1v4, b1v6
