@@ -6,14 +6,20 @@
 **** PROG b10: only b101/1,2 left
 **** PROG b20: only b200/1,3,4,7,10 left
 **** DONE b15 looks good
-*** Perturb sweep:
-**** Pertub ~ 20%
-**** TODO b10 v2=0.50: 
+*** Perturb (~%20) sweep:
+**** PROG b10 v2=0.50: 
 ***** v = 0.40, 0.60
-**** TODO b20 v4=1.20:
+***** b1v4, b1v6
+**** PROG b20 v4=1.20:
 ***** v = 1.00, 1.40
-*** Initial chi sweep: 
-**** TODO 
+***** b2v0 b2v4
+** PROG Initial chi sweep
+**** PROG b10 vopt=2
+***** chi = 2.4, 2.8, 3.0
+***** b1c4, b1c8, b1c0
+**** PROG b20 vopt=4
+***** chi = 2.4, 2.8, 3.0
+***** b2c4, b2c8, b2c0
 ** TODO NLH 
 *** TODO Need to update NFH code (from SYSG) for multichain
 ** DONE SEVERAL RUNS result wrong trend wrt to ionic strength; testing with homo
@@ -25,6 +31,12 @@
 
 - Move forward with SYSG code + changes for NF
 
+
+
+* PROG APS abstract submission
+** Due 10/20; Requires membership
+** Membership $174/year; $300/year through GA
+** Another $300/(2 years) for conference through GA?
 
 
 * PROG SYSG paper outline [0/4]
@@ -40,10 +52,20 @@
 - Do self-derivations
 
   
-* PROG APS abstract submission
-** Due 10/20; Requires membership
-** Membership $174/year; $300/year through GA
-** Another $300/(2 years) for conference through GA?
+* PROG Revise NFH paper
+- [X] SI finish (from Quals manu)
+- [X] Proof reading (flow)
+  - [X] Abstract/Sig Statement
+  - [X] Introduction
+  - [X] Model and Theory
+  - [X] Results and Discussion
+    - Matches well with exp 
+      - [ ] Figure 3b: No xC notation, legend in Debye length
+      - [ ] Figure 4: No xC notation, Debye length?
+    - Conformational transitions
+    - Chain organization
+  - [X] Conclusions
+- [ ] Bibliography
 * PROG Clay slides
 ** Calculating b
 *** Fredrickson, Ch 2
@@ -75,20 +97,6 @@
 ** Simple calculations for Nafion against charged plate
 *** Guess b, v, chi (Teflon)
 *** Modeling paper for grafting density?
-* PROG Revise NFH paper
-- [X] SI finish (from Quals manu)
-- [X] Proof reading (flow)
-  - [X] Abstract/Sig Statement
-  - [X] Introduction
-  - [X] Model and Theory
-  - [X] Results and Discussion
-    - Matches well with exp 
-      - [ ] Figure 3b: No xC notation, legend in Debye length
-      - [ ] Figure 4: No xC notation, Debye length?
-    - Conformational transitions
-    - Chain organization
-  - [X] Conclusions
-- [ ] Bibliography
 * TODO Read Spectral collocation paper (Fredrickson, 2011)
 * TODO Read if brush response to AFM tip is good project
 - Cylindrical coordinate
