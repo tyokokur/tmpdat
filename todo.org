@@ -8,17 +8,17 @@
 ** PROG Perturb (~%20) sweep:
 **** PROG b10 v2=0.50: 
 ***** v = 0.40, 0.60
-***** b1v4, b1v6
+***** b1v4 rerun bc stupid, b1v6 rerun 10/17--almost done
 **** PROG b20 v4=1.20:
 ***** v = 1.00, 1.40
-***** b2v0 b2v4
+***** b2v0 done, b2v4 done
 ** PROG Initial chi sweep
 **** PROG b10 vopt=2
 ***** chi = 2.4, 2.8, 3.0
-***** b1c4, b1c8, b1c0
+***** b1c4 rerun 6-10, b1c8 rerun, b1c0 rerun
 **** PROG b20 vopt=4
 ***** chi = 2.4, 2.8, 3.0
-***** b2c4, b2c8, b2c0
+***** b2c4 rerun 6-10, b2c8 rerun, b2c0 rerun
 ** Best so far:
 **** b=1.0; v=0.5; chi=2.6; Maxpt
 **** Options: increase v a little; increase chi a little
