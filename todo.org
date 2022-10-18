@@ -1,5 +1,8 @@
 #+STARTUP: indent
 #+STARTUP: overview
+* TODO SEND IZZY SOP
+* TODO What did I agree to prepare for Litzy?
+
 * PROG N_Kuhn code fix (NFH & NLH)
 ** DONE NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
 *** DONE b10: only b101/1,2 left
