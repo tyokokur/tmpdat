@@ -53,14 +53,17 @@
 - [-] Fix height profile
   - a4
     - p1: 2.00, 1.95, 1.90, 1.85 (weird sharp trend)
+      - Rerun if needed. Results seem correct
     - p2: DONE
     - p3: DONE
-    - p4: 1.35 (missing)
+    - p4: 1.35
   - a3
-    - p1: 0.95, 1.00, 1.05, 1.10, 1.15, 1.20
+    - p1: 1.00, 1.10, 1.15
     - p2: 0.95
+      - Code seems fine but H wrong
   - a2
     - p1: 1.00, 1.05, 1.10, 1.15
+      - Duplicates -- maybe wrong height from wrong file to 0phas
   - a0
     - p1: 0.75, 0.80, 0.85, 0.90, 0.95, 1.00, 1.05, 1.10
 - [-] Figure list
