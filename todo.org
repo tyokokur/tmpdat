@@ -2,6 +2,7 @@
 #+STARTUP: overview
 * TODO SEND IZZY SOP
 * TODO What did I agree to prepare for Litzy?
+* TODO Union spreadsheet meeting
 
 * PROG N_Kuhn code fix (NFH & NLH)
 ** DONE NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
@@ -50,7 +51,18 @@
 
 * PROG SYSG paper outline [0/4]
 - [-] Fix height profile
-  - First moment calc instead? Theory paper should have rigorous definition
+  - a4
+    - p1: 2.00, 1.95, 1.90, 1.85 (weird sharp trend)
+    - p2: DONE
+    - p3: DONE
+    - p4: 1.35 (missing)
+  - a3
+    - p1: 0.95, 1.00, 1.05, 1.10, 1.15, 1.20
+    - p2: 0.95
+  - a2
+    - p1: 1.00, 1.05, 1.10, 1.15
+  - a0
+    - p1: 0.75, 0.80, 0.85, 0.90, 0.95, 1.00, 1.05, 1.10
 - [-] Figure list
   - Key profs at alpha 0.40, chi 2.00, 1.70, 1.45, 1.25
 - [-] Descriptions
