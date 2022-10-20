@@ -5,12 +5,15 @@
 ** Talk to 1st years and others on list 
 ** Update lab groups?
 
+* TODO APS registration opens early December
+
+* TODO PE triple point
 
 * PROG N_Kuhn code fix (NFH & NLH)
 ** PROG Perturb (~%20) sweep
 **** PROG b10 v2=0.50: 
 ***** v = 0.40, 0.60
-***** b1v4 done
+***** b1v4 done (reran by accident, should be quick)
 ***** b1v6 rerun 10/20 -- some done, others close (anderr 2e-03)
 **** DONE b20 v4=1.20:
 ***** v = 1.00, 1.40
@@ -18,10 +21,10 @@
 ** PROG Initial chi sweep
 **** PROG b10 vopt=2
 ***** chi = 2.4, 2.8, 3.0
-***** b1c4 rerun 6-10, b1c8 rerun, b1c0 rerun
+***** 10/20: b1c4 rerun 6-10, b1c8 rerun, b1c0 rerun
 **** PROG b20 vopt=4
 ***** chi = 2.4, 2.8, 3.0
-***** b2c4 rerun 6-10, b2c8 rerun, b2c0 rerun
+***** 10/20: b2c4 rerun 6-10, b2c8 rerun, b2c0 rerun
 ** Best so far:
 **** b=1.0; v=0.5; chi=2.6; Maxpt
 **** Options: increase v a little; increase chi a little
@@ -45,31 +48,22 @@
 
 
 
-* PROG APS abstract submission
-** Due 10/20; Requires membership
-** GA Travel Fund closed 
-*** Membership $174/year; GA $900 total in PhD
-** UCB Travel Fund apply in same semester
-*** Up to $900
-** Registration opens early December
-
 * PROG SYSG paper outline [0/4]
 - [-] Fix height profile
   - a4
     - p1: 2.00, 1.95, 1.90, 1.85 (weird sharp trend)
-      - Rerun if needed. Results seem correct
+      - DONE Rerun if needed. Results seem correct
     - p2: DONE
     - p3: DONE
-    - p4: 1.35
+    - p4: rerun 10/20: 1.35 (6)
   - a3
     - p1: 1.00, 1.10, 1.15
     - p2: 0.95
-      - Code seems fine but H wrong
+      - Rerun 10/20
   - a2
-    - p1: 1.00, 1.05, 1.10, 1.15
-      - Duplicates -- maybe wrong height from wrong file to 0phas
+    - p1: 10/20: 1.00 (2), 1.05 (15), 1.10 (16), 1.15 (17)
   - a0
-    - p1: 0.75, 0.80, 0.85, 0.90, 0.95, 1.00, 1.05, 1.10
+    - p1: 10/20: 0.75, 0.80, 0.85, 0.90, 0.95, 1.00, 1.05, 1.10
 - [-] Figure list
   - Key profs at alpha 0.40, chi 2.00, 1.70, 1.45, 1.25
 - [-] Descriptions
@@ -94,7 +88,13 @@
     - Chain organization
   - [X] Conclusions
 - [ ] Bibliography
-* PROG Clay slides
+* TODO Read Spectral collocation paper (Fredrickson, 2011)
+* TODO Read if brush response to AFM tip is good project
+- Cylindrical coordinate
+- Force curves measurable?
+- Response of xC to incoming surface
+
+* DONE Clay slides
 ** Calculating b
 *** Fredrickson, Ch 2
 - For structural interfaces on order of 10 nm, any chain model should
@@ -125,9 +125,3 @@
 ** Simple calculations for Nafion against charged plate
 *** Guess b, v, chi (Teflon)
 *** Modeling paper for grafting density?
-* TODO Read Spectral collocation paper (Fredrickson, 2011)
-* TODO Read if brush response to AFM tip is good project
-- Cylindrical coordinate
-- Force curves measurable?
-- Response of xC to incoming surface
-
