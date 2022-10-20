@@ -1,8 +1,11 @@
 #+STARTUP: indent
 #+STARTUP: overview
-* TODO SEND IZZY SOP
+* DONE SEND IZZY SOP
 * TODO What did I agree to prepare for Litzy?
 * TODO Union spreadsheet meeting
+** Talk to 1st years and others on list 
+** Update lab groups? 
+** 
 
 * PROG N_Kuhn code fix (NFH & NLH)
 ** DONE NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
@@ -44,10 +47,8 @@
 ** Due 10/20; Requires membership
 ** GA Travel Fund closed 
 *** Membership $174/year; GA $900 total in PhD
-
 ** UCB Travel Fund apply in same semester
 *** Up to $900
-
 
 * PROG SYSG paper outline [0/4]
 - [-] Fix height profile
