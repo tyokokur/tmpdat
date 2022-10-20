@@ -1,21 +1,17 @@
 #+STARTUP: indent
 #+STARTUP: overview
-* DONE SEND IZZY SOP
 * TODO What did I agree to prepare for Litzy?
 * TODO Union spreadsheet meeting
 ** Talk to 1st years and others on list 
-** Update lab groups? 
-** 
+** Update lab groups?
+
 
 * PROG N_Kuhn code fix (NFH & NLH)
-** DONE NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
-*** DONE b10: only b101/1,2 left
-*** DONE b15 looks good
-*** DONE b20: only b200/1,3,4,7,10 left
 ** PROG Perturb (~%20) sweep
 **** PROG b10 v2=0.50: 
 ***** v = 0.40, 0.60
-***** b1v4 rerun bc stupid, b1v6 rerun 10/17--almost done
+***** b1v4 done
+***** b1v6 rerun 10/20 -- some done, others close (anderr 2e-03)
 **** DONE b20 v4=1.20:
 ***** v = 1.00, 1.40
 ***** b2v0 done, b2v4 done
@@ -31,7 +27,13 @@
 **** Options: increase v a little; increase chi a little
 **** Should double check if 2C exists (prob not since init = 0)
 ** TODO NLH 
+*** TODO Run preliminary on pure NFL and NFH
 *** TODO Need to update NFH code (from SYSG) for multichain
+**** Potential check is blend of 2 identical brush compared to single chain type
+** DONE NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
+*** DONE b10: only b101/1,2 left
+*** DONE b15 looks good
+*** DONE b20: only b200/1,3,4,7,10 left
 ** DONE SEVERAL RUNS result wrong trend wrt to ionic strength; testing with homo
 - NLH/b10v10H: a0.00, x1.5 -- should be no response
   - No response; good
@@ -49,6 +51,7 @@
 *** Membership $174/year; GA $900 total in PhD
 ** UCB Travel Fund apply in same semester
 *** Up to $900
+** Registration opens early December
 
 * PROG SYSG paper outline [0/4]
 - [-] Fix height profile
