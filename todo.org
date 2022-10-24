@@ -1,9 +1,6 @@
 #+STARTUP: indent
 #+STARTUP: overview
-* TODO Union spreadsheet meeting
-** Talk to 1st years and others on list 
-** Update lab groups?
-
+* PROG Union spreadsheet meeting
 * TODO APS registration opens early December
 
 * TODO PE triple point
@@ -66,7 +63,7 @@
   - a2
     - p1: 10/24: 1.10 (16), 1.15 (17)
   - a0
-    - p1: 10/20: 1.00 (2), 1.05 (15), 1.10 (16)
+    - p1: 10/24: 1.00 (2), 1.05 (15), 1.10 (16)
 - [-] Figure list
   - Key profs at alpha 0.40, chi 2.00, 1.70, 1.45, 1.25
 - [-] Descriptions
@@ -97,7 +94,6 @@
 - Force curves measurable?
 - Response of xC to incoming surface
 
-* DONE What did I agree to prepare for Litzy?
 * DONE Clay slides
 ** Calculating b
 *** Fredrickson, Ch 2
