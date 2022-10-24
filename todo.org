@@ -29,8 +29,10 @@
 ***** 10/23: b2c0 (5,6,7,10)
 
 ** TODO Mini perturb
-**** b1.0, v0.51, c6
-**** b2.0, v1.20, c8 -- not sure what to change yet; wait for c* to finish
+**** b1.0, v0.51, c6: fine tune location of peak
+**** b1.0, v0.52, c6: fine tune location of peak
+**** b2.1, v1.20, c8: fine tune sharpness of peak
+**** b2.0, v1.21, c8: fine tune sharpness of peak
 ** TODO NLH 
 *** TODO Run preliminary on pure NFL and NFH
 *** TODO Need to update NFH code (from SYSG) for multichain
