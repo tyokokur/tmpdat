@@ -30,10 +30,10 @@
 ***** 10/23: b2c0 (5,6,7,10)
 
 ** PROG Mini perturb
-- [ ] 10/24: (b1v1) b1.0, v0.51, c6: fine tune location of peak
-- [ ] 10/24: (b1v2) b1.0, v0.52, c6: fine tune location of peak
-- [ ] 10/24: (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
-- [ ] 10/24: (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
+- [-] 10/24: (b1v1) b1.0, v0.51, c6: fine tune location of peak
+- [-] 10/24: (b1v2) b1.0, v0.52, c6: fine tune location of peak
+- [X] 10/24: (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
+- [X] 10/24: (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
 ** DONE NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
 *** DONE b10: only b101/1,2 left
 *** DONE b15 looks good
