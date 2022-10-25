@@ -103,6 +103,12 @@
 - Const. \chi=0.5, N=200, \sigma=0.05, b=1.0, v=4/3\pi{}r^3 (\chi=0.5 to eliminate p-p
   hydrophobic attraction)
 - Goal is to see threshold of like-charge attraction
+** a{0..4}
+*** a000: 10/25
+*** a010: 10/25
+*** a020: 10/25
+*** a030: 10/25
+*** a040: 10/25
   
 
 * PROG SYSG paper outline [0/4]
