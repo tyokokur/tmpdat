@@ -51,8 +51,7 @@
 
 
 * PROG NLH Fitting
-** PROG Initial sweep
-*** PROG b = 0.75
+** PROG b = 0.75
 - 10/24
   - [X] v0 = 4/3*PI*b^3
   - [X] v1 = 2.0*b^3
@@ -65,7 +64,7 @@
   - norm: b75v1, b75v2, b75v3
 - L candidates: None
 
-*** PROG b = 1.00
+** PROG b = 1.00
 - 10/24
   - [X] v0 = 4/3*PI*b^3
   - [X] v1 = 2*b^3
@@ -75,14 +74,15 @@
 - H candidates
   - thresh: b10v3 (better if even lower v)
   - norm: b10v2, b10v3
-*** PROG b = 1.25
+    
+** PROG b = 1.25
 - 10/25
-- [-] v0 = 4/3*PI*b^3
-- [-] v1 = 2*b^3
-- [-] v2 = 1*b^3
-- [-] v3 = 0.5*b^3
+  - [-] v0 = 4/3*PI*b^3
+  - [-] v1 = 2*b^3
+  - [-] v2 = 1*b^3
+  - [-] v3 = 0.5*b^3
 
-** Calculations  
+** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |
 |------+--------+--------+-------+-------|
 | 0.75 |  1.767 |  0.844 | 0.422 | 0.211 |
