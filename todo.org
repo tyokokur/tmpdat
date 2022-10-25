@@ -1,5 +1,6 @@
 #+STARTUP: indent
 #+STARTUP: overview
+#+STARTUP: entitiespretty
 * PROG Union spreadsheet meeting
 * TODO APS registration opens early December
 
@@ -95,6 +96,12 @@
 - [ ] General narrative
 
   
+* TODO Interaction brushes
+** Parameter space:
+- Change \alpha vs Cs
+- Const. \chi=0.5, N=200, \sigma=0.05, b=1.0, v=4/3\pi{}r^3
+  (\chi=0.5 to eliminate p-p hydrophobic attraction)
+
 * PROG Learn fluctuation numerical method from Chao
 - Do self-derivations
 
