@@ -105,6 +105,8 @@
 - Change \alpha vs Cs
 - Const. \chi=0.5, N=200, \sigma=0.05, b=1.0, v=4/3\pi{}r^3 (\chi=0.5 to eliminate p-p
   hydrophobic attraction)
+- Goal is to see threshold of like-charge attraction
+  
 
 * PROG Learn fluctuation numerical method from Chao
 - Do self-derivations
