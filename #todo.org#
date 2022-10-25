@@ -34,8 +34,8 @@
 - [-] 10/24: (b1v2) b1.0, v0.52, c6: fine tune location of peak
 - [X] 10/24: (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
 - [X] 10/24: (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
-- [ ] 10/25: (b2v28) b2.2, v1.22, c8
-- [ ] 10/25: (b2v20) b2.2, v1.22, c0
+- [-] 10/25: (b2v28) b2.2, v1.22, c8
+- [-] 10/25: (b2v20) b2.2, v1.22, c0
 ** DONE NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
 *** DONE b10: only b101/1,2 left
 *** DONE b15 looks good
