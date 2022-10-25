@@ -1,6 +1,9 @@
+:properties:
 #+STARTUP: indent
 #+STARTUP: overview
 #+STARTUP: entitiespretty
+:end:
+
 * PROG Union spreadsheet meeting
 * TODO APS registration opens early December
 
@@ -40,7 +43,8 @@
   - No response; good
 - NLH/b10v10L: a0.20, x1.5 -- should be linear wrt debye
   
-- SYSG looks correct. Dilute layers forming, 2C considered but could be effect from too small box size
+- SYSG looks correct. Dilute layers forming, 2C considered but could
+  be effect from too small box size
 
 - Move forward with SYSG code + changes for NF
 
@@ -99,8 +103,8 @@
 * TODO Interaction brushes
 ** Parameter space:
 - Change \alpha vs Cs
-- Const. \chi=0.5, N=200, \sigma=0.05, b=1.0, v=4/3\pi{}r^3
-  (\chi=0.5 to eliminate p-p hydrophobic attraction)
+- Const. \chi=0.5, N=200, \sigma=0.05, b=1.0, v=4/3\pi{}r^3 (\chi=0.5 to eliminate p-p
+  hydrophobic attraction)
 
 * PROG Learn fluctuation numerical method from Chao
 - Do self-derivations
