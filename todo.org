@@ -9,7 +9,6 @@
 
 * TODO PE triple point
 
-
 * PROG NFH Fitting
 ** PROG Perturb (~%20) v sweep
 **** PROG b10 v2=0.50: 
@@ -30,11 +29,13 @@
 ***** DONE b2c4, b2c8
 ***** 10/23: b2c0 (5,6,7,10)
 
-** TODO Mini perturb
-- [ ] 10/24: (b1v1) b1.0, v0.51, c6: fine tune location of peak
-- [ ] 10/24: (b1v2) b1.0, v0.52, c6: fine tune location of peak
-- [ ] 10/24: (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
-- [ ] 10/24: (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
+** PROG Mini perturb
+- [-] 10/24: (b1v1) b1.0, v0.51, c6: fine tune location of peak
+- [-] 10/24: (b1v2) b1.0, v0.52, c6: fine tune location of peak
+- [X] 10/24: (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
+- [X] 10/24: (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
+- [-] 10/25: (b2v28) b2.2, v1.22, c8
+- [-] 10/25: (b2v20) b2.2, v1.22, c0
 ** DONE NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
 *** DONE b10: only b101/1,2 left
 *** DONE b15 looks good
@@ -103,12 +104,9 @@
 - Const. \chi=0.5, N=200, \sigma=0.05, b=1.0, v=4/3\pi{}r^3 (\chi=0.5 to eliminate p-p
   hydrophobic attraction)
 - Goal is to see threshold of like-charge attraction
-** a{0..4}
-*** a000: 10/25
-*** a010: 10/25
-*** a020: 10/25
-*** a030: 10/25
-*** a040: 10/25
+** PROG a{0..4}, d{100..20..10}
+*** DONE a000, a010, a020, a030, a040
+*** PROG free energy, possibly higher resolution d, esp for low alpha
   
 
 * PROG SYSG paper outline [0/4]
