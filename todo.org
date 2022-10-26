@@ -99,16 +99,14 @@
 
 
 
-* PROG Interaction brushes
+* PROG Interaction` brushes
 ** Parameter space:
 - Change \alpha vs d (maybe vs Cs later)
 - Const. \chi=0.5, N=200, \sigma=0.05, b=1.0, v=4/3\pi{}r^3 (\chi=0.5 to eliminate p-p
   hydrophobic attraction)
 - Goal is to see threshold of like-charge attraction
-** PROG a{0..4}, d{100..20..10}
-*** DONE a000, a010, a020, a030, a040
-*** PROG free energy, possibly higher resolution d, esp for low alpha
-  
+** PROG a{0..1.0..0.25}, d{100..50..5}
+*** High salt conc needed for high \alpha convergence (\alpha=0.75 needs Cs=50)
 
 * PROG SYSG paper outline [0/4]
 - [-] Fix height profile
