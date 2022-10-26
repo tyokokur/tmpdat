@@ -53,6 +53,7 @@
 
 
 * PROG NLH Fitting
+** Worth to fix code from Zp = -1?
 ** PROG b = 0.75
 - 10/24
   - [X] v0 = 4/3*PI*b^3
