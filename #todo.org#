@@ -106,7 +106,6 @@
   hydrophobic attraction)
 - Goal is to see threshold of like-charge attraction
 ** PROG a{0..1.0..0.25}, d{100..50..5}
-*** DONE a000, a010, a020, a030, a040
 *** PROG free energy, possibly higher resolution d, esp for low alpha
   
 
