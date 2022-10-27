@@ -82,13 +82,15 @@
   - thresh: b10v3 (better if even lower v)
   - norm: b10v2, b10v3
     
-** PROG b = 1.25
+** DONE b = 1.25
 - 10/25
   - [X] v0 = 4/3*PI*b^3
   - [X] v1 = 2*b^3
   - [X] v2 = 1*b^3
-  - [-] v3 = 0.5*b^3
-    - H done, L not
+  - [X] v3 = 0.5*b^3
+
+** TODO \chi = 2.8 for b = 1.25, 1.50 (L only)
+*** TODO correct L curve, fine tune H height (b \approx 0.75)
 
 ** TODO Update Erika if pure fits good
 ** Calculations
