@@ -2,6 +2,10 @@
 #+STARTUP: indent
 
 * NFH
+** Code/Equations Note
+Should be written with Zp = -1. Only difference should be swap of
+cations vs anions
+
 ** v14 full runs
 - Profiles until 4mM look good
 - b10v14 continue
