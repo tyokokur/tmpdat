@@ -63,7 +63,8 @@
   - [-] v2 = 1.0*b^3
     All done except H/7/
   - [-] v3 = 0.5*b^3
-    L done, H anderr > 0.1
+    L done
+    10/27 rerun, H all anderr > 0.1
 - H candidates
   - thresh: b75v2, b75v3
   - norm: b75v1, b75v2, b75v3
