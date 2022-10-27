@@ -104,17 +104,17 @@
 
 
 
-* PROG Interaction brushes
+* PROG INT preliminary
 ** Parameter space:
-- Change \alpha vs d (maybe vs Cs later)
+- Change \alpha vs d (vs Cs later)
 - Const. \chi=0.5, N=200, \sigma=0.05, b=1.0, v=4/3\pi{}r^3 (\chi=0.5 to eliminate p-p
   hydrophobic attraction)
-- Goal is to see threshold of like-charge attraction
+- Proj 1: Goal is to see threshold of like-charge attraction
+- Proj 2: Instead do interacting xC brushes
 ** PROG a{0..1.0..0.25}, d{100..50..5}
 *** Salt conc sweep also needed
 *** TODO Find one \alpha to focus on
 *** High salt conc needed for high \alpha convergence (\alpha=0.75 needs Cs=50)
-
 
 
 * PROG SYSG paper outline [0/4]
