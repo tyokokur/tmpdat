@@ -112,7 +112,7 @@
   hydrophobic attraction)
 - Proj 1: Goal is to see threshold of like-charge attraction
 - Proj 2: Instead do interacting xC brushes
-** PROG MFT for \alpha=0.5
+** PROG MFT for \alpha=0.5, \chi=0.4
 - Cs = {10..100..10} mM
 - D = {200..100..10} nm
 ** DONE Preliminary:  a{0..1.0..0.25}, d{100..50..5}
