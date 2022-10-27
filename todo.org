@@ -86,7 +86,7 @@
 - 10/25
   - [X] v0 = 4/3*PI*b^3
   - [X] v1 = 2*b^3
-  - [-] v2 = 1*b^3
+  - [X] v2 = 1*b^3
   - [-] v3 = 0.5*b^3
     - H done, L not
 
@@ -104,7 +104,7 @@
 
 
 
-* PROG Interaction` brushes
+* PROG Interaction brushes
 ** Parameter space:
 - Change \alpha vs d (maybe vs Cs later)
 - Const. \chi=0.5, N=200, \sigma=0.05, b=1.0, v=4/3\pi{}r^3 (\chi=0.5 to eliminate p-p
@@ -114,6 +114,8 @@
 *** Salt conc sweep also needed
 *** TODO Find one \alpha to focus on
 *** High salt conc needed for high \alpha convergence (\alpha=0.75 needs Cs=50)
+
+
 
 * PROG SYSG paper outline [0/4]
 - [-] Fix height profile
@@ -134,10 +136,6 @@
   - Key profs at alpha 0.40, chi 2.00, 1.70, 1.45, 1.25
 - [-] Descriptions
 - [ ] General narrative
-
-  
-* PROG Learn fluctuation numerical method from Chao
-- Do self-derivations
 
   
 * PROG Revise NFH paper
