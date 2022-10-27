@@ -31,7 +31,9 @@
 
 ** PROG Mini perturb
 - [-] 10/24: (b1v1) b1.0, v0.51, c6: fine tune location of peak
+  - All except ./3/ done
 - [-] 10/24: (b1v2) b1.0, v0.52, c6: fine tune location of peak
+  - All except ./2,3,6,7/ done
 - [X] (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
 - [X] (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
 - [-] 10/27 rerun: (b2v28) b2.2, v1.22, c8
@@ -59,9 +61,10 @@
   - [X] v0 = 4/3*PI*b^3
   - [X] v1 = 2.0*b^3
   - [-] v2 = 1.0*b^3
-    L done, H not
+    All done except H/7/
   - [-] v3 = 0.5*b^3
-    L done, H not
+    L done
+    10/27 rerun, H all anderr > 0.1
 - H candidates
   - thresh: b75v2, b75v3
   - norm: b75v1, b75v2, b75v3
@@ -73,17 +76,19 @@
   - [X] v1 = 2*b^3
   - [X] v2 = 1*b^3
   - [-] v3 = 0.5*b^3
-    L done, H not
+    L done
+    10/27 rerun: ./H/4,5,7
 - H candidates
   - thresh: b10v3 (better if even lower v)
   - norm: b10v2, b10v3
     
 ** PROG b = 1.25
 - 10/25
-  - [-] v0 = 4/3*PI*b^3
-  - [-] v1 = 2*b^3
+  - [X] v0 = 4/3*PI*b^3
+  - [X] v1 = 2*b^3
   - [-] v2 = 1*b^3
   - [-] v3 = 0.5*b^3
+    - H done, L not
 
 ** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |
