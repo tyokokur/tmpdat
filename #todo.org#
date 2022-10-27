@@ -61,9 +61,9 @@
   - [X] v0 = 4/3*PI*b^3
   - [X] v1 = 2.0*b^3
   - [-] v2 = 1.0*b^3
-    L done, H not
+    All done except H/7/
   - [-] v3 = 0.5*b^3
-    L done, H not
+    L done, H anderr > 0.1
 - H candidates
   - thresh: b75v2, b75v3
   - norm: b75v1, b75v2, b75v3
