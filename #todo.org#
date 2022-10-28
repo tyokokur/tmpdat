@@ -118,7 +118,8 @@
 - Proj 1: Goal is to see threshold of like-charge attraction
 - Proj 2: Instead do interacting xC brushes
 ** PROG MFT for \alpha=0.5, \chi=0.4
-- Cs = {100..1000..100} mM
+- Cs = logspace(2,3,10) \approx {100, 130, 165, 215, 280, 360, 465, 600,
+  775, 1000} mM 
 - D = {200..100..10} nm
 *** PROG Cs 100 started
 
