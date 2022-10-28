@@ -1,4 +1,4 @@
-:properties:
+* :properties:
 #+STARTUP: indent
 #+STARTUP: overview
 #+STARTUP: entitiespretty
@@ -46,6 +46,8 @@
   - \Delta{}\nu shfits transition right, max H affected little
   - \Delta{}\chi shifts transition right, max H up (by min H down)
   - \Delta{}b shifts transition left, max H up
+
+
 * PROG NLH Fitting
 ** PROG b = 0.75
 - 10/24
@@ -118,21 +120,29 @@
 - Proj 1: Goal is to see threshold of like-charge attraction
 - Proj 2: Instead do interacting xC brushes
 ** PROG MFT for \alpha=0.5, \chi=0.4
-- Cs = {100..1000..100} mM
+- Cs = logspace(2,3,10) \approx {100, 130, 165, 215, 280, 360, 465, 600,
+  775, 1000} mM 
 - D = {200..100..10} nm
-*** DONE Cs 100, 200 started
-- Probably need to change D range with Cs (\uarr Cs, \darr Dmax and \darr Dmin)
+*** PROG Cs 100 started
+
 *** PROG Cs 100 further expansion
-** TODO *MAKE SURE PB CORRECT*
+** DONE MAKE SURE PB CORRECT
 - Cs "bulk" should be inforced at mid-point (when D high)
 - Check: N = 10, \alpha = 0
-  - Lx = 100: F = -12.1473
-  - Lx = 150: F = -18.1805
-  - Lx = 200: F = -24.2001
+  - Lx = 100: F = -10.8086
+  - Lx = 150: F = -10.8086
+  - Lx = 200: F = -10.8086
 ** DONE Preliminary:  a{0..1.0..0.25}, d{100..50..5}
 -  High salt conc needed for high \alpha convergence (\alpha=0.75 needs Cs=50)
 
 
+* TODO Revise NFH paper
+- Rethink narrative (no more xC)
+- What is the purpose of this paper?
+- Beef up discussion
+- Create reflectivity plots
+
+  
 * PROG SYSG paper outline [0/4]
 - [-] Fix height profile
   - a4
@@ -155,20 +165,6 @@
 - [ ] General narrative
 
   
-* PROG Revise NFH paper
-- [X] SI finish (from Quals manu)
-- [X] Proof reading (flow)
-  - [X] Abstract/Sig Statement
-  - [X] Introduction
-  - [X] Model and Theory
-  - [X] Results and Discussion
-    - Matches well with exp 
-      - [ ] Figure 3b: No xC notation, legend in Debye length
-      - [ ] Figure 4: No xC notation, Debye length?
-    - Conformational transitions
-    - Chain organization
-  - [X] Conclusions
-- [ ] Bibliography
 * TODO Read Spectral collocation paper (Fredrickson, 2011)
 * TODO Read if brush response to AFM tip is good project
 - Cylindrical coordinate
