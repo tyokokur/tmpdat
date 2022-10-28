@@ -32,8 +32,7 @@
 ** PROG Mini perturb
 - [-] 10/24: (b1v1) b1.0, v0.51, c6: fine tune location of peak
   - All except ./3/ done
-- [-] 10/24: (b1v2) b1.0, v0.52, c6: fine tune location of peak
-  - All except ./2,3,6,7/ done
+- [X] 10/24: (b1v2) b1.0, v0.52, c6: fine tune location of peak
 - [X] (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
 - [X] (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
 - [-] 10/27 rerun: (b2v28) b2.2, v1.22, c8
