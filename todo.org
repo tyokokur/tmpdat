@@ -107,7 +107,7 @@
 
 
 
-* PROG INT 
+* PROG INT
 ** Parameter space:
 - Change \alpha vs d (vs Cs later)
 - Const. \chi=0.5, N=200, \sigma=0.05, b=1.0, v=4/3\pi{}r^3 (\chi=0.5 to eliminate p-p
@@ -117,9 +117,11 @@
 ** PROG MFT for \alpha=0.5, \chi=0.4
 - Cs = {100..1000..100} mM
 - D = {200..100..10} nm
-- 10/27: Cs 100, 200 started
-  - Probably need to change D range with Cs (\uarr Cs, \darr Dmax and \darr Dmin)
-  
+*** DONE Cs 100, 200 started
+- Probably need to change D range with Cs (\uarr Cs, \darr Dmax and \darr Dmin)
+** TODO *MAKE SURE PB CORRECT*
+- PB boundary conditions are where?
+- Cs "bulk" should be inforced at mid-point (when D high)
 ** DONE Preliminary:  a{0..1.0..0.25}, d{100..50..5}
 -  High salt conc needed for high \alpha convergence (\alpha=0.75 needs Cs=50)
 
