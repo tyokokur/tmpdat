@@ -41,6 +41,7 @@
 - b1.00 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
   - Changing v shifts transition, but doesn't change max H
   - Changing \chi shifts transition and changes max H
+  - 
 * PROG NLH Fitting
 ** Worth to fix code from Zp = -1?
 ** PROG b = 0.75
