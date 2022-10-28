@@ -125,6 +125,10 @@
 *** PROG Cs 100 further expansion
 ** TODO *MAKE SURE PB CORRECT*
 - Cs "bulk" should be inforced at mid-point (when D high)
+- Check: N = 10, \alpha = 0
+  - Lx = 100: F = -12.1473
+  - Lx = 150: F = 
+  - Lx = 200: F = 
 ** DONE Preliminary:  a{0..1.0..0.25}, d{100..50..5}
 -  High salt conc needed for high \alpha convergence (\alpha=0.75 needs Cs=50)
 
