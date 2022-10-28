@@ -128,7 +128,7 @@
 - Check: N = 10, \alpha = 0
   - Lx = 100: F = -12.1473
   - Lx = 150: F = -18.1805
-  - Lx = 200: F = -24.2001
+  - Lx = 200: F = -10.8086
 ** DONE Preliminary:  a{0..1.0..0.25}, d{100..50..5}
 -  High salt conc needed for high \alpha convergence (\alpha=0.75 needs Cs=50)
 
