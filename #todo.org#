@@ -136,6 +136,11 @@
 -  High salt conc needed for high \alpha convergence (\alpha=0.75 needs Cs=50)
 
 
+* TODO Revise NFH paper
+- Rethink narrative (no more xC)
+- Beef up discussion
+
+  
 * PROG SYSG paper outline [0/4]
 - [-] Fix height profile
   - a4
@@ -158,20 +163,6 @@
 - [ ] General narrative
 
   
-* PROG Revise NFH paper
-- [X] SI finish (from Quals manu)
-- [X] Proof reading (flow)
-  - [X] Abstract/Sig Statement
-  - [X] Introduction
-  - [X] Model and Theory
-  - [X] Results and Discussion
-    - Matches well with exp 
-      - [ ] Figure 3b: No xC notation, legend in Debye length
-      - [ ] Figure 4: No xC notation, Debye length?
-    - Conformational transitions
-    - Chain organization
-  - [X] Conclusions
-- [ ] Bibliography
 * TODO Read Spectral collocation paper (Fredrickson, 2011)
 * TODO Read if brush response to AFM tip is good project
 - Cylindrical coordinate
