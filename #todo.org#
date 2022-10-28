@@ -120,7 +120,8 @@
 *** DONE Cs 100, 200 started
 - Probably need to change D range with Cs (\uarr Cs, \darr Dmax and \darr Dmin)
 ** TODO *MAKE SURE PB CORRECT*
-- PB boundary cond
+- PB boundary conditions are where?
+- Cs "bulk" should be inforced at mid-point (when D high)
 ** DONE Preliminary:  a{0..1.0..0.25}, d{100..50..5}
 -  High salt conc needed for high \alpha convergence (\alpha=0.75 needs Cs=50)
 
