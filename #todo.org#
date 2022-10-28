@@ -38,8 +38,9 @@
 - [-] 10/27 rerun: (b2v28) b2.2, v1.22, c8
 - [-] 10/27 rerun: (b2v20) b2.2, v1.22, c0
 ** Notes:
-- b1.00 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
-  - \Delta{}\nu shifts transition , but doesn't change max H
+- b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
+- b2.{0,1} b1.2{1,0} c2.8
+  - \Delta{}\nu shfits transition right, max H affected little
   - \Delta{}\chi shifts transition right, max H up (by min H down)
   - \Delta{}b shifts transition left, max H up
 * PROG NLH Fitting
