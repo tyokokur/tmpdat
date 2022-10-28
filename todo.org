@@ -14,7 +14,7 @@
 **** PROG b10 v2=0.50: 
 ***** v = 0.40, 0.60
 ***** DONE b1v4 
-***** 10/27 rerun: b1v6 (1,3,4,5,8)
+***** 10/28 rerun: b1v6 (5)
 **** DONE b20 v4=1.20:
 ***** v = 1.00, 1.40
 ***** b2v0 done, b2v4 done
@@ -27,33 +27,25 @@
 **** PROG b20 vopt=4
 ***** chi = 2.4, 2.8, 3.0
 ***** DONE b2c4, b2c8
-***** 10/27 rerun: b2c0 (5,6,7,10)
+***** 10/27 rerun: b2c0 (5,10)
 
 ** PROG Mini perturb
 - [-] 10/24: (b1v1) b1.0, v0.51, c6: fine tune location of peak
   - All except ./3/ done
-- [-] 10/24: (b1v2) b1.0, v0.52, c6: fine tune location of peak
-  - All except ./2,3,6,7/ done
+- [X] 10/24: (b1v2) b1.0, v0.52, c6: fine tune location of peak
 - [X] (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
 - [X] (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
 - [-] 10/27 rerun: (b2v28) b2.2, v1.22, c8
 - [-] 10/27 rerun: (b2v20) b2.2, v1.22, c0
-** DONE NFH sweep : b prescribe, v options from b/d's, all chi 2.6 for now
-*** DONE b10: only b101/1,2 left
-*** DONE b15 looks good
-*** DONE b20: only b200/1,3,4,7,10 left
-** DONE SEVERAL RUNS result wrong trend wrt to ionic strength; testing with homo
-- NLH/b10v10H: a0.00, x1.5 -- should be no response
-  - No response; good
-- NLH/b10v10L: a0.20, x1.5 -- should be linear wrt debye
-  
-- SYSG looks correct. Dilute layers forming, 2C considered but could
-  be effect from too small box size
-
-- Move forward with SYSG code + changes for NF
-
-
-
+** Notes:
+- b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
+- b2.{0,1} b1.2{0,1} c2.8
+  - b2.{0,1} good trend for max H
+  - v1.2{0,1} good trend for transition point
+- Overall observations:
+  - \Delta{}\nu shfits transition right, max H affected little
+  - \Delta{}\chi shifts transition right, max H up (by min H down)
+  - \Delta{}b shifts transition left, max H up
 * PROG NLH Fitting
 ** Worth to fix code from Zp = -1?
 ** PROG b = 0.75
