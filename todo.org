@@ -47,13 +47,11 @@
   - \Delta{}\chi shifts transition right, max H up (by min H down)
   - \Delta{}b shifts transition left, max H up
 * PROG NLH Fitting
-** Worth to fix code from Zp = -1?
 ** PROG b = 0.75
 - 10/24
   - [X] v0 = 4/3*PI*b^3
   - [X] v1 = 2.0*b^3
-  - [-] v2 = 1.0*b^3
-    All done except H/7/
+  - [X] v2 = 1.0*b^3
   - [-] v3 = 0.5*b^3
     L done
     10/27 rerun, H all anderr > 0.1
@@ -82,9 +80,13 @@
   - [X] v3 = 0.5*b^3
 
 ** TODO \chi = 2.8 for b = 1.25, 1.50 (L only)
-*** TODO correct L curve, fine tune H height (b \approx 0.75)
+*** TODO get correct L curve, then fine tune H height (b \approx 0.75)
 
 ** TODO Update Erika if pure fits good
+
+** Notes:
+- So far thresh H is doing best. Norm has potential, but would need to
+  increase b a lot
 ** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |
 |------+--------+--------+-------+-------|

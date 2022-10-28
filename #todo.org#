@@ -79,10 +79,14 @@
   - [X] v2 = 1*b^3
   - [X] v3 = 0.5*b^3
 
-** TODO \chi = 2.8 for b = 1.25, 1.50 (L only)
-*** TODO correct L curve, fine tune H height (b \approx 0.75)
+** PROG \chi = 2.8 for b = 1.25, 1.50 (L only)
+*** PROG get correct L curve, then fine tune H height (b \approx 0.75)
 
 ** TODO Update Erika if pure fits good
+
+** Notes:
+- So far thresh H is doing best. Norm has potential, but would need to
+  increase b a lot
 ** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |
 |------+--------+--------+-------+-------|
