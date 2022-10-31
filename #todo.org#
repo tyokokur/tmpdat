@@ -10,11 +10,11 @@
 * TODO PE triple point
 
 * PROG NFH Fitting
-** PROG Perturb (~%20) v sweep
-**** DONE b10 v2=0.50: 
+** DONE Perturb (~%20) v sweep
+**** b10 v2=0.50: 
 ***** v = 0.40, 0.60
 ***** b1v4, b1v6
-**** DONE b20 v4=1.20:
+**** b20 v4=1.20:
 ***** v = 1.00, 1.40
 ***** b2v0 done, b2v4 done
 ** PROG Initial chi sweep
