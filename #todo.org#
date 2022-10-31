@@ -65,9 +65,7 @@
   - [X] v0 = 4/3*PI*b^3
   - [X] v1 = 2*b^3
   - [X] v2 = 1*b^3
-  - [-] v3 = 0.5*b^3
-    L done
-    10/27 rerun: ./H/4,5,7
+  - [X] v3 = 0.5*b^3
 - H candidates
   - thresh: b10v3 (better if even lower v)
   - norm: b10v2, b10v3
