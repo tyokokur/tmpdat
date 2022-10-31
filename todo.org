@@ -10,12 +10,11 @@
 * TODO PE triple point
 
 * PROG NFH Fitting
-** PROG Perturb (~%20) v sweep
-**** PROG b10 v2=0.50: 
+** DONE Perturb (~%20) v sweep
+**** b10 v2=0.50: 
 ***** v = 0.40, 0.60
-***** DONE b1v4 
-***** 10/28 rerun: b1v6 (5)
-**** DONE b20 v4=1.20:
+***** b1v4, b1v6
+**** b20 v4=1.20:
 ***** v = 1.00, 1.40
 ***** b2v0 done, b2v4 done
 ** PROG Initial chi sweep
@@ -27,16 +26,15 @@
 **** PROG b20 vopt=4
 ***** chi = 2.4, 2.8, 3.0
 ***** DONE b2c4, b2c8
-***** 10/27 rerun: b2c0 (5,10)
+***** 10/31 rerun: b2c0 (10)
 
 ** PROG Mini perturb
-- [-] 10/24: (b1v1) b1.0, v0.51, c6: fine tune location of peak
-  - All except ./3/ done
-- [X] 10/24: (b1v2) b1.0, v0.52, c6: fine tune location of peak
+- [X] (b1v1) b1.0, v0.51, c6: fine tune location of peak
+- [X] *BEST SO FAR* (b1v2) b1.0, v0.52, c6: fine tune location of peak
 - [X] (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
 - [X] (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
-- [-] 10/27 rerun: (b2v28) b2.2, v1.22, c8
-- [-] 10/27 rerun: (b2v20) b2.2, v1.22, c0
+- [-] 10/31 rerun: (b2v28) {4..10} b2.2, v1.22, c8
+- [-] 10/31 rerun: (b2v20) {3..10} b2.2, v1.22, c0
 ** Notes:
 - b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
 - b2.{0,1} b1.2{0,1} c2.8
@@ -56,20 +54,18 @@
   - [X] v2 = 1.0*b^3
   - [-] v3 = 0.5*b^3
     L done
-    10/27 rerun, H all anderr > 0.1
+    10/31 rerun, H 
 - H candidates
   - thresh: b75v2, b75v3
   - norm: b75v1, b75v2, b75v3
 - L candidates: None
 
-** PROG b = 1.00
+** DONE b = 1.00
 - 10/24
   - [X] v0 = 4/3*PI*b^3
   - [X] v1 = 2*b^3
   - [X] v2 = 1*b^3
-  - [-] v3 = 0.5*b^3
-    L done
-    10/27 rerun: ./H/4,5,7
+  - [X] v3 = 0.5*b^3
 - H candidates
   - thresh: b10v3 (better if even lower v)
   - norm: b10v2, b10v3
@@ -84,20 +80,19 @@
   
 ** PROG \chi = 2.8 for b = 1.25, 1.50 (L only)
 *** Get correct L curve, then fine tune H height (b \approx 0.7)
-- 10/28: b5c8v0
-- 10/28: b5c8v1
-- 10/28: b5c8v2
-
-- 10/28: b0c8v0
-- 10/28: b0c8v1
-- 10/28: b0c8v2
-
-
-** TODO Update Erika if pure fits good
+- [X] b5c8v0, b5c8v1, b5c8v2,
+- [X] b0c8v0, b0c8v1, b0c8v2
+  
+- [ ] b5c8v3
+- [ ] b0c8v3
 
 ** Notes:
-- So far thresh H is doing best. Norm has potential, but would need to
-  increase b a lot
+- H multiple candidates (norm and thresh)
+- L only promising ones are thresh
+- b25v3 equivalent to b{25,50}c8v2
+  - Try to access better trend with b{25,50}c8v3 in terms of realistic
+    vol frac
+  
 ** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |
 |------+--------+--------+-------+-------|
