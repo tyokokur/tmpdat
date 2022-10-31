@@ -29,7 +29,7 @@
 ***** 10/31 rerun: b2c0 (10)
 
 ** PROG Mini perturb
-- [-] (b1v1) b1.0, v0.51, c6: fine tune location of peak
+- [X] (b1v1) b1.0, v0.51, c6: fine tune location of peak
 - [X] 10/24: (b1v2) b1.0, v0.52, c6: fine tune location of peak
 - [X] (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
 - [X] (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
