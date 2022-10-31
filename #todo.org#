@@ -60,7 +60,7 @@
   - norm: b75v1, b75v2, b75v3
 - L candidates: None
 
-** PROG b = 1.00
+** DONE b = 1.00
 - 10/24
   - [X] v0 = 4/3*PI*b^3
   - [X] v1 = 2*b^3
