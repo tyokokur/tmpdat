@@ -81,13 +81,15 @@
 ** PROG \chi = 2.8 for b = 1.25, 1.50 (L only)
 *** Get correct L curve, then fine tune H height (b \approx 0.7)
 - [X] b5c8v0, b5c8v1, b5c8v2,
-- [ ] b0c8v0, b0c8v1, b0c8v2
-
+- [X] b0c8v0, b0c8v1, b0c8v2
+  
+- [ ] b5c8v3
+- [ ] b0c8v3
 
 ** Notes:
 - H multiple candidates (norm and thresh)
 - L only promising ones are thresh
-- Could also play with thresh to fit better (so far 1e-04)
+- b25v3 equivalent to b{25,50}c8v2
   
 ** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |
