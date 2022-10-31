@@ -1,4 +1,4 @@
-* :properties:
+:properties:
 #+STARTUP: indent
 #+STARTUP: overview
 #+STARTUP: entitiespretty
