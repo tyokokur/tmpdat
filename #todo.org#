@@ -33,8 +33,8 @@
 - [X] 10/24: (b1v2) b1.0, v0.52, c6: fine tune location of peak
 - [X] (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
 - [X] (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
-- [-] 10/27 rerun: (b2v28) b2.2, v1.22, c8
-- [-] 10/27 rerun: (b2v20) b2.2, v1.22, c0
+- [-] 10/31 rerun: (b2v28) {4..10} b2.2, v1.22, c8
+- [-] 10/31 rerun: (b2v20) {3..10} b2.2, v1.22, c0
 ** Notes:
 - b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
 - b2.{0,1} b1.2{0,1} c2.8
