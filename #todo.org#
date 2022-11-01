@@ -21,15 +21,15 @@
 **** b20 v4=1.20:
 ***** v = 1.00, 1.40
 ***** b2v0 done, b2v4 done
-** PROG Initial chi sweep
-**** PROG b10 vopt=2
+** DONE Initial chi sweep
+**** PAUSE b10 vopt=2
 ***** chi = 2.4, 2.8, 3.0
 ***** DONE b1c4 
 ***** b1c8 anderrs all > 0.1
 ***** b1c0 same as c8
-**** PROG b20 vopt=4
+**** DONE b20 vopt=4
 ***** chi = 2.4, 2.8, 3.0
-***** DONE b2c4, b2c8, b2c0
+***** b2c4, b2c8, b2c0
 
 ** PROG Mini perturb
 - [X] (b1v1) b1.0, v0.51, c6: fine tune location of peak
