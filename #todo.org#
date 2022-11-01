@@ -29,8 +29,7 @@
 ***** b1c0 same as c8
 **** PROG b20 vopt=4
 ***** chi = 2.4, 2.8, 3.0
-***** DONE b2c4, b2c8
-***** 10/31 rerun: b2c0 (10)
+***** DONE b2c4, b2c8, b2c0
 
 ** PROG Mini perturb
 - [X] (b1v1) b1.0, v0.51, c6: fine tune location of peak
