@@ -109,9 +109,9 @@
 
 * PROG INT
 ** Parameter space:
-- Change \alpha vs d (vs Cs later)
-- Const. \chi=0.5, N=200, \sigma=0.05, b=1.0, v=4/3\pi{}r^3 (\chi=0.5 to eliminate p-p
-  hydrophobic attraction)
+- d vs Cs
+- Const. \alpha=0.5, \chi=0.5, N=200, \sigma=0.05, b=1.0, v=4/3\pi{}r^3 (\chi=0.5 to
+  eliminate p-p hydrophobic attraction)
 - Proj 1: Goal is to see threshold of like-charge attraction
 - Proj 2: Instead do interacting xC brushes
   
@@ -119,18 +119,14 @@
 - Cs = logspace(2,3,10) \approx {100, 130, 165, 215, 280, 360, 465, 600,
   775, 1000} mM 
 - D = {200..100..10} nm
-*** PROG Cs 100 started
-*** PROG Cs 100 further expansion
-** DONE MAKE SURE PB CORRECT
-- Cs "bulk" should be inforced at mid-point (when D high)
-- Check: N = 10, \alpha = 0
-  - Lx = 100: F = -10.8086
-  - Lx = 150: F = -10.8086
-  - Lx = 200: F = -10.8086
-** DONE Preliminary:  a{0..1.0..0.25}, d{100..50..5}
--  High salt conc needed for high \alpha convergence (\alpha=0.75 needs Cs=50)
+*** PROG Cs 100
+- Start
+    
+*** DONE Cs 100
+- Looks good, force calculation code finished (cubic spline compared
+  to centered finite difference)
 
-
+  
 * TODO Revise NFH paper
 - Rethink narrative (no more xC)
 - What is the purpose of this paper?
