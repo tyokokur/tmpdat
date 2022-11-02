@@ -99,8 +99,8 @@
 - [X] b5c8v0, b5c8v1, b5c8v2,
 - [X] b0c8v0, b0c8v1, b0c8v2
   
-- [-] 10/31: b5c8v3
-- [-] 10/31: b0c8v3
+- [X] 10/31: b5c8v3
+- [X] 10/31: b0c8v3
 
 ** Notes:
 - H multiple candidates (norm and thresh)
