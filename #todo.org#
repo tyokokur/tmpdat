@@ -94,13 +94,14 @@
   - [X] v3 = 0.5*b^3
 
   
-** PROG \chi = 2.8 for b = 1.25, 1.50 (L only)
+** PROG \chi = 2.8 for b = 1.25, 1.50, 2.00 (L only)
 *** Get correct L curve, then fine tune H height (b \approx 0.7)
 - [X] b5c8v0, b5c8v1, b5c8v2,
 - [X] b0c8v0, b0c8v1, b0c8v2
-  
-- [X] 10/31: b5c8v3
-- [X] 10/31: b0c8v3
+- [X] b5c8v3, b0c8v3
+
+- [-] b2c8v3
+- [-] b2c8v4
 
 ** Notes:
 - H multiple candidates (norm and thresh)
