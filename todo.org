@@ -100,8 +100,8 @@
 - [X] b0c8v0, b0c8v1, b0c8v2
 - [X] b5c8v3, b0c8v3
 
-- [-] b2c8v3
-- [-] b2c8v4
+- [-] 11/02 start: b2c8v3
+- [-] 11/02 start: b2c8v4
 
 ** Notes:
 - H multiple candidates (norm and thresh)
