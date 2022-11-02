@@ -3,11 +3,53 @@
 #+STARTUP: indent
 #+STARTUP: entitiespretty
 :end:
-
+* Vol convolution notes
+** Procedure
+- End-point density at 50 mM (pure condensed) is base
+- Multiply base by C < 1 to match max-height of desired end-point
+- Shift by \Delta{}x s.t. resulting coil profile has integral of 0 until
+  condensed layer ends
+** Justifications
+- Claim: Condensed layer is insensitive to shape of coil layer
+- Shift in x reflects electrostatic repulsion of condensed layer from
+  surface
+- Ensuring \int_0^{coil} \phi_p = 0 keeps volume of condensed layer correct
 * NFH Paper
 ** Introduction
-** RD1: Conformational Response to Ionic Strength
-** RD2: 
+- (Figure) Schematic
+** MT
+- (Figure) Discretization method
+- (Figure) Overlay on raw charge dist
+- (Table)  Final charge and chi blocks
+- Coarse grained model; stiffness (b^3/v) and chi_max chosen to fit
+  experimental results, but fall within reasonable values
+  - Rubinstein source for "stiff polymer range"
+  - Source for valid chi range?
+** RD
+- (Figure) Height profile comparison
+  - Quantitative fit reflects accuracy of SCFT and model
+  - Why deviation from linear Debye length (comparison to maximum
+    stretched limit)
+- (Figure) Polymer density profiles
+  - Height response as coil -> coil-cond. transition
+  - Norm calculation as order parameter
+  - Competition between \chi and \alpha
+- (Figure?) Vol frac of chains in cond. vs. chains in dilute
+  - Sharp collapse caused by most of the chains suddenly going into
+    condensed layer
+  -
+- (Figure?) Free Energy
+  - Figure necessary in main body? 
+  - Continuous (2nd order conformational transition)
+- (Figure) Reflectivity spectra
+  - Transition difficult to capture from spectra (coil barely visible)
+    - Calculated spectra are ideal (e.g., no roughness)
+    - AFM much better to capture macroscopic details
+** Conc
+- Model was successful in predicting correct response
+- Conformational change 
+- Reflectivity is useful in confirming predicted density profiles, but
+  not for solely determining height
 
 * NLH
 ** Erika narratives:
