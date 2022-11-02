@@ -65,7 +65,7 @@
 
 
 * PROG NLH Fitting
-** PROG b = 0.75
+** DONE b = 0.75
 - 10/24
   - [X] v0 = 4/3*PI*b^3
   - [X] v1 = 2.0*b^3
