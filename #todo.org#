@@ -37,7 +37,7 @@
 - [X] (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
 - [X] (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
 - [X] (b2v28) b2.2, v1.22, c8
-- [-] 10/31 rerun: (b2v20) {7,6} b2.2, v1.22, c0
+- [X] (b2v20) b2.2, v1.22, c0
 - [-] 11/01 start: b2v22 b2.2, v1.22 c3.2
   - Note: slightly changed \alpha dist; H-H?
 ** PROG b25
