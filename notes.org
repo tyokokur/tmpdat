@@ -34,11 +34,9 @@
   - Height response as coil -> coil-cond. transition
   - Norm calculation as order parameter
   - Competition between \chi and \alpha
-- (Figure?) Vol frac of chains in cond. vs. chains in dilute
-  - Sharp collapse caused by most of the chains suddenly going into
-    condensed layer
-  -
-- (Figure?) Free Energy
+- (Figure) Block 2 density profiles
+  - See if can use to surmise "role" of Block 2
+- (Figure) Free Energy
   - Figure necessary in main body? 
   - Continuous (2nd order conformational transition)
 - (Figure) Reflectivity spectra
