@@ -136,13 +136,13 @@
 ** PROG MFT for \alpha=0.5, \chi=0.4
 - Cs = logspace(2,3,10) \approx {100, 130, 165, 215, 280, 360, 465, 600,
   775, 1000} mM 
-- D = {200..100..10} nm
-*** PROG Cs 100
-- Start
-    
+- D = {200..50..10} nm
+
+*** TODO Cs 1000
+*** TODO Cs 600
+*** DONE Cs 200
 *** DONE Cs 100
-- Looks good, force calculation code finished (cubic spline compared
-  to centered finite difference)
+
 ** Notes:
 - 
 - 30: 0.02546
