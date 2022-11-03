@@ -142,7 +142,12 @@
 *** DONE Cs 100
 - Looks good, force calculation code finished (cubic spline compared
   to centered finite difference)
-
+** Notes:
+- 
+- 30: 0.02546
+- 15: 0.12465
+- 10: 0.17255
+- 04: 0.25322
   
 * TODO Revise NFH paper
 - Rethink narrative (no more xC)
