@@ -216,10 +216,15 @@
 ** Simple calculations for Nafion against charged plate
 *** Guess b, v, chi (Teflon)
 *** Modeling paper for grafting density?
-#+begin_src python
-  def f
+#+begin_src python :session
+  def foo(x):
+      if x>0:
+          return x+1
+      else: return x-1
+  foo(1)
+  
 #+end_src
 
 #+RESULTS:
-: None
+: 2
 
