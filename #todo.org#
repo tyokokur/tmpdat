@@ -235,5 +235,15 @@
 * PYTHON TEST
 
 #+begin_src python :session :results file
+  import matplotlib, matplotlib.pyplot as plt
+  fig = plt.figure(figsize=(3,2))
+  plt.plot([1,3,2])
+  fig.tight_layout()
 
+  fname = './imgs/myfig.pdf'
+  plt.savefig(fname)
+  fname
 #+end_src
+
+#+RESULTS:
+[[file:./imgs/myfig.pdf]]
