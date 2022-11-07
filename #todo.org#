@@ -100,8 +100,8 @@
 - [X] b2c8v3, b2c8v4
 
 Best so far: b5c8v2, b0c8v2, b2c8v3; try to sharpen with \chi
-- [ ] 11/07 start: c0{b5v2, b0v2, b2v3)
-- [ ] 11/07 start: c2{b5v2, b0v2, b2v3)
+- [-] 11/07 start: c0{b0v2, b2v3, b5v2}
+- [-] 11/07 start: c2{b0v2, b2v3, b5v2}
 
 ** Notes:
 - H multiple candidates (norm and thresh)
