@@ -33,12 +33,12 @@
 - [X] (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
 - [X] (b2v28) b2.2, v1.22, c8
 - [X] (b2v20) b2.2, v1.22, c0
-- [-] 11/03 rerun: (b2v22) b2.2, v1.22 c3.2
+- [-] 11/07 rerun: (b2v22): 5,6,7,8,9;  b2.2, v1.22 c3.2
   - Note: slightly changed \alpha dist; H-H?
 ** PROG b25
 - Mini perturb still not sharp enough; try increase b
-- [-] 11/03 rerun: b25v3
-- [-] 11/03 rerun: b25v4
+- [X] 11/03 rerun: b25v3
+- [X] 11/03 rerun: b25v4
   
 ** Notes:
 - b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
