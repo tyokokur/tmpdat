@@ -97,9 +97,10 @@
 - [X] b5c8v0, b5c8v1, b5c8v2,
 - [X] b0c8v0, b0c8v1, b0c8v2
 - [X] b5c8v3, b0c8v3
+- [X] b2c8v3, b2c8v4
 
-- [X] 11/02 start: b2c8v3
-- [-] 11/03 start: b2c8v4
+Best so far: b0c8v2
+- [ ] 11/07 start:
 
 ** Notes:
 - H multiple candidates (norm and thresh)
