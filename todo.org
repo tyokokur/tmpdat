@@ -4,12 +4,7 @@
 #+STARTUP: entitiespretty
 :end:
 
-* PROG Union spreadsheet meeting
-- Make sure turf has voted
-
-  
 * TODO APS registration opens early December
-
 * TODO PE triple point
 
 
@@ -31,6 +26,11 @@
 ***** chi = 2.4, 2.8, 3.0
 ***** b2c4, b2c8, b2c0
 
+** DONE b25
+- Mini perturb still not sharp enough; try increase b
+- [X] 11/03 rerun: b25v3
+- [X] 11/03 rerun: b25v4
+  
 ** PROG Mini perturb
 - [X] (b1v1) b1.0, v0.51, c6: fine tune location of peak
 - [X] *BEST SO FAR* (b1v2) b1.0, v0.52, c6: fine tune location of peak
@@ -38,13 +38,11 @@
 - [X] (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
 - [X] (b2v28) b2.2, v1.22, c8
 - [X] (b2v20) b2.2, v1.22, c0
-- [-] 11/03 rerun: (b2v22) b2.2, v1.22 c3.2
+
+- [-] 11/07 rerun: (b2v22): 5,6,7,8,9;  b2.2, v1.22 c3.2
   - Note: slightly changed \alpha dist; H-H?
-** PROG b25
-- Mini perturb still not sharp enough; try increase b
-- [-] 11/03 rerun: b25v3
-- [-] 11/03 rerun: b25v4
-  
+- [-] 11/07 start: b2v2c1: b2.2 v1.22 c3.1
+  - With slightly changed \alpha dist; H-H
 ** Notes:
 - b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
 - b2.{0,1} b1.2{0,1} c2.8
@@ -100,9 +98,11 @@
 - [X] b5c8v0, b5c8v1, b5c8v2,
 - [X] b0c8v0, b0c8v1, b0c8v2
 - [X] b5c8v3, b0c8v3
+- [X] b2c8v3, b2c8v4
 
-- [X] 11/02 start: b2c8v3
-- [-] 11/03 start: b2c8v4
+Best so far: b5c8v2, b0c8v2, b2c8v3; try to sharpen with \chi
+- [-] 11/07 start: c0{b0v2, b2v3, b5v2}
+- [-] 11/07 start: c2{b0v2, b2v3, b5v2}
 
 ** Notes:
 - H multiple candidates (norm and thresh)
@@ -149,6 +149,7 @@
 - 15: 0.12465
 - 10: 0.17255
 - 04: 0.25322
+
   
 * TODO Revise NFH paper
 - Rethink narrative (no more xC)
