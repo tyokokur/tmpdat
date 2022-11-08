@@ -39,7 +39,7 @@
 - [X] (b2v28) b2.2, v1.22, c8
 - [X] (b2v20) b2.2, v1.22, c0
 
-- [-] 11/07 rerun: (b2v22): 5,6,7,8,9;  b2.2, v1.22 c3.2
+- [-] 11/07 rerun: (b2v22): 9;  b2.2, v1.22 c3.2
   - Note: slightly changed \alpha dist; H-H?
 - [-] 11/07 start: b2v2c1: b2.2 v1.22 c3.1
   - With slightly changed \alpha dist; H-H
@@ -93,7 +93,6 @@
   - [X] v2 = 1*b^3
   - [X] v3 = 0.5*b^3
 
-  
 ** DONE \chi = 2.8 for b = 1.25, 1.50, 2.00 (L only)
 *** Get correct L curve, then fine tune H height (b \approx 0.7)
 - [X] b5c8v0, b5c8v1, b5c8v2,
@@ -101,11 +100,13 @@
 - [X] b5c8v3, b0c8v3
 - [X] b2c8v3, b2c8v4
 
+
 ** Best so far: c2b2v3. Try mixture to see if sufficient
 - Norm is also getting close to exptl resutlts. If c2b2v3 doesn't
   work, try \uarr{}b, \darr{}v just like NFH approach
+** TODO NFH fit (b2.00, v4.00, c3.2), thresh 2.5e-02
 ** TODO Mixture coding 
-** 
+** TODO Mixture runs
 ** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |    v4 |
 |------+--------+--------+-------+-------+-------|
