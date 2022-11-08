@@ -16,10 +16,12 @@
 - Ensuring \int_0^{coil} \phi_p = 0 keeps volume of condensed layer correct
 * NFH Paper
 ** Introduction
-- (Figure) Schematic
+- Robust coarse graining procedure
+- Accurate theoretical model
+- Additional insight when compared to expt
 ** MT
+- (Figure) Schematic
 - (Figure) Discretization method
-- (Figure) Overlay on raw charge dist
 - (Table)  Final charge and chi blocks
 - Coarse grained model; stiffness (b^3/v) and chi_max chosen to fit
   experimental results, but fall within reasonable values
@@ -37,7 +39,6 @@
 - (Figure) Block 2 density profiles
   - See if can use to surmise "role" of Block 2
 - (Figure) Free Energy
-  - Figure necessary in main body? 
   - Continuous (2nd order conformational transition)
 - (Figure) Reflectivity spectra
   - Transition difficult to capture from spectra (coil barely visible)

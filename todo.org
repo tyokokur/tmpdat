@@ -43,6 +43,7 @@
   - Note: slightly changed \alpha dist; H-H?
 - [-] 11/07 start: b2v2c1: b2.2 v1.22 c3.1
   - With slightly changed \alpha dist; H-H
+    
 ** Notes:
 - b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
 - b2.{0,1} b1.2{0,1} c2.8
