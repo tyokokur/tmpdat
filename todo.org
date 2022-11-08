@@ -39,12 +39,10 @@
 - [X] (b2v28) b2.2, v1.22, c8
 - [X] (b2v20) b2.2, v1.22, c0
 
-- [-] 11/07 rerun: (b2v22): 9;  b2.2, v1.22 c3.2
-  - Note: slightly changed \alpha dist; H-H?
+(With slightly changed \alpha dist; H-H)
+- [-] 11/07 rerun: b2v22 (9):  b2.2, v1.22 c3.2
 - [-] 11/07 start: b2v2c1: b2.2 v1.22 c3.1
-  - With slightly changed \alpha dist; H-H
 - [-] 11/08 start: b5v4c1: b2.5 v2.34 c3.1
-  - With slightly changed \alpha dist; H-H
     
 ** Notes:
 - b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
