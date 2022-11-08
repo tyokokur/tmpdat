@@ -93,13 +93,15 @@
   - [X] v2 = 1*b^3
   - [X] v3 = 0.5*b^3
 
-** DONE \chi = 2.8 for b = 1.25, 1.50, 2.00 (L only)
-*** Get correct L curve, then fine tune H height (b \approx 0.7)
+** PROG Get currect L curve
+*** \chi 2.8 (b 1.25, 1.50, 2.00)
 - [X] b5c8v0, b5c8v1, b5c8v2,
 - [X] b0c8v0, b0c8v1, b0c8v2
 - [X] b5c8v3, b0c8v3
 - [X] b2c8v3, b2c8v4
-
+*** \chi 3.0 (b 1.25, 1.50, 2.00)
+- [ ] b1
+*** \chi 3.2
 
 ** Best so far: c2b2v3. Try mixture to see if sufficient
 - Norm is also getting close to exptl resutlts. If c2b2v3 doesn't
