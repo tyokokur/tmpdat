@@ -103,6 +103,9 @@
 
 Best so far: b5c8v2, b0c8v2, b2c8v3; try to sharpen with \chi
 - [X] c0{b0v2, b2v3, b5v2}, c2{b0v2, b2v3, b5v2}
+  - c2b2v3 is best. Try mixture to see if sufficient
+  - Norm is also getting close to exptl resutlts. If c2b2v3 doesn't
+    work, try \uarr{}b, \darr{}v just like NFH approach
 
 ** Notes:
 - H multiple candidates (norm and thresh)
