@@ -124,7 +124,11 @@
 
 
 
-* PROG INT
+* PROG Revise NFH paper
+- See notes.org
+
+  
+* TODO INT
 ** Parameter space:
 - d vs Cs
 - Const. \alpha=0.5, \chi=0.5, N=200, \sigma=0.05, b=1.0, v=4/3\pi{}r^3 (\chi=0.5 to
@@ -141,6 +145,7 @@
 *** TODO Cs 600
 *** DONE Cs 200
 *** DONE Cs 100
+** TODO Code for fluctuations
 
 ** Notes:
 - 
@@ -148,13 +153,6 @@
 - 15: 0.12465
 - 10: 0.17255
 - 04: 0.25322
-
-  
-* TODO Revise NFH paper
-- Rethink narrative (no more xC)
-- What is the purpose of this paper?
-- Beef up discussion
-- Create reflectivity plots
 
   
 * TODO SYSG paper outline [0/4]
