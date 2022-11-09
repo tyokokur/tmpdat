@@ -33,7 +33,7 @@
   
 ** PROG Mini perturb
 - [X] (b1v1) b1.0, v0.51, c6: fine tune location of peak
-- [X] *BEST SO FAR* (b1v2) b1.0, v0.52, c6: fine tune location of peak
+- [X] (b1v2) b1.0, v0.52, c6: fine tune location of peak
 - [X] (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
 - [X] (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
 - [X] (b2v28) b2.2, v1.22, c8
@@ -41,7 +41,7 @@
 
 (With slightly changed \alpha dist; H-H)
 - [X] b2v22:  b2.2, v1.22 c3.2
-- [X] b2v2c1: b2.2 v1.22 c3.1
+- [X] *BEST* b2v2c1: b2.2 v1.22 c3.1
 - [-] 11/08 start: b5v4c1: b2.5 v2.34 c3.1
     
 ** Notes:
