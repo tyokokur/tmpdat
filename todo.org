@@ -102,13 +102,15 @@
 *** \chi 3.0 (b 1.25, 1.50, 2.00)
 - [X] c0b5v2, c0b0v2, c0b2v3
 *** \chi 3.2 (b 1.25, 1.50, 2.00, 2.50)
-- [X] vopt: c2b5v2, c2b0v2, c2b2v3
+- [X] c2b5v2, c2b0v2,
+- [-] 11/09 rerun bc stupid: c2b2v3
 - [-] 11/09 start: c2b5v4
 
 ** Best so far: c2b2v3. Try mixture to see if sufficient
 - Norm is also getting close to exptl resutlts. If c2b2v3 doesn't
   work, try \uarr{}b, \darr{}v just like NFH approach
-** TODO NFH fit (b2.00, v4.00, c3.2), thresh 2.5e-02
+** PROG NFH fit (b2.00, v4.00, c3.2), thresh 2.5e-02
+- 
 ** TODO Mixture coding 
 ** TODO Mixture runs
 ** Calculations
