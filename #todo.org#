@@ -108,7 +108,7 @@
 ** Best so far: c2b2v3. Try mixture to see if sufficient
 - Norm is also getting close to exptl resutlts. If c2b2v3 doesn't
   work, try \uarr{}b, \darr{}v just like NFH approach
-** DONE NFH fit (b2.00, v4.00, c3.2), thresh 2.5e-02
+** PROG NFH fit (b2.00, v4.00, c3.2), thresh 2.5e-02
 - 
 ** TODO Mixture coding 
 ** TODO Mixture runs
