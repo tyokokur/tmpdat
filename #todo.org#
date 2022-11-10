@@ -106,7 +106,9 @@
 - [X] c0b5v2, c0b0v2, c0b2v3
 *** \chi 3.2 (b 1.25, 1.50, 2.00, 2.50)
 - [X] c2b5v2, c2b0v2, c2b2v3, c2b5v4
-- [ ] 
+*** Fine tune best 
+- [-] 11/10 start: b2v7c2: b2.0 v2.70 c3.2
+  - Original: b2.00 v2.68 c3.2 
 
 ** Best so far: c2b2v3. Try mixture to see if sufficient
 - Norm is also getting close to exptl resutlts. If c2b2v3 doesn't
