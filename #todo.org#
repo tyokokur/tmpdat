@@ -46,9 +46,6 @@
 - [-] 11/10 start: f231: b2.2 v1.23 c3.1
   - Increase v a little make transition sharper (like b1.0 v0.5{1,2} c6)
   - Original: b2v2c1
-- [-] 11/10 start: f550: b2.5 v2.35 c3.0
-  - Increase v a little make transition sharper (like b1.0 v0.5{1,2} c6)
-  - Original: 
     
 ** Notes:
 - b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
