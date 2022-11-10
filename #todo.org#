@@ -224,4 +224,13 @@
 *** Modeling paper for grafting density?
 
 * PYTHON TEST
+#+begin_src python
+  def func(x):
+        for i in range(x):
+              sum 
+  return func(3)
+#+end_src
+
+#+RESULTS:
+: None
 
