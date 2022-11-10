@@ -115,7 +115,7 @@
 - Norm is also getting close to exptl resutlts. If c2b2v3 doesn't
   work, try \uarr{}b, \darr{}v just like NFH approach
 ** PROG NFH fit c3.2, thresh 2.5e-02
-- [-] 11/09 start: c2b2v3/*H: b2.00, v4.00 
+- [X] c2b2v3/*H: b2.00, v4.00 
 - [-] 11/09 start: c2b1v{1,2,3}H: b1.00
 ** TODO Mixture coding 
 ** TODO Mixture runs
