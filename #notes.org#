@@ -41,10 +41,12 @@
 - (Figure) Free Energy
   - Continuous (2nd order conformational transition)
 - (Figure) Reflectivity spectra
-  - Growth of peaks correspond to consistent, sharp interface 
+  - Growth of peaks correspond to consistent, sharp interface of
+    condensed layer
   - Transition difficult to capture from spectra (coil barely visible)
     - Calculated spectra are ideal (e.g., no roughness)
     - AFM much better to capture macroscopic details
+      - Should produce sample AFM data to support this? (Fig 4b)
 ** Conc
 - Model was successful in predicting correct response
 - Conformational change 
