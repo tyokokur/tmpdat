@@ -44,7 +44,7 @@
 - [X] *BEST* b2v2c1: b2.2 v1.22 c3.1
 - [X] b5v4c1: b2.5 v2.34 c3.1
   - b2.5 no peak at all
-- [X] f2{3..5}1: b2.2 v1.23 c3.1
+- [X] f2{3..51}: b2.2 v1.23 c3.1
   - Increase v a little make transition sharper (like b1.0 v0.5{1,2} c6)
   - Original: b2v2c1
     
