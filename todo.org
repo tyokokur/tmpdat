@@ -42,7 +42,8 @@
 (With slightly changed \alpha dist; H-H)
 - [X] b2v22:  b2.2, v1.22 c3.2
 - [X] *BEST* b2v2c1: b2.2 v1.22 c3.1
-- [-] 11/08 start: b5v4c1: b2.5 v2.34 c3.1
+- [X] b5v4c1: b2.5 v2.34 c3.1
+  - b2.5 no peak at all
 - [-] 11/10 start: f231: b2.2 v1.23 c3.1
   - Increase v a little make transition sharper (like b1.0 v0.5{1,2} c6)
   - Original: b2v2c1
@@ -114,7 +115,7 @@
 - Norm is also getting close to exptl resutlts. If c2b2v3 doesn't
   work, try \uarr{}b, \darr{}v just like NFH approach
 ** PROG NFH fit c3.2, thresh 2.5e-02
-- [-] 11/09 start: c2b2v3/*H: b2.00, v4.00 
+- [X] c2b2v3/*H: b2.00, v4.00 
 - [-] 11/09 start: c2b1v{1,2,3}H: b1.00
 ** TODO Mixture coding 
 ** TODO Mixture runs
