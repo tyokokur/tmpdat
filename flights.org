@@ -1,0 +1,48 @@
+#+STARTUP: indent
+#+STARTUP: entitiespretty
+
+* Takashi
+
+- Duplicates for all ANA/United (same price, diff times)
+
+| to NRT | Depart | Back  | Airline         | Price | Time (hr) | Notes    |
+|--------+--------+-------+-----------------+-------+-----------+----------|
+| SFO    | 12/31  | 01/12 | United, EVA     | $2749 |      11.5 | Nonstop  |
+|        |        | 01/13 | EVA, ANA        | $2166 |        20 | 3 hr TPE |
+|        |        |       | United, ANA     | $2749 |      11.5 | Nonstop  |
+|        |        |       | Air Canada, ANA | $2464 |        16 | 3 hr YVR |
+| SJC    | 12/31  | 01/12 | ZIPAIR Tokyo    | $1050 |      11.5 | Nonstop  |
+|        |        | 01/13 | "               | $1561 |         " | "        |
+|        |        | 01/14 | "               | $1050 |         " | "        |
+| OAK    | --     | --    | Nothing good    | --    |        -- | --       |
+
+
+| to HND | Depart | Back  | Airline          | Price | Time (hr) | Notes    |
+|--------+--------+-------+------------------+-------+-----------+----------|
+| SFO    | 12/31  | 01/12 | Hawaiian         | $2591 |        17 | 2 hr HNL |
+|        |        |       | ANA, United      | $2811 |      11.5 | Nonstop  |
+|        |        | 01/13 | Hawaiian         | $2602 |        17 | 2 hr HNL |
+|        |        |       | ANA, United      | $2808 |      11.5 | Nonstop  |
+| SJC    | 12/31  | 01/12 | Alaska, Hawaiian | $2682 |        17 | 2 hr HNL |
+|        |        |       | Hawaiian, JAL    | $3256 |        16 | 1 hr HNL |
+|        |        | 01/13 | Alaska, Hawaiian | $2693 |        17 | 2 hr HNL |
+|        |        |       | Hawaiian, JAL    | $3267 |        16 | 1 hr HNL |
+| OAK    | --     | --    | Nothing good     | --    |        -- | --       |
+
+
+* Kotomi and Mom
+| to NRT | Depart | Back  | Airline       | Price | Time (hr) | Notes    |
+|--------+--------+-------+---------------+-------+-----------+----------|
+| CVG    | 12/31  | 01/13 | United        | $1963 |      18.5 | 2 hr EWR |
+|        |        |       | American, JAL | $1966 |        20 | ORD, SFO |
+| LEX    | 12/31  | 01/13 | United, ANA   | $1879 |        18 | 3 hr ORD |
+|        |        |       | American, JAL | $2216 |      18.5 | 2 hr DFW |
+
+
+| to HND | Depart | Back  | Airline      | Price | Time (hr) | Notes      |
+|--------+--------+-------+--------------+-------+-----------+------------|
+| CVG    | 12/31  | 01/13 | United, ANA  | $1966 |        21 | 6 hr ORD   |
+|        |        |       | Delta        | $2114 |        18 | 1.5 hr ATL |
+|        |        |       | America, JAL | $2538 |        18 | 3 hr ORD   |
+| LEX    | 12/31  | 01/13 | United, ANA  | $1882 |        20 | 5 hr ORD   |
+|        |        |       | Delta        | $2118 |        19 | 2.5 hr ATL |
