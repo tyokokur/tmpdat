@@ -46,3 +46,15 @@
 |        |        |       | America, JAL | $2538 |        18 | 3 hr ORD   |
 | LEX    | 12/31  | 01/13 | United, ANA  | $1882 |        20 | 5 hr ORD   |
 |        |        |       | Delta        | $2118 |        19 | 2.5 hr ATL |
+
+* NEW
+
+| Date  | From | To  | Time            | Notes           |
+|-------+------+-----+-----------------+-----------------|
+| 12/31 | SFO  | NRT | 10:40a to 3:00p | 49L             |
+| 01/10 | HND  | TSA | 9:20a to 12:30p | 35G             |
+| 01/16 | TPE  | SFO | 11:35a to 6:55a | +$39 extra seat |
+|       |      |     |                 | $1908.55        |
+
+
+Kotomi 24D
