@@ -20,11 +20,11 @@
   - Last effort to make \kappa_D 4.5 high
   - Will take some \chi and \nu tuning
 
-** NLH/EAD*/c2/c2b1v1H
-- 
-** c2b1v2H
-** c2b1v3H
-** c2b2v3H
+** NLH/EAD*/c2/
+- c2b1v1H
+- c2b1v2H
+- c2b1v3H
+- c2b2v3H
 
 ** c2b5v4
 ** c2b2v3
