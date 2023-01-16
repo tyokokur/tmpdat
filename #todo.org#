@@ -21,10 +21,10 @@
   - Will take some \chi and \nu tuning
 
 ** NLH/EAD*/c2/
-- c2b1v1H
-- c2b1v2H
-- c2b1v3H
-- c2b2v3H
+- [X] c2b1v1H
+- [ ] c2b1v2H
+- [ ] c2b1v3H
+- [ ] c2b2v3H
 
 ** c2b5v4
 ** c2b2v3
