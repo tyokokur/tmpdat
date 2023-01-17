@@ -15,13 +15,18 @@
 - Interaction between 2 brushes
   - WIP [update if rerun]
   - Code should be done, but ran into issues when trying to run with NFH
+- Paper remains 
 ** NLH
 - NLH slide 27
   - Fairly happy with NFL fit. Want to try mixture and see if further
     improvement necessary first
 - NLH slide 29
   - Happy with NFH fit. Uses same AA chis and thresh as NFL.
-- Mixture coding WIP. 
+- Mixture coding WIP. Have done it before, so should be straight-forward
+** PE
+- Kent form needed from Rui
+** SYSG
+- Wan
 
 * TODO APS registration opens early December
 * TODO PE triple point
