@@ -125,7 +125,7 @@
 - Run: \sigma 0.030; Nm 150; \alpha 0.30; \chi 1.5
 Verification runs (NLH/test/)
 - orig: original from NLH/EAD*
-- single: new with 1 protein
+- single: new with 1 protein, 3 blocks
 - double: 2
 - triple: 3
 ** TODO Mixture runs
