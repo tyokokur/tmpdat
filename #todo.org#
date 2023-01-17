@@ -17,7 +17,11 @@
   - Code should be done, but ran into issues when trying to run with NFH
 ** NLH
 - NLH slide 27
-  - Fairly happy with NLH fit. Want to try mixture and see if further improvement necessary first
+  - Fairly happy with NFL fit. Want to try mixture and see if further
+    improvement necessary first
+- NLH slide 29
+  - Happy with NFH fit. Uses same AA chis and thresh as NFL.
+- Mixture coding WIP. 
 
 * TODO APS registration opens early December
 * TODO PE triple point
