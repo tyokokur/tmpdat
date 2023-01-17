@@ -7,41 +7,7 @@
 * TODO APS registration opens early December
 * TODO PE triple point
 
-
-* PROG Finished runs (need to sort)
-** PROG 
-- b2.2 v1.20 c3.10 (f201)
-  - Since \darr{}v makes sharper peak
-- b2.5 v1.25 c3.20 (f250)
-  - Last effort to make \kappa_D 4.5 high
-  - Will take some \chi and \nu tuning
-
-** [X] b2v5c2
-** b2v2c1
-** [X] b2v7c2
-** b5v4c1
-
-** b2v22
-
-** int_ NFH
-
-** DONE
-- NFH/f/f231
-  - [X] b2.2 v1.23 c310
-- NFH/f/f241
-  - [X] b2.2 v.124 c310
-
-- NLH/EAD*/c2/
-  - [X] c2b1v1H
-  - [X] c2b1v2H
-  - [X] c2b1v3H
-
-- c2b5v4
-  - [X] L
-- c2b2v3
-  - [X] L
-  - [ ] H 
-
+  
 * PROG NFH Fitting
 ** DONE Perturb (~%20) v sweep
 **** b10 v2=0.50: 
@@ -76,11 +42,13 @@
 (With slightly changed \alpha dist; H-H)
 - [X] b2v22:  b2.2, v1.22 c3.2
 - [X] *BEST* b2v2c1: b2.2 v1.22 c3.1
-- [X] b5v4c1: b2.5 v2.34 c3.1
-  - b2.5 no peak at all
-- [X] f2{3..5}: b2.2 v1.23 c3.1
-  - Increase v a little make transition sharper (like b1.0 v0.5{1,2} c6)
-  - Original: b2v2c1
+- [-] b5v4c1: b2.5 v2.34
+  - c3.1 no peak at all
+  - c3.2 WIP (f250)
+- [-] f2{0..4}: b2.2 v1.23 c3.1
+  - v1.23, v1.24 makes less slightly less sharp
+  - v1.20 WIP (f201)
+
 
 ** Notes:
 - b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
@@ -131,7 +99,7 @@
   - [X] v2 = 1*b^3
   - [X] v3 = 0.5*b^3
 
-** PROG Get currect L curve
+** DONE Get currect L curve
 *** \chi 2.8 (b 1.25, 1.50, 2.00)
 - [X] b5c8v0, b5c8v1, b5c8v2,
 - [X] b0c8v0, b0c8v1, b0c8v2
@@ -143,17 +111,24 @@
 - [X] c2b5v2, c2b0v2, c2b2v3, c2b5v4
 *** Fine tune best 
 - b2v7c2: b2.0 v2.70 c3.2
-  - Original: c2b2v3: b2.00 v2.68 c3.2
-- 11/11 start: b2v5c2: b2.0 v2.75 c3.2
-  - Original: c2b2v3: b2.00 v2.68 c3.2
+  - Thresh 2.00e-02 better than c2b2v3
+- b2v5c2: b2.0 v2.75 c3.2
+  - Thresh 2.00e-02 better than c2b2v3
 
 ** Best so far: c2b2v3. Try mixture to see if sufficient
 - Norm is also getting close to exptl resutlts. If c2b2v3 doesn't
   work, try \uarr{}b, \darr{}v just like NFH approach
 ** PROG NFH fit c3.2, thresh 2.5e-02
 - [X] c2b2v3/*H: b2.00, v4.00 
-- [-] 11/09 start: c2b1v{1,2,3}H: b1.00
-** TODO Mixture coding 
+- [X] c2b1v{1,2,3}H: b1.00
+  - *BEST* v3 matches well (both thresh 2.5e-2 and 2.0e-2)
+** PROG Mixture coding
+- Run: \sigma 0.030; Nm 150; \alpha 0.30; \chi 1.5
+Verification runs (NLH/test/)
+- orig: original from NLH/EAD*
+- single: new with 1 protein
+- double: 2
+- triple: 3
 ** TODO Mixture runs
 ** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |    v4 |
