@@ -123,7 +123,7 @@
   - [X] v2 = 1*b^3
   - [X] v3 = 0.5*b^3
 
-** PROG Get currect L curve
+** DONE Get currect L curve
 *** \chi 2.8 (b 1.25, 1.50, 2.00)
 - [X] b5c8v0, b5c8v1, b5c8v2,
 - [X] b0c8v0, b0c8v1, b0c8v2
