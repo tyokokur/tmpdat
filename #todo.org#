@@ -123,8 +123,9 @@
 - [X] c2b1v{1,2,3}H: b1.00
   - *BEST* v3 matches well (both thresh 2.5e-2 and 2.0e-2)
 ** PROG Mixture coding
+- Run: \sigma 0.030; Nm 150; \alpha 0.30; \chi 1.5
 Verification runs (NLH/test/)
-- 
+- orig: original from NLH/EAD* 
 ** TODO Mixture runs
 ** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |    v4 |
