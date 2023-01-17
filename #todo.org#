@@ -122,7 +122,7 @@
 - [X] c2b2v3/*H: b2.00, v4.00 
 - [X] c2b1v{1,2,3}H: b1.00
   - *BEST* v3 matches well (both thresh 2.5e-2 and 2.0e-2)
-** TODO Mixture coding 
+** PROG Mixture coding 
 ** TODO Mixture runs
 ** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |    v4 |
