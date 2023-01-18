@@ -122,14 +122,19 @@
 - [X] c2b2v3/*H: b2.00, v4.00 
 - [X] c2b1v{1,2,3}H: b1.00
   - *BEST* v3 matches well (both thresh 2.5e-2 and 2.0e-2)
-** PROG Mixture coding
-- Run: \sigma 0.030; Nm 150; \alpha 0.30; \chi 1.5
+** DONE Mixture coding
+- Run: \sigma 0.030; Nm 150; \alpha 0.50; \chi 1.5
 Verification runs (NLH/test/)
 - orig: original from NLH/EAD*
+  - F = -8.54935; H = 23.57
 - single: new with 1 protein, 3 blocks
+  - F = -8.54935; H = 23.57
 - double: 2
+  - F = -8.54936; H = 23.57
 - triple: 3
-** TODO Mixture runs
+  - F = -8.54936; H = 23.57
+** PROG Mixture runs
+- 
 ** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |    v4 |
 |------+--------+--------+-------+-------+-------|
