@@ -119,7 +119,6 @@
     | -5.46923 | -5.52008 | -4.95240 | -5.00074 | -4.68733 | -4.73383 | -4.46136 | -4.46136 |
 - WHY IS HEIGHT INCREASING?
 
-** b10v102
 
 * NAF
 ** Clay meeting: SCFT to mass frac [0/3]
