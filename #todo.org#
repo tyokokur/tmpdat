@@ -45,10 +45,11 @@
   - c3.1 no peak at all
   - WIP c3.15 (f515) --> 7,9,10 still going
   - c3.2 (f250) transition too far left
-- [X] f2{0..4}: b2.2 v1.23 c3.1
+- [-] f2{0..4}: b2.2 v1.23 c3.1
   - v1.23, v1.24 
   - *BEST* v1.20 (f201)
     - \kappa_D 4.5 is better, but increase not dramatic enough
+    - WIP \kappa_D 3.5 and 3.0 to see if can reach correct heights just later
 - [-] b2.2 v1.20 c3.05 (f205)
   - Combination of 2 previous sweeps
 
