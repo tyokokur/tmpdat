@@ -44,7 +44,7 @@
 - [X] b2v2c1: b2.2 v1.22 c3.1
 - [-] b5v4c1: b2.5 v2.34
   - c3.1 no peak at all
-  - c3.15 WIP (f515) --> 7,9,10 still going
+  - WIP c3.15 (f515) --> 7,9,10 still going
   - c3.2 (f250) transition too far left
 - [X] f2{0..4}: b2.2 v1.23 c3.1
   - v1.23, v1.24 
@@ -121,7 +121,7 @@
 ** Best so far: c2b2v3. Try mixture to see if sufficient
 - Norm is also getting close to exptl resutlts. If c2b2v3 doesn't
   work, try \uarr{}b, \darr{}v just like NFH approach
-** PROG NFH fit c3.2, thresh 2.5e-02
+** DONE NFH fit c3.2, thresh 2.5e-02
 - [X] c2b2v3/*H: b2.00, v4.00 
 - [X] c2b1v{1,2,3}H: b1.00
   - *BEST* v3 matches well (both thresh 2.5e-2 and 2.0e-2)
@@ -131,8 +131,8 @@
 ** PROG Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
   - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
-- 80 mol% NFL (0.0200)
-- 30 mol% NFL (0.0075)
+- mix80: 80 mol% NFL (0.0200)
+- mix30: 30 mol% NFL (0.0075)
 ** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |    v4 |
 |------+--------+--------+-------+-------+-------|
