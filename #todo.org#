@@ -47,8 +47,8 @@
   - c3.15 WIP (f515) --> 7,9,10 still going
   - c3.2 WIP (f250) transition too far left
 - [-] f2{0..4}: b2.2 v1.23 c3.1
-  - v1.23, v1.24 makes less slightly less sharp
-  - v1.20 WIP (f201)
+  - v1.23, v1.24 
+  - v1.20 (f201): \kappa_D 4.5 is better, but increase not dramatic enough
 
 ** Notes:
 - b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
