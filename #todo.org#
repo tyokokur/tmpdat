@@ -72,6 +72,9 @@
 #+TBLFM: $2=$1^3*0.33;%.2f::$3=$1^3*0.15;%.2f
 
 
+* PROG int_ NFH
+- sdf
+
 * PROG NLH Fitting
 ** DONE b = 0.75
 - 10/24
@@ -149,7 +152,8 @@
   - 01/18 start: 4mM only first (Should be largest distance apart)
 
 
-* PROG 
+* PROG int_ SYSG
+- sdf
     
 * TODO INT
 ** Parameter space:
