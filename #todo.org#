@@ -156,12 +156,12 @@
 See if interaction profiles interesting and not too complicated
 - If complicated, warranted for a new paper
 ** 1C - 1C (\chi 2.0)
-** 1Cd - 1Cd (\chi 
-** 2C - 2C
-** 2Cd - 2Cd
-** 3C - 3C
-** 3Cd - 3Cd
-** 4C - 4C 
+** 1Cd - 1Cd (\alpha 0.2, \chi 0.8)
+** 2C - 2C (\chi 1.75)
+** 2Cd - 2Cd (\alpha 0.3,  \chi 1.1?)
+** 3C - 3C (\chi 1.45) 
+** 3Cd - 3Cd (\alpha 0.4, 
+** 4C - 4C (\chi 1.25)
 ** 4Cd - 4Cd
     
 * TODO INT
