@@ -44,11 +44,11 @@
 - [X] *BEST* b2v2c1: b2.2 v1.22 c3.1
 - [-] b5v4c1: b2.5 v2.34
   - c3.1 no peak at all
-  - c3.2 WIP (f250)
+  - c3.15 WIP (f515)
+  - c3.2 WIP (f250) transition too far left
 - [-] f2{0..4}: b2.2 v1.23 c3.1
   - v1.23, v1.24 makes less slightly less sharp
   - v1.20 WIP (f201)
-
 
 ** Notes:
 - b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
@@ -123,13 +123,13 @@
 - [X] c2b1v{1,2,3}H: b1.00
   - *BEST* v3 matches well (both thresh 2.5e-2 and 2.0e-2)
 ** PROG Mixture coding
-- Run: \sigma 0.030; Nm 150; \alpha 0.30; \chi 1.5
-Verification runs (NLH/test/)
-- orig: original from NLH/EAD*
-- single: new with 1 protein
-- double: 2
-- triple: 3
-** TODO Mixture runs
+- b0 changed when used (sovDif_ CR)
+- v0 changed in sov_ PB, but kept v01 for freeE integ
+** PROG Mixture runs
+- L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
+  - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
+- 80 mol% NFL (0.0200)
+- 30 mol% NFL (0.0075)
 ** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |    v4 |
 |------+--------+--------+-------+-------+-------|

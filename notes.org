@@ -3,6 +3,36 @@
 #+STARTUP: indent
 #+STARTUP: entitiespretty
 :end:
+
+* Rui Meeting
+** NFH
+- p_ update slide 31
+  - Forward progress in terms of getting 4 nm more drastically increased
+- p_ update slide 32
+  - Still not impressive when computed data shown as line only
+    - Keep trying, or circles okay, or just move forward from here?
+  - Density profiles show coil to coil-condensed transition
+- Paper has been edited to include coil to coil-condensed, but can't
+  be completed until correct height profile is made
+  - Interaction between 2 brushes for addtl "characterization"
+    - WIP [update if rerun]
+    - Code should be done, but ran into issues when trying to run with NFH
+  - Reflectivity spectra discussion still needs to be done
+** NLH
+- NLH slide 27
+  - Fairly happy with NFL fit. Want to try mixture and see if further
+    improvement necessary first
+- NLH slide 29
+  - Happy with NFH fit. Uses same AA chis and thresh as NFL.
+- Mixture coding WIP. Have done it before, so should be straight-forward
+- Meeting with Erika on Monday
+** PE
+- Kent form needed from Rui
+** SYSG
+- Interaction WIP (wanted to see if add to characterization section)
+- Code is finished, just need to run and analyze
+- Paper needs to be outlined, but data is finished
+
 * Vol convolution notes
 ** Procedure
 - End-point density at 50 mM (pure condensed) is base
