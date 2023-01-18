@@ -135,6 +135,8 @@ Verification runs (NLH/test/)
   - F = -8.54936; H = 23.57
 ** PROG Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
+  - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3
+- 
 ** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |    v4 |
 |------+--------+--------+-------+-------+-------|
