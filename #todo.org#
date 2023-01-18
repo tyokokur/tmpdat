@@ -131,8 +131,8 @@
 ** PROG Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
   - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
-- mix80: 80 mol% NFL (0.0200)
-- mix30: 30 mol% NFL (0.0075)
+- [-] mix80: 80 mol% NFL (0.0200)
+- [-] mix30: 30 mol% NFL (0.0075)
 ** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |    v4 |
 |------+--------+--------+-------+-------+-------|
