@@ -123,7 +123,8 @@
 - [X] c2b1v{1,2,3}H: b1.00
   - *BEST* v3 matches well (both thresh 2.5e-2 and 2.0e-2)
 ** PROG Mixture coding
--  
+- b0 changed when used (sovDif_ CR)
+- v0 changed in sov_ PB, but kept v01 for freeE integ
 ** PROG Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
   - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
