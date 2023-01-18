@@ -155,7 +155,14 @@
 * PROG int_ SYSG
 See if interaction profiles interesting and not too complicated
 - If complicated, warranted for a new paper
-**  
+** 1C - 1C (\chi 2.0)
+** 1Cd - 1Cd (\chi 
+** 2C - 2C
+** 2Cd - 2Cd
+** 3C - 3C
+** 3Cd - 3Cd
+** 4C - 4C 
+** 4Cd - 4Cd
     
 * TODO INT
 ** Parameter space:
