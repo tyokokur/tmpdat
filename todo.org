@@ -146,9 +146,8 @@
 
 * PROG Revise NFH paper
 - See notes.org
-- [ ] Force curves
-  - 11/11 start: 4mM only first 
-
+- [-] Force curves
+  - 01/18 start: 4mM only first (Should be largest distance apart)
     
 * TODO INT
 ** Parameter space:
