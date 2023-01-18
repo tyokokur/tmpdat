@@ -42,7 +42,7 @@
 (With slightly changed \alpha dist; H-H)
 - [X] b2v22:  b2.2, v1.22 c3.2
 - [X] b2v2c1: b2.2 v1.22 c3.1
-- [X] b5v4c1: b2.5 v2.34
+- [-] b5v4c1: b2.5 v2.34
   - c3.1 no peak at all
   - c3.15 WIP (f515) --> 7,9,10 still going
   - c3.2 (f250) transition too far left
