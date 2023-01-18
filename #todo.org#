@@ -50,6 +50,8 @@
   - v1.23, v1.24 
   - *BEST* v1.20 (f201)
     - \kappa_D 4.5 is better, but increase not dramatic enough
+- [-] b2.2 v1.20 c3.05 (f205)
+  - Combination of 2 previous sweeps
 
 ** Notes:
 - b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
