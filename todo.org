@@ -6,7 +6,6 @@
 
 * TODO APS registration opens early December
 * TODO PE triple point
-
   
 * PROG NFH Fitting
 ** DONE Perturb (~%20) v sweep
@@ -46,10 +45,11 @@
   - c3.1 no peak at all
   - WIP c3.15 (f515) --> 7,9,10 still going
   - c3.2 (f250) transition too far left
-- [X] f2{0..4}: b2.2 v1.23 c3.1
+- [-] f2{0..4}: b2.2 v1.23 c3.1
   - v1.23, v1.24 
   - *BEST* v1.20 (f201)
     - \kappa_D 4.5 is better, but increase not dramatic enough
+    - WIP \kappa_D 3.5 and 3.0 to see if can reach correct heights just later
 - [-] b2.2 v1.20 c3.05 (f205)
   - Combination of 2 previous sweeps
 
@@ -72,6 +72,9 @@
 | 3.0 | 8.91 | 4.05 |
 #+TBLFM: $2=$1^3*0.33;%.2f::$3=$1^3*0.15;%.2f
 
+
+* PROG int_ NFH
+- If good, add to characterization section of paper
 
 * PROG NLH Fitting
 ** DONE b = 0.75
@@ -148,7 +151,25 @@
 - See notes.org
 - [-] Force curves
   - 01/18 start: 4mM only first (Should be largest distance apart)
-    
+
+
+* PROG int_ SYSG
+See if interaction profiles interesting and not too complicated
+If complicated, warranted for a new paper
+- [-] 1C - 1C (\chi 2.0)
+  - H \approx 25 (single)
+  - Run Lx = [100, 90, 80, 70, 60, 50, 40] first.
+    - If works, check interaction and make finer or expand, etc.
+- [ ] 1Cd - 1Cd (\alpha 0.2, \chi 0.8?)
+- [-]  2C - 2C (\chi 1.75)
+  - DO THIS AFTER 1C CHECK
+** 2Cd - 2Cd (\alpha 0.3,  \chi 1.1?)
+** 3C - 3C (\chi 1.45) 
+** 3Cd - 3Cd (is there a meta example?)
+** 4C - 4C (\chi 1.25)
+** 4Cd - 4Cd (\alpha 0.4, \chi 1.2?)
+
+
 * TODO INT
 ** Parameter space:
 - d vs Cs
@@ -176,8 +197,8 @@
 - 04: 0.25322
 
   
-* TODO SYSG paper outline [0/4]
-- [-] Fix height profile
+* TODO SYSG paper outline [1/4]
+- [X] Fix height profile
   - a4
     - p1: 2.00, 1.95, 1.90, 1.85 (weird sharp trend)
       - DONE Rerun if needed. Results seem correct
