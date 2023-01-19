@@ -8,6 +8,10 @@
 * TODO PE triple point
   
 * PROG NFH Fitting
+*MAIN FINDINGS*
+- b0 and \chi main tuning levers
+- \uarr{}b0 increases H for high \kappa_D (see Slide 31 geneer
+- \uarr{}\chi shifts transition to right (see b2 v2 chi 2.{4,6,8}
 ** DONE Perturb (~%20) v sweep
 **** b10 v2=0.50: 
 ***** v = 0.40, 0.60
