@@ -41,15 +41,14 @@
 (With slightly changed \alpha dist; H-H)
 - [X] b2v22:  b2.2, v1.22 c3.2
 - [X] b2v2c1: b2.2 v1.22 c3.1
-- [-] b5v4c1: b2.5 v2.34
+- [X] b5v4c1: b2.5 v2.34
   - c3.10 no peak at all
   - c3.15 (f515) too far left
   - c3.20 (f250) transition too far left
-- [-] f2{0..4}: b2.2 v1.23 c3.1
+- [X] f2{0..4}: b2.2 v1.23 c3.1
   - v1.23, v1.24 
   - *BEST* v1.20 (f201)
-    - \kappa_D 4.5 is better, but increase not dramatic enough
-    - \kappa_D 3.5 and 3.0 to see if can reach correct heights just later
+    - Extended \kappa_D doesn't reach high enough
 - [-] b2.2 v1.20 c3.05 (f205)
   - Combination of 2 previous sweeps
 
