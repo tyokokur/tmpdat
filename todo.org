@@ -8,6 +8,38 @@
 * TODO PE triple point
   
 * PROG NFH Fitting
+*MAIN FINDINGS*
+- b0 and \chi main tuning levers
+- \uarr{}b0 increases H for high \kappa_D
+  - Cannot change just b0; must change \chi & \nu to get transition
+- \uarr{}\chi shifts transition to right (see b2 v2 chi 2.{4,6,8})
+  - Also increases H slightly for high \kappa_D
+- \nu mainly used to keep density profiles "realistic," e.g. \phi > 0.5 for
+  condensed region
+  - \uarr{}\nu can also decrease H for high \kappa_D
+** PROG Mini perturb
+- [X] (b1v1) b1.0, v0.51, c6: fine tune location of peak
+- [X] (b1v2) b1.0, v0.52, c6: fine tune location of peak
+- [X] (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
+- [X] (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
+- [X] (b2v28) b2.2, v1.22, c8
+- [X] (b2v20) b2.2, v1.22, c0
+
+(With slightly changed \alpha dist; H-H)
+- [X] b2v22:  b2.2, v1.22 c3.2
+- [X] b2v2c1: b2.2 v1.22 c3.1
+- [X] b5v4c1: b2.5 v2.34
+  - c3.10 no peak at all
+  - c3.15 (f515) too far left
+  - c3.20 (f250) transition too far left
+- [X] f2{0..4}: b2.2 v1.23 c3.1
+  - v1.23, v1.24 
+  - *BEST* v1.20 (f201)
+    - Extended \kappa_D doesn't reach high enough
+- [X] b2.2 v1.20 c3.05 (f205)
+  - Combination of 2 previous sweeps
+  - Not good enough
+
 ** DONE Perturb (~%20) v sweep
 **** b10 v2=0.50: 
 ***** v = 0.40, 0.60
@@ -30,29 +62,6 @@
 - [X] 11/03 rerun: b25v3
 - [X] 11/03 rerun: b25v4
   
-** PROG Mini perturb
-- [X] (b1v1) b1.0, v0.51, c6: fine tune location of peak
-- [X] (b1v2) b1.0, v0.52, c6: fine tune location of peak
-- [X] (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
-- [X] (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
-- [X] (b2v28) b2.2, v1.22, c8
-- [X] (b2v20) b2.2, v1.22, c0
-
-(With slightly changed \alpha dist; H-H)
-- [X] b2v22:  b2.2, v1.22 c3.2
-- [X] b2v2c1: b2.2 v1.22 c3.1
-- [-] b5v4c1: b2.5 v2.34
-  - c3.1 no peak at all
-  - WIP c3.15 (f515) --> 7,9,10 still going
-  - c3.2 (f250) transition too far left
-- [-] f2{0..4}: b2.2 v1.23 c3.1
-  - v1.23, v1.24 
-  - *BEST* v1.20 (f201)
-    - \kappa_D 4.5 is better, but increase not dramatic enough
-    - WIP \kappa_D 3.5 and 3.0 to see if can reach correct heights just later
-- [-] b2.2 v1.20 c3.05 (f205)
-  - Combination of 2 previous sweeps
-
 ** Notes:
 - b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
 - b2.{0,1} b1.2{0,1} c2.8
