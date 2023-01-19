@@ -35,10 +35,11 @@
 - [X] b2.2 v1.20 c3.05 (f205)
   - Combination of 2 previous sweeps
   - Not good enough
-- [X] b5v4c1: b2.5 v2.34
+- [-] b5v4c1: b2.5 v2.34
   - c3.10 no peak at all
   - c3.15 (f515) too far left
   - c3.20 (f250) transition too far left
+  - [-] c3.30 (f253)
   - [-] c3.25 (f255)
 
 ** DONE Perturb (~%20) v sweep
