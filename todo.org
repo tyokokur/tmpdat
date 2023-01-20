@@ -6,7 +6,8 @@
 
 * TODO APS registration opens early December
 * TODO PE triple point
-  
+
+
 * PROG NFH Fitting
 *MAIN FINDINGS*
 - b0 and \chi main tuning levers
@@ -85,9 +86,24 @@
 
 
 * PROG int_ NFH
-- If good, add to characterization section of paper
+- int_ NFH looks good
+- int_ NFH2 to make finer profile for interacting region
+- For better force profile, target wanted D
+  - e.g. @ D = 50, cFD on F(D=50.5) & F(D=49.5)
 
+    
 * PROG NLH Fitting
+** TODO /CHECK/ Mixture coding
+- b0 changed when used (sovDif_ CR)
+- v0 changed in sov_ PB, but kept v01 for freeE integ
+- /b0/ needs to be changed when phA calculated \phi \ne \int{}ds \phi1 + \int{}ds \phi2
+** PROG Mixture runs
+- L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
+  - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
+- [-] mix80: 80 mol% NFL (0.0200)
+  - RERUN after b0 fixed
+- [-] mix30: 30 mol% NFL (0.0075)
+  - RERUN after b0 fixed
 ** DONE b = 0.75
 - 10/24
   - [X] v0 = 4/3*PI*b^3
@@ -136,14 +152,6 @@
 - [X] c2b2v3/*H: b2.00, v4.00 
 - [X] c2b1v{1,2,3}H: b1.00
   - *BEST* v3 matches well (both thresh 2.5e-2 and 2.0e-2)
-** DONE /CHECK/ Mixture coding
-- b0 changed when used (sovDif_ CR)
-- v0 changed in sov_ PB, but kept v01 for freeE integ
-** PROG Mixture runs
-- L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
-  - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
-- [-] mix80: 80 mol% NFL (0.0200)
-- [-] mix30: 30 mol% NFL (0.0075)
 ** Calculations
 |   b0 |     v0 |     v1 |    v2 |    v3 |    v4 |
 |------+--------+--------+-------+-------+-------|
@@ -162,6 +170,7 @@
 - See notes.org
 - [-] Force curves
   - 01/18 start: 4mM only first (Should be largest distance apart)
+  - 01/19 update: 4mM initial good, refining intersecting points
 
 
 * PROG int_ SYSG
