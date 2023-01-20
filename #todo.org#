@@ -91,8 +91,9 @@
 * PROG int_ NFH
 - int_ NFH looks good
 - int_ NFH2 to make finer profile for interacting region
-- For better force profile, target wanted D
+- For better force profile, target desired D
   - e.g. @ D = 50, cFD on F(D=50.5) & F(D=49.5)
+- int_ NFH3 focus on moving brushes closer
 
     
 * PROG NLH Fitting
