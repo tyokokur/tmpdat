@@ -85,7 +85,10 @@
 
 
 * PROG int_ NFH
-- If good, add to characterization section of paper
+- int_ NFH looks good
+- int_ NFH2 to make finer profile for interacting region
+- For better force profile,
+  - e.g. @ D = 50, D
 
 * PROG NLH Fitting
 ** DONE /CHECK/ Mixture coding
