@@ -40,8 +40,11 @@
   - c3.10 no peak at all
   - c3.15 (f515) too far left
   - c3.20 (f250) transition too far left
-  - [-] c3.30 (f253)
-  - [-] c3.25 (f255)
+  - [X] c3.25 (f255)
+  - [X] c3.30 (f253)
+  - [-] c3.35 (f335)
+    - If it looks similar to b2.2 v1.20 c1, consider changing tactic
+
 
 ** DONE Perturb (~%20) v sweep
 **** b10 v2=0.50: 
@@ -88,15 +91,18 @@
 * PROG int_ NFH
 - int_ NFH looks good
 - int_ NFH2 to make finer profile for interacting region
-- For better force profile, target wanted D
+- For better force profile, target desired D
   - e.g. @ D = 50, cFD on F(D=50.5) & F(D=49.5)
+- int_ NFH3 focus on moving brushes closer
 
     
 * PROG NLH Fitting
-** TODO /CHECK/ Mixture coding
+** PROG /CHECK/ Mixture coding
 - b0 changed when used (sovDif_ CR)
 - v0 changed in sov_ PB, but kept v01 for freeE integ
+  - Check equations if rigorous
 - /b0/ needs to be changed when phA calculated \phi \ne \int{}ds \phi1 + \int{}ds \phi2
+- v0 needs to be changed for FH
 ** PROG Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
   - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
