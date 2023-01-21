@@ -97,10 +97,11 @@
 
     
 * PROG NLH Fitting
-** TODO /CHECK/ Mixture coding
+** DONE /CHECK/ Mixture coding
 - b0 changed when used (sovDif_ CR)
 - v0 changed in sov_ PB, but kept v01 for freeE integ
 - /b0/ needs to be changed when phA calculated \phi \ne \int{}ds \phi1 + \int{}ds \phi2
+- 
 ** PROG Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
   - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
