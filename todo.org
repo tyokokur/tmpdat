@@ -4,7 +4,6 @@
 #+STARTUP: entitiespretty
 :end:
 
-* TODO APS registration opens early December
 * TODO PE triple point
 
 
@@ -36,14 +35,16 @@
 - [X] b2.2 v1.20 c3.05 (f205)
   - Combination of 2 previous sweeps
   - Not good enough
-- [-] b5v4c1: b2.5 v2.34
+- [-] b2.5 v1.25
   - c3.10 no peak at all
   - c3.15 (f515) too far left
   - c3.20 (f250) transition too far left
-  - [X] c3.25 (f255)
-  - [X] c3.30 (f253)
-  - [-] c3.35 (f335)
-    - If it looks similar to b2.2 v1.20 c1, consider changing tactic
+  - c3.25 (f255)
+  - c3.30 (f253)
+  - [-] c3.35 (f335) y-range correct, but transition too far right now
+    - Rerun; typo in chi block 5
+    - If fine tuning doesn't work, may need to fine tune b3.0
+  - [-] c3.32 (f332)
 
 
 ** DONE Perturb (~%20) v sweep
