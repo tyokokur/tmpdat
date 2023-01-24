@@ -94,8 +94,10 @@
 - For better force profile, target desired D
   - e.g. @ D = 50, cFD on F(D=50.5) & F(D=49.5)
 - int_ NFH3 focus on moving brushes closer
-  - No longer monotonic down
-- [-] int_ NFH4 continue moving closer
+  - Force not monotonic; splice error or interaction btw brushes?
+- int_ NFH4 continue moving closer
+  - Formation of overlapping layer
+- [ ] int_ NFH5 continue moving closer
 
     
 * PROG NLH Fitting
