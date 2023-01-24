@@ -109,7 +109,6 @@
 - v0 needs to be changed for FH
 ** TODO Investigate role of \nu_0 and \nu_s
 - Terms that use \nu_0
-  - V_ p (line 304) --> R_ p
   - delt_ PS _ v0 (line 324)
   - integ_ cons (line 356)
   - freeEnergy_ bulk (line 390)
