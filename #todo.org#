@@ -109,20 +109,9 @@
 - v0 needs to be changed for FH
 ** TODO Investigate role of \nu_0 and \nu_s
 - Terms that use \nu_0
-  - [X] V_ p (line 304) --> R_ p
-    - Only used in initializing fields
-  - [X] delt_ PS _ v0 (line 324)
-    - Unused
-  - integ_ cons (line 356)
-    - 
+  - [ ] integ_ cons (line 356)
   - [ ] freeEnergy_ bulk (line 390)
     - Used to cancel out integ_ cons
-  - [X] V_ p (line 396)
-    - Only used in initializing fields
-  - [X] R_ p (line 399)
-    - Only used in initializing fields
-  - [X] rho_ fix (line 406)
-    - Only used in initializing fields
   - [ ] free_ elec_ polym (line 742)
   - [ ] Cancel out integ_ cons
     - free_ elec_ polym (line 756)
@@ -130,6 +119,16 @@
     - free_ elec_ ion (line 758)
   - [ ] solve_ PB()
     - rho_ elec_ polym (line 1143 and 1144)
+  - [X] V_ p (line 304) --> R_ p
+    - Only used in initializing fields
+  - [X] delt_ PS _ v0 (line 324)
+    - Unused
+  - [X] V_ p (line 396)
+    - Only used in initializing fields
+  - [X] R_ p (line 399)
+    - Only used in initializing fields
+  - [X] rho_ fix (line 406)
+    - Only used in initializing fields
 ** PROG Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
   - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
