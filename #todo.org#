@@ -108,7 +108,15 @@
   - Check equations if rigorous
 - v0 needs to be changed for FH
 ** TODO Investigate role of \nu_0 and \nu_s
-- sdf
+- Terms that use \nu_0
+  - V_ p (line 304)
+  - delt_ PS _ v0 (line 324)
+  - integ_ cons (line 356)
+  - freeEnergy_ bulk (line 390)
+  - V_ p (line 396)
+  - R_ p (line 399)
+  - rho_ fix (line 406)
+  - free_ elec_ o
 ** PROG Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
   - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
