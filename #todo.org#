@@ -109,14 +109,21 @@
 - v0 needs to be changed for FH
 ** TODO Investigate role of \nu_0 and \nu_s
 - Terms that use \nu_0
+  - V_ p (line 304) --> R_ p
+    - Only used in initializing fields
   - delt_ PS _ v0 (line 324)
+    - Unused
   - integ_ cons (line 356)
   - freeEnergy_ bulk (line 390)
+    - Used to cancel out integ_ cons
   - V_ p (line 396)
+    - Only used in initializing fields
   - R_ p (line 399)
+    - Only used in initializing fields
   - rho_ fix (line 406)
+    - Only us
   - free_ elec_ polym (line 742)
-  - Integration
+  - Cancel out integ_ cons
     - free_ elec_ polym (line 756)
     - free_ elec_ laplace (line 757)
     - free_ elec_ ion (line 758)
