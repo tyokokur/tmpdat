@@ -116,7 +116,13 @@
   - V_ p (line 396)
   - R_ p (line 399)
   - rho_ fix (line 406)
-  - free_ elec_ o
+  - free_ elec_ polym (line 742)
+  - Integration
+    - free_ elec_ polym (line 756)
+    - free_ elec_ laplace (line 757)
+    - free_ elec_ ion (line 758)
+  - solve_ PB()
+    - rho_ elec_ polym (line 1143 and 1144)
 ** PROG Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
   - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
