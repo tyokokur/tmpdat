@@ -109,8 +109,9 @@
 ** PROG New NFL fit
 Correction from z/b0 --> z/nm analysis
 Running on double.c
-- [-] b2.00 v2.70 c3.20
-- [-] b3.00 v3.50 c3.50
+- [-] b2.00 v2.70 c3.20 (L_ 272)
+- [-] b3.00 v3.50 c3.50 (L_ 355)
+  - Rerun nans from ones that worked
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
   - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
@@ -174,6 +175,7 @@ Running on double.c
 - Terms that use \nu_0
   - [X] double.c some error; go through all below to confirm
     - Changed line 1442 to fix {}
+  - [X] Q_ p, Q_ s (line 939, 986)
   - [X] freeU (chi's) (line 744)
   - [X] integ_ cons (line 356)
   - [X] freeEnergy_ bulk (line 390)
@@ -225,7 +227,7 @@ If complicated, warranted for a new paper
   - [-] p1_ 3: D = [9..6..-1]
 - 1Cd - 1Cd (\alpha 0.2, \chi 0.8?)
 - [-]  2C - 2C (\chi 1.75)
-  - p2_ 1: D = [50..20..-5]
+  - [-] p2_ 1: D = [50..20..-5]
 ** 2Cd - 2Cd (\alpha 0.3,  \chi 1.1?)
 ** 3C - 3C (\chi 1.45) 
 ** 3Cd - 3Cd (is there a meta example?)
