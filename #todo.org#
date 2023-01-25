@@ -109,15 +109,16 @@
 - v0 needs to be changed for FH
 ** TODO Investigate role of \nu_0 and \nu_s
 - Terms that use \nu_0
+  - [ ] freeU (chi's)
   - [X] integ_ cons (line 356)
   - [X] freeEnergy_ bulk (line 390)
     - Used to cancel out integ_ cons
-  - [ ] free_ elec_ polym (line 742)
-  - [ ] Cancel out integ_ cons
+  - [X] free_ elec_ polym (line 742)
+  - [X] Cancel out integ_ cons
     - free_ elec_ polym (line 756)
     - free_ elec_ laplace (line 757)
     - free_ elec_ ion (line 758)
-  - [ ] solve_ PB()
+  - [X] solve_ PB()
     - rho_ elec_ polym (line 1143 and 1144)
   - [X] V_ p (line 304) --> R_ p
     - Only used in initializing fields
