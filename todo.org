@@ -44,6 +44,7 @@
   - c3.32 (f332)
   - c3.35 (f335) 
   - [-] c3.37 (f337)
+  - [-] c3.40 (f340)
     
 
 ** DONE Perturb (~%20) v sweep
@@ -88,7 +89,7 @@
 #+TBLFM: $2=$1^3*0.33;%.2f::$3=$1^3*0.15;%.2f
 
 
-* PROG int_ NFH
+* DONE int_ NFH -- Do same process when NFH fitting done
 - int_ NFH looks good
 - int_ NFH2 to make finer profile for interacting region
 - For better force profile, target desired D
@@ -97,7 +98,7 @@
   - Force not monotonic; splice error or interaction btw brushes?
 - int_ NFH4 continue moving closer
   - Formation of overlapping layer
-- [ ] int_ NFH5 continue moving closer
+
 
     
 * PROG NLH Fitting
@@ -105,8 +106,31 @@
 - b0 changed when used (sovDif_ CR)
 - v0 changed in sov_ PB, but kept v01 for freeE integ
   - Check equations if rigorous
-- /b0/ needs to be changed when phA calculated \phi \ne \int{}ds \phi1 + \int{}ds \phi2
 - v0 needs to be changed for FH
+** TODO Investigate role of \nu_0 and \nu_s
+- Terms that use \nu_0
+  - [ ] double.c some error; go through all below to confirm
+  - [X] freeU (chi's) (line 744)
+  - [X] integ_ cons (line 356)
+  - [X] freeEnergy_ bulk (line 390)
+    - Used to cancel out integ_ cons
+  - [X] free_ elec_ polym (line 742)
+  - [X] Cancel out integ_ cons
+    - free_ elec_ polym (line 756)
+    - free_ elec_ laplace (line 757)
+    - free_ elec_ ion (line 758)
+  - [X] solve_ PB()
+    - rho_ elec_ polym (line 1143 and 1144)
+  - [X] V_ p (line 304) --> R_ p
+    - Only used in initializing fields
+  - [X] delt_ PS _ v0 (line 324)
+    - Unused
+  - [X] V_ p (line 396)
+    - Only used in initializing fields
+  - [X] R_ p (line 399)
+    - Only used in initializing fields
+  - [X] rho_ fix (line 406)
+    - Only used in initializing fields
 ** PROG Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
   - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
