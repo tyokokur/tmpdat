@@ -175,6 +175,7 @@ Running on double.c
 - Terms that use \nu_0
   - [X] double.c some error; go through all below to confirm
     - Changed line 1442 to fix {}
+  - [ ] Q_ p
   - [X] freeU (chi's) (line 744)
   - [X] integ_ cons (line 356)
   - [X] freeEnergy_ bulk (line 390)
