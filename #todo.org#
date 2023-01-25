@@ -110,7 +110,7 @@
 ** TODO Investigate role of \nu_0 and \nu_s
 - Terms that use \nu_0
   - [X] integ_ cons (line 356)
-  - [ ] freeEnergy_ bulk (line 390)
+  - [X] freeEnergy_ bulk (line 390)
     - Used to cancel out integ_ cons
   - [ ] free_ elec_ polym (line 742)
   - [ ] Cancel out integ_ cons
