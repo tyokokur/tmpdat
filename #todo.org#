@@ -109,7 +109,7 @@
 - v0 needs to be changed for FH
 ** TODO Investigate role of \nu_0 and \nu_s
 - Terms that use \nu_0
-  - [ ] freeU (chi's)
+  - [X] freeU (chi's) (line 744)
   - [X] integ_ cons (line 356)
   - [X] freeEnergy_ bulk (line 390)
     - Used to cancel out integ_ cons
