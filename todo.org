@@ -35,7 +35,7 @@
 - [X] b2.2 v1.20 c3.05 (f205)
   - Combination of 2 previous sweeps
   - Not good enough
-- [-] b2.5 v1.25
+- [X] b2.5 v1.25
   - c3.10 no peak at all
   - c3.15 (f515)
   - c3.20 (f250)
@@ -46,8 +46,8 @@
   - c3.37 (f337)
   - c3.40 (f340)
 - [-] b3.0 v1.30
-  - c3.45 (f345)
-  - c3.64 (f365)
+  - [-] c3.45 (f345)
+  - [-] c3.64 (f365)
     
 
 ** DONE Perturb (~%20) v sweep
@@ -108,12 +108,16 @@
 ** PROG Trial runs
 - f337 with v_0 and v_S 
 - [-] (f337s) Single NFH: compare \phi with f337
+  - Run 1 looks good enough
+  - Run 2 true validation with v_s = v_01 
 - [-] (f337d) Double NFH: compare F and \phi with f337s
-** TODO New NFL fit
+  - Run 1 looks good enough
+  - Run 2 true validation with v_s = v_01
+** PROG New NFL fit
 Correction from z/b0 --> z/nm analysis
 Running on double.c
-- [ ] b2.00 v2.70 c3.20 (L_ 272)
-- [ ] b3.00 v3.50 c3.50 (L_ 355)
+- [-] b2.00 v2.70 c3.20 (L_ 272)
+- [-] b3.00 v3.50 c3.50 (L_ 355)
   - Rerun nans from ones that worked
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
