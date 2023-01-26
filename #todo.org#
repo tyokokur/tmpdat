@@ -111,11 +111,11 @@
   - So far so good (01/26)
 - [-] (f337d) Double NFH: compare F and \phi with f337s
   - So far so good (01/26)
-** TODO New NFL fit
+** DONE New NFL fit
 Correction from z/b0 --> z/nm analysis
 Running on double.c
-- [ ] b2.00 v2.70 c3.20 (L_ 272)
-- [ ] b3.00 v3.50 c3.50 (L_ 355)
+- [-] b2.00 v2.70 c3.20 (L_ 272)
+- [-] b3.00 v3.50 c3.50 (L_ 355)
   - Rerun nans from ones that worked
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
