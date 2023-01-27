@@ -109,8 +109,9 @@
 ** PROG New NFL fit
 Correction from z/b0 --> z/nm analysis
 Running on double.c
-- [-] b2.00 v2.70 c3.20 (L_ 272)
+- b2.00 v2.70 c3.20 (L_ 272)
   - Note: wrong freeE; use code from 01/27
+  - Too 
 - [-] b3.00 v3.50 c3.50 (L_ 355)
   - Rerun nans from ones that worked
   - Note: wrong freeE; use code from 01/27
