@@ -102,10 +102,12 @@
 - f337 with v_0 and v_S 
 - [-] (f337s) Single NFH: compare \phi with f337
   - Run 1 looks good enough
-  - Run 2 true validation with v_s = v_01 
+  - Run 2 true validation with v_s = v_01
+  - 
 - [-] (f337d) Double NFH: compare F and \phi with f337s
   - Run 1 looks good enough
   - Run 2 true validation with v_s = v_01
+  - 
 ** PROG New NFL fit
 Correction from z/b0 --> z/nm analysis
 Running on double.c
