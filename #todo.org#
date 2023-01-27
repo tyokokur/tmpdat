@@ -111,9 +111,8 @@ Correction from z/b0 --> z/nm analysis
 Running on double.c
 - b2.00 v2.70 c3.20 (L_ 272)
   - Note: wrong freeE; use code from 01/27
-  - Too 
+  - No longer correct
 - [-] b3.00 v3.50 c3.50 (L_ 355)
-  - Rerun nans from ones that worked
   - Note: wrong freeE; use code from 01/27
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
