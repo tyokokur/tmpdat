@@ -113,6 +113,7 @@ Running on double.c
   - Note: wrong freeE; use code from 01/27
 - [-] b3.00 v3.50 c3.50 (L_ 355)
   - Rerun nans from ones that worked
+  - Note: wrong freeE; use code from 01/27
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
   - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
