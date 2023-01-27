@@ -36,18 +36,11 @@
   - Combination of 2 previous sweeps
   - Not good enough
 - [X] b2.5 v1.25
-  - c3.10 no peak at all
-  - c3.15 (f515)
-  - c3.20 (f250)
-  - c3.25 (f255)
-  - c3.30 (f253)
-  - c3.32 (f332)
-  - c3.35 (f335) 
-  - c3.37 (f337)
-  - c3.40 (f340)
+  - c3.10, c3.15 (f515), c3.20 (f250), c3.25 (f255), c3.30 (f253)
+  - c3.32 (f332), c3.35 (f335), c3.37 (f337), c3.40 (f340)
 - [-] b3.0 v1.30
-  - [-] c3.45 (f345)
-  - [-] c3.64 (f365)
+  - c3.45 (f345), c3.65 (f365)
+  - [-] c3.90 (f390)
     
 
 ** DONE Perturb (~%20) v sweep
@@ -105,20 +98,24 @@
 
     
 * PROG NLH Fitting
-** PROG Trial runs
+** DONE Trial runs
 - f337 with v_0 and v_S 
-- [-] (f337s) Single NFH: compare \phi with f337
+- (f337s) Single NFH: compare \phi with f337
   - Run 1 looks good enough
   - Run 2 true validation with v_s = v_01 
-- [-] (f337d) Double NFH: compare F and \phi with f337s
+- (f337d) Double NFH: compare F and \phi with f337s
   - Run 1 looks good enough
   - Run 2 true validation with v_s = v_01
 ** PROG New NFL fit
 Correction from z/b0 --> z/nm analysis
 Running on double.c
-- [-] b2.00 v2.70 c3.20 (L_ 272)
+- b2.00 v2.70 c3.20 (L_ 272)
+  - Note: wrong freeE; use code from 01/27
+  - No longer correct
+  - Looks like previous b10v0
 - [-] b3.00 v3.50 c3.50 (L_ 355)
-  - Rerun nans from ones that worked
+  - Note: wrong freeE; use code from 01/27
+  - \phi unrealistically small (< 0.2)
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
   - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
