@@ -116,10 +116,9 @@ Running on double.c
 - [-] b5.0 v20 c3.0 (L_ 523): next b0 up
   - If not sharp enough, needs to have enough \phi to go down and H
     profile to go down)
-- [-] b5.0 v20 c4.0 (L_ 525): next b0 up
+- [-] b5.0 v20 c4.0 (L_ 524): next b0 up
   - If not sharp enough, needs to have enough \phi to go down and H
     profile to go down)
-
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
