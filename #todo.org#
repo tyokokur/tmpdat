@@ -114,8 +114,8 @@ Running on double.c
   - b3 v7 c3.0 (L_ 373)
 - b4.0 v12.0 c3.0 (L_ 423): next b0 up
 - b5.0 v20 c{3,4} (L_ 52{3,4}): next b0 up
-- b5 v10 c3
-- b5 v5 c3
+- [-] b5 v10 c3 (L_ 513): extreme v sweep
+- [-] b5 v5 c3: (L_ 553): extreme v sweep
 
   
 ** TODO Mixture runs
