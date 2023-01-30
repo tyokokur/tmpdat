@@ -106,6 +106,7 @@ Running on double.c
   - Note: wrong freeE; use code from 01/27
   - No longer correct
   - Looks like previous b10v0 (b1.0v4.2)
+  - \phi on the edge of too small
 - b3.00 v3.50 c3.50 (L_ 355)
   - Note: wrong freeE; use code from 01/27
   - \phi unrealistically small (< 0.2)
