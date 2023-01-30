@@ -113,7 +113,9 @@ Running on double.c
 - b3.0 v7.0 c3.5 (L_ 375): Mimic b^3/\nu from b2v7c2
   - b3 v7 c3.0 (L_ 373)
 - b4.0 v12.0 c3.0 (L_ 423): next b0 up
-- b5.0 v20 c4.0
+- b5.0 v20 c3.0 (L_ 523): next b0 up
+  - If not sharp, needs to have enough \phi to go down and H profile to
+    go down
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
