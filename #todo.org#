@@ -109,7 +109,9 @@ Running on double.c
 - b3.00 v3.50 c3.50 (L_ 355)
   - Note: wrong freeE; use code from 01/27
   - \phi unrealistically small (< 0.2)
-- [-] b3.00 v7.0 c3.50 (L_ 375): Mimic b^3/\nu from b2v7c2
+- b3.00 v7.0 c3.50 (L_ 375): Mimic b^3/\nu from b2v7c2
+- [-] b2.00 v2.00 c3.20 (L_ 222): Decrease p from 272)
+- [-] b2.00 v2.00 
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
