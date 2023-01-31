@@ -17,7 +17,7 @@
 - \nu mainly used to keep density profiles "realistic," e.g. \phi > 0.5 for
   condensed region
   - \uarr{}\nu can also decrease H for high \kappa_D
-** PROG Mini perturb
+** DONE Mini perturb
 - (b1v1) b1.0, v0.51, c6: fine tune location of peak
 - (b1v2) b1.0, v0.52, c6: fine tune location of peak
 - (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
@@ -40,7 +40,7 @@
   - c3.32 (f332), c3.35 (f335), c3.37 (f337), c3.40 (f340)
 - b3.0 v1.30
   - c3.45 (f345), c3.65 (f365), f3.90 (f390)
-  - c3.95 (f395), c4.00 (f400)
+  - c3.95 (f395), *BEST c4.00 (f400)*
     
 
 ** DONE Perturb (~%20) v sweep
