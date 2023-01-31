@@ -7,7 +7,7 @@
 * TODO PE triple point
 
 
-* PROG NFH Fitting
+* DONE NFH Fitting
 *MAIN FINDINGS*
 - b0 and \chi main tuning levers
 - \uarr{}b0 increases H for high \kappa_D
@@ -85,16 +85,10 @@
 #+TBLFM: $2=$1^3*0.33;%.2f::$3=$1^3*0.15;%.2f
 
 
-* DONE int_ NFH -- Do same process when NFH fitting done
-- int_ NFH looks good
-- int_ NFH2 to make finer profile for interacting region
-- For better force profile, target desired D
-  - e.g. @ D = 50, cFD on F(D=50.5) & F(D=49.5)
-- int_ NFH3 focus on moving brushes closer
-  - Force not monotonic; splice error or interaction btw brushes?
-- int_ NFH4 continue moving closer
-  - Formation of overlapping layer
-
+* PROG int_ NFH -- Do same process when NFH fitting done
+- int_ NFH:  4  mM
+- int_ NFH2: 6  mM
+- int_ NFH3: 50 mM
 
     
 * PROG NLH Fitting
