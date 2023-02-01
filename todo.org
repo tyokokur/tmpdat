@@ -248,6 +248,9 @@ If complicated, warranted for a new paper
   - p1_ 3: D = [9..6..-1]
   - p1_ f1: D = [8.9, 8.8, 8.7, 8.6, 8.5, 8.4, 8.3, 8.2, 8.1]
   - p1_ f2: D = [7.9..7.1..-0.1]
+  - Metastable explore
+    - [-] p1_ sep: Separated, init from 8.4; D = [8.3, 8.2, 8.1]
+    - [-] p1_ con: Condensed, init from 8.3; D = [8.4, 8.5, 8.6]
 - 1Cd - 1Cd (\alpha 0.2, \chi 0.8?)
 - [ ]  2C - 2C (\chi 1.75)
   - [ ] p2_ 1: D = [50..20..-5]
