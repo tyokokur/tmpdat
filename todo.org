@@ -244,10 +244,7 @@ Running on double.c
 
 * PROG Revise NFH paper
 - See notes.org
-- [-] Force curves
-  - 01/18 start: 4mM only first (Should be largest distance apart)
-  - 01/19 update: 4mM initial good, refining intersecting points
-
+- Force curves (see int_ NFH)
 
 * PROG int_ SYSG
 See if interaction profiles interesting and not too complicated
