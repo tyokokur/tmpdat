@@ -85,7 +85,7 @@
 #+TBLFM: $2=$1^3*0.33;%.2f::$3=$1^3*0.15;%.2f
 
 
-* TODO int_ NFH
+* PROG int_ NFH
 - int_ NFH:  4  mM
   - Refine D < 40
   - int_ NFHf
@@ -115,7 +115,9 @@ Running on double.c
 - b4.0 v12.0 c3.0 (L_ 423): next b0 up
   
 - b5.0 v20 c{3,4} (L_ 52{3,4}): next b0 up
-  - [-] b4.0 v20 c3 (L_ 403)
+  - [-] b4.5 v20 c3 (L_ 452)
+  - [-] b4.0 v20 c3 (L_ 402)
+  - [-] b3.5 v20 c3 (L_ 352)
 
 - b5 v10 c3 (L_ 513): extreme v sweep
 - b5 v5 c3: (L_ 553): extreme v sweep
