@@ -267,7 +267,7 @@ If complicated, warranted for a new paper
 - [-] 1C - 1C (\chi 2.0)
   - [-] 2010: D = [40..30]
     - Fixed Nm to 200; transition should happen at \uarr D
-  - [-] c1008: D = [XX..XX], (in = 0, 0.90)
+  - [ ] c1008: D = [XX..XX], (in = 0, 0.90)
     - Fixed Nm to 200; start outlining condensed profile
   - [ ] s{XX}: D = [X..X]
     - After 2010, init sep for FreeE cross
