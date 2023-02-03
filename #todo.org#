@@ -257,7 +257,10 @@ See if interaction profiles interesting and not too complicated
 If complicated, warranted for a new paper
 *dx = 0.05*
 - [-] 1C - 1C (\chi 2.0)
-  - 
+  - 2010: D = [20..10]
+    - Fixed Nm to 200; transition should happen at \uarr D
+  - c1008: D = [10..8], (in = 0, 0.90)
+    - Fixed Nm to 200; start outlining condense
 - 1Cd - 1Cd (\alpha 0.2, \chi 0.8?)
 - [ ]  2C - 2C (\chi 1.75)
   - [ ] p2_ 1: D = [50..20..-5]
