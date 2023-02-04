@@ -276,6 +276,7 @@ If complicated, warranted for a new paper
   - [ ] p2_ 1: D = [50..20..-5]
     - Previous code Nm \ne 200; fixed 02/03 and checking
     - Need to get p2a4 using dx = 0.05
+      - r*o 1.35961460
       
 ** 2Cd - 2Cd (\alpha 0.3,  \chi 1.1?)
 ** 3C - 3C (\chi 1.45) 
