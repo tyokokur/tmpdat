@@ -132,7 +132,7 @@ Running on double.c
     - [-] b1.8 v8.0 c3.0 (L_ 883)
     - [-] b1.8 v6.0 c3.0 (L_ 863)
     - [-] b1.6 v10  c3.0 (L_ 613)
-    - [ ] b1.6 v8.0 c3.0 (L_ 683)
+    - [-] b1.6 v8.0 c3.0 (L_ 683)
     - [-] b1.6 v6.0 c3.0 (L_ 663)
     
 - b2.25 v2.70 c3.20 (L_ 257)
@@ -265,9 +265,9 @@ See if interaction profiles interesting and not too complicated
 If complicated, warranted for a new paper
 *dx = 0.05*
 - [-] 1C - 1C (\chi 2.0)
-  - [-] 2010: D = [20..10]
+  - [-] 2010: D = [40..30]
     - Fixed Nm to 200; transition should happen at \uarr D
-  - [-] c1008: D = [10..8], (in = 0, 0.90)
+  - [ ] c1008: D = [XX..XX], (in = 0, 0.90)
     - Fixed Nm to 200; start outlining condensed profile
   - [ ] s{XX}: D = [X..X]
     - After 2010, init sep for FreeE cross
