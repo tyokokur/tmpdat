@@ -271,18 +271,19 @@ Running on double.c
 See if interaction profiles interesting and not too complicated
 If complicated, warranted for a new paper
 *dx = 0.05*
-- [-] 1C - 1C (\chi 2.0)
-  - [-] 2010: D = [40..30]
+/CODE PYTHON WA(dx->dx')/
+- [ ] 1C - 1C (\chi 2.0)
+  - [ ] 2010: D = [40..30]
     - Fixed Nm to 200; transition should happen at \uarr D
   - [ ] c1008: D = [XX..XX], (in = 0, 0.90)
     - Fixed Nm to 200; start outlining condensed profile
   - [ ] s{XX}: D = [X..X]
     - After 2010, init sep for FreeE cross
 - 1Cd - 1Cd (\alpha 0.2, \chi 0.8?)
-- [-]  2C - 2C (\chi 1.75; p2a4s02/9)
-  - [-] p2_ 1: D = [50..20..-5]
+- [ ] 2C - 2C (\chi 1.75; p2a4s02/9)
+  - p2_ 1: D = [50..20..-5]
     - Previous code Nm \ne 200; fixed 02/03 and checking
-    - [-] Need to get p2a4 single using dx = 0.05 (./00)
+    - Need to get p2a4 single using dx = 0.05 (./00)
       
 ** 2Cd - 2Cd (\alpha 0.3,  \chi 1.1?)
 ** 3C - 3C (\chi 1.45) 
