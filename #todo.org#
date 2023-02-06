@@ -145,6 +145,7 @@ Running on double.c
 - *BEST SO FAR* b1.75 v2.70 c3.20 (L_ 175)
   - b1.75 v2.50 c3.20 (L_ 252)
   - b1.75 v2.50 c3.00 (L_ 250)
+  - Volume seems too small; doesn't impact H of mix
 
 - b1.50 v2.70 c3.20 (L_ 150)
 
