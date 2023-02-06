@@ -136,9 +136,9 @@ Running on double.c
     - b1.6 v6.0 c3.0 (L_ 663)
     - Not kinked enough, but all \phi have room to shrink
   - Fine \nu
-    - b2.0 v4 c3 (L_ 243)
-    - b1.8 v3 c3 (L_ 833)
-    - b1.6 v2 c3 (L_ 623)
+    - [-] b2.0 v4 c3 (L_ 243)
+    - [-] b1.8 v3 c3 (L_ 833)
+    - [-] b1.6 v2 c3 (L_ 623)
     
 - b2.25 v2.70 c3.20 (L_ 257)
 - b2.50 v2.70 c3.20 (L_ 572)
