@@ -136,10 +136,14 @@ Running on double.c
     - b1.6 v6.0 c3.0 (L_ 663)
     - Not kinked enough, but all \phi have room to shrink
   - Fine \nu
-    - [-] b2.0 v4 c3 (L_ 243)
-    - [-] b1.8 v3 c3 (L_ 833)
-    - [-] b1.6 v2 c3 (L_ 623)
-    - Going in right trend; 623 approaching unphysical \phi 
+    - b2.0 v4 c3 (L_ 243)
+    - b1.8 v3 c3 (L_ 833)
+    - b1.6 v2 c3 (L_ 623)
+    - Going in right trend; 623 approaching unphysical \phi
+  - Fine \nu pt 2
+    - [-] b2.0 v2 c3 (L_ 223)
+    - [-] b1.8 v2 c3 (L_ 823)
+    - [-] b1.6 v1.5 c3 (L_ 653)
     
 - b2.25 v2.70 c3.20 (L_ 257)
 - b2.50 v2.70 c3.20 (L_ 572)
@@ -284,7 +288,8 @@ If complicated, warranted for a new paper
 - [ ] 2C - 2C (\chi 1.75; p2a4s02/9)
   - p2_ 1: D = [50..20..-5]
     - Previous code Nm \ne 200; fixed 02/03 and checking
-    - Need to get p2a4 single using dx = 0.05 (./00)
+    - [-] p2a4 single from in == 0
+    - [ ] Code transform from dx_1 \rarr dx_2 
       
 ** 2Cd - 2Cd (\alpha 0.3,  \chi 1.1?)
 ** 3C - 3C (\chi 1.45) 
