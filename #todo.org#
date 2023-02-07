@@ -174,8 +174,12 @@ Running on double.c
 
   
 ** TODO NFH fit from NFL Candidates
+- All thresh 1e-06
+- Try to min total volume so mix80 has effect
 - 
-
+  
+- b0.5 v1.00 c3.20
+- 
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
