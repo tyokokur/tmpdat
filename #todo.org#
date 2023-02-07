@@ -157,10 +157,17 @@ Running on double.c
 - b1.50 v2.70 c3.20 (L_ 150)
 
 ** DONE Candidates
-- thresh 1e-04
-- thresh 1e-05
-- thresh 1e-06
-  - b1.50 v2.70 c3.20
+- All thresh 1e-06
+- b1.50 v2.70 c3.20
+- b1.75 v2.70 c3.20
+- b1.75 v2.50 c3.20
+- b1.75 v2.50 c3.00
+- b2.00 v2.70 c3.20
+- b2.00 v4.00 c3.00
+- b2.00 v2.00 c3.00
+- b1.80 v3.00 c3.00
+- b1.80 v2.00 c3.00
+- b1.60 v2.00 c3.0
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
   - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
