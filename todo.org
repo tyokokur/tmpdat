@@ -89,14 +89,22 @@
 - int_ NFH:  4  mM
   - Refine D < 40
   - int_ NFHf
-    - [-] Lx = [78..30..-2]
+    - Lx = [78..30..-2]
+      - D = 27, 27.113 converged but weird force (25, 26)
+        - [ ] Rerun from adjacent
+      - [-] D = 34 ~ 38.113 didn't converge (41 ~ 46)
 - int_ NFH2: 6  mM
   - Refine D < 50, esp. D < 25
   - int_ NFH2f
-    - [-] Lx = [78..30..-2]
-- int_ NFH3: 50 mM
-  - Refine D < 20
-    - [-] Lx = [18..10..-1]
+    - [-] Lx = [78..30..-2] 
+- 50 mM
+  - [-] NFH3: Lx = [150, 120, 100, 80, 60, 40, 30, 20]
+    - Redo for correct freeE
+  - Separated
+    - [-] NFH3s: Lx = [36..20..-1]; in=-1; W_ sym20 & W_ sym40
+  - Condensed
+    - NFH3f: Lx = [18..10..-1]
+    - [-] NFH3c: Lx = [20..50..2]; in=0; 0.80
 
     
 * PROG NLH Fitting
@@ -178,11 +186,13 @@ Running on double.c
 - All thresh 1e-06
 - Try to min total volume so mix80 has effect
   
-- [-] b0.5 v1.00 c3.20 (b5v1c2)
-- [-] b0.5 v1.00 c3.00 (b5v1c3)
-- [-] b0.5 v1.50 c3.20 (b5v5c2)
-- [-] b0.5 v1.50 c3.00 (b5v5c3)
-- Previously failed -- changed to in=0, 0.40
+- [ ] b0.5 v1.00 c3.20 (b5v1c2)
+- [ ] b0.5 v1.00 c3.00 (b5v1c3)
+- [ ] b0.5 v1.50 c3.20 (b5v5c2)
+- [ ] b0.5 v1.50 c3.00 (b5v5c3)
+- Failed: in= -1n
+- Failed: in = 0, 0.40
+- Try wopt, wcmp change? Ns0 increase? 
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
