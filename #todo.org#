@@ -86,7 +86,6 @@
 
 
 * PROG int_ NFH
-*dx = 17/150*
 - int_ NFH:  4  mM
   - Refine D < 40
   - int_ NFHf
@@ -303,9 +302,7 @@ Running on double.c
 * PROG int_ SYSG
 See if interaction profiles interesting and not too complicated
 If complicated, warranted for a new paper
-*dx = 0.05*
 - [-] 1C - 1C (\chi 2.0; p1a4s02/27)
-  - [-] dx = 0.05 initial (./00)
   - [-] 2010: D = [40..30]
     - Sweep using 0.113 dx first; refine with 0.05 dx once interaction
       range outlined
@@ -317,8 +314,6 @@ If complicated, warranted for a new paper
 - [-] 2C - 2C (\chi 1.75; p2a4s02/9)
   - p2_ 1: D = [50..20..-5]
     - Previous code Nm \ne 200; fixed 02/03 and checking
-    - [-] p2a4 initial (dx = 0.075 in ./00)
-      - Initialize for dx = 0.05 next
       
 ** 2Cd - 2Cd (\alpha 0.3,  \chi 1.1?)
 ** 3C - 3C (\chi 1.45) 
