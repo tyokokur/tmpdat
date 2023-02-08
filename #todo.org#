@@ -100,10 +100,10 @@
 - int_ NFH3: 50 mM
   - Refine D < 20
   - Separated
-    - NFH3s: Lx = []
+    - NFH3s: Lx = [36..20..-1]
   - Condensed
     - NFH3f: Lx = [18..10..-1]
-    - 
+    - NFH3c: Lx = [20..50..2]
 
     
 * PROG NLH Fitting
