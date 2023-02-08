@@ -178,12 +178,11 @@ Running on double.c
 - All thresh 1e-06
 - Try to min total volume so mix80 has effect
   
-- [ ] b0.5 v1.00 c3.20 (b5v1c2)
-- [ ] b0.5 v1.00 c3.00 (b5v1c3)
-- [ ] b0.5 v1.50 c3.20 (b5v5c2)
-- [ ] b0.5 v1.50 c3.00 (b5v5c3)
-- ALL DIVERGED; FIND WHY
-
+- [-] b0.5 v1.00 c3.20 (b5v1c2)
+- [-] b0.5 v1.00 c3.00 (b5v1c3)
+- [-] b0.5 v1.50 c3.20 (b5v5c2)
+- [-] b0.5 v1.50 c3.00 (b5v5c3)
+- Previously failed -- changed to in=0, 0.40
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
