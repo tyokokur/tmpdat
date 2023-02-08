@@ -103,7 +103,7 @@
     - NFH3s: Lx = [36..20..-1]; in=-1; 
   - Condensed
     - NFH3f: Lx = [18..10..-1]
-    - NFH3c: Lx = [20..50..2]; in=0; 0.90
+    - NFH3c: Lx = [20..50..2]; in=0; 0.80
 
     
 * PROG NLH Fitting
