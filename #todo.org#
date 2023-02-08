@@ -90,11 +90,10 @@
   - Refine D < 40
   - int_ NFHf
     - [-] Lx = [78..30..-2]
-      - Rerun with dx 17/150; Run NFH2f if working
 - int_ NFH2: 6  mM
   - Refine D < 50, esp. D < 25
   - int_ NFH2f
-    - [ ] Lx = [78..30..-2]
+    - [-] Lx = [78..30..-2]
 - int_ NFH3: 50 mM
   - Refine D < 20
 
