@@ -304,8 +304,7 @@ See if interaction profiles interesting and not too complicated
 If complicated, warranted for a new paper
 - [-] 1C - 1C (\chi 2.0; p1a4s02/27)
   - [-] 2010: D = [40..30]
-    - Sweep using 0.113 dx first; refine with 0.05 dx once interaction
-      range outlined
+    - Do forces 
   - [ ] c1008: D = [XX..XX], (in = 0, 0.90)
     - Fixed Nm to 200; start outlining condensed profile
     - [ ] s{XX}: D = [X..X]
