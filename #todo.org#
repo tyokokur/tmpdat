@@ -86,6 +86,7 @@
 
 
 * PROG int_ NFH
+*dx = 17/150*
 - int_ NFH:  4  mM
   - Refine D < 40
   - int_ NFHf
