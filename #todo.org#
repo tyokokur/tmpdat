@@ -90,7 +90,7 @@
   - Refine D < 40
   - int_ NFHf
     - Lx = [78..30..-2]
-    - 
+    - Check 25 26
 - int_ NFH2: 6  mM
   - Refine D < 50, esp. D < 25
   - int_ NFH2f
