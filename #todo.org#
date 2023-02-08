@@ -313,7 +313,7 @@ If complicated, warranted for a new paper
     - [ ] s{XX}: D = [X..X]
     - After 2010, init sep for FreeE cross
 - 1Cd - 1Cd (\alpha 0.2, \chi 0.8?)
-- [ ] 2C - 2C (\chi 1.75; p2a4s02/9)
+- [-] 2C - 2C (\chi 1.75; p2a4s02/9)
   - p2_ 1: D = [50..20..-5]
     - Previous code Nm \ne 200; fixed 02/03 and checking
     - [-] p2a4 initial (dx = 0.075 in ./00)
