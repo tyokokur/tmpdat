@@ -90,7 +90,8 @@
   - Refine D < 40
   - int_ NFHf
     - Lx = [78..30..-2]
-    - Check 25 26
+      - D = 27, 27.113 converged but weird force
+      - D = 34 ~ 38.113 didn't converge (41 ~ 46)
 - int_ NFH2: 6  mM
   - Refine D < 50, esp. D < 25
   - int_ NFH2f
