@@ -99,7 +99,11 @@
     - [-] Lx = [78..30..-2]
 - int_ NFH3: 50 mM
   - Refine D < 20
-    - [-] Lx = [18..10..-1]
+  - Separated
+    - 
+  - Condensed
+    - NFH3f: Lx = [18..10..-1]
+    - 
 
     
 * PROG NLH Fitting
