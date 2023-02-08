@@ -100,7 +100,7 @@
 - int_ NFH3: 50 mM
   - Refine D < 20
   - Separated
-    - 
+    - NFH3s: Lx = []
   - Condensed
     - NFH3f: Lx = [18..10..-1]
     - 
