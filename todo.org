@@ -96,6 +96,7 @@
     - [-] Lx = [78..30..-2]
 - int_ NFH3: 50 mM
   - Refine D < 20
+    - [-] Lx = [18..10..-1]
 
     
 * PROG NLH Fitting
@@ -181,6 +182,7 @@ Running on double.c
 - [-] b0.5 v1.00 c3.00 (b5v1c3)
 - [-] b0.5 v1.50 c3.20 (b5v5c2)
 - [-] b0.5 v1.50 c3.00 (b5v5c3)
+- ALL DIVERGED; FIND WHY
 
   
 ** TODO Mixture runs
@@ -301,21 +303,17 @@ Running on double.c
 * PROG int_ SYSG
 See if interaction profiles interesting and not too complicated
 If complicated, warranted for a new paper
-*dx = 0.05*
 - [-] 1C - 1C (\chi 2.0; p1a4s02/27)
-  - [-] dx = 0.05 initial (./00)
-  - [ ] 2010: D = [40..30]
-    - Fixed Nm to 200; transition should happen at \uarr D
+  - [-] 2010: D = [40..30]
+    - Do forces 
   - [ ] c1008: D = [XX..XX], (in = 0, 0.90)
     - Fixed Nm to 200; start outlining condensed profile
-  - [ ] s{XX}: D = [X..X]
+    - [ ] s{XX}: D = [X..X]
     - After 2010, init sep for FreeE cross
 - 1Cd - 1Cd (\alpha 0.2, \chi 0.8?)
-- [ ] 2C - 2C (\chi 1.75; p2a4s02/9)
+- [-] 2C - 2C (\chi 1.75; p2a4s02/9)
   - p2_ 1: D = [50..20..-5]
     - Previous code Nm \ne 200; fixed 02/03 and checking
-    - [-] p2a4 initial (dx = 0.075 in ./00)
-      - Initialize for dx = 0.05 next
       
 ** 2Cd - 2Cd (\alpha 0.3,  \chi 1.1?)
 ** 3C - 3C (\chi 1.45) 
