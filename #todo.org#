@@ -96,10 +96,11 @@
 - int_ NFH2: 6  mM
   - Refine D < 50, esp. D < 25
   - int_ NFH2f
-    - [-] Lx = [78..30..-2] 
+    - [-] Lx = [78..30..-2]
+      - Rerun for convergence
 - 50 mM
   - [-] NFH3: Lx = [150..30]
-    - Redo for correct freeE
+    - Redoing for correct freeE
   - Separated
     - [-] NFH3s: Lx = [36..20..-1]; in=-1; W_ sym20 & W_ sym40
   - Condensed
