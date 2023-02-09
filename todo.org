@@ -89,10 +89,8 @@
 - 4 mM: int_ NFH
   - int_ NFHf: Lx = [78..30..-2]
 - 6 mM: int_ NFH2
-  - Refine D < 50, esp. D < 25
   - int_ NFH2f
-    - [-] Lx = [78..30..-2]
-      - Rerun for convergence
+    - Lx = [78..30..-2]
 - 50 mM: int_ NFH3
   - [-] NFH3: Lx = [150..30]
     - Redoing for correct freeE
