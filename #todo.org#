@@ -87,13 +87,7 @@
 
 * PROG int_ NFH
 - 4 mM: int_ NFH
-  - int_ NFHf
-    - Lx = [78..30..-2]
-      - D = 27, 27.113 converged but weird force (25, 26)
-        - [ ] Rerun from adjacent
-        - 25: Nx 476; 53.9467
-        - 26: Nx 478; 54.17334
-      - [-] D = 34 ~ 38.113 didn't converge (41 ~ 46)
+  - int_ NFHf: Lx = [78..30..-2]
 - 6 mM: int_ NFH2
   - Refine D < 50, esp. D < 25
   - int_ NFH2f
