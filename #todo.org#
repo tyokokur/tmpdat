@@ -100,6 +100,8 @@
     - NFH3f: Lx = [18..10..-1]
     - [-] NFH3c: Lx = [20..50..2]; in=0; 0.80
       - D = {10..18} worked (./{1..17})
+      - Rerun ./{18..32} from ./17/W_ a*
+      - Rerun ./{1..17} new int.c
 
     
 * PROG NLH Fitting
