@@ -95,7 +95,7 @@
   - [-] NFH3: Lx = [150..30]
   - Separated
     - [-] NFH3s: Lx = [36..20..-1]; in=-1; W_ sym20 & W_ sym40
-      - D = {18..12} right track; {11..10} cond
+      - D = {18..12} right track; {11..10} init from 12
   - Condensed
     - NFH3f: Lx = [18..10..-1]
     - [-] NFH3c: Lx = [20..50..2]; in=0; 0.80
