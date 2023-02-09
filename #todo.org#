@@ -309,9 +309,9 @@ Running on double.c
 * PROG int_ SYSG
 See if interaction profiles interesting and not too complicated
 If complicated, warranted for a new paper
-- [-] 1C - 1C (\chi 2.0; p1a4s02/27)
-  - [-] 2010: D = [40..30]
-    - Do forces 
+- [ ] 1C - 1C (\chi 2.0; p1a4s02/27)
+  - 2010: D = [40..30]
+    - Unconverged; all turned to 2C; W_ sym fault?
   - [ ] c1008: D = [XX..XX], (in = 0, 0.90)
     - Fixed Nm to 200; start outlining condensed profile
     - [ ] s{XX}: D = [X..X]
