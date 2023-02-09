@@ -86,19 +86,14 @@
 
 
 * PROG int_ NFH
-- int_ NFH:  4  mM
-  - Refine D < 40
-  - int_ NFHf
-    - Lx = [78..30..-2]
-      - D = 27, 27.113 converged but weird force (25, 26)
-        - [ ] Rerun from adjacent
-      - [-] D = 34 ~ 38.113 didn't converge (41 ~ 46)
-- int_ NFH2: 6  mM
+- 4 mM: int_ NFH
+  - int_ NFHf: Lx = [78..30..-2]
+- 6 mM: int_ NFH2
   - Refine D < 50, esp. D < 25
   - int_ NFH2f
     - [-] Lx = [78..30..-2]
       - Rerun for convergence
-- 50 mM
+- 50 mM: int_ NFH3
   - [-] NFH3: Lx = [150..30]
     - Redoing for correct freeE
   - Separated
