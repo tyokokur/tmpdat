@@ -321,7 +321,7 @@ If complicated, warranted for a new paper
 - [ ] 1Cd - 1Cd (\alpha 0.2, \chi 0.8?)
 - [-] 2C - 2C (\chi 1.75; p2a4s02/9)
   - [-] p2_ 1: D = [50..20..-5]
-    - Init from p1_ 2C 
+    - Init from int_ SYSGp1/p1_ 2C
       
 ** 2Cd - 2Cd (\alpha 0.3,  \chi 1.1?)
 ** 3C - 3C (\chi 1.45) 
