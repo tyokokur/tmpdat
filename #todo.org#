@@ -98,6 +98,7 @@
       - D = {18..12} right track; {11..10} init from 12
   - Condensed
     - NFH3f: Lx = [18..10..-1]
+      - Rerun for Nx report
     - NFH3c: Lx = [20..50..2]; in=0; 0.80
       - Only worked up to D = 23 (24, 25 did not))
     
