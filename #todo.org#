@@ -104,7 +104,7 @@
       - Worked up to D = 23 (24, 25 did not))
       - 
   - NOTE: intNFH3s WA not symmetric
-    - Could be same for other int_ NFHs
+    - Affected: intNFH3s, intNFH3, intNFH3s, intNFH3f, intNFH2f, intNFHf
     - int_ SYSG seems fine on check of p1_ 4030
     - [-] Rerun NFH3s/29 in NFH3s/00 using intSYSG (with Nm mod)
     
