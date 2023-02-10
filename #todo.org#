@@ -103,6 +103,9 @@
     - NFH3c: Lx = [20..50..2]; in=0; 0.80
       - Worked up to D = 23 (24, 25 did not))
       - 
+  - NOTE: intNFH3s WA not symmetric
+    - Could be same for other int_ NFHs
+    - int_ SYSG seems fine on check of p1_ 4030
     
 * PROG NLH Fitting
 ** DONE New NFL fit
