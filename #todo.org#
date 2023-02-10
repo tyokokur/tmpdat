@@ -311,7 +311,7 @@ If complicated, warranted for a new paper
 - [-] 1C - 1C (\chi 2.0; p1a4s02/27)
   - [-] p1_ 2C: D = [40..30]
     - Rerun to converge
-  - [-] p1_ 2010: D = [40..30]
+  - p1_ 2010: D = [40..30]
   - [ ] c1008: D = [XX..XX], (in = 0, 0.90)
     - Fixed Nm to 200; start outlining condensed profile
   - [ ] s{XX}: D = [X..X]
