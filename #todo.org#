@@ -99,7 +99,7 @@
   - Condensed
     - NFH3f: Lx = [18..10..-1]
     - NFH3c: Lx = [20..50..2]; in=0; 0.80
-      - Only worked up to D = 25
+      - Only worked up to D = 23 (24, 25 did not))
     
 * PROG NLH Fitting
 ** DONE New NFL fit
