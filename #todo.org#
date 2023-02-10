@@ -106,6 +106,7 @@
   - NOTE: intNFH3s WA not symmetric
     - Could be same for other int_ NFHs
     - int_ SYSG seems fine on check of p1_ 4030
+    - [-] Rerun NFH3s/29 in NFH3s/00 using intSYSG (with Nm mod)
     
 * PROG NLH Fitting
 ** DONE New NFL fit
