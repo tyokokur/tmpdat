@@ -93,13 +93,15 @@
     - Lx = [78..30..-2]
 - 50 mM: int_ NFH3
   - [-] NFH3: Lx = [150..30]
-    - Redoing for correct freeE
+    - 1,2,4 rerun
+    - D = {75..20} sep, {17.5..15} con
   - Separated
     - [-] NFH3s: Lx = [36..20..-1]; in=-1; W_ sym20 & W_ sym40
+      - D = {18..12} right track; {11..10} init from 12
   - Condensed
     - NFH3f: Lx = [18..10..-1]
-    - [-] NFH3c: Lx = [20..50..2]; in=0; 0.80
-
+    - NFH3c: Lx = [20..50..2]; in=0; 0.80
+      - Worked up to D = 23 (24, 25 did not))
     
 * PROG NLH Fitting
 ** DONE New NFL fit
@@ -184,7 +186,7 @@ Running on double.c
 - [ ] b0.5 v1.00 c3.00 (b5v1c3)
 - [ ] b0.5 v1.50 c3.20 (b5v5c2)
 - [ ] b0.5 v1.50 c3.00 (b5v5c3)
-- Failed: in= -1n
+- Failed: in= -1
 - Failed: in = 0, 0.40
 - Try wopt, wcmp change? Ns0 increase? 
   
@@ -307,17 +309,17 @@ Running on double.c
 See if interaction profiles interesting and not too complicated
 If complicated, warranted for a new paper
 - [-] 1C - 1C (\chi 2.0; p1a4s02/27)
-  - [-] 2010: D = [40..30]
-    - Do forces 
-  - [ ] c1008: D = [XX..XX], (in = 0, 0.90)
-    - Fixed Nm to 200; start outlining condensed profile
-    - [ ] s{XX}: D = [X..X]
-    - After 2010, init sep for FreeE cross
-- 1Cd - 1Cd (\alpha 0.2, \chi 0.8?)
+  - [-] p1_ 2C: D = [40..30]
+  - p1_ 4030: D = [40..30]
+  - [-] c2520: D = [25..20..-1], (in = 0, 0.90)
+  - [-] s{3020}: D = [30..20..-1]
+    - init W_ 30 from 4030
+
 - [-] 2C - 2C (\chi 1.75; p2a4s02/9)
-  - p2_ 1: D = [50..20..-5]
-    - Previous code Nm \ne 200; fixed 02/03 and checking
+  - [-] p2: D = [50..20..-5]
+    - Init from int_ SYSGp1/p1_ 2C
       
+** 1Cd - 1Cd (\alpha 0.2, \chi 0.8?)      
 ** 2Cd - 2Cd (\alpha 0.3,  \chi 1.1?)
 ** 3C - 3C (\chi 1.45) 
 ** 3Cd - 3Cd (is there a meta example?)
