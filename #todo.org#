@@ -105,7 +105,7 @@
       - 
   - NOTE: intNFH3s WA not symmetric
     - Affected: intNFH3s, intNFH3, intNFH3s, intNFH3f, intNFH2f, intNFHf
-    - int_ SYSG seems fine on check of p1_ 4030
+    - int_ SYSG is fine (checked all previous)
     - [-] Rerun NFH3s/29 in NFH3s/00 using intSYSG (with Nm mod)
     
 * PROG NLH Fitting
