@@ -88,7 +88,8 @@
 * PROG int_ NFH
 - 4 mM: int_ NFH
   - int_ NFHf: Lx = [78..30..-2]
-  - [ ] ./INT/NFH_ 04 prepped for when intNFH.c fixed
+  - [-] ./INT/NFH_ 04
+    - Redo using intNFH.c
 - 6 mM: int_ NFH2
   - int_ NFH2f
     - Lx = [78..30..-2]
@@ -107,7 +108,7 @@
   - NOTE: intNFH3s WA not symmetric
     - Affected: intNFH3s, intNFH3, intNFH3s, intNFH3f, intNFH2f, intNFHf
     - int_ SYSG is fine (checked all previous)
-    - [-] Rerun NFH3s/29 in NFH3s/00 using intSYSG (with Nm mod)
+    - [-] *CHECK NFH_ 04* first then spread to rest
     
 * PROG NLH Fitting
 ** DONE New NFL fit
