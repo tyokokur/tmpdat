@@ -107,7 +107,6 @@
       - 
   - NOTE: intNFH3s WA not symmetric
     - Affected: intNFH3s, intNFH3, intNFH3s, intNFH3f, intNFH2f, intNFHf
-    - int_ SYSG is fine (checked all previous)
     - [-] *CHECK NFH_ 04* first then spread to rest
     
 * PROG NLH Fitting
@@ -318,8 +317,8 @@ If complicated, warranted for a new paper
 - [-] 1C - 1C (\chi 2.0; p1a4s02/27)
   - [-] p1_ 2C: D = [40..30]
   - p1_ 4030: D = [40..30]
-  - [-] c2520: D = [25..20..-1], (in = 0, 0.90)
-  - [-] s{3020}: D = [30..20..-1]
+  - c2520: D = [25..20..-1], (in = 0, 0.90)
+  - s{3020}: D = [30..20..-1]
     - init W_ 30 from 4030
 
 - [-] 2C - 2C (\chi 1.75; p2a4s02/9)
