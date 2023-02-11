@@ -88,7 +88,7 @@
 * PROG int_ NFH
 - 4 mM: int_ NFH
   - int_ NFHf: Lx = [78..30..-2]
-  - [ ] ./INT/NFH_ 04
+  - [-] ./INT/NFH_ 04
     - Redo using intNFH.c
 - 6 mM: int_ NFH2
   - int_ NFH2f
