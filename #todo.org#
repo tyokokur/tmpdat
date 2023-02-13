@@ -101,10 +101,7 @@
     - NFH3f: Lx = [18..10..-1]
     - NFH3c: Lx = [20..50..2]; in=0; 0.80
       - Worked up to D = 23 (24, 25 did not))
-      - 
-  - NOTE: intNFH3s WA not symmetric
-    - Affected: intNFH3s, intNFH3, intNFH3s, intNFH3f, intNFH2f, intNFHf
-    - [-] *CHECK NFH_ 04* first then spread to rest
+
     
 * PROG NLH Fitting
 ** DONE New NFL fit
