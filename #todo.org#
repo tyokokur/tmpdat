@@ -92,7 +92,7 @@
 - 6 mM: NFH_ 06
   - [-] H06a: Lx = [78..30..-2]
   - [-] H06b: Lx = [150..80]
-- 50 mM: int_ NFH3
+- 50 mM: NFH_ 150
   - NFH3: Lx = [150..30]
     - D = {75..20} sep, {17.5..15} con
   - Separated
