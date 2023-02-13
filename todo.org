@@ -86,28 +86,16 @@
 
 
 * PROG int_ NFH
-- 4 mM: int_ NFH
-  - int_ NFHf: Lx = [78..30..-2]
-  - [-] ./INT/NFH_ 04
-    - Redo using intNFH.c
-- 6 mM: int_ NFH2
-  - int_ NFH2f
-    - Lx = [78..30..-2]
-- 50 mM: int_ NFH3
-  - NFH3: Lx = [150..30]
-    - D = {75..20} sep, {17.5..15} con
-  - Separated
-    - [-] NFH3s: Lx = [36..20..-1]; in=-1; W_ sym20 & W_ sym40
-      - D = {18..12.56} finished, {12..10} went to condensed
-    - [ ] NFH3s2: Lx = {40, 45, 50, 55, 60}; W_ sym40, W_ sym50, W_ sym60
-  - Condensed
-    - NFH3f: Lx = [18..10..-1]
-    - NFH3c: Lx = [20..50..2]; in=0; 0.80
-      - Worked up to D = 23 (24, 25 did not))
-      - 
-  - NOTE: intNFH3s WA not symmetric
-    - Affected: intNFH3s, intNFH3, intNFH3s, intNFH3f, intNFH2f, intNFHf
-    - [-] *CHECK NFH_ 04* first then spread to rest
+- 4 mM: NFH_ 04
+  - [X] H04a: Lx = [78..30..-2]
+  - [-] H04b: Lx = [150..80]
+- 6 mM: NFH_ 06
+  - [-] H06a: Lx = [78..30..-2]
+  - [-] H06b: Lx = [150..80]
+- 50 mM: NFH_ 50
+  - [-] H50s: Lx = [150..25]
+  - [-] H50c: Lx = [46..10]
+
     
 * PROG NLH Fitting
 ** DONE New NFL fit
