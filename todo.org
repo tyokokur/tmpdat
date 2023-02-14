@@ -182,7 +182,8 @@ Running on double.c
 - [ ] b0.5 v1.50 c3.00 (b5v5c3)
 - Failed: in= -1
 - Failed: in = 0, 0.40
-- Try andit 5000
+- [-] Try andit 5000 (only b5v1c2)
+  - Other options: wopt/wcmp; Ns0
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
@@ -306,10 +307,14 @@ If complicated, warranted for a new paper
   - [-] p1_ 2C: D = [40..30]
     - Results look good; rerun for convergence
   - p1_ 4030: D = [40..30]
+    
   - c2520: D = [25..20..-1], (in = 0, 0.90)
     - [-] ./{1..6} redo using ./7 (turned into sep)
-  - s{3020}: D = [30..20..-1]
+  - [-] c1915: D = [19..15..-0.5], (in = 0, 0.90)
+    
+  - s3020: D = [30..20..-1]
     - [-] ./20 redo Lx = 42.12
+  - [-] s1915: D = [19..15..-0.5], init from s3020/21
  
 - [-] 2C - 2C (\chi 1.75; p2a4s02/9)
   - [-] p2: D = [50..20..-5]
