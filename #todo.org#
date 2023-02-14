@@ -313,8 +313,7 @@ If complicated, warranted for a new paper
   - c2520: D = [25..20..-1], (in = 0, 0.90)
     - [-] ./{1,2} redo
   - c1915: D = [19..15..-0.5], (in = 0, 0.90)
-    - [-] Rerun with new wcmp/wopt
-    - From s1915, D = 17.5 seems to be max realistic pha
+    - D = 17.5 seems to be max realistic pha
   - s3020: D = [30..20..-1]
     - [-] ./21 redo Lx = 40.00 using ./22
   - s1915: D = [19..15..-0.5], init from s3020/21
