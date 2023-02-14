@@ -307,7 +307,7 @@ If complicated, warranted for a new paper
     - Results look good; rerun for convergence
   - p1_ 4030: D = [40..30]
   - c2520: D = [25..20..-1], (in = 0, 0.90)
-    - ./{1..6} redo using ./7 (turned into sep)
+    - [-] ./{1..6} redo using ./7 (turned into sep)
   - s{3020}: D = [30..20..-1]
     - [-] ./20 redo Lx = 42.12
  
