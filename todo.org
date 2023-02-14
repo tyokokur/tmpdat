@@ -182,7 +182,7 @@ Running on double.c
 - [ ] b0.5 v1.50 c3.00 (b5v5c3)
 - Failed: in= -1
 - Failed: in = 0, 0.40
-- Try wopt, wcmp change? Ns0 increase? 
+- Try andit 5000
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
@@ -304,14 +304,16 @@ See if interaction profiles interesting and not too complicated
 If complicated, warranted for a new paper
 - [-] 1C - 1C (\chi 2.0; p1a4s02/27)
   - [-] p1_ 2C: D = [40..30]
+    - Results look good; rerun for convergence
   - p1_ 4030: D = [40..30]
   - c2520: D = [25..20..-1], (in = 0, 0.90)
+    - [-] ./{1..6} redo using ./7 (turned into sep)
   - s{3020}: D = [30..20..-1]
-    - init W_ 30 from 4030
-
+    - [-] ./20 redo Lx = 42.12
+ 
 - [-] 2C - 2C (\chi 1.75; p2a4s02/9)
   - [-] p2: D = [50..20..-5]
-    - Init from int_ SYSGp1/p1_ 2C
+    - Results look good; rerun for convergence
       
 ** 1Cd - 1Cd (\alpha 0.2, \chi 0.8?)      
 ** 2Cd - 2Cd (\alpha 0.3,  \chi 1.1?)
