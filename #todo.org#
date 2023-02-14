@@ -185,8 +185,8 @@ Running on double.c
 - [ ] b0.5 v1.50 c3.00 (b5v5c3)
 - Failed: in= -1
 - Failed: in = 0, 0.40
-- [-] Try andit 5000 (only b5v1c2)
-  - Other options: wopt/wcmp; Ns0
+- Try andit 5000 (only b5v1c2)
+- Try b0.75 instead (only b5v1c2)
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
