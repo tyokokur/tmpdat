@@ -98,6 +98,7 @@
 - 50 mM: NFH_ 50
   - [-] H50s: Lx = [150..25]
   - [X] H50c: Lx = [46..10]
+  - [ ] H50c2: Lx = []
 
     
 * PROG NLH Fitting
@@ -186,7 +187,7 @@ Running on double.c
 - Failed: in= -1
 - Failed: in = 0, 0.40
 - Try andit 5000 (only b5v1c2)
-- Try b0.75 instead (only b5v1c2)
+- [-] Try b0.75 instead (only b5v1c2)
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
