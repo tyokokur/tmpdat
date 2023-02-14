@@ -309,7 +309,7 @@ If complicated, warranted for a new paper
   - c2520: D = [25..20..-1], (in = 0, 0.90)
     - ./{1..6} redo using ./7 (turned into sep)
   - s{3020}: D = [30..20..-1]
-    - [-] Redo Lx = 42.12 (./20)
+    - [-] ./20 redo Lx = 42.12
 
 - [-] 2C - 2C (\chi 1.75; p2a4s02/9)
   - [-] p2: D = [50..20..-5]
