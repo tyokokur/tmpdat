@@ -311,7 +311,7 @@ If complicated, warranted for a new paper
   - p1_ 4030: D = [40..30]
     
   - c2520: D = [25..20..-1], (in = 0, 0.90)
-    - [-] ./{1..6} redo using ./7 (turned into sep)
+    - [-] ./{1,2} redo
   - [-] c1915: D = [19..15..-0.5], (in = 0, 0.90)
     
   - s3020: D = [30..20..-1]
