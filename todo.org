@@ -90,7 +90,7 @@
   - [X] H04a: Lx = [78..30..-2]
   - [X] H04b: Lx = [150..80]
   - [-] H04c: Lx = [160..85..-5]
-  - [ ] H04d: Lx = [29..19..-1]
+  - [-] H04d: Lx = [29..19..-1]
 - 6 mM: NFH_ 06
   - [X] H06a: Lx = [78..30..-2]
   - [X] H06b: Lx = [150..80]
@@ -98,6 +98,7 @@
 - 50 mM: NFH_ 50
   - [-] H50s: Lx = [150..25]
   - [X] H50c: Lx = [46..10]
+  - [-] H50c2: Lx = [50..70..4]
 
     
 * PROG NLH Fitting
@@ -185,8 +186,8 @@ Running on double.c
 - [ ] b0.5 v1.50 c3.00 (b5v5c3)
 - Failed: in= -1
 - Failed: in = 0, 0.40
-- [-] Try andit 5000 (only b5v1c2)
-  - Other options: wopt/wcmp; Ns0
+- Try andit 5000 (only b5v1c2)
+- [-] Try b0.75 instead (only b5v1c2)
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
@@ -316,9 +317,8 @@ If complicated, warranted for a new paper
   - c1915: D = [19..15..-0.5], (in = 0, 0.90)
     - D = 17.5 seems to be max realistic pha
   - s3020: D = [30..20..-1]
-    - [-] ./21 redo Lx = 40.00 using ./22
   - s1915: D = [19..15..-0.5], init from s3020/21
-    - [ ] Redo; Start with 19, 18
+    - [-] Redo; Start with 19 from s3020/22
  
 - [-] 2C - 2C (\chi 1.75; p2a4s02/9)
   - [-] p2: D = [50..20..-5]
@@ -418,18 +418,4 @@ If complicated, warranted for a new paper
 ** Simple calculations for Nafion against charged plate
 *** Guess b, v, chi (Teflon)
 *** Modeling paper for grafting density?
-
-* PYTHON TEST
-#+begin_src python
-  def func(x):
-        sum = 0
-        for i in range(x):
-              sum += i
-        return sum
-  return func(5)
-#+end_src
-
-#+RESULTS:
-: 10
-
 
