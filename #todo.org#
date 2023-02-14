@@ -318,8 +318,7 @@ If complicated, warranted for a new paper
   - s3020: D = [30..20..-1]
     - [-] ./21 redo Lx = 40.00 using ./22
   - s1915: D = [19..15..-0.5], init from s3020/21
-    - [ ] ./7 redo using ./6; {7..xx} nan, check phas first to see if
-      results needed or if pha even possible
+    - [ ] Redo; Start with 19, 18
  
 - [-] 2C - 2C (\chi 1.75; p2a4s02/9)
   - [-] p2: D = [50..20..-5]
