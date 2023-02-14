@@ -310,7 +310,7 @@ If complicated, warranted for a new paper
     - ./{1..6} redo using ./7 (turned into sep)
   - s{3020}: D = [30..20..-1]
     - [-] ./20 redo Lx = 42.12
-
+ 
 - [-] 2C - 2C (\chi 1.75; p2a4s02/9)
   - [-] p2: D = [50..20..-5]
     - Results look good; rerun for convergence
