@@ -307,8 +307,6 @@ If complicated, warranted for a new paper
     - Results look good; rerun for convergence
   - p1_ 4030: D = [40..30]
   - c2520: D = [25..20..-1], (in = 0, 0.90)
-    - [-] ./{1,2} redo
-      - If doesn't work, don't really need
   - c1915: D = [19..15..-0.5], (in = 0, 0.90)
     - D = 17.5 seems to be max realistic pha
   - s3020: D = [30..20..-1]
