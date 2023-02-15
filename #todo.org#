@@ -311,8 +311,8 @@ If complicated, warranted for a new paper
     - D = 17.5 seems to be max realistic pha
   - s3020: D = [30..20..-1]
   - s1915: D = [19..15..-0.5], init from s3020/21
-    - ./1 to Lx = 39 (from Wsym)
-    - ./2 to Lx = 39.5 (from Wsym)
+    - ./1 to Lx = 39 (from Wsym_ 39)
+    - ./2 to Lx = 39.5 (from Wsym_ 395)
  
 - [-] 2C - 2C (\chi 1.75; p2a4s02/9)
   - [-] p2: D = [50..20..-5]
