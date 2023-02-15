@@ -103,7 +103,6 @@
   - [-] H50s: Lx = [150..25]
   - [X] H50c: Lx = [46..10]
   - [-] H50c2: Lx = [50..70..4]
-    - Rerunning ./7 from ./8 since nan
 
     
 * PROG NLH Fitting
