@@ -101,7 +101,6 @@
   - [ ] H06d: Lx = [11.5..30..1] (condensed)
 - 50 mM: NFH_ 50
   - [X] H50s: Lx = [150..25]
-    - All worked but ./1; just don't plot
   - [X] H50c: Lx = [46..10]
   - [-] H50c2: Lx = [50..70..4]
 
