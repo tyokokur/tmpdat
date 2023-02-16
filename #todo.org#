@@ -187,8 +187,9 @@ Running on double.c
 - Try to min total volume so mix80 has effect
   
 - [X] b0.75 v1.00 c3.20 (b5v1c2)
-  - Too tall
+  - 
 - [ ] b0.75 v1.00 c3.00 (b5v1c3)
+  - Too tall
 - [-] b0.75 v1.50 c3.20 (b5v5c2)
 - [-] b0.75 v1.50 c3.00 (b5v5c3)
   
