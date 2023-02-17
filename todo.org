@@ -97,7 +97,8 @@
   - Sweep finished
     - Smooth out force curve
       - Con
-        - [-] Add to H04e: D = [11, 13, 15]
+        - [X] Add to H04e: D = [11, 13, 15]
+        - [ ] Noisy; need to fix; Ns inc?
       - Sep
         - [-] From H04d: D = [14.5..11.5](./13..22); Ns inc?
         - [-] From H04a: D = [78..30]; Ns inc?
@@ -108,11 +109,11 @@
   - [-] H06d: Lx = [25..60..5] (condensed)
     - [-] Con H06d.{9.10}: Extend to D = 22.5 to make cross clear
 - 50 mM: NFH_ 50
-  - [X] H50s: Lx = [150..25]
+  - [X] H50s: Lx = [75..25]
   - [X] H50c: Lx = [46..10]
-  - [X] H50c2: Lx = [50..70..4]
-    - Do 2 more condensed and 2 more sep to make cross more apparent
-    - Calculate exact crossing and interpolate to make min. freeE line
+  - [-] H50c2: Lx = [50..70..4]
+    - [-] Con: Lx = 80 (./H50c2/13,14)
+    - [-] Sep: Lx = 100 (./H50s/39. 40)
 
     
 * PROG NLH Fitting
