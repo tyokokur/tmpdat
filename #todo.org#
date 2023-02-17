@@ -100,8 +100,9 @@
   - [X] H06a: Lx = [78..30..-2]
   - [X] H06b: Lx = [150..80]
   - [X] H06c: Lx = [30..10..-1]
-  - [-] H06d: Lx = [25..60..5] (condensed)
-    - [-] Con H06d.{9.10}: Extend to D = 22.5 to make cross clear
+  - [X] H06d: Lx = [25..60..5] (condensed)
+  - Cross-over:
+    - Lx = 39.735
 - 50 mM: NFH_ 50
   - [X] H50s: Lx = [75..25]
   - [X] H50c: Lx = [46..10]
