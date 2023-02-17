@@ -99,6 +99,7 @@
 - 6 mM: NFH_ 06
   - [X] H06a: Lx = [78..30..-2]
   - [X] H06b: Lx = [150..80]
+    - Need more here for spline fitting (3?)
   - [X] H06c: Lx = [30..10..-1]
   - [X] H06d: Lx = [25..60..5] (condensed)
   - Cross-over:
