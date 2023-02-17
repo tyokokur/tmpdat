@@ -102,6 +102,7 @@
     - Need more here for spline fitting (3?)
   - [X] H06c: Lx = [30..10..-1]
   - [X] H06d: Lx = [25..60..5] (condensed)
+    - Maybe 2 more; should level out to const F
   - Cross-over:
     - Lx = 39.735
 - 50 mM: NFH_ 50
