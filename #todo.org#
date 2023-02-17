@@ -94,6 +94,13 @@
     - Sep: D = [14.5..11.5]
     - Con: D = [11.0..9.5]
   - [X] H04e: Lx = [24..48..4] (condensed)
+  - Sweep finished
+    - Smooth out force curve
+      - Con
+        - D = [11, 13, 15]
+      - Sep
+        - From H04d: D = [14.5..11.5]; Ns inc?
+        - FD = [
 - 6 mM: NFH_ 06
   - [X] H06a: Lx = [78..30..-2]
   - [X] H06b: Lx = [150..80]
