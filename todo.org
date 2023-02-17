@@ -91,14 +91,21 @@
   - [X] H04b: Lx = [150..80]
   - [X] H04c: Lx = [160..85..-5]
   - [X] H04d: Lx = [29..19..-1]
-    - Sep: [14.5..11.5]
-    - Con: [11.0..9.5]
-  - [ ] H04e: Lx = [9.5..20..2] (condensed)
+    - Sep: D = [14.5..11.5]
+    - Con: D = [11.0..9.5]
+  - [X] H04e: Lx = [24..48..4] (condensed)
+  - Sweep finished
+    - Smooth out force curve
+      - Con
+        - D = [11, 13, 15]
+      - Sep
+        - From H04d: D = [14.5..11.5]; Ns inc?
+        - From H04a: D = [78..30]; Ns inc?
 - 6 mM: NFH_ 06
   - [X] H06a: Lx = [78..30..-2]
   - [X] H06b: Lx = [150..80]
   - [X] H06c: Lx = [30..10..-1]
-  - [ ] H06d: Lx = [11.5..30..1] (condensed)
+  - [-] H06d: Lx = [25..60..5] (condensed)
 - 50 mM: NFH_ 50
   - [X] H50s: Lx = [150..25]
   - [X] H50c: Lx = [46..10]
@@ -187,9 +194,8 @@ Running on double.c
 - Try to min total volume so mix80 has effect
   
 - [X] b0.75 v1.00 c3.20 (b5v1c2)
-- [-] b0.75 v1.00 c3.00 (b5v1c3)
-- [-] b0.75 v1.50 c3.20 (b5v5c2)
-- [-] b0.75 v1.50 c3.00 (b5v5c3)
+  - Too tall
+- [-] b0.75 v0.50 c3.20 (b5v05c2)
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
@@ -315,8 +321,8 @@ If complicated, warranted for a new paper
   - s1915: D = [19..15..-0.5], init from s3020/21
     - [X] ./1 to Lx = 39 (from Wsym_ 39)
       - Didn't work
-    - [-] ./2 to Lx = 39.5 (from Wsym_ 395)
-      - Rerun with new Lx
+    - [-] ./2 to Lx = 39.5 (from Wsym)
+      - Running with Lx=39.48 and Ns = 1200
  
 - [-] 2C - 2C (\chi 1.75; p2a4s02/9)
   - [-] p2: D = [50..20..-5]
