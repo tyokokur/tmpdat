@@ -196,7 +196,8 @@ Running on double.c
   
 - [X] b0.75 v1.00 c3.20 (b5v1c2)
   - Too tall
-- [-] b0.75 v0.50 c3.20 (b5v05c2)
+- [X] b0.75 v0.50 c3.20 (b5v05c2)
+  - 
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
