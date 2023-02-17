@@ -86,39 +86,40 @@
 
 
 * PROG int_ NFH
+** PROG Sweeps
+- 10 mM: NFH_ 10
+  - dfgdf
+- 30 mM: NFH_ 30
+  - sfsd
+
+7: 1200, 12: W_ in.dat, 16: 1.0e-09, 100, 10
+** DONE Sweeps
 - 4 mM: NFH_ 04
-  - [X] H04a: Lx = [78..30..-2]
-  - [X] H04b: Lx = [150..80]
-  - [X] H04c: Lx = [160..85..-5]
-  - [X] H04d: Lx = [29..19..-1]
+  - H04a: Lx = [78..30..-2]
+  - H04b: Lx = [150..80]
+  - H04c: Lx = [160..85..-5]
+  - H04d: Lx = [29..19..-1]
     - Sep: D = [14.5..11.5]
     - Con: D = [11.0..9.5]
-  - [X] H04e: Lx = [24..48..4] (condensed)
+  - H04e: Lx = [24..48..4] (condensed)
   - Cross-over:
-    - D = 18.81
-  - Sweep finished
-    - Smooth out force curve
-      - Con
-        - [X] Add to H04e: D = [11, 13, 15]
-        - [ ] Noisy; need to fix; Ns inc? Wait for other Ns inc to see
-          if worked
-      - Sep
-        - [-] From H04d: D = [14.5..11.5](./13..22); Ns inc?
-        - [-] From H04a: D = [78..30]; Ns inc?
+    - D = 18.81; Lx = 37.6
 - 6 mM: NFH_ 06
-  - [X] H06a: Lx = [78..30..-2]
-  - [X] H06b: Lx = [150..80]
-  - [X] H06c: Lx = [30..10..-1]
-  - [-] H06d: Lx = [25..60..5] (condensed)
-    - [-] Con H06d.{9.10}: Extend to D = 22.5 to make cross clear
+  - H06a: Lx = [78..30..-2]
+  - H06b: Lx = [150..80]
+  - H06c: Lx = [30..10..-1]
+  - H06d: Lx = [25..60..5] (condensed)
+  - Cross-over:
+    - Lx = 39.735
 - 50 mM: NFH_ 50
-  - [X] H50s: Lx = [75..25]
-  - [X] H50c: Lx = [46..10]
-  - [-] H50c2: Lx = [50..70..4]
-    - [-] Con: Lx = 80 (./H50c2/13,14)
-    - [-] Sep: Lx = 100 (./H50s/39. 40)
+  - H50s: Lx = [75..25]
+  - H50c: Lx = [46..10]
+    - Tried to clean up 46..40, but didn't work well, just fitted over
+  - H50c2: Lx = [50..70..4]
+  - Cross-over:
+    - Lx = 68.85
 
-    
+      
 * PROG NLH Fitting
 ** DONE New NFL fit
 Correction from z/b0 --> z/nm analysis
@@ -199,8 +200,10 @@ Running on double.c
 - Try to min total volume so mix80 has effect
   
 - [X] b0.75 v1.00 c3.20 (b5v1c2)
-  - Too tall
-- [-] b0.75 v0.50 c3.20 (b5v05c2)
+  - Too tall (H \approx 17)
+- [X] b0.75 v0.50 c3.20 (b5v05c2)
+  - Too tall (H \approx 12)
+- [-] b0.75 v0.40 c3.20 (b5v04c2)
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
