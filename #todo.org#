@@ -97,9 +97,9 @@
   - Sweep finished
     - Smooth out force curve
       - Con
-        - D = [11, 13, 15]
+        - Add to H04e: D = [11, 13, 15]
       - Sep
-        - From H04d: D = [14.5..11.5](./13..22); Ns inc?
+        - [-] From H04d: D = [14.5..11.5](./13..22); Ns inc?
         - [-] From H04a: D = [78..30]; Ns inc?
 - 6 mM: NFH_ 06
   - [X] H06a: Lx = [78..30..-2]
