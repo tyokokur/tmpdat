@@ -108,11 +108,11 @@
   - [-] H06d: Lx = [25..60..5] (condensed)
     - [-] Con H06d.{9.10}: Extend to D = 22.5 to make cross clear
 - 50 mM: NFH_ 50
-  - [X] H50s: Lx = [150..25]
+  - [X] H50s: Lx = [75..25]
   - [X] H50c: Lx = [46..10]
   - [X] H50c2: Lx = [50..70..4]
     - Con: Lx = 40
-    - Sep: Lx = 200
+    - Sep: Lx = 100 (./39)
 
     
 * PROG NLH Fitting
