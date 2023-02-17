@@ -113,7 +113,7 @@
   - Cross-over:
     - Lx = 68.85
 
-    
+7: 1200, 12: W_ in.dat, 16: 1.0e-09, 100, 10
 * PROG NLH Fitting
 ** DONE New NFL fit
 Correction from z/b0 --> z/nm analysis
