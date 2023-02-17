@@ -96,13 +96,6 @@
     - [ ] Extend 2 more; should level out to const F
   - Cross-over:
     - Lx = 39.735
-- 50 mM: NFH_ 50
-  - [X] H50s: Lx = [75..25]
-  - [-] H50c: Lx = [46..10]
-    - [-] Clean up [40..46] (./1..8)
-  - [X] H50c2: Lx = [50..70..4]
-  - Cross-over:
-    - Lx = 68.85
 - 10 mM: NFH_ 10
   - dfgdf
 - 30 mM: NFH_ 30
@@ -119,7 +112,16 @@
     - Con: D = [11.0..9.5]
   - H04e: Lx = [24..48..4] (condensed)
   - Cross-over:
-    - D = 18.81; Lx = 37.62
+    - D = 18.81; Lx = 37.6
+- 50 mM: NFH_ 50
+  - H50s: Lx = [75..25]
+  - H50c: Lx = [46..10]
+    - Tried to clean up 46..40, but didn't work well, just fitted over
+  - H50c2: Lx = [50..70..4]
+  - Cross-over:
+    - Lx = 68.85
+
+      
 * PROG NLH Fitting
 ** DONE New NFL fit
 Correction from z/b0 --> z/nm analysis
