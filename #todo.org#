@@ -97,11 +97,11 @@
   - Cross-over:
     - D = 18.81; Lx = 37.62
 - 6 mM: NFH_ 06
-  - [X] H06a: Lx = [78..30..-2]
-  - [X] H06b: Lx = [150..80]
+  - H06a: Lx = [78..30..-2]
+  - [ ] H06b: Lx = [150..80]
     - [ ] Refine 3 more here for spline fitting
-  - [X] H06c: Lx = [30..10..-1]
-  - [X] H06d: Lx = [25..60..5] (condensed)
+  - H06c: Lx = [30..10..-1]
+  - [ ] H06d: Lx = [25..60..5] (condensed)
     - [ ] Extend 2 more; should level out to const F
   - Cross-over:
     - Lx = 39.735
@@ -110,6 +110,8 @@
   - [X] H50c: Lx = [46..10]
   - [-] H50c2: Lx = [50..70..4]
     - [-] Con: Lx = 80 (./H50c2/13,14)
+  - Cross-over:
+    - Lx = 68.85
 
     
 * PROG NLH Fitting
