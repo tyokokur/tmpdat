@@ -85,8 +85,12 @@
 #+TBLFM: $2=$1^3*0.33;%.2f::$3=$1^3*0.15;%.2f
 
 
-* DONE int_ NFH
+* PROG int_ NFH
 NOTE: If needed, can refine; some points noisy so fitted over
+
+- 20 mM: NFH_ 20
+  - Repeat from 30 mM
+  - See if final force spectra looks better with 20 instead of 30 (or both)
 
 - 4 mM: NFH_ 04
   - H04a: Lx = [78..30..-2]
