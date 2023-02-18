@@ -90,9 +90,9 @@
 - 10 mM: NFH_ 10
   - Repeat all codes from NFH_ 06
 - 30 mM: NFH_ 30
-  - sfsd
+  - Repeat all codes form NFH_ 50
 
-7: 1200, 12: W_ in.dat, 16: 1.0e-09, 100, 10
+    
 ** DONE Sweeps
 - 4 mM: NFH_ 04
   - H04a: Lx = [78..30..-2]
