@@ -88,10 +88,6 @@
 * PROG int_ NFH
 NOTE: If needed, can refine; some points noisy so fitted over
 
-- 20 mM: NFH_ 20
-  - Repeat from 30 mM
-  - See if final force spectra looks better with 20 instead of 30 (or both)
-
 - 4 mM: NFH_ 04
   - H04a: Lx = [78..30..-2]
   - H04b: Lx = [150..80]
@@ -102,6 +98,7 @@ NOTE: If needed, can refine; some points noisy so fitted over
   - H04e: Lx = [24..48..4] (condensed)
   - Cross-over:
     - D = 18.81; Lx = 37.6
+
 - 6 mM: NFH_ 06
   - H06a: Lx = [78..30..-2]
   - H06b: Lx = [150..80]
@@ -109,6 +106,15 @@ NOTE: If needed, can refine; some points noisy so fitted over
   - H06d: Lx = [25..60..5] (condensed)
   - Cross-over:
     - Lx = 39.735
+      
+- [-] 10 mM: NFH_ 10
+  - Repeat all codes from NFH_ 06
+  - [-] 13..16 to extend cond force curve
+- 20 mM: NFH_ 20
+  - Repeat from 30 mM
+- 30 mM: NFH_ 30
+  - Repeat all codes form NFH_ 50
+    
 - 50 mM: NFH_ 50
   - H50s: Lx = [75..25]
   - H50c: Lx = [46..10]
@@ -116,11 +122,6 @@ NOTE: If needed, can refine; some points noisy so fitted over
   - H50c2: Lx = [50..70..4]
   - Cross-over:
     - Lx = 68.85
-      
-- 10 mM: NFH_ 10
-  - Repeat all codes from NFH_ 06
-- 30 mM: NFH_ 30
-  - Repeat all codes form NFH_ 50
 
       
 * PROG NLH Fitting
