@@ -212,8 +212,10 @@ Running on double.c
   - Too tall (H \approx 17)
 - [X] b0.75 v0.50 c3.20 (b5v05c2)
   - Too tall (H \approx 12)
-- [X] b0.75 v0.40 c3.20 (b5v04c2)
+- [-] b0.75 v0.40 c3.20 (b5v04c2)
   - Weird conformation and weird behavior (blob far from surface)
+    - Seems to be artifact of in==1 g*t
+  - [-] Run again with in==0
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
