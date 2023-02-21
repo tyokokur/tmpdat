@@ -109,7 +109,7 @@ NOTE: If needed, can refine; some points noisy so fitted over
       
 - [-] 10 mM: NFH_ 10
   - Repeat all codes from NFH_ 06
-  - [-] 13..16 to extend cond force curve
+  - [-] 15,16 to extend cond force curve
 - 20 mM: NFH_ 20
   - Repeat from 30 mM
 - 30 mM: NFH_ 30
