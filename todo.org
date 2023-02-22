@@ -127,7 +127,7 @@ NOTE: If needed, can refine; some points noisy so fitted over
   - p [=] Pa = N/m^2
   - p [=] kBT/nm^3
     - kB T = 1.38e-23 * 293 J = 4.04e-21 N m
-    - For D [=] nm, p [=] <F> * 4.04 e-21 N / nm^2 = <F> * 4.04e-03 Pa  
+    - For D [=] nm, p [=] <f> * 4.04 e-21 N / nm^2 = <f> * 4.04e-03 Pa  
       
 * PROG NLH Fitting
 ** DONE New NFL fit
@@ -440,8 +440,7 @@ If complicated, warranted for a new paper
   Fit b using either Rg^2 or R^2
   
 *** Rubinstein, Ch.2
-- 
-  pdf pg 62 for Flory characteristic ratio
+- pdf pg 62 for Flory characteristic ratio
 - pdf pg 65,6 for C_\infty definition for freely jointed and worm-like
 
 *** Chao presentation paper
