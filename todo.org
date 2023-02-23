@@ -447,6 +447,7 @@ If complicated, warranted for a new paper
 - pdf pg 62 for Flory characteristic ratio
 - pdf pg 65,6 for C_\infty definition for freely jointed and worm-like
 - pdf pg 110: Flexible polymers typically have b/d \approx 2~3
+  - For cylindrical monomers, p = b^3/v \approx (b/d)^2, so p \approx 4~6
 
 *** Chao presentation paper
 ** Simple calculations for Nafion against charged plate
