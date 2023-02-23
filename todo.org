@@ -128,6 +128,7 @@ NOTE: If needed, can refine; some points noisy so fitted over
   - p [=] kBT/nm^3
     - kB T = 1.38e-23 * 293 J = 4.04e-21 N m
     - For D [=] nm, p [=] <f> * 4.04 e-21 N / nm^2 = <f> * 4.04e-03 Pa  
+
       
 * PROG NLH Fitting
 ** DONE New NFL fit
@@ -212,10 +213,13 @@ Running on double.c
   - Too tall (H \approx 17)
 - [X] b0.75 v0.50 c3.20 (b5v05c2)
   - Too tall (H \approx 12)
-- [-] b0.75 v0.40 c3.20 (b5v04c2)
-  - Weird conformation and weird behavior (blob far from surface)
-    - Seems to be artifact of in==1 g*t
-  - [-] Run again with in==0
+- [X] b0.75 v0.40 c3.20 (b5v04c2)
+  - Too tall (H \approx 11.5)
+- [-] b0.75 v0.20 c3.20 (b5v02c2)
+  - Init from *v04*/1
+- [-] b0.75 v0.10 c3.20 (b5v01c2)
+  - Init from *v04*/1
+
   
 ** TODO Mixture runs
 - L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
@@ -442,6 +446,7 @@ If complicated, warranted for a new paper
 *** Rubinstein, Ch.2
 - pdf pg 62 for Flory characteristic ratio
 - pdf pg 65,6 for C_\infty definition for freely jointed and worm-like
+- pdf pg 110: Flexible polymers typically have b/d \approx 2~3
 
 *** Chao presentation paper
 ** Simple calculations for Nafion against charged plate
