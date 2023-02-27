@@ -215,10 +215,11 @@ Running on double.c
   - Too tall (H \approx 12)
 - [X] b0.75 v0.40 c3.20 (b5v04c2)
   - Too tall (H \approx 11.5)
-- [-] b0.75 v0.20 c3.20 (b5v02c2)
+- [X] b0.75 v0.20 c3.20 (b5v02c2)
   - Barely too tall (H \approx 9)
-- [-] b0.75 v0.10 c3.20 (b5v01c2)
-  - Init from *v04*/1
+- [X] b0.75 v0.10 c3.20 (b5v01c2)
+  - Looks pretty good
+  - Recalc for nans
 
   
 ** TODO Mixture runs
