@@ -85,7 +85,7 @@
 #+TBLFM: $2=$1^3*0.33;%.2f::$3=$1^3*0.15;%.2f
 
 
-* PROG int_ NFH
+* DONE int_ NFH
 NOTE: If needed, can refine; some points noisy so fitted over
 
 - 4 mM: NFH_ 04
@@ -215,19 +215,28 @@ Running on double.c
   - Too tall (H \approx 12)
 - [X] b0.75 v0.40 c3.20 (b5v04c2)
   - Too tall (H \approx 11.5)
-- [-] b0.75 v0.20 c3.20 (b5v02c2)
-  - Init from *v04*/1
+- [X] b0.75 v0.20 c3.20 (b5v02c2)
+  - Barely too tall (H \approx 9)
 - [-] b0.75 v0.10 c3.20 (b5v01c2)
-  - Init from *v04*/1
+  - Looks pretty good
+  - Recalc for nans
 
   
 ** TODO Mixture runs
-- L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
-  - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
-- [X] mix80: 80 mol% NFL (0.0200)
-  - RERUN after b0 fixed
-- [X] mix30: 30 mol% NFL (0.0075)
-  - RERUN after b0 fixed
+- L1
+  - L: b1.50 v2.70 c3.20
+  - H: b0.75 v0.10 c3.20
+- L2
+  - L: b1.75 v2.70 c3.20
+  - H: b0.75 v0.10 c3.20
+- L3
+  - L: b1.75 v2.50 c3.20
+  - H: b0.75 v0.10 c3.20
+- L4
+  - L: b2.00 v2.70 c3.20
+  - H: b0.75 v0.10 c3.20
+
+
 ** DONE b = 0.75
 - 10/24
   - [X] v0 = 4/3*PI*b^3
