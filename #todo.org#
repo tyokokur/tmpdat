@@ -222,20 +222,20 @@ Running on double.c
   - Recalc for nans
 
   
-** TODO Mixture runs
+** PROG Mixture runs
 30%: 0.0075 L ; 0.0175 H
 80%: 0.0200 L ; 0.0050 H
 
 - [-] L1
   - L: b1.50 v2.70 c3.20
   - H: b0.75 v0.10 c3.20
-- L2
+- [-] L2
   - L: b1.75 v2.70 c3.20
   - H: b0.75 v0.10 c3.20
-- L3
+- [-] L3
   - L: b1.75 v2.50 c3.20
   - H: b0.75 v0.10 c3.20
-- L4
+- [-] L4
   - L: b2.00 v2.70 c3.20
   - H: b0.75 v0.10 c3.20
 
