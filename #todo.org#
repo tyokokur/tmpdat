@@ -223,7 +223,17 @@ Running on double.c
 
   
 ** TODO Mixture runs
-
+- L1
+  - L: b1.50 v2.70 c3.20
+  - H: b0.75 v0.10 c3.20
+- L2
+  - L:
+  - H: b0.75 v0.10 c3.20
+- L3
+  - L:
+  - H: b0.75 v0.10 c3.20
+- L4 
+  
 
 
 ** DONE b = 0.75
