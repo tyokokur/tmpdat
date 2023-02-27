@@ -7,129 +7,6 @@
 * TODO PE triple point
 
 
-* DONE NFH Fitting
-*MAIN FINDINGS*
-- b0 and \chi main tuning levers
-- \uarr{}b0 increases H for high \kappa_D
-  - Cannot change just b0; must change \chi & \nu to get transition
-- \uarr{}\chi shifts transition to right (see b2 v2 chi 2.{4,6,8})
-  - Also increases H slightly for high \kappa_D
-- \nu mainly used to keep density profiles "realistic," e.g. \phi > 0.5 for
-  condensed region
-  - \uarr{}\nu can also decrease H for high \kappa_D
-** DONE Mini perturb
-- (b1v1) b1.0, v0.51, c6: fine tune location of peak
-- (b1v2) b1.0, v0.52, c6: fine tune location of peak
-- (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
-- (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
-- (b2v28) b2.2, v1.22, c8
-- (b2v20) b2.2, v1.22, c0
-
-(With slightly changed \alpha dist; H-H)
-- b2v22:  b2.2, v1.22 c3.2
-- b2v2c1: b2.2 v1.22 c3.1
-- f2{0..4}: b2.2 v1.23 c3.1
-  - v1.23, v1.24 
-  - *BEST* v1.20 (f201)
-    - Extended \kappa_D doesn't reach high enough
-- b2.2 v1.20 c3.05 (f205)
-  - Combination of 2 previous sweeps
-  - Not good enough
-- b2.5 v1.25
-  - c3.10, c3.15 (f515), c3.20 (f250), c3.25 (f255), c3.30 (f253)
-  - c3.32 (f332), c3.35 (f335), c3.37 (f337), c3.40 (f340)
-- b3.0 v1.30
-  - c3.45 (f345), c3.65 (f365), f3.90 (f390)
-  - c3.95 (f395), *BEST c4.00 (f400)*
-    
-
-** DONE Perturb (~%20) v sweep
-**** b10 v2=0.50: 
-***** v = 0.40, 0.60
-***** b1v4, b1v6
-**** b20 v4=1.20:
-***** v = 1.00, 1.40
-***** b2v0 done, b2v4 done
-** DONE Initial chi sweep
-**** PAUSE b10 vopt=2
-***** chi = 2.4, 2.8, 3.0
-***** DONE b1c4 
-***** b1c8 anderrs all > 0.1
-***** b1c0 same as c8
-**** DONE b20 vopt=4
-***** chi = 2.4, 2.8, 3.0
-***** b2c4, b2c8, b2c0
-
-** DONE b25
-- Mini perturb still not sharp enough; try increase b
-- [X] 11/03 rerun: b25v3
-- [X] 11/03 rerun: b25v4
-  
-** Notes:
-- b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
-- b2.{0,1} b1.2{0,1} c2.8
-  - b2.{0,1} good trend for max H
-  - v1.2{0,1} good trend for transition point
-- Overall observations:
-  - \Delta{}\nu shfits transition right, max H affected little
-  - \Delta{}\chi shifts transition right, max H up (by min H down)
-  - \Delta{}b shifts transition left, max H up
-
-** Calculations
-|  bx |   v3 |   v4 |
-|-----+------+------|
-| 1.0 | 0.33 | 0.15 |
-| 2.0 | 2.64 | 1.20 |
-| 2.5 | 5.16 | 2.34 |
-| 3.0 | 8.91 | 4.05 |
-#+TBLFM: $2=$1^3*0.33;%.2f::$3=$1^3*0.15;%.2f
-
-
-* DONE int_ NFH
-NOTE: If needed, can refine; some points noisy so fitted over
-
-- 4 mM: NFH_ 04
-  - H04a: Lx = [78..30..-2]
-  - H04b: Lx = [150..80]
-  - H04c: Lx = [160..85..-5]
-  - H04d: Lx = [29..19..-1]
-    - Sep: D = [14.5..11.5]
-    - Con: D = [11.0..9.5]
-  - H04e: Lx = [24..48..4] (condensed)
-  - Cross-over:
-    - D = 18.81; Lx = 37.6
-
-- 6 mM: NFH_ 06
-  - H06a: Lx = [78..30..-2]
-  - H06b: Lx = [150..80]
-  - H06c: Lx = [30..10..-1]
-  - H06d: Lx = [25..60..5] (condensed)
-  - Cross-over:
-    - Lx = 39.735
-      
-- 10 mM: NFH_ 10
-  - Repeat all codes from NFH_ 06
-- 20 mM: NFH_ 20
-  - Repeat from 30 mM
-    
-- 30 mM: NFH_ 30
-  - Repeat all codes form NFH_ 50
-    
-- 50 mM: NFH_ 50
-  - H50s: Lx = [75..25]
-  - H50c: Lx = [46..10]
-    - Tried to clean up 46..40, but didn't work well, just fitted over
-  - H50c2: Lx = [50..70..4]
-  - Cross-over:
-    - Lx = 68.85
-
-- Pressure SI units:
-  - p [=] Pa = N/m^2
-  - p [=] kBT/nm^3
-    - kB T = 1.38e-23 * 293 J = 4.04e-21 N m
-    - For D [=] nm, p [=] <f> * 4.04 e-21 N / nm^2 = <f> * 4.04e-03 Pa  
-
-      
 * PROG NLH Fitting
 ** DONE New NFL fit
 Correction from z/b0 --> z/nm analysis
@@ -343,6 +220,11 @@ Running on double.c
 
 
 
+* PROG Revise NFH paper
+- See notes.org
+- Force curves (see int_ NFH)
+
+  
 * PROG int_ SYSG
 See if interaction profiles interesting and not too complicated
 If complicated, warranted for a new paper
@@ -373,11 +255,6 @@ If complicated, warranted for a new paper
 ** 4Cd - 4Cd (\alpha 0.4, \chi 1.2?)
 
 
-* PROG Revise NFH paper
-- See notes.org
-- Force curves (see int_ NFH)
-
-  
 * TODO INT
 ** Parameter space:
 - d vs Cs
@@ -467,3 +344,126 @@ If complicated, warranted for a new paper
 *** Guess b, v, chi (Teflon)
 *** Modeling paper for grafting density?
 
+* DONE NFH Fitting
+*MAIN FINDINGS*
+- b0 and \chi main tuning levers
+- \uarr{}b0 increases H for high \kappa_D
+  - Cannot change just b0; must change \chi & \nu to get transition
+- \uarr{}\chi shifts transition to right (see b2 v2 chi 2.{4,6,8})
+  - Also increases H slightly for high \kappa_D
+- \nu mainly used to keep density profiles "realistic," e.g. \phi > 0.5 for
+  condensed region
+  - \uarr{}\nu can also decrease H for high \kappa_D
+** DONE Mini perturb
+- (b1v1) b1.0, v0.51, c6: fine tune location of peak
+- (b1v2) b1.0, v0.52, c6: fine tune location of peak
+- (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
+- (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
+- (b2v28) b2.2, v1.22, c8
+- (b2v20) b2.2, v1.22, c0
+
+(With slightly changed \alpha dist; H-H)
+- b2v22:  b2.2, v1.22 c3.2
+- b2v2c1: b2.2 v1.22 c3.1
+- f2{0..4}: b2.2 v1.23 c3.1
+  - v1.23, v1.24 
+  - *BEST* v1.20 (f201)
+    - Extended \kappa_D doesn't reach high enough
+- b2.2 v1.20 c3.05 (f205)
+  - Combination of 2 previous sweeps
+  - Not good enough
+- b2.5 v1.25
+  - c3.10, c3.15 (f515), c3.20 (f250), c3.25 (f255), c3.30 (f253)
+  - c3.32 (f332), c3.35 (f335), c3.37 (f337), c3.40 (f340)
+- b3.0 v1.30
+  - c3.45 (f345), c3.65 (f365), f3.90 (f390)
+  - c3.95 (f395), *BEST c4.00 (f400)*
+    
+
+** DONE Perturb (~%20) v sweep
+**** b10 v2=0.50: 
+***** v = 0.40, 0.60
+***** b1v4, b1v6
+**** b20 v4=1.20:
+***** v = 1.00, 1.40
+***** b2v0 done, b2v4 done
+** DONE Initial chi sweep
+**** PAUSE b10 vopt=2
+***** chi = 2.4, 2.8, 3.0
+***** DONE b1c4 
+***** b1c8 anderrs all > 0.1
+***** b1c0 same as c8
+**** DONE b20 vopt=4
+***** chi = 2.4, 2.8, 3.0
+***** b2c4, b2c8, b2c0
+
+** DONE b25
+- Mini perturb still not sharp enough; try increase b
+- [X] 11/03 rerun: b25v3
+- [X] 11/03 rerun: b25v4
+  
+** Notes:
+- b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
+- b2.{0,1} b1.2{0,1} c2.8
+  - b2.{0,1} good trend for max H
+  - v1.2{0,1} good trend for transition point
+- Overall observations:
+  - \Delta{}\nu shfits transition right, max H affected little
+  - \Delta{}\chi shifts transition right, max H up (by min H down)
+  - \Delta{}b shifts transition left, max H up
+
+** Calculations
+|  bx |   v3 |   v4 |
+|-----+------+------|
+| 1.0 | 0.33 | 0.15 |
+| 2.0 | 2.64 | 1.20 |
+| 2.5 | 5.16 | 2.34 |
+| 3.0 | 8.91 | 4.05 |
+#+TBLFM: $2=$1^3*0.33;%.2f::$3=$1^3*0.15;%.2f
+
+
+* DONE int_ NFH
+NOTE: If needed, can refine; some points noisy so fitted over
+
+- 4 mM: NFH_ 04
+  - H04a: Lx = [78..30..-2]
+  - H04b: Lx = [150..80]
+  - H04c: Lx = [160..85..-5]
+  - H04d: Lx = [29..19..-1]
+    - Sep: D = [14.5..11.5]
+    - Con: D = [11.0..9.5]
+  - H04e: Lx = [24..48..4] (condensed)
+  - Cross-over:
+    - D = 18.81; Lx = 37.6
+
+- 6 mM: NFH_ 06
+  - H06a: Lx = [78..30..-2]
+  - H06b: Lx = [150..80]
+  - H06c: Lx = [30..10..-1]
+  - H06d: Lx = [25..60..5] (condensed)
+  - Cross-over:
+    - Lx = 39.735
+      
+- 10 mM: NFH_ 10
+  - Repeat all codes from NFH_ 06
+- 20 mM: NFH_ 20
+  - Repeat from 30 mM
+    
+- 30 mM: NFH_ 30
+  - Repeat all codes form NFH_ 50
+    
+- 50 mM: NFH_ 50
+  - H50s: Lx = [75..25]
+  - H50c: Lx = [46..10]
+    - Tried to clean up 46..40, but didn't work well, just fitted over
+  - H50c2: Lx = [50..70..4]
+  - Cross-over:
+    - Lx = 68.85
+
+- Pressure SI units:
+  - p [=] Pa = N/m^2
+  - p [=] kBT/nm^3
+    - kB T = 1.38e-23 * 293 J = 4.04e-21 N m
+    - For D [=] nm, p [=] <f> * 4.04 e-21 N / nm^2 = <f> * 4.04e-03 Pa  
+
+      
