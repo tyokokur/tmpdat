@@ -217,18 +217,15 @@ Running on double.c
   - Too tall (H \approx 11.5)
 - [X] b0.75 v0.20 c3.20 (b5v02c2)
   - Barely too tall (H \approx 9)
-- [X] b0.75 v0.10 c3.20 (b5v01c2)
+- [-] b0.75 v0.10 c3.20 (b5v01c2)
   - Looks pretty good
   - Recalc for nans
 
   
 ** TODO Mixture runs
-- L{b2.00 v2.70} + H{b1.00 v050} {c3.20, th2e-02}
-  - NLH/EAD*/b2v7c2 + NLH/EAD*/c2/c2b1v3H
-- [X] mix80: 80 mol% NFL (0.0200)
-  - RERUN after b0 fixed
-- [X] mix30: 30 mol% NFL (0.0075)
-  - RERUN after b0 fixed
+
+
+
 ** DONE b = 0.75
 - 10/24
   - [X] v0 = 4/3*PI*b^3
