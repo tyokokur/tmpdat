@@ -109,6 +109,7 @@ Running on double.c
     - ./7,8 fin; rerun {1..6} using Lx 40
 - [-] L2
   - L: b1.75 v2.70 c3.20
+    - ./7,8 fin; rerun {1..6} using Lx 40
   - H: b0.75 v0.10 c3.20
 - [-] L3
   - L: b1.75 v2.50 c3.20
