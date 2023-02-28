@@ -475,4 +475,8 @@ NOTE: If needed, can refine; some points noisy so fitted over
   - Const p because number of chains in the overlap layer is regulated
     by D?
   - \phi_P may be increasing simply due to less space
-    - Integrate
+    - Integrate from shoulder to D/2 and see if linearly decreasing
+      with D
+- (At lwo) Once stable inner layer forms, increase is due to oversaturation of
+  inner layer while outer chains come in.
+- 
