@@ -93,18 +93,18 @@ Running on double.c
   - Too tall (H \approx 11.5)
 - [X] b0.75 v0.20 c3.20 (b5v02c2)
   - Barely too tall (H \approx 9)
-- [-] b0.75 v0.10 c3.20 (b5v01c2)
-  - Looks pretty good
-  - Recalc for nans
+- [X] b0.75 v0.10 c3.20 (b5v01c2)
+  - H prof looks pretty good
+  - Density profiles pretty dilute--issue for "realistic"?
 
   
 ** PROG Mixture runs
 30%: 0.0075 L ; 0.0175 H
 80%: 0.0200 L ; 0.0050 H
 
-/NOTE:/ On next run, change Lx to 40 (maybe even smaller)
 - [-] L1
   - L: b1.50 v2.70 c3.20
+    - ./8 fin; rerun 1,2,4,5 using Lx 40
   - H: b0.75 v0.10 c3.20
 - [-] L2
   - L: b1.75 v2.70 c3.20
