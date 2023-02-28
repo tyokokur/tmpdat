@@ -477,9 +477,11 @@ NOTE: If needed, can refine; some points noisy so fitted over
 - Overlap \phi_p at 4 mM during const. p regime doubles
   - Const p because number of chains in the overlap layer is regulated
     by D?
-  - \phi_P may be increasing simply due to less space
+  - \phi_P may be increasing simply due to less space even though less
+    chains
     - Integrate from shoulder to D/2 and see if linearly decreasing
       with D
       
 - (At low D) Once stable inner layer forms, increase is due to
   oversaturation of inner layer while outer chains come in
+  - 6 mM is already in this regime; increased screening made it possible for conformation 
