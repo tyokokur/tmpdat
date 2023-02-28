@@ -471,4 +471,7 @@ NOTE: If needed, can refine; some points noisy so fitted over
 
 
 * Note from 02/27:
-- Overlap \phi_p at 4 mM during const. p regime inc
+- Overlap \phi_p at 4 mM during const. p regime doubles
+  - Const p because number of chains in the overlap layer is regulated
+    by D?
+  - \phi
