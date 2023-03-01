@@ -81,7 +81,7 @@ Running on double.c
 - b1.60 v2.00 c3.00
 - b1.60 v1.50 c3.00
   
-** TODO NFH fit from NFL Candidates
+** PROG NFH fit from NFL Candidates
 - All thresh 1e-06
 - Try to min total volume so mix80 has effect
   
@@ -101,10 +101,10 @@ Running on double.c
   - 311 Kuhn N * 0.10 \nu0 = 31.1 nm^3 / chain
   - p = b^3 / \nu = 4.22
 
-- V \approx 60 nm^3/c (b5v13c2)
+- [-] V \approx 60 nm^3/c (b5v13c2)
   - b0.50 v0.13 c3.20
 
-- V \approx 70 nm^3/c (b5v15c2)
+- [-] V \approx 70 nm^3/c (b5v15c2)
   - b0.50 v0.15 c3.20
 
 ** PROG Mixture runs
