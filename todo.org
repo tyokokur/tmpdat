@@ -233,6 +233,7 @@ NOTE: If needed, can refine; some points noisy so fitted over
 
 - 3 mM: NFH_ 03
   - Copied from NFH_ 04
+  - Cross-over: Lx = 37.12
 
 - 4 mM: NFH_ 04
   - H04a: Lx = [78..30..-2]
@@ -244,6 +245,9 @@ NOTE: If needed, can refine; some points noisy so fitted over
   - H04e: Lx = [24..48..4] (condensed)
   - Cross-over:
     - D = 18.81; Lx = 37.6
+
+- 5 mM: NFH_ 05
+  - Copied from NFH_ 03
 
 - 6 mM: NFH_ 06
   - H06a: Lx = [78..30..-2]
