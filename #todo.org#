@@ -121,7 +121,7 @@ Running on double.c
   - L: b2.00 v2.70 c3.20
     - ./1,2,3 rerun
   - H: b0.75 v0.10 c3.20
-    - ./7,8 fin; rerun rest using Lx 40
+    - ./1,2,3,4 rerun
 
     
 ** PREV
