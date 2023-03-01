@@ -93,28 +93,35 @@ Running on double.c
   - Too tall (H \approx 11.5)
 - [X] b0.75 v0.20 c3.20 (b5v02c2)
   - Barely too tall (H \approx 9)
-- [-] b0.75 v0.10 c3.20 (b5v01c2)
-  - Looks pretty good
-  - Recalc for nans
+- [X] b0.75 v0.10 c3.20 (b5v01c2)
+  - H prof looks pretty good
+  - Density profiles pretty dilute--issue for "realistic"?
 
   
 ** PROG Mixture runs
 30%: 0.0075 L ; 0.0175 H
 80%: 0.0200 L ; 0.0050 H
 
-/NOTE:/ On next run, change Lx to 40 (maybe even smaller)
 - [-] L1
   - L: b1.50 v2.70 c3.20
+    - ./8 fin; rerun {1..7} using Lx 40
   - H: b0.75 v0.10 c3.20
+    - ./7,8 fin; rerun {1..6} using Lx 40
 - [-] L2
   - L: b1.75 v2.70 c3.20
+    - ./7,8 fin; rerun {1..6} using Lx 40
   - H: b0.75 v0.10 c3.20
+    - Rerun all using L2_ 30/8 and Lx 40
 - [-] L3
   - L: b1.75 v2.50 c3.20
+    - ./6,8 fin; rerun rest using Lx 40
   - H: b0.75 v0.10 c3.20
+    - ./6,7 fin; rerun rest using Lx 40
 - [-] L4
   - L: b2.00 v2.70 c3.20
+    - ./8 fin; rerun rest using Lx 40
   - H: b0.75 v0.10 c3.20
+    - ./7,8 fin; rerun rest using Lx 40
 
     
 ** PREV
@@ -219,6 +226,56 @@ Running on double.c
 #+TBLFM: $2=(4/3)*$PI*$1^3;%.3f::$3=2*$1^3;%.3f::$4=$1^3;%.3f::$5=0.5*$1^3;%.3f::$6=0.25*$1^3;%.3f
 #+CONSTANTS: PI=3.1415926535
 
+
+
+* PROG int_ NFH
+NOTE: If needed, can refine; some points noisy so fitted over
+
+- 3 mM: NFH_ 03
+  - Copied from NFH_ 04
+
+- 4 mM: NFH_ 04
+  - H04a: Lx = [78..30..-2]
+  - H04b: Lx = [150..80]
+  - H04c: Lx = [160..85..-5]
+  - H04d: Lx = [29..19..-1]
+    - Sep: D = [14.5..11.5]
+    - Con: D = [11.0..9.5]
+  - H04e: Lx = [24..48..4] (condensed)
+  - Cross-over:
+    - D = 18.81; Lx = 37.6
+
+- 6 mM: NFH_ 06
+  - H06a: Lx = [78..30..-2]
+  - H06b: Lx = [150..80]
+  - H06c: Lx = [30..10..-1]
+  - H06d: Lx = [25..60..5] (condensed)
+  - Cross-over:
+    - Lx = 39.735
+      
+- 10 mM: NFH_ 10
+  - Repeat all codes from NFH_ 06
+- 20 mM: NFH_ 20
+  - Repeat from 30 mM
+    
+- 30 mM: NFH_ 30
+  - Repeat all codes form NFH_ 50
+    
+- 50 mM: NFH_ 50
+  - H50s: Lx = [75..25]
+  - H50c: Lx = [46..10]
+    - Tried to clean up 46..40, but didn't work well, just fitted over
+  - H50c2: Lx = [50..70..4]
+  - Cross-over:
+    - Lx = 68.85
+
+- Pressure SI units:
+  - p [=] Pa = N/m^2
+  - p [=] kBT/nm^3
+    - kB T = 1.38e-23 * 293 J = 4.04e-21 N m
+    - For D [=] nm, p [=] <f> * 4.04 e-21 N / nm^2 = <f> * 4.04e-03 Pa  
+
+      
 
 
 * PROG Revise NFH paper
@@ -423,53 +480,6 @@ If complicated, warranted for a new paper
 #+TBLFM: $2=$1^3*0.33;%.2f::$3=$1^3*0.15;%.2f
 
 
-* DONE int_ NFH
-NOTE: If needed, can refine; some points noisy so fitted over
-
-- 4 mM: NFH_ 04
-  - H04a: Lx = [78..30..-2]
-  - H04b: Lx = [150..80]
-  - H04c: Lx = [160..85..-5]
-  - H04d: Lx = [29..19..-1]
-    - Sep: D = [14.5..11.5]
-    - Con: D = [11.0..9.5]
-  - H04e: Lx = [24..48..4] (condensed)
-  - Cross-over:
-    - D = 18.81; Lx = 37.6
-
-- 6 mM: NFH_ 06
-  - H06a: Lx = [78..30..-2]
-  - H06b: Lx = [150..80]
-  - H06c: Lx = [30..10..-1]
-  - H06d: Lx = [25..60..5] (condensed)
-  - Cross-over:
-    - Lx = 39.735
-      
-- 10 mM: NFH_ 10
-  - Repeat all codes from NFH_ 06
-- 20 mM: NFH_ 20
-  - Repeat from 30 mM
-    
-- 30 mM: NFH_ 30
-  - Repeat all codes form NFH_ 50
-    
-- 50 mM: NFH_ 50
-  - H50s: Lx = [75..25]
-  - H50c: Lx = [46..10]
-    - Tried to clean up 46..40, but didn't work well, just fitted over
-  - H50c2: Lx = [50..70..4]
-  - Cross-over:
-    - Lx = 68.85
-
-- Pressure SI units:
-  - p [=] Pa = N/m^2
-  - p [=] kBT/nm^3
-    - kB T = 1.38e-23 * 293 J = 4.04e-21 N m
-    - For D [=] nm, p [=] <f> * 4.04 e-21 N / nm^2 = <f> * 4.04e-03 Pa  
-
-      
-
-
 * Note from 02/27:
 - (At high D) Initial contact leads to repulsion and compression of
   outer layer without knowing about inner layer
@@ -486,3 +496,6 @@ NOTE: If needed, can refine; some points noisy so fitted over
   oversaturation of inner layer while outer chains come in
   - 6 mM is already in this regime; increased screening made it
     possible for conformation with saturated inner layer
+
+- Const p to saturate inner layer? Then what is the lead up at high D,
+  just compression? Check if inner layer grows from high D inc
