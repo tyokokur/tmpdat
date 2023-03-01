@@ -99,7 +99,11 @@ Running on double.c
 
 - Prev fit:
   - 311 Kuhn N * 0.10 \nu0 = 31.1 nm^3 / chain
-  - p = b^3 / \nu = 4.22 
+  - p = b^3 / \nu = 4.22
+
+- Options to systematically increase V
+  - 0.75 -> 0.50 b for (x1.50) V
+  - 0.10 -> 0.15 v for (x1.50) V
   
 ** PROG Mixture runs
 30%: 0.0075 L ; 0.0175 H
