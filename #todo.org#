@@ -97,7 +97,9 @@ Running on double.c
   - H prof looks pretty good
   - Density profiles pretty dilute--issue for "realistic"?
 
-- V of prev fit: 
+- Prev fit:
+  - 311 Kuhn N * 0.10 \nu0 = 31.1 nm^3 / chain
+  - p = b^3 / \nu = 4.22 
   
 ** PROG Mixture runs
 30%: 0.0075 L ; 0.0175 H
