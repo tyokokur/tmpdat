@@ -102,7 +102,7 @@ Running on double.c
   - p = b^3 / \nu = 4.22
 
 - Play with b and and adjust \nu to match p
-  - 0.75 -> 0.50 b for (x1.50) V; \nu = 0.030
+  - V \sim b^2 / p
   
 ** PROG Mixture runs
 30%: 0.0075 L ; 0.0175 H
