@@ -119,9 +119,9 @@ Running on double.c
     - ./1,2 rerun
 - [-] L4
   - L: b2.00 v2.70 c3.20
-    - ./1,2,3 rerun
+    - ./1,2,3 re
   - H: b0.75 v0.10 c3.20
-    - ./1,2,3,4 rerun
+    - ./7,8 fin; rerun rest using Lx 40
 
     
 ** PREV
