@@ -480,7 +480,7 @@ If complicated, warranted for a new paper
 #+TBLFM: $2=$1^3*0.33;%.2f::$3=$1^3*0.15;%.2f
 
 
-* Note from 02/27:
+* Notes on interaction profile:
 - (At high D) Initial contact leads to repulsion and compression of
   outer layer without knowing about inner layer
   
