@@ -508,7 +508,15 @@ If complicated, warranted for a new paper
 - (At low D) Once stable inner layer forms, increase is due to
   oversaturation of inner layer while outer chains come in
   - 6 mM is already in this regime; increased screening made it
-    possible for conformation with saturated inner layer
+    possible for conformation with saturated inner
 
-- Const p to saturate inner layer? Then what is the lead up at high D,
-  just compression? Check if inner layer grows from high D inc
+- Comparing 3 mM to 4 mM: Onset of increase is at lower D bc
+  compression still temporarily easier; compression of higher alpha is
+  not favorable. Thus, const. p regime is at higher energy barrier.
+
+- Slope of 3 mM, 4 mM, 6 mM same at D < 70; now due to steric effects?
+  Naively seems to support that at some point, inner layer is
+  saturated and each additional chain adds to subsequent penalties
+  
+  - Need to confirm with 5 mM. If transition at the same point, then
+    above seems to be correct
