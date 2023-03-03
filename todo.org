@@ -103,9 +103,12 @@ Running on double.c
 
 - [-] V \approx 60 nm^3/c (b5v13c2)
   - b0.50 v0.13 c3.20
+  - Looks good; volume better than b5v01c2
 
 - [-] V \approx 70 nm^3/c (b5v15c2)
   - b0.50 v0.15 c3.20
+  - Looks fine; H prof barely too hihg
+- Good run in mix_ Hb5v13c2 /L1/L1_ 30/ 8
 
 ** PROG Mixture runs
 30%: 0.0075 L ; 0.0175 H
