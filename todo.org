@@ -101,40 +101,33 @@ Running on double.c
   - 311 Kuhn N * 0.10 \nu0 = 31.1 nm^3 / chain
   - p = b^3 / \nu = 4.22
 
-- [-] V \approx 60 nm^3/c (b5v13c2)
+- V \approx 60 nm^3/c (b5v13c2)
   - b0.50 v0.13 c3.20
   - Looks good; volume better than b5v01c2
 
-- [-] V \approx 70 nm^3/c (b5v15c2)
+- V \approx 70 nm^3/c (b5v15c2)
   - b0.50 v0.15 c3.20
   - Looks fine; H prof barely too hihg
-- Good run in mix_ Hb5v13c2 /L1/L1_ 30/ 8
 
 ** PROG Mixture runs
 30%: 0.0075 L ; 0.0175 H
 80%: 0.0200 L ; 0.0050 H
 
-- [-] L1
+- [-] Get stable W_ in for 30 and 80 to init for L{1..4}
+  - L1_ 30 / {5..8} seem promising
+  
+- L1
   - L: b1.50 v2.70 c3.20
-    - ./2,3 rerun
-  - H: b0.75 v0.10 c3.20
-    - ./1 rerun
-- [-] L2
+  - H: 
+- L2
   - L: b1.75 v2.70 c3.20
-    - ./1,2,5 rerun
-  - H: b0.75 v0.10 c3.20
-    - ./1,2 rerun
-- [-] L3
+  - H: 
+- L3
   - L: b1.75 v2.50 c3.20
-    - ./1,2 rerun
-  - H: b0.75 v0.10 c3.20
-    - ./1,2 rerun
-- [-] L4
+  - H: 
+- L4
   - L: b2.00 v2.70 c3.20
-    - ./1,2,3 re
-  - H: b0.75 v0.10 c3.20
-    - ./7,8 fin; rerun rest using Lx 40
-
+  - H: 
     
 ** PREV
 *** DONE b = 0.75
