@@ -81,7 +81,7 @@ Running on double.c
 - b1.60 v2.00 c3.00 (L_ 623)
 - b1.60 v1.50 c3.00 (L_ 653)
   
-** PROG NFH fit from NFL Candidates
+** DONE NFH fit from NFL Candidates
 - All thresh 1e-06
 - Try to min total volume so mix80 has effect
   
@@ -106,7 +106,7 @@ Running on double.c
 80%: 0.0200 L ; 0.0050 H
 
 - [-] Get stable W_ in for 30 and 80 to init for L{1..4}
-  - L1_ 30 / {5..8} seem promising
+  - Init v13 from v01 L1_ 30
   
 - L1
   - L: b1.50 v2.70 c3.20
