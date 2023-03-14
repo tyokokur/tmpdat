@@ -107,6 +107,8 @@ Running on double.c
 
 - [-] Get stable W_ in for 30 and 80 to init for L{1..4}
   - Init v13 from v01 L1_ 30
+    - Ns0 = 1500 up to 6640 iters
+    - [-] Ns0 = 1000 to finish
   
 - L1
   - L: b1.50 v2.70 c3.20
