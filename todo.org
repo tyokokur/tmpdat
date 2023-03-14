@@ -106,22 +106,24 @@ Running on double.c
 80%: 0.0200 L ; 0.0050 H
 
 - [-] Get stable W_ in for 30 and 80 to init for L{1..4}
-  - Init v13 from v01 L1_ 30
+  - [-] Init v13 from v01 L1_ 30Init from 
     - Init from 8/W_ a* from yesterday (Ns0 1500 1000 sequence)
     - Init from 7/W_ a* recent run, with Ns0 1500 for all
+  - [-] L2_ 30 init from 7/W_ a* from L1_ 30
+  - [-] L2_ 80 init from 7/W_ a* from L1_ 30
         
 - L1
   - L: b1.50 v2.70 c3.20
-  - H: 
+  - H: b0.50 v0.13 c3.20
 - L2
   - L: b1.75 v2.70 c3.20
-  - H: 
+  - H: b0.50 v0.13 c3.20
 - L3
   - L: b1.75 v2.50 c3.20
-  - H: 
+  - H: b0.50 v0.13 c3.20
 - L4
   - L: b2.00 v2.70 c3.20
-  - H: 
+  - H: b0.50 v0.13 c3.20
     
 ** PREV
 *** DONE b = 0.75
