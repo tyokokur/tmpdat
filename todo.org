@@ -108,7 +108,7 @@ Running on double.c
 - [-] Get stable W_ in for 30 and 80 to init for L{1..4}
   - Init v13 from v01 L1_ 30
     - Init from 8/W_ a* from yesterday (Ns0 1500 1000 sequence)
-    - 4 - 8 running
+    - Init from 7/W_ a* recent run, with Ns0 1500 for all
         
 - L1
   - L: b1.50 v2.70 c3.20
