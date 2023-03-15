@@ -110,8 +110,9 @@ Running on double.c
     - Init from 8/W_ a* from yesterday (Ns0 1500 1000 sequence)
     - Init from 7/W_ a* recent run, with Ns0 1500 for all
   - [-] L2_ 30 init from 7/W_ a* from L1_ 30 with Ns0 1500
+    - ./8 working best. Reinit all from ./8/W_ a*
   - [-] L2_ 80 init from 7/W_ a* from L1_ 30 with Ns0 1500
-    - ./5 worked. Reinit 
+    - ./5 worked. Reinit {1..4} using ./5/W_ a*
         
 - L1
   - L: b1.50 v2.70 c3.20
