@@ -136,6 +136,7 @@ Start with non-phos params and adjust after
   - [-] b1.50 v2.70 c3.20
     - ./7 worked; reinit all from 7/W_ a*
   - [-] b1.75 v2.70 c3.20
+    - ./7 worked; reinit all from 7
   - [-] b1.75 v2.50 c3.20
   - [-] b2.00 v2.70 c3.20
 
