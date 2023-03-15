@@ -69,8 +69,8 @@ Running on double.c
 - All thresh 1e-06
   
 - b1.50 v2.70 c3.20 (L_ 150)
-- b1.75 v2.70 c3.20 (L_ 175)
-- b1.75 v2.50 c3.20 (L_ 252)
+- b1.75 v2.70 c3.20 (L_ 175); \nu \approx 32 N_K * 2.70 = 86.4 nm^3/c
+- b1.75 v2.50 c3.20 (L_ 252); \nu \approx 32 N_K * 2.50 = 80 nm^3/c
 - b2.00 v2.70 c3.20 (L_ 272)
   
 - b2.00 v4.00 c3.00 (L_ 243)
@@ -543,4 +543,4 @@ If complicated, warranted for a new paper
 * Code cleaning
 ** tjy.ticks()
 - clean using ScalarFormatter class?
-** tjy.
+** 
