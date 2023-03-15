@@ -117,16 +117,16 @@ Running on double.c
     - ./5 worked. Reinit {1..4} using ./5/W_ a*
     - ./{5,6,8} worked, reinit {1..4, 7} from ./5
         
-- L1
+- L1 (L_ 150)
   - L: b1.50 v2.70 c3.20
   - H: b0.50 v0.13 c3.20
-- L2
+- L2 (L_ 175)
   - L: b1.75 v2.70 c3.20
   - H: b0.50 v0.13 c3.20
-- L3
+- L3 (L_ 252)
   - L: b1.75 v2.50 c3.20
   - H: b0.50 v0.13 c3.20
-- L4
+- L4 (L_ 272)
   - L: b2.00 v2.70 c3.20
   - H: b0.50 v0.13 c3.20
 
@@ -144,6 +144,7 @@ Start with non-phos params and adjust after
 
 - pNFH
   - [-] b0.50 v0.13 c3.20
+    - ./7 working; reinit all from 7; wopt/wcmp = 1e-03, 10
     
 ** PREV
 *** DONE b = 0.75
