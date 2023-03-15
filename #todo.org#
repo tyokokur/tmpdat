@@ -115,7 +115,7 @@ Running on double.c
     - ./7 working best. Reinit all from ./7/W_ a*
   - [-] L2_ 80 init from 7/W_ a* from L1_ 30 with Ns0 1500
     - ./5 worked. Reinit {1..4} using ./5/W_ a*
-    - ./{5,6,8} worked 
+    - ./{5,6,8} worked, reinit {1..4, 7} from ./5
         
 - L1
   - L: b1.50 v2.70 c3.20
