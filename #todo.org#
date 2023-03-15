@@ -134,6 +134,7 @@ Running on double.c
 Start with non-phos params and adjust after
 - NFL
   - [-] b1.50 v2.70 c3.20
+    - ./7 worked 
   - [-] b1.75 v2.70 c3.20
   - [-] b1.75 v2.50 c3.20
   - [-] b2.00 v2.70 c3.20
