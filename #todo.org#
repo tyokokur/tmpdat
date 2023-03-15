@@ -132,14 +132,14 @@ Running on double.c
 
 ** PROG Phos pure
 Start with non-phos params and adjust after
-- NFL
+- pNFL
   - [-] b1.50 v2.70 c3.20
     - ./7 worked 
   - [-] b1.75 v2.70 c3.20
   - [-] b1.75 v2.50 c3.20
   - [-] b2.00 v2.70 c3.20
 
-- NFH
+- pNFH
   - [-] b0.50 v0.13 c3.20
     
 ** PREV
