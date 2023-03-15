@@ -111,6 +111,7 @@ Running on double.c
     - Init from 7/W_ a* recent run, with Ns0 1500 for all
   - [-] L2_ 30 init from 7/W_ a* from L1_ 30 with Ns0 1500
   - [-] L2_ 80 init from 7/W_ a* from L1_ 30 with Ns0 1500
+    - ./5 worked. Reinit 
         
 - L1
   - L: b1.50 v2.70 c3.20
