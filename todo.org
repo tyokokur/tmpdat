@@ -69,17 +69,17 @@ Running on double.c
 - All thresh 1e-06
   
 - b1.50 v2.70 c3.20 (L_ 150); \nu \approx 37 N_K * 2.70 = 100 nm^3/c
-- b1.75 v2.70 c3.20 (L_ 175); \nu \approx 32 N_K * 2.70 = 86  nm^3/c
-- b1.75 v2.50 c3.20 (L_ 252); \nu \approx 32 N_K * 2.50 = 80  nm^3/c
-- b2.00 v2.70 c3.20 (L_ 272); \nu \approx 28 N_K * 2.70 = 76  nm^3/c
+- b1.75 v2.70 c3.20 (L_ 175); \nu \approx 32 N_K * 2.70 = 86  
+- b1.75 v2.50 c3.20 (L_ 252); \nu \approx 32 N_K * 2.50 = 80  
+- b2.00 v2.70 c3.20 (L_ 272); \nu \approx 28 N_K * 2.70 = 76  
   
-- b2.00 v4.00 c3.00 (L_ 243)
-- b2.00 v2.00 c3.00 (L_ 223)
-- b1.80 v3.00 c3.00 (L_ 833)
-- b1.80 v2.00 c3.00 (L_ 823)
-- b1.75 v2.50 c3.00 (L_ 250)
-- b1.60 v2.00 c3.00 (L_ 623)
-- b1.60 v1.50 c3.00 (L_ 653)
+- b2.00 v4.00 c3.00 (L_ 243); \nu \approx 28 N_K * 4.00 = 112
+- b2.00 v2.00 c3.00 (L_ 223); \nu \approx 28 N_K * 2.00 = 56
+- b1.80 v3.00 c3.00 (L_ 833); \nu \approx 31 N_K * 3.00 = 93
+- b1.80 v2.00 c3.00 (L_ 823); \nu \approx 31 N_K * 2.00 = 62 
+- b1.75 v2.50 c3.00 (L_ 250); \nu \approx 32 N_K * 2.50 = 80
+- b1.60 v2.00 c3.00 (L_ 623); \nu \approx 35 N_K * 2.00 = 70
+- b1.60 v1.50 c3.00 (L_ 653); \nu \approx 35 N_K * 1.50 = 53
   
 ** DONE NFH fit from NFL Candidates
 - All thresh 1e-06
@@ -99,7 +99,7 @@ Running on double.c
 
 - V \approx 70 nm^3/c (b5v15c2)
   - b0.50 v0.15 c3.20
-  - Looks fine; H prof barely too hihg
+  - Looks fine; H prof barely too high
 
 ** PROG Mixture runs
 30%: 0.0075 L ; 0.0175 H
