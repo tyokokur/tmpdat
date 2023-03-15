@@ -109,10 +109,13 @@ Running on double.c
   - [-] Init v13 from v01 L1_ 30Init from 
     - Init from 8/W_ a* from yesterday (Ns0 1500 1000 sequence)
     - Init from 7/W_ a* recent run, with Ns0 1500 for all
+    - Init from finished 8/W_ a*
   - [-] L2_ 30 init from 7/W_ a* from L1_ 30 with Ns0 1500
     - ./8 working best. Reinit all from ./8/W_ a*
+    - ./7 working best. Reinit all from ./7/W_ a*
   - [-] L2_ 80 init from 7/W_ a* from L1_ 30 with Ns0 1500
     - ./5 worked. Reinit {1..4} using ./5/W_ a*
+    - ./{5,6,8} worked, reinit {1..4, 7} from ./5
         
 - L1
   - L: b1.50 v2.70 c3.20
@@ -129,13 +132,17 @@ Running on double.c
 
 ** PROG Phos pure
 Start with non-phos params and adjust after
-- NFL
+- pNFL
   - [-] b1.50 v2.70 c3.20
+    - ./7 worked; reinit all from 7/W_ a*
   - [-] b1.75 v2.70 c3.20
+    - ./7 worked; reinit all from 7
   - [-] b1.75 v2.50 c3.20
+    - ./7 worked; reinit all from 7
   - [-] b2.00 v2.70 c3.20
+    - ./7 worked; reinit all from 7
 
-- NFH
+- pNFH
   - [-] b0.50 v0.13 c3.20
     
 ** PREV
