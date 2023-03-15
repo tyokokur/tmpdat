@@ -68,10 +68,10 @@ Running on double.c
 ** DONE NFL Candidates
 - All thresh 1e-06
   
-- b1.50 v2.70 c3.20 (L_ 150)
-- b1.75 v2.70 c3.20 (L_ 175)
-- b1.75 v2.50 c3.20 (L_ 252)
-- b2.00 v2.70 c3.20 (L_ 272)
+- b1.50 v2.70 c3.20 (L_ 150); \nu \approx 37 N_K * 2.70 = 100 nm^3/c
+- b1.75 v2.70 c3.20 (L_ 175); \nu \approx 32 N_K * 2.70 = 86  nm^3/c
+- b1.75 v2.50 c3.20 (L_ 252); \nu \approx 32 N_K * 2.50 = 80  nm^3/c
+- b2.00 v2.70 c3.20 (L_ 272); \nu \approx 28 N_K * 2.70 = 76  nm^3/c
   
 - b2.00 v4.00 c3.00 (L_ 243)
 - b2.00 v2.00 c3.00 (L_ 223)
@@ -537,3 +537,10 @@ If complicated, warranted for a new paper
   
   - Need to confirm with 5 mM. If transition at the same point, then
     above seems to be correct
+
+
+
+* Code cleaning
+** tjy.ticks()
+- clean using ScalarFormatter class?
+** 
