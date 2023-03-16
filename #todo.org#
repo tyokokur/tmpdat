@@ -124,7 +124,7 @@ Running on double.c
 - L2 (L_ 175)
   - L: b1.75 v2.70 c3.20
   - H: b0.50 v0.13 c3.20
-  - Rerunning L2_ 30/{1..3} using wpars 1e-03, 10
+  - L2_ 30/{3..7} little change to NFL H prof
 - L3 (L_ 252)
   - L: b1.75 v2.50 c3.20
   - H: b0.50 v0.13 c3.20
