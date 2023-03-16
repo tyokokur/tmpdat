@@ -74,11 +74,11 @@ Running on double.c
 - b2.00 v2.70 c3.20 (L_ 272); \nu \approx 28 N_K * 2.70 = 76  
   
 - b2.00 v4.00 c3.00 (L_ 243); \nu \approx 28 N_K * 4.00 = 112
-- b2.00 v2.00 c3.00 (L_ 223); \nu \approx 28 N_K * 2.00 = 56
 - b1.80 v3.00 c3.00 (L_ 833); \nu \approx 31 N_K * 3.00 = 93
-- b1.80 v2.00 c3.00 (L_ 823); \nu \approx 31 N_K * 2.00 = 62 
 - b1.75 v2.50 c3.00 (L_ 250); \nu \approx 32 N_K * 2.50 = 80
 - b1.60 v2.00 c3.00 (L_ 623); \nu \approx 35 N_K * 2.00 = 70
+- b1.80 v2.00 c3.00 (L_ 823); \nu \approx 31 N_K * 2.00 = 62 
+- b2.00 v2.00 c3.00 (L_ 223); \nu \approx 28 N_K * 2.00 = 56
 - b1.60 v1.50 c3.00 (L_ 653); \nu \approx 35 N_K * 1.50 = 53
   
 ** DONE NFH fit from NFL Candidates
