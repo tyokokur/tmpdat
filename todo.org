@@ -131,7 +131,8 @@ Running on double.c
 - L4 (L_ 272)
   - L: b2.00 v2.70 c3.20
   - H: b0.50 v0.13 c3.20
-    - L4_ 30 ./{3..7} seems to be working
+    - L4_ 30 ./{3..7} done
+      - Height difference not large enough
     - L4_ 80/7 done
 
 ** PROG Phos pure
