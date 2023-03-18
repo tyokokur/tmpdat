@@ -104,7 +104,7 @@ Running on double.c
   - b0.50 v0.15 c3.20
   - Looks fine; H prof barely too high
 
-- V \approx XXX (b5v10c3)
+- V \approx 46.6 nm^3/c (b5v10c3)
   - [-] b0.50 v0.10 c3.00 
 
 ** PROG Mixture runs
