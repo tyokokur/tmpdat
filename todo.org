@@ -136,7 +136,8 @@ Running on double.c
 ** PROG Phos pure
 Start with non-phos params and adjust after
 - pNFL
-  - Necessary? Only difference is 2 residues at beginning of chain
+  - Necessary? Only difference is 2 residues at beginning of chain (\Delta\alpha
+    = 0.05 for Block 1)
 
 - pNFH
   - [-] H1: b0.50 v0.13 c3.00
