@@ -111,7 +111,8 @@ Running on double.c
 ** PROG Mixture runs
 30%: 0.0075 L ; 0.0175 H
 80%: 0.0200 L ; 0.0050 H
-        
+
+/Note:/ Current W_ 7in.dat signifying cp ./7/W_ a* while running 
 - L1 (L_ 623, 70 nm^3/s)
   - L: b1.60 v2.00 c3.00
   - H: b0.50 v0.10 c3.00
