@@ -133,22 +133,14 @@ Running on double.c
   - [-] L4_ 30
   - [-] L4_ 80
 
-
 ** PROG Phos pure
 Start with non-phos params and adjust after
 - pNFL
-  - [-] b1.50 v2.70 c3.20
-    - ./7 worked; reinit all from 7/W_ a*
-  - [-] b1.75 v2.70 c3.20
-    - ./7 worked; reinit all from 7
-  - [-] b1.75 v2.50 c3.20
-    - ./7 worked; reinit all from 7
-  - [-] b2.00 v2.70 c3.20
-    - ./7 worked; reinit all from 7
+  - Necessary? Only difference is 2 residues at beginning of chain
 
 - pNFH
-  - [-] b0.50 v0.13 c3.20
-    - ./7 working; reinit all from 7; wopt/wcmp = 1e-03, 10
+  - [-] b0.50 v0.13 c3.00
+    - Test to see what happens; params previously used for neutral NFH
     
 ** PREV
 *** DONE b = 0.75
