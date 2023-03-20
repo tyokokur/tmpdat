@@ -79,8 +79,8 @@ Running on double.c
 - b1.75 v2.50 c3.00 (L_ 250); \nu \approx 32 N_K * 2.50 = 80
 
 - Try next
-  - b1.80 v2.00 c3.00 (L_ 823); \nu \approx 31 N_K * 2.00 = 62 
   - b1.60 v2.00 c3.00 (L_ 623); \nu \approx 35 N_K * 2.00 = 70
+  - b1.80 v2.00 c3.00 (L_ 823); \nu \approx 31 N_K * 2.00 = 62 
   - b2.00 v2.00 c3.00 (L_ 223); \nu \approx 28 N_K * 2.00 = 56
   - b1.60 v1.50 c3.00 (L_ 653); \nu \approx 35 N_K * 1.50 = 53
   
@@ -111,36 +111,20 @@ Running on double.c
 ** PROG Mixture runs
 30%: 0.0075 L ; 0.0175 H
 80%: 0.0200 L ; 0.0050 H
-
-- [-] Get stable W_ in for 30 and 80 to init for L{1..4}
-  - [-] Init v13 from v01 L1_ 30Init from 
-    - Init from 8/W_ a* from yesterday (Ns0 1500 1000 sequence)
-    - Init from 7/W_ a* recent run, with Ns0 1500 for all
-    - Init from finished 8/W_ a*
-    - L1_ 30 reinit from self
-  - [-] L2_ 30 init from 7/W_ a* from L1_ 30 with Ns0 1500
-    - ./8 working best. Reinit all from ./8/W_ a*
-    - ./7 working best. Reinit all from ./7/W_ a*
-  - [-] L2_ 80 init from 7/W_ a* from L1_ 30 with Ns0 1500
-    - ./5 worked. Reinit {1..4} using ./5/W_ a*
-    - ./{5,6,8} worked, reinit {1..4, 7} from ./5
         
-- L1 (L_ 150, 100 nm^3/s)
-  - L: b1.50 v2.70 c3.20
-  - H: b0.50 v0.13 c3.20
-- L2 (L_ 175, 86 nm^3/s)
-  - L: b1.75 v2.70 c3.20
-  - H: b0.50 v0.13 c3.20
-    - L2_ 30/{3..7} little change to NFL H prof
+- L1 (L_ 623, 70 nm^3/s)
+  - L: b1.60 v2.00 c3.00
+  - H: b0.50 v0.10 c3.00
+- L2 (L_ 823, 86 nm^3/s)
+  - L: b1.80 v2.00 c3.00
+  - H: b0.50 v0.10 c3.00
 - L3 (L_ 252, 80 nm^3/s)
-  - L: b1.75 v2.50 c3.20
-  - H: b0.50 v0.13 c3.20
+  - L: b2.00 v2.00 c3.00
+  - H: b0.50 v0.10 c3.00
 - L4 (L_ 272, 76 nm^3/s)
-  - L: b2.00 v2.70 c3.20
-  - H: b0.50 v0.13 c3.20
-    - L4_ 30 ./{3..7} done
-      - Height difference not large enough
-    - L4_ 80/7 done
+  - L: b1.60 v1.50 c3.00
+  - H: b0.50 v0.10 c3.00
+
 
 ** PROG Phos pure
 Start with non-phos params and adjust after
