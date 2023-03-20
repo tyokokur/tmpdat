@@ -147,7 +147,6 @@ Start with non-phos params and adjust after
 
 - pNFH
   - [-] b0.50 v0.13 c3.20
-    - ./7 working; reinit all from 7; wopt/wcmp = 1e-03, 10
     
 ** PREV
 *** DONE b = 0.75
