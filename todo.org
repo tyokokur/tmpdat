@@ -139,7 +139,7 @@ Start with non-phos params and adjust after
   - Necessary? Only difference is 2 residues at beginning of chain
 
 - pNFH
-  - [-] b0.50 v0.13 c3.00
+  - [-] H1: b0.50 v0.13 c3.00
     - Test to see what happens; params previously used for neutral NFH
     
 ** PREV
