@@ -122,6 +122,7 @@ Running on double.c
   - L: b1.80 v2.00 c3.00
   - H: b0.50 v0.10 c3.00
   - [-] L2_ 30
+    - Rerun all from 7
   - [-] L2_ 80
     - ./4 done. Rerun all from 4
 - L3 (L_ 223, 56 nm^3/s)
