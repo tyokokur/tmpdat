@@ -104,9 +104,8 @@ Running on double.c
   - b0.50 v0.15 c3.20
   - Looks fine; H prof barely too high
 
-- [-] V \approx 46.6 nm^3/c (b5v10c3)
+- V \approx 46.6 nm^3/c (b5v10c3)
   - b0.50 v0.10 c3.00
-  - H prof looks good. Rerunning {1..3} for el box size
     
 - [-] V \approx 80 nm^3/c (b5v15c3)
   - b0.50 v0.15 c3.00
@@ -154,6 +153,8 @@ Start with non-phos params and adjust after
 - pNFH
   - [-] H1: b0.50 v0.13 c3.00
     - Test to see what happens; params previously used for neutral NFH
+    - Rerun from W_ a* with wparams 1e-03, 50 to speed up (prev at
+      200k iters)
     
 ** PREV
 *** DONE b = 0.75
