@@ -132,6 +132,7 @@ Running on double.c
   - L: b1.60 v1.50 c3.00
   - H: b0.50 v0.10 c3.00
   - [-] L4_ 30
+    - ./{4..6} redo from 7
   - [-] L4_ 80
     - ./{5,7} done. Rerun all from 7 using wparams 1e-03, 30
 
