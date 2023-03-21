@@ -119,28 +119,28 @@ Running on double.c
   - [-] L1_ 30
     - Rerun all from 7
   - [-] L1_ 80
-    - ./{3,7} done. Rerun ./{4,5} from 7
+    - ./{3..7} done. 
 - L2 (L_ 823, 62 nm^3/s)
   - L: b1.80 v2.00 c3.00
   - H: b0.50 v0.10 c3.00
   - [-] L2_ 30
     - Rerun all from 7
   - [-] L2_ 80
-    - ./4 done. Rerun all from 4
+    - ./{4..7} done; 3 running
 - L3 (L_ 223, 56 nm^3/s)
   - L: b2.00 v2.00 c3.00
   - H: b0.50 v0.10 c3.00
   - [-] L3_ 30
     - Redo all from 7
   - [-] L3_ 80
-    - ./7 done. Rerun all from 7 using wparams 1e-03, 30
+    - ./{6,7} done. Rerun {1..5} from 6
 - L4 (L_ 653, 53 nm^3/s)
   - L: b1.60 v1.50 c3.00
   - H: b0.50 v0.10 c3.00
   - [-] L4_ 30
     - ./{4..6} redo from 7
   - [-] L4_ 80
-    - ./{5,7} done. Rerun all from 7 using wparams 1e-03, 30
+    - ./{3..7} done, 2 running
 
 ** PROG Phos pure
 Start with non-phos params and adjust after
