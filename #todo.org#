@@ -128,6 +128,7 @@ Running on double.c
   - H: b0.50 v0.10 c3.00
   - [-] L3_ 30
   - [-] L3_ 80
+    - ./7 done. Rerun all from 7 using wparams 1e-03, 30
 - L4 (L_ 653, 53 nm^3/s)
   - L: b1.60 v1.50 c3.00
   - H: b0.50 v0.10 c3.00
