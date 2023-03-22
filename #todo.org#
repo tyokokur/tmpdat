@@ -139,7 +139,8 @@ Running on double.c
 - L4 (L_ 653, 53 nm^3/s)
   - L: b1.60 v1.50 c3.00
   - H: b0.50 /v0.15/ c3.00
-  - [-] L4_ 30
+  - L4_ 30
+    - Wait for L4_ 80 to see if sufficient H vol
   - [-] L4_ 80
 
 ** PROG Phos pure
