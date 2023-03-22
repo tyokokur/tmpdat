@@ -138,7 +138,7 @@ Running on double.c
     - ./{6,7} done. Rerun {1..5} from 6
 - L4 (L_ 653, 53 nm^3/s)
   - L: b1.60 v1.50 c3.00
-  - H: b0.50 v0.15 c3.00
+  - H: b0.50 /v0.15/ c3.00
   - [-] L4_ 30
   - [-] L4_ 80
 
