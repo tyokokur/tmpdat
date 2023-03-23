@@ -65,7 +65,7 @@ Running on double.c
 
 - b1.50 v2.70 c3.20 (L_ 150)
 
-** DONE NFL Candidates
+** PROG NFL Candidates
 - All thresh 1e-06
 
 - Didn't work
@@ -83,8 +83,15 @@ Running on double.c
   - b1.80 v2.00 c3.00 (L_ 823); \nu \approx 31 N_K * 2.00 = 62 
   - b2.00 v2.00 c3.00 (L_ 223); \nu \approx 28 N_K * 2.00 = 56
   - b1.60 v1.50 c3.00 (L_ 653); \nu \approx 35 N_K * 1.50 = 53
-  
-** PROG NFH fit from NFL Candidates
+
+- New
+  - [-] b2.00 v1.50 c3.00 (L_ 253); \nu \approx 42
+  - [-] b2.00 v1.00 c3.00 (L_ 213); \nu \approx 28
+  - b0.50 v0.10 c3.00
+  - b0.75 v0.10 c3.00
+  - b0.50 v0.15 c3.00
+    
+** DONE NFH fit from NFL Candidates
 - All thresh 1e-06
 - Try to min total volume so mix80 has effect
   
@@ -150,10 +157,12 @@ Start with non-phos params and adjust after
     = 0.05 for Block 1)
 
 - pNFH
-  - [-] H1: b0.50 v0.13 c3.00
-    - Test to see what happens; params previously used for neutral NFH
-    - Rerun from W_ a* with wparams 1e-03, 50 to speed up (prev at
-      200k iters)
+  - pH1: b0.50 v0.13 c3.00
+    - Test to see what happens; params previously used for native NFH
+    - Overshot exp H prof
+  - [-] pH2: b0.50 v0.10 c3.00
+    - Moderate v to lower H; params also work for native
+
     
 ** PREV
 *** DONE b = 0.75
