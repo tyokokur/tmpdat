@@ -154,7 +154,7 @@ Start with non-phos params and adjust after
     = 0.05 for Block 1)
 
 - pNFH
-  - [-] H1: b0.50 v0.13 c3.00
+  - H1: b0.50 v0.13 c3.00
     - Test to see what happens; params previously used for neutral NFH
     - Rerun from W_ a* with wparams 1e-03, 50 to speed up (prev at
       200k iters)
