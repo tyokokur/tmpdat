@@ -118,6 +118,14 @@ Running on double.c
 - V \approx 70 nm^3/c (b5v15c3)
   - b0.50 v0.15 c3.00
 
+- V \approx 93.2 nm^3/c (b5v20c3)
+  - b0.50 v0.20 c3.00
+  - H prof probably too high; intersecting with LSA25
+
+- V \approx 140 nm^3/c (b5v30c3)
+  - b0.50 v0.30 c3.00
+  - H prof definitely too high; coinciding with LSA25
+
 ** PROG Mixture runs
 30%: 0.0075 L ; 0.0175 H
 80%: 0.0200 L ; 0.0050 H
@@ -163,6 +171,10 @@ Start with non-phos params and adjust after
     - Overshot exp H prof
   - [-] pH2: b0.50 v0.10 c3.00
     - Moderate v to lower H; params also work for native
+    - Increased H from pH1?
+  - [-] pH3: b0.50 v0.20 c3.00
+    - Wrong thoughts on v effect on H? Charge density instead of
+      charge-carrying volume?
 
     
 ** PREV
