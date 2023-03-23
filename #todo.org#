@@ -94,7 +94,8 @@ Running on double.c
   - [-] b0.50 v0.25 c3.00 (L_ 525); \nu \approx 28
   - [-] b0.75 v0.10 c3.00 (L_ 713); \nu \approx  75 N_K * 0.10 = 7.5 
   - b0.75 v0.15 c3.00 (L_ 753); \nu \approx  75 N_K * 0.15 = 11.25
-  - [-] b0.75 v0.25 c3.00 (L_ 725); \nu \approx 18.75
+  - b0.75 v0.25 c3.00 (L_ 725); \nu \approx 18.75
+    - No trend from increasing \nu 
     
 ** DONE NFH fit from NFL Candidates
 - All thresh 1e-06
