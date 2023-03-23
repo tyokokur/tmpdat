@@ -89,10 +89,10 @@ Running on double.c
   - [-] b2.00 v1.00 c3.00 (L_ 213); \nu \approx 28
   - [-] b0.50 v0.10 c3.00 (L_ 513); \nu \approx 112 N_K * 0.10 = 11.2 nm^3/c
   - [-] b0.50 v0.15 c3.00 (L_ 553); \nu \approx 112 N_K * 0.15 = 16.8
-  - b0.50 v0.25 c3.00 (L_ 525); \nu \approx 28
+  - [-] b0.50 v0.25 c3.00 (L_ 525); \nu \approx 28
   - [-] b0.75 v0.10 c3.00 (L_ 713); \nu \approx  75 N_K * 0.10 = 7.5 
   - [-] b0.75 v0.15 c3.00 (L_ 753); \nu \approx  75 N_K * 0.15 = 11.25
-  - b0.75 v0.25 c3.00 (L_ 725); \nu \approx 18.75
+  - [-] b0.75 v0.25 c3.00 (L_ 725); \nu \approx 18.75
     
 ** DONE NFH fit from NFL Candidates
 - All thresh 1e-06
