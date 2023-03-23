@@ -164,7 +164,9 @@ Start with non-phos params and adjust after
   - [-] pH2: b0.50 v0.10 c3.00
     - Moderate v to lower H; params also work for native
     - Increased H?
-  - pH3: b0.50 v0.20 c3.00
+  - [-] pH3: b0.50 v0.20 c3.00
+    - Wrong thoughts on v effect on H? Charge density instead of
+      charge-carrying volume?
 
     
 ** PREV
