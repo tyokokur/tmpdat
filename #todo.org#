@@ -154,10 +154,12 @@ Start with non-phos params and adjust after
     = 0.05 for Block 1)
 
 - pNFH
-  - H1: b0.50 v0.13 c3.00
-    - Test to see what happens; params previously used for neutral NFH
-    - Rerun from W_ a* with wparams 1e-03, 50 to speed up (prev at
-      200k iters)
+  - pH1: b0.50 v0.13 c3.00
+    - Test to see what happens; params previously used for native NFH
+    - Overshot exp H prof
+  - [-] pH2: b0.50 v0.10 c3.00
+    - Moderate v to lower H; params also work for native
+
     
 ** PREV
 *** DONE b = 0.75
