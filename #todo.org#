@@ -85,8 +85,8 @@ Running on double.c
   - b1.60 v1.50 c3.00 (L_ 653); \nu \approx 35 N_K * 1.50 = 53
 
 - New
-  - b2.00 v1.50 c3.00 (L_ 253); \nu \approx 42
-  - b2.00 v1.00 c3.00 (L_ 213); \nu \approx 28
+  - [-] b2.00 v1.50 c3.00 (L_ 253); \nu \approx 42
+  - [-] b2.00 v1.00 c3.00 (L_ 213); \nu \approx 28
     
 ** DONE NFH fit from NFL Candidates
 - All thresh 1e-06
