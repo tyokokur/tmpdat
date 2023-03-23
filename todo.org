@@ -181,6 +181,7 @@ Start with non-phos params and adjust after
       charge-carrying volume?
     - Tentatively looks better; work to get ./2 to work. If 2 looks
       good but 1 won't converge, move on
+      - Lx changed to 200; bulk Cs large at 150
 
 ** PREV
 *** DONE b = 0.75
