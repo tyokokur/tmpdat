@@ -107,7 +107,7 @@ Running on double.c
 - V \approx 46.6 nm^3/c (b5v10c3)
   - b0.50 v0.10 c3.00
     
-- [-] V \approx 80 nm^3/c (b5v15c3)
+- V \approx 70 nm^3/c (b5v15c3)
   - b0.50 v0.15 c3.00
 
 ** PROG Mixture runs
@@ -138,11 +138,10 @@ Running on double.c
     - ./{6,7} done. Rerun {1..5} from 6
 - L4 (L_ 653, 53 nm^3/s)
   - L: b1.60 v1.50 c3.00
-  - H: b0.50 v0.10 c3.00
-  - [-] L4_ 30
-    - ./{4..6} redo from 7
+  - H: b0.50 /v0.15/ c3.00
+  - L4_ 30
+    - Wait for L4_ 80 to see if sufficient H vol
   - [-] L4_ 80
-    - ./{3..7} done, 2 running
 
 ** PROG Phos pure
 Start with non-phos params and adjust after
