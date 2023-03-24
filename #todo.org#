@@ -155,6 +155,7 @@ Running on double.c
   - L: b1.60 v1.50 c3.00
   - H: b0.50 v0.15 c3.00
   - [-] L4_ 80
+  - L4_ 30
 
 ** PROG Phos pure
 Start with non-phos params and adjust after
