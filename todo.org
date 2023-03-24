@@ -91,6 +91,8 @@ Running on double.c
   - b0.50 v0.10 c3.00 (L_ 513); \nu \approx 112 N_K * 0.10 = 11.2 nm^3/c
   - b0.50 v0.15 c3.00 (L_ 553); \nu \approx 112 N_K * 0.15 = 16.8
   - b0.50 v0.25 c3.00 (L_ 525); \nu \approx 28
+  - [ ] b0.50 v0.50 c3.00 (L_ 550); \nu \approx 56
+    - Could work, but vol is now comparable to prev L_ XXX
   - b0.75 v0.10 c3.00 (L_ 713); \nu \approx  75 N_K * 0.10 = 7.5 
   - b0.75 v0.15 c3.00 (L_ 753); \nu \approx  75 N_K * 0.15 = 11.25
   - b0.75 v0.25 c3.00 (L_ 725); \nu \approx 18.75
@@ -162,13 +164,10 @@ Start with non-phos params and adjust after
     - Overshot exp H prof
   - [-] pH2: b0.50 v0.10 c3.00
     - Moderate v to lower H; params also work for native
-    - Increased H from pH1?
   - [-] pH3: b0.50 v0.20 c3.00
-    - Wrong thoughts on v effect on H? Charge density instead of
-      charge-carrying volume?
-    - Tentatively looks better; work to get ./2 to work. If 2 looks
-      good but 1 won't converge, move on
-      - Lx changed to 200; bulk Cs large at 150
+    - Right trend; still running 
+  - [-] pH4: b0.50 v0.30 c3.00
+    - May have overshot
 
 ** PREV
 *** DONE b = 0.75
