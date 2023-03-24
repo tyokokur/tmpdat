@@ -164,13 +164,8 @@ Start with non-phos params and adjust after
     - Overshot exp H prof
   - [-] pH2: b0.50 v0.10 c3.00
     - Moderate v to lower H; params also work for native
-    - Increased H from pH1?
   - [-] pH3: b0.50 v0.20 c3.00
-    - Wrong thoughts on v effect on H? Charge density instead of
-      charge-carrying volume?
-    - Tentatively looks better; work to get ./2 to work. If 2 looks
-      good but 1 won't converge, move on
-      - Lx changed to 200; bulk Cs large at 150
+  - pH4: b0.50 v0.30 c3.00
 
 ** PREV
 *** DONE b = 0.75
