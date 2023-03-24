@@ -88,13 +88,12 @@ Running on double.c
   - [-] b2.00 v1.50 c3.00 (L_ 253); \nu \approx 42
   - [-] b2.00 v1.00 c3.00 (L_ 213); \nu \approx 28
   - b0.50 v0.10 c3.00 (L_ 513); \nu \approx 112 N_K * 0.10 = 11.2 nm^3/c
-    - Low Cs too short
   - b0.50 v0.15 c3.00 (L_ 553); \nu \approx 112 N_K * 0.15 = 16.8
-    - Low Cs too short
-  - [-] b0.50 v0.25 c3.00 (L_ 525); \nu \approx 28
+    - [-] b0.50 v0.25 c3.00 (L_ 525); \nu \approx 28
   - [-] b0.75 v0.10 c3.00 (L_ 713); \nu \approx  75 N_K * 0.10 = 7.5 
   - b0.75 v0.15 c3.00 (L_ 753); \nu \approx  75 N_K * 0.15 = 11.25
-  - [-] b0.75 v0.25 c3.00 (L_ 725); \nu \approx 18.75
+  - b0.75 v0.25 c3.00 (L_ 725); \nu \approx 18.75
+    - No trend from increasing \nu 
     
 ** DONE NFH fit from NFL Candidates
 - All thresh 1e-06
@@ -134,33 +133,20 @@ Running on double.c
 30%: 0.0075 L ; 0.0175 H
 80%: 0.0200 L ; 0.0050 H
 
-/Note:/ Current W_ 7in.dat signifying cp ./7/W_ a* while running 
-- L1 (L_ 623, 70 nm^3/s)
-  - L: b1.60 v2.00 c3.00
-  - H: b0.50 v0.10 c3.00
-  - [-] L1_ 30
-    - Rerun all from 7
+- L1 (L_ 253, 42 nm^3/s)
+  - L: 2.00 v1.50 c3.00
+  - H: b0.50 v0.15 c3.00
   - [-] L1_ 80
-    - ./{3..7} done. 
-- L2 (L_ 823, 62 nm^3/s)
-  - L: b1.80 v2.00 c3.00
-  - H: b0.50 v0.10 c3.00
-  - [-] L2_ 30
-    - Rerun all from 7
+- L2 (L_ 213, 28 nm^3/s)
+  - L: b2.00 v1.00 c3.00
+  - H: b0.50 v0.15 c3.00
   - [-] L2_ 80
-    - ./{4..7} done; 3 running
-- L3 (L_ 223, 56 nm^3/s)
-  - L: b2.00 v2.00 c3.00
-  - H: b0.50 v0.10 c3.00
-  - [-] L3_ 30
-    - Redo all from 7
-  - [-] L3_ 80
-    - ./{6,7} done. Rerun {1..5} from 6
+- L3 
+  - L: 
+  - H: b0.50 v0.15 c3.00
 - L4 (L_ 653, 53 nm^3/s)
   - L: b1.60 v1.50 c3.00
-  - H: b0.50 /v0.15/ c3.00
-  - L4_ 30
-    - Wait for L4_ 80 to see if sufficient H vol
+  - H: b0.50 v0.15 c3.00
   - [-] L4_ 80
 
 ** PROG Phos pure
