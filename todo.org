@@ -86,17 +86,17 @@ Running on double.c
 
 - New
   - b2.00 v1.50 c3.00 (L_ 253); \nu \approx 42
-  - [-] b2.00 v1.00 c3.00 (L_ 213); \nu \approx 28
-    - 5, 6 rerun from 4
+  - b2.00 v1.00 c3.00 (L_ 213); \nu \approx 28
+    
+  - b0.50 v0.05 c3.00 (L_ 505); \nu \approx 5.6
   - b0.50 v0.10 c3.00 (L_ 513); \nu \approx 112 N_K * 0.10 = 11.2 nm^3/c
   - b0.50 v0.15 c3.00 (L_ 553); \nu \approx 112 N_K * 0.15 = 16.8
   - b0.50 v0.25 c3.00 (L_ 525); \nu \approx 28
-  - [-] b0.50 v0.05 c3.00 (L_ 505); \nu \approx 5.6
-  - [-] b0.50 v0.50 c3.00 (L_ 550); \nu \approx 56
+  - b0.50 v0.50 c3.00 (L_ 550); \nu \approx 56
+    
   - b0.75 v0.10 c3.00 (L_ 713); \nu \approx  75 N_K * 0.10 = 7.5 
   - b0.75 v0.15 c3.00 (L_ 753); \nu \approx  75 N_K * 0.15 = 11.25
   - b0.75 v0.25 c3.00 (L_ 725); \nu \approx 18.75
-    - No trend from increasing \nu 
     
 ** DONE NFH fit from NFL Candidates
 - All thresh 1e-06
@@ -139,24 +139,24 @@ Running on double.c
 - L1 (L_ 253, 42 nm^3/s)
   - L: 2.00 v1.50 c3.00
   - H: b0.50 v0.15 c3.00
-  - [-] L1_ 80
-  - [-] L1_ 30
-    - Learn what is really controlling height (vol, b/v)
+  - L1_ 80
+  - L1_ 30
 - L2 (L_ 213, 28 nm^3/s)
   - L: b2.00 v1.00 c3.00
   - H: b0.50 v0.15 c3.00
-  - [-] L2_ 80
-  - [-] L2_ 30
-    - Learn what is really controlling height (vol, b/v)
+  - L2_ 80
+  - L2_ 30
 - L3 
-  - L: 
+  - L: b0.50 v0.15 c3.00
   - H: b0.50 v0.15 c3.00
+  - Just try; L_ prof not perfect, but \nu is low (16.8)
+  - [-] L3_ 80
+  - [-] L3_ 30
 - L4 (L_ 653, 53 nm^3/s)
   - L: b1.60 v1.50 c3.00
   - H: b0.50 v0.15 c3.00
-  - [-] L4_ 80
-  - [-] L4_ 30
-    - Learn what is really controlling height (vol, b/v)
+  - L4_ 80
+  - L4_ 30
 
 ** PROG Phos pure
 Start with non-phos params and adjust after
