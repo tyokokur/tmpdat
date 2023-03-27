@@ -174,7 +174,7 @@ Start with non-phos params and adjust after
     - Right trend; still running 
   - [-] pH4: b0.50 v0.30 c3.00
     - All diverged from ./*/W_ in
-    - wparams 1e-04, 80 --> 1e-04, 60
+    - wparams 1e-04, 80 --> 1e-04, 60 --> 1e-04, 100
 
 ** PREV
 *** DONE b = 0.75
