@@ -187,7 +187,8 @@ Start with non-phos params and adjust after
     - Rerun 2 from finished ./3
       - 1e-03, 80 --> 1e-03, 30
   - [-] pH4: b0.50 v0.30 c3.00
-    - Rerun all from pH3/W_ in.dat
+    - Get ./7 to work first
+      - 1e-03, 30, andit 2000, Ns1200
       
 ** PREV
 *** DONE b = 0.75
