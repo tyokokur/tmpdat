@@ -191,7 +191,8 @@ Start with non-phos params and adjust after
       - 1e-03, 80 --> 1e-03, 30
   - [-] pH4: b0.50 v0.30 c3.00
     - Get ./7 to work first
-      - 1e-03, 30, andit 2000, Ns1200; Stable up to 5000 its
+      - 1e-03, 30, andit 2000, Ns1200; Diverge at 6000
+      - 1e-03, 50, andit 3000, Ns1200
     - Init from ./6 from ./7 W_ a* 5000 its
       
 ** PREV
