@@ -184,11 +184,10 @@ Start with non-phos params and adjust after
     - ./3 didn't work;
     - wparams 1e-04, 200
   - [-] pH3: b0.50 v0.20 c3.00
-    - 
+    - Rerun 2 from finished ./3
   - [-] pH4: b0.50 v0.30 c3.00
-    - All diverged from ./*/W_ in
-    - wparams 1e-04, 80 --> 1e-04, 60 --> 1e-04, 100
-
+    - Rerun all 
+      
 ** PREV
 *** DONE b = 0.75
 - 10/24
