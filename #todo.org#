@@ -140,6 +140,7 @@ Running on double.c
   
 - [-] V \approx 97.05 nm^3/c (b36v15c3)
 - b0.36 v0.15 c3.00
+- All diverged; rerun with andit 1000 --> 2000
 
 - [-] V \approx 129.4 nm^3/c (b36v20c3)
 - b0.36 v0.20 c3.00
