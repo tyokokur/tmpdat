@@ -170,6 +170,8 @@ Start with non-phos params and adjust after
     - Overshot exp H prof
   - [-] pH2: b0.50 v0.10 c3.00
     - Moderate v to lower H; params also work for native
+  - ./3 didn't work;
+    - wparams 1e-04, 200
   - [-] pH3: b0.50 v0.20 c3.00
     - Right trend; still running 
   - [-] pH4: b0.50 v0.30 c3.00
