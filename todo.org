@@ -92,15 +92,18 @@ Running on double.c
 - Try next
  
 - New
-  - [-] b0.36 v0.05 c3.00 (L_ 305); \nu \approx 156 N_K * 0.05 = 7.8
-  - [-] b0.36 v0.10 c3.00 (L_ 310); \nu \approx 156 N_K * 0.10 = 15.6
+  - b0.36 v0.05 c3.00 (L_ 305); \nu \approx 156 N_K * 0.05 = 7.8
+  - b0.36 v0.10 c3.00 (L_ 310); \nu \approx 156 N_K * 0.10 = 15.6
   - [-] b0.36 v0.15 c3.00 (L_ 315); \nu \approx 156 N_K * 0.15 = 23.4
   - [-] b0.36 v0.20 c3.00 (L_ 320); \nu \approx 156 N_K * 0.20 = 31.2
 
   - [-] b2.00 v0.15 c3.00 (L_ 215)
+    - Volume is very unrealistic
   - [-] b1.50 v0.15 c3.00 (L_ 515)
+    - Volume is very unrealistic
   - [-] b1.00 v0.15 c3.00 (L_ 115)
-    
+    - Volume is very unrealistic
+      
   - b0.75 v0.10 c3.00 (L_ 713); \nu \approx  75 N_K * 0.10 = 7.5 
   - b0.75 v0.15 c3.00 (L_ 753); \nu \approx  75 N_K * 0.15 = 11.25
   - b0.75 v0.25 c3.00 (L_ 725); \nu \approx 18.75
@@ -154,27 +157,27 @@ Running on double.c
 30%: 0.0075 L ; 0.0175 H
 80%: 0.0200 L ; 0.0050 H
 
-- L1 (L_ 253, 42 nm^3/s)
-  - L: 2.00 v1.50 c3.00
+- L1 (L_  nm^3/s)
+  - L: 
   - H: b0.50 v0.15 c3.00
   - L1_ 80
   - L1_ 30
-- L2 (L_ 213, 28 nm^3/s)
-  - L: b2.00 v1.00 c3.00
+- L2 (L_ 753, 11.25 nm^3/s)
+  - L: b0.75 v0.15 c3.00
   - H: b0.50 v0.15 c3.00
-  - L2_ 80
-  - L2_ 30
+  - [-] L2_ 80
+  - [-] L2_ 30
 - L3 (L_ 553, 16.8 nm^3/s)
   - L: b0.50 v0.15 c3.00
   - H: b0.50 v0.15 c3.00
   - Just try; L_ prof not perfect, but \nu is low
   - [-] L3_ 80
-  - [-] L3_ 30
-- L4 (L_ 653, 53 nm^3/s)
-  - L: b1.60 v1.50 c3.00
+  - L3_ 30
+- L4 (L_ 315, 23.24 nm^3/s)
+  - L: b0.36 v0.15 c3.00
   - H: b0.50 v0.15 c3.00
-  - L4_ 80
-  - L4_ 30
+  - [-] L4_ 80
+  - [-] L4_ 30
 
 ** PROG Phos pure
 Start with non-phos params and adjust after
