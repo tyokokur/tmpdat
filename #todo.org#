@@ -176,7 +176,7 @@ Running on double.c
 - L4 (L_ 315, 23.24 nm^3/s)
   - L: b0.36 v0.15 c3.00
   - H: b0.50 v0.15 c3.00
-  - L4_ 80
+  - [-] L4_ 80
   - L4_ 30
 
 ** PROG Phos pure
