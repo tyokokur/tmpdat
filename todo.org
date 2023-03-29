@@ -170,7 +170,6 @@ Running on double.c
 - L3 (L_ 553, 16.8 nm^3/s)
   - L: b0.50 v0.15 c3.00
   - H: b0.50 v0.15 c3.00
-  - Just try; L_ prof not perfect, but \nu is low
   - [-] L3_ 80
   - L3_ 30
 - L4 (L_ 315, 23.24 nm^3/s)
@@ -192,15 +191,17 @@ Start with non-phos params and adjust after
   - [-] pH2: b0.50 v0.10 c3.00
     - Moderate v to lower H; params also work for native
     - ./3 didn't work;
-    - wparams 1e-04, 200
+    - wparams 1e-04, 200 --> andit 300
   - [-] pH3: b0.50 v0.20 c3.00
     - Rerun 2 from finished ./3
-      - 1e-03, 80 --> 1e-03, 30
+      - 1e-03, 80 --> 1e-03, 30 --> 1e-03, 50
   - [-] pH4: b0.50 v0.30 c3.00
     - Get ./7 to work first
       - 1e-03, 30, andit 2000, Ns1200; Diverge at 6000
-      - 1e-03, 50, andit 3000, Ns1200
-    - Init from ./6 from ./7 W_ a* 5000 its
+      - 1e-03, 50, andit 3000, Ns1200; Diverge at 87000
+      - 1e-03, 30, andit 1000, Ns1500; Stoped at 5000
+      - 1e-03, 40, andit 1000, Ns1500;
+
       
 ** PREV
 *** DONE b = 0.75
