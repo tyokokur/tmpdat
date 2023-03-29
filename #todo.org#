@@ -191,7 +191,7 @@ Start with non-phos params and adjust after
   - [-] pH2: b0.50 v0.10 c3.00
     - Moderate v to lower H; params also work for native
     - ./3 didn't work;
-    - wparams 1e-04, 200
+    - wparams 1e-04, 200 --> andit 300
   - [-] pH3: b0.50 v0.20 c3.00
     - Rerun 2 from finished ./3
       - 1e-03, 80 --> 1e-03, 30
