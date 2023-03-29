@@ -173,8 +173,8 @@ Running on double.c
   - Just try; L_ prof not perfect, but \nu is low
   - [-] L3_ 80
   - [-] L3_ 30
-- L4 (L_ 653, 53 nm^3/s)
-  - L: b1.60 v1.50 c3.00
+- L4 (L_ 315, 53 nm^3/s)
+  - L: b0.36 v0.15 c3.00
   - H: b0.50 v0.15 c3.00
   - L4_ 80
   - L4_ 30
