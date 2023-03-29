@@ -199,7 +199,7 @@ Start with non-phos params and adjust after
     - Get ./7 to work first
       - 1e-03, 30, andit 2000, Ns1200; Diverge at 6000
       - 1e-03, 50, andit 3000, Ns1200; Diverge at 87000
-      - 1e-03, 50, andit 3000, Ns1500
+      - 1e-03, 30, andit 1000, Ns1500; Stoped at 5000
     - Init from ./6 from ./7 W_ a* 5000 its
       
 ** PREV
