@@ -98,7 +98,7 @@ Running on double.c
   - [-] b0.36 v0.20 c3.00 (L_ 320); \nu \approx 156 N_K * 0.20 = 31.2
 
   - [-] b2.00 v0.15 c3.00 (L_ 215)
-    - ./{5..8} rerun
+    - Volume is very unrealistic
   - [-] b1.50 v0.15 c3.00 (L_ 515)
     - 
   - [-] b1.00 v0.15 c3.00 (L_ 115)
