@@ -90,8 +90,11 @@ Running on double.c
 - b1.75 v2.50 c3.00 (L_ 250); \nu \approx 32 N_K * 2.50 = 80
 
 - Try next
-  - b0.125 b0.15 c3.00 (L_ 125)
+  - b0.125 v0.15 c3.00 (L_ 125)
     - From V_L = V_H with \nu_L = \nu_H = 0.15
+    - Note: 0.125 nm is smaller than AA contour length
+  - b0.500 v     c3.00
+    - From V_L = V_H with b_L = 
      
 - New
   - b0.36 v0.05 c3.00 (L_ 305); \nu \approx 156 N_K * 0.05 = 7.8
