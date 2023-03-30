@@ -168,7 +168,7 @@ Running on double.c
   - L: b0.75 v0.15 c3.00
   - H: b0.50 v0.15 c3.00
   - [-] L2_ 80
-    - ./5 
+    - ./5 rerun; 1e-03, 60
   - [-] L2_ 30
     - Init ./7 from ./6
 - L3 (L_ 553, 16.8 nm^3/s)
