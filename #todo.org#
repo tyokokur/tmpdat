@@ -176,7 +176,8 @@ Running on double.c
   - L: b0.50 v0.15 c3.00
   - H: b0.50 v0.15 c3.00
   - [-] L3_ 80
-    - Init ./3 from ./4; 1e-03
+    - Init ./3 from ./4; 1e-03, 100 diverge at 2100 its
+    - 1e-03, 100 --> 1e093, 200
   - L3_ 30
 - L4 (L_ 315, 23.24 nm^3/s)
   - L: b0.36 v0.15 c3.00
