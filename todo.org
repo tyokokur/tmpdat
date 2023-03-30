@@ -187,6 +187,11 @@ Running on double.c
   - [-] L4_ 30
     - ./4 worked, ./3 still going
 
+- Assuming V_L = V_H
+  - N_H / N_L \approx 4 b_L / b_H
+  - Then \nu_L N_L = \nu_H N_H
+    - \nu_L / \nu_H = 4 b_L / b_H 
+
 ** PROG Phos pure
 Start with non-phos params and adjust after
 - pNFL
