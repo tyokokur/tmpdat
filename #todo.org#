@@ -169,6 +169,7 @@ Running on double.c
   - H: b0.50 v0.15 c3.00
   - [-] L2_ 80
   - [-] L2_ 30
+    - Init ./7 from ./6
 - L3 (L_ 553, 16.8 nm^3/s)
   - L: b0.50 v0.15 c3.00
   - H: b0.50 v0.15 c3.00
@@ -203,8 +204,9 @@ Start with non-phos params and adjust after
       - 1e-03, 30, andit 2000, Ns1200; Diverge at 6000
       - 1e-03, 50, andit 3000, Ns1200; Diverge at 87000
       - 1e-03, 30, andit 1000, Ns1500; Stoped at 5000
-      - 1e-03, 40, andit 2000, Ns1500;
-
+      - 1e-03, 40, andit 2000, Ns1500; Worked
+    - Init ./6 from ./7
+      - 1e-04, 50, andit 2000, Ns1000
       
 ** PREV
 *** DONE b = 0.75
