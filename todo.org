@@ -90,11 +90,18 @@ Running on double.c
 - b1.75 v2.50 c3.00 (L_ 250); \nu \approx 32 N_K * 2.50 = 80
 
 - Try next
- 
+  - [-] b0.125 v0.15 c3.00 (L_ 125); \nu \approx 499 N_K * 0.15 = 67
+    - From V_L = V_H with \nu_L = \nu_H = 0.15
+    - Note: 0.125 nm is smaller than AA contour length
+      
+  - [-] b0.500 v0.60 c3.00 (L_ 506); \nu \approx 112 N_K * 0.60 = 67
+    - From V_L = V_H with b_L = b_H = 0.50
+     
 - New
   - b0.36 v0.05 c3.00 (L_ 305); \nu \approx 156 N_K * 0.05 = 7.8
   - b0.36 v0.10 c3.00 (L_ 310); \nu \approx 156 N_K * 0.10 = 15.6
   - [-] b0.36 v0.15 c3.00 (L_ 315); \nu \approx 156 N_K * 0.15 = 23.4
+
   - [-] b0.36 v0.20 c3.00 (L_ 320); \nu \approx 156 N_K * 0.20 = 31.2
 
   - b2.00 v0.15 c3.00 (L_ 215)
@@ -152,8 +159,8 @@ Running on double.c
   - andit 1000 --> 2000, Ns 1500
 
 - [-] V \approx 129.4 nm^3/c (b36v20c3)
-- b0.36 v0.20 c3.00
-- All diverged; rerun with andit 1000 --> 2000
+  - b0.36 v0.20 c3.00
+  - All diverged; rerun with andit 1000 --> 2000
   
 ** PROG Mixture runs
 30%: 0.0075 L ; 0.0175 H
