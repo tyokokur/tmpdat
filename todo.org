@@ -92,7 +92,8 @@ Running on double.c
 - Try next
   - [-] b0.125 v0.15 c3.00 (L_ 125); \nu \approx 499 N_K * 0.15 = 67
     - From V_L = V_H with \nu_L = \nu_H = 0.15
-    - Note: 0.125 nm is smaller than AA contour length
+    - Note: 0.125 nm is smaller than AA contour length; comparable to
+      C-C bond length!
       
   - b0.500 v0.60 c3.00 (L_ 506); \nu \approx 112 N_K * 0.60 = 67
     - From V_L = V_H with b_L = b_H = 0.50
@@ -163,9 +164,6 @@ Running on double.c
   - All diverged; rerun with andit 1000 --> 2000
   
 ** PROG Mixture runs
-30%: 0.0075 L ; 0.0175 H
-80%: 0.0200 L ; 0.0050 H
-
 - L1 (L_  nm^3/s)
   - L: 
   - H: b0.50 v0.15 c3.00
@@ -199,17 +197,29 @@ Running on double.c
   - Then \nu_L N_L = \nu_H N_H
     - \nu_L / \nu_H = 4 b_L / b_H 
 
-- L5 (L_ 506)
-  - L: b0.50 v0.60 c3.00
-  - H: b0.50 v0.15 c3.00
-  - L5_ 30
-  - L5_ 80
+  - L5 (L_ 506)
+    - L: b0.50 v0.60 c3.00; \nu \approx 67
+    - H: b0.50 v0.15 c3.00; \nu \approx 70
+    - L5_ 30
+    - L5_ 80
 
-- L6 (L_ 125)
-  - L: b0.125 v0.15 c3.0
-  - H: b0.50  v0.15 c3.0
-  - L6_ 30
-  - L6_ 80
+  - L6 (L_ 125)
+    - L: b0.125 v0.15 c3.0; \nu \approx 67
+    - H: b0.50  v0.15 c3.0; \nu \approx 70
+    - L6_ 30
+    - L6_ 80
+
+- L7 (L_ XXX)
+  - L: b0.50 v0.40 c3.0; \nu \approx 45
+  - H: b0.50 v0.10 c3.0; \nu \approx 47
+    
+- L8
+  - L: b0.
+
+30%: 0.0075 L ; 0.0175 H
+80%: 0.0200 L ; 0.0050 H
+  
+
 ** PROG Phos pure
 Start with non-phos params and adjust after
 - pNFL
