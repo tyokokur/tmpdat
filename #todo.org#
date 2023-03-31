@@ -235,7 +235,7 @@ Start with non-phos params and adjust after
       - 1e-03, 30, andit 1000, Ns1500; Stoped at 5000
       - 1e-03, 40, andit 2000, Ns1500; Worked
     - Init ./6 from ./7 
-      - 1e-04, 50, andit 2000, Ns1000
+      - 1e-03, 40, andit 2000, Ns1000; Worked
       
 ** PREV
 *** DONE b = 0.75
