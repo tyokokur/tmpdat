@@ -210,7 +210,7 @@ Running on double.c
     - L6_ 80
 
 - L7 (L_ XXX)
-  - L: b0.25 v0.15 c3.0; \nu \approx 33
+  - L: b0.36 v0.15 c3.0; \nu \approx 23
   - H: b0.50 v0.20 c3.0; \nu \approx 90
 
 30%: 0.0075 L ; 0.0175 H
