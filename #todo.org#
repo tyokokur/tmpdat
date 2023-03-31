@@ -164,9 +164,6 @@ Running on double.c
   - All diverged; rerun with andit 1000 --> 2000
   
 ** PROG Mixture runs
-30%: 0.0075 L ; 0.0175 H
-80%: 0.0200 L ; 0.0050 H
-
 - L1 (L_  nm^3/s)
   - L: 
   - H: b0.50 v0.15 c3.00
@@ -211,6 +208,13 @@ Running on double.c
   - H: b0.50  v0.15 c3.0
   - L6_ 30
   - L6_ 80
+
+- L7 (
+
+30%: 0.0075 L ; 0.0175 H
+80%: 0.0200 L ; 0.0050 H
+  
+
 ** PROG Phos pure
 Start with non-phos params and adjust after
 - pNFL
