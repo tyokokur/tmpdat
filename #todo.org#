@@ -117,6 +117,7 @@ Running on double.c
   - b0.75 v0.25 c3.00 (L_ 725); \nu \approx 18.75
     
   - [ ] b0.50 v0.40 c3.00 (L_ 540)
+  - b0.125 v0.10 c3.00 (L_ 
     
 ** PROG NFH fit from NFL Candidates
 - All thresh 1e-06
