@@ -197,17 +197,17 @@ Running on double.c
   - Then \nu_L N_L = \nu_H N_H
     - \nu_L / \nu_H = 4 b_L / b_H 
 
-- L5 (L_ 506)
-  - L: b0.50 v0.60 c3.00
-  - H: b0.50 v0.15 c3.00
-  - L5_ 30
-  - L5_ 80
+  - L5 (L_ 506)
+    - L: b0.50 v0.60 c3.00
+    - H: b0.50 v0.15 c3.00
+    - L5_ 30
+    - L5_ 80
 
-- L6 (L_ 125)
-  - L: b0.125 v0.15 c3.0; \nu \approx 67
-  - H: b0.50  v0.15 c3.0; \nu \approx 70
-  - L6_ 30
-  - L6_ 80
+  - L6 (L_ 125)
+    - L: b0.125 v0.15 c3.0; \nu \approx 67
+    - H: b0.50  v0.15 c3.0; \nu \approx 70
+    - L6_ 30
+    - L6_ 80
 
 - L7 (L_ XXX)
   - L: b0.25 v0.15 c3.0; \nu \approx 33
