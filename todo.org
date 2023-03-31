@@ -94,7 +94,7 @@ Running on double.c
     - From V_L = V_H with \nu_L = \nu_H = 0.15
     - Note: 0.125 nm is smaller than AA contour length
       
-  - [-] b0.500 v0.60 c3.00 (L_ 506); \nu \approx 112 N_K * 0.60 = 67
+  - b0.500 v0.60 c3.00 (L_ 506); \nu \approx 112 N_K * 0.60 = 67
     - From V_L = V_H with b_L = b_H = 0.50
      
 - New
@@ -199,6 +199,17 @@ Running on double.c
   - Then \nu_L N_L = \nu_H N_H
     - \nu_L / \nu_H = 4 b_L / b_H 
 
+- L5 (L_ 506)
+  - L: b0.50 v0.60 c3.00
+  - H: b0.50 v0.15 c3.00
+  - L5_ 30
+  - L5_ 80
+
+- L6 (L_ 125)
+  - L: b0.125 v0.15 c3.0
+  - H: b0.50  v0.15 c3.0
+  - L6_ 30
+  - L6_ 80
 ** PROG Phos pure
 Start with non-phos params and adjust after
 - pNFL
@@ -223,8 +234,9 @@ Start with non-phos params and adjust after
       - 1e-03, 50, andit 3000, Ns1200; Diverge at 87000
       - 1e-03, 30, andit 1000, Ns1500; Stoped at 5000
       - 1e-03, 40, andit 2000, Ns1500; Worked
-    - Init ./6 from ./7
-      - 1e-04, 50, andit 2000, Ns1000
+    - Init ./6 from ./7 
+      - 1e-03, 40, andit 2000, Ns1000; Worked
+    - Init ./{4,5} from ./6
       
 ** PREV
 *** DONE b = 0.75
