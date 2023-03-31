@@ -205,7 +205,11 @@ Running on double.c
   - L5_ 30
   - L5_ 80
 
-- L6 (L_
+- L6 (L_ 125)
+  - L: b0.125 v0.15 c3.0
+  - H: b0.50  v0.15 c3.0
+  - L6_ 30
+  - L6_ 80
 
   
 ** PROG Phos pure
