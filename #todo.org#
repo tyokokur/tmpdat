@@ -97,9 +97,6 @@ Running on double.c
       
   - b0.500 v0.60 c3.00 (L_ 506); \nu \approx 112 N_K * 0.60 = 67
     - From V_L = V_H with b_L = b_H = 0.50
-
-  - [ ] b0.50 v0.40 c3.00 (L_ 504)
-  - [ ] b0.125 v0.10 c3.00 (L_ 121)
      
 - New
   - b0.36 v0.05 c3.00 (L_ 305); \nu \approx 156 N_K * 0.05 = 7.8
