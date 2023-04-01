@@ -97,9 +97,6 @@ Running on double.c
       
   - b0.500 v0.60 c3.00 (L_ 506); \nu \approx 112 N_K * 0.60 = 67
     - From V_L = V_H with b_L = b_H = 0.50
-
-  - [ ] b0.50 v0.40 c3.00 (L_ 504)
-  - [ ] b0.125 v0.10 c3.00 (L_ 121)
      
 - New
   - b0.36 v0.05 c3.00 (L_ 305); \nu \approx 156 N_K * 0.05 = 7.8
@@ -214,13 +211,11 @@ Running on double.c
     - L6_ 30
     - L6_ 80
 
-  - L7 (L_ 504), based on L5
-    - L: b0.50 v0.40 c3.0; \nu \approx 45
-    - H: b0.50 v0.10 c3.0; \nu \approx 47
-    
-  - L8 (L_ 121), based on L6
-    - L: b0.125 v0.10 c3.0; \nu \approx 45
-    - H: b0.50  v0.10 c3.0; \nu \approx 47
+  - L7 (L_ 125), based on L6 to reduce inner layer crowding
+    - L: b0.125 v0.15 c3.0; \nu \approx 67
+    - H: b0.75  v0.15 c3.0; \nu \approx 47
+    - [-] L7_ 30
+    - [-] L7_ 80
 
 30%: 0.0075 L ; 0.0175 H
 80%: 0.0200 L ; 0.0050 H
