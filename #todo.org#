@@ -214,13 +214,9 @@ Running on double.c
     - L6_ 30
     - L6_ 80
 
-  - L7 (L_ 504), based on L5
-    - L: b0.50 v0.40 c3.0; \nu \approx 45
-    - H: b0.50 v0.10 c3.0; \nu \approx 47
-    
-  - L8 (L_ 121), based on L6
-    - L: b0.125 v0.10 c3.0; \nu \approx 45
-    - H: b0.50  v0.10 c3.0; \nu \approx 47
+  - L7 (L_ 121), based on L6
+    - L: b0.125 v0.15 c3.0; \nu \approx 67
+    - H: b0.50  v0.15 c3.0; \nu \approx 47
 
 30%: 0.0075 L ; 0.0175 H
 80%: 0.0200 L ; 0.0050 H
