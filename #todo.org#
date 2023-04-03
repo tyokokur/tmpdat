@@ -172,8 +172,11 @@ Running on double.c
   
 ** PROG Mixture matrix
 - a1C
+  - [-] L30
 - a1D
+  - [-] L30 
 - a1E
+  - [-] L30
   
 - a2C
 - a2E
