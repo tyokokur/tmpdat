@@ -160,10 +160,12 @@ Running on double.c
   - b0.36 v0.15 c3.00
   - andit 1000 --> 2000
   - andit 1000 --> 2000, Ns 1500
+  - All diverged
 
 - [-] V \approx 129.4 nm^3/c (b36v20c3)
   - b0.36 v0.20 c3.00
   - All diverged; rerun with andit 1000 --> 2000
+  - All diverged
   
 ** PROG Mixture runs
 - L1 (L_  nm^3/s)
