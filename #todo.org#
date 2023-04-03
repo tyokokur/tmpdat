@@ -251,17 +251,20 @@ Running on double.c
   | g1 |   |   | - | 30 | - |
   | g2 |   |   |   |    |   |
 
-NFL
-a{1..3}: b0.36 v{0.10, 0.15, 0.20}
-b{1..3}: b0.50 v{0.15, 0.25, 0.50}
-g{1..2}: b0.75 v{0.15, 0.25}
+  - Key:
+    - 30: nonlinear from adding any 
+  
+  - NFL
+    - a{1..3}: b0.36 v{0.10, 0.15, 0.20}
+    - b{1..3}: b0.50 v{0.15, 0.25, 0.50}
+    - g{1..2}: b0.75 v{0.15, 0.25}
 
-NFH
-A: b0.36 v0.10
-B: b0.36 v0.15
-C: b0.50 v0.10
-D: b0.50 b0.15
-E: b0.75 v0.15
+  - NFH
+    - A: b0.36 v0.10
+    - B: b0.36 v0.15
+    - C: b0.50 v0.10
+    - D: b0.50 b0.15
+    - E: b0.75 v0.15
 
 ** PROG Phos pure
 Start with non-phos params and adjust after
