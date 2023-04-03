@@ -230,12 +230,27 @@ Running on double.c
 - a1C
 - a1D
 - a1E
+  
 - a2C
 - a2E
+  
 - b1C
 - b1E
-- 
   
+- g1C
+- g1E
+
+- Matrix
+|    | A | B | C | D | E |   |
+| a1 |   |   |   |   |   |   |
+| a2 |   |   |   |   |   |   |
+| a3 |   |   |   |   |   |   |
+| b1 |   |   |   |   |   |   |
+| b2 |   |   |   |   |   |   |
+| b3 |   |   |   |   |   |   |
+| g1 |   |   |   |   |   |   |
+| g2 |   |   |   |   |   |   |
+|    |   |   |   |   |   |   |
 ** PROG Phos pure
 Start with non-phos params and adjust after
 - pNFL
