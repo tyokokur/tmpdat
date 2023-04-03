@@ -117,7 +117,6 @@ Running on double.c
   - b0.75 v0.25 c3.00 (L_ 725); \nu \approx 18.75
     
 
-    
 ** PROG NFH fit from NFL Candidates
 - All thresh 1e-06
 - Try to min total volume so mix80 has effect
@@ -171,6 +170,57 @@ Running on double.c
   - All diverged; rerun with andit 1000 --> 2000
   - All diverged
   
+** PROG Mixture matrix
+- a1C
+  - [-] L30
+- a1D
+  - [-] L30 
+- a1E
+  - [-] L30
+  
+- a2C
+  - [-] L30
+- a2E
+  - [-] L30
+      
+- b1C
+  - [-] L30
+- b1E
+  - [-] L30  
+  
+- g1C
+  - [-] L30  
+- g1E
+  - [-] L30  
+
+- Matrix
+  |    | A | B | C |  D | E |
+  | a1 |   |   | - |  - | - |
+  | a2 |   |   | - | 30 | - |
+  | a3 |   |   |   |    |   |
+  | b1 |   |   | - | 30 | - |
+  | b2 |   |   |   |    |   |
+  | b3 |   |   |   |    |   |
+  | g1 |   |   | - | 30 | - |
+  | g2 |   |   |   |    |   |
+
+  - Key:
+    - 30: nonlinear from adding any L
+    - 80: nonlinear from adding any H
+    - 30/80: Nonlinear from 30 <--> 80
+  
+  - NFL
+    - a{1..3}: b0.36 v{0.10, 0.15, 0.20}
+    - b{1..3}: b0.50 v{0.15, 0.25, 0.50}
+    - g{1..2}: b0.75 v{0.15, 0.25}
+
+  - NFH
+    - A: b0.36 v0.10
+    - B: b0.36 v0.15
+    - C: b0.50 v0.10
+    - D: b0.50 b0.15
+    - E: b0.75 v0.15
+
 ** PROG Mixture runs
 - L1 (L_  nm^3/s)
   - L: 
@@ -225,48 +275,6 @@ Running on double.c
 
 30%: 0.0075 L ; 0.0175 H
 80%: 0.0200 L ; 0.0050 H
-
-** PROG Mixture matrix
-- a1C
-- a1D
-- a1E
-  
-- a2C
-- a2E
-  
-- b1C
-- b1E
-  
-- g1C
-- g1E
-
-- Matrix
-  |    | A | B | C |  D | E |
-  | a1 |   |   | - |  - | - |
-  | a2 |   |   | - | 30 | - |
-  | a3 |   |   |   |    |   |
-  | b1 |   |   | - | 30 | - |
-  | b2 |   |   |   |    |   |
-  | b3 |   |   |   |    |   |
-  | g1 |   |   | - | 30 | - |
-  | g2 |   |   |   |    |   |
-
-  - Key:
-    - 30: nonlinear from adding any L
-    - 80: nonlinear from adding any H
-    - 30/80: Nonlinear from 30 <--> 80
-  
-  - NFL
-    - a{1..3}: b0.36 v{0.10, 0.15, 0.20}
-    - b{1..3}: b0.50 v{0.15, 0.25, 0.50}
-    - g{1..2}: b0.75 v{0.15, 0.25}
-
-  - NFH
-    - A: b0.36 v0.10
-    - B: b0.36 v0.15
-    - C: b0.50 v0.10
-    - D: b0.50 b0.15
-    - E: b0.75 v0.15
 
 ** PROG Phos pure
 Start with non-phos params and adjust after
