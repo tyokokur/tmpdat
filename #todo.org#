@@ -156,7 +156,7 @@ Running on double.c
   - b0.36 v0.10 c3.00
   - H prof looks good, phi looks good
 
-- V \approx  (b7v15c3)
+- [-] V \approx  (b7v15c3)
   - b0.75 v0.15 c3.00
   - Init from b5v01c2
   
@@ -225,8 +225,17 @@ Running on double.c
 
 30%: 0.0075 L ; 0.0175 H
 80%: 0.0200 L ; 0.0050 H
-  
 
+** PROG Mixture matrix
+- a1C
+- a1D
+- a1E
+- a2C
+- a2E
+- b1C
+- b1E
+- 
+  
 ** PROG Phos pure
 Start with non-phos params and adjust after
 - pNFL
