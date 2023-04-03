@@ -156,8 +156,9 @@ Running on double.c
   - b0.36 v0.10 c3.00
   - H prof looks good, phi looks good
 
-- V \approx sdfsd (vb) b5v01c2
+- V \approx  (b7v15c3)
   - b0.75 v0.15 c3.00
+  - Init from b5v01c2
   
 - [-] V \approx 97.05 nm^3/c (b36v15c3)
   - b0.36 v0.15 c3.00
