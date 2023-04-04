@@ -219,7 +219,7 @@ Running on double.c
     - A: b0.36 v0.10
     - B: b0.36 v0.15
     - C: b0.50 v0.10
-    - D: b0.50 b0.15
+    - D: b0.50 v0.15
     - E: b0.75 v0.15
 
 ** PROG Mixture runs
