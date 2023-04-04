@@ -116,7 +116,6 @@ Running on double.c
   - b0.75 v0.15 c3.00 (L_ 753); \nu \approx  75 N_K * 0.15 = 11.25
   - b0.75 v0.25 c3.00 (L_ 725); \nu \approx 18.75
     
-
 ** PROG NFH fit from NFL Candidates
 - All thresh 1e-06
 - Try to min total volume so mix80 has effect
@@ -174,7 +173,8 @@ Running on double.c
 - a1C
   - [-] L30
 - a1D
-  - [-] L30 
+  - [-] L30
+    - 
 - a1E
   - [-] L30
   
@@ -194,15 +194,16 @@ Running on double.c
   - [-] L30  
 
 - Matrix
-  |    | A | B | C |  D | E |
-  | a1 |   |   | - |  - | - |
-  | a2 |   |   | - | 30 | - |
-  | a3 |   |   |   |    |   |
-  | b1 |   |   | - | 30 | - |
-  | b2 |   |   |   |    |   |
-  | b3 |   |   |   |    |   |
-  | g1 |   |   | - | 30 | - |
-  | g2 |   |   |   |    |   |
+  
+  |    | A | B | C |  D | E  |
+  | a1 |   |   | - | 30 | -  |
+  | a2 |   |   | - | 30 | -  |
+  | a3 |   |   |   |    |    |
+  | b1 |   |   | - | 30 | -  |
+  | b2 |   |   |   |    |    |
+  | b3 |   |   |   |    |    |
+  | g1 |   |   | - | 30 | 30 |
+  | g2 |   |   |   |    |    |
 
   - Key:
     - 30: nonlinear from adding any L
