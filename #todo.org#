@@ -132,12 +132,12 @@ Running on double.c
   - b0.50 v0.13 c3.20
   - Looks good; volume better than b5v01c2
 
+- V \approx 46.6 nm^3/c (b5v10c3)
+  - b0.50 v0.10 c3.00
+
 - V \approx 70 nm^3/c (b5v15c2)
   - b0.50 v0.15 c3.20
   - Looks fine; H prof barely too high
-
-- V \approx 46.6 nm^3/c (b5v10c3)
-  - b0.50 v0.10 c3.00
     
 - V \approx 70 nm^3/c (b5v15c3)
   - b0.50 v0.15 c3.00
@@ -217,10 +217,10 @@ Running on double.c
 
   - NFH
     - A: b0.36 v0.10
-    - B: b0.36 v0.15
-    - C: b0.50 v0.10
-    - D: b0.50 v0.15
-    - E: b0.75 v0.15
+    - B: b0.36 v0.15 (97 nm^3)
+    - C: b0.50 v0.10 (47 nm^3)
+    - D: b0.50 v0.15 (70 nm^3)
+    - E: b0.75 v0.15 
 
 ** PROG Mixture runs
 - L1 (L_  nm^3/s)
