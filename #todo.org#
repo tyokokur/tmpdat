@@ -154,7 +154,7 @@ Running on double.c
   - b0.36 v0.10 c3.00
   - H prof looks good, phi looks good
 
-- [-] V \approx  (b7v15c3)
+- [-] V \approx 46.65 nm^3/c (b7v15c3)
   - b0.75 v0.15 c3.00
   - Init from b5v01c2
   
@@ -216,11 +216,11 @@ Running on double.c
     - g{1..2}: b0.75 v{0.15, 0.25}
 
   - NFH
-    - A: b0.36 v0.10
+    - A: b0.36 v0.10 
     - B: b0.36 v0.15 (97 nm^3)
     - C: b0.50 v0.10 (47 nm^3)
     - D: b0.50 v0.15 (70 nm^3)
-    - E: b0.75 v0.15 
+    - E: b0.75 v0.15 (47 nm^3)
 
 ** PROG Mixture runs
 - L1 (L_  nm^3/s)
