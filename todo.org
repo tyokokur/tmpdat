@@ -132,12 +132,12 @@ Running on double.c
   - b0.50 v0.13 c3.20
   - Looks good; volume better than b5v01c2
 
+- V \approx 46.6 nm^3/c (b5v10c3)
+  - b0.50 v0.10 c3.00
+
 - V \approx 70 nm^3/c (b5v15c2)
   - b0.50 v0.15 c3.20
   - Looks fine; H prof barely too high
-
-- V \approx 46.6 nm^3/c (b5v10c3)
-  - b0.50 v0.10 c3.00
     
 - V \approx 70 nm^3/c (b5v15c3)
   - b0.50 v0.15 c3.00
@@ -154,7 +154,7 @@ Running on double.c
   - b0.36 v0.10 c3.00
   - H prof looks good, phi looks good
 
-- [-] V \approx  (b7v15c3)
+- [-] V \approx 46.65 nm^3/c (b7v15c3)
   - b0.75 v0.15 c3.00
   - Init from b5v01c2
   
@@ -195,15 +195,15 @@ Running on double.c
 
 - Matrix
   
-  |    | A | B | C |  D | E  |
-  | a1 |   |   | - | 30 | -  |
-  | a2 |   |   | - | 30 | -  |
-  | a3 |   |   |   |    |    |
-  | b1 |   |   | - | 30 | -  |
-  | b2 |   |   |   |    |    |
-  | b3 |   |   |   |    |    |
-  | g1 |   |   | - | 30 | 30 |
-  | g2 |   |   |   |    |    |
+  |    | A | B | C  |  D | E  |
+  | a1 |   |   | -  | 30 | -  |
+  | a2 |   |   | -  | 30 | -  |
+  | a3 |   |   |    |    |    |
+  | b1 |   |   | 30 | 30 | 30 |
+  | b2 |   |   |    |    |    |
+  | b3 |   |   |    |    |    |
+  | g1 |   |   | 30 | 30 | 30 |
+  | g2 |   |   |    |    |    |
 
   - Key:
     - 30: nonlinear from adding any L
@@ -211,16 +211,16 @@ Running on double.c
     - 30/80: Nonlinear from 30 <--> 80
   
   - NFL
-    - a{1..3}: b0.36 v{0.10, 0.15, 0.20}
-    - b{1..3}: b0.50 v{0.15, 0.25, 0.50}
-    - g{1..2}: b0.75 v{0.15, 0.25}
+    - a{1..3}: b0.36 v{0.10, 0.15, 0.20} ({16, 23, 31} nm^3)
+    - b{1..3}: b0.50 v{0.15, 0.25, 0.50} ({17, 28, 56} nm^3)
+    - g{1..2}: b0.75 v{0.15, 0.25}       ({11, 19} nm^3)
 
   - NFH
-    - A: b0.36 v0.10
-    - B: b0.36 v0.15
-    - C: b0.50 v0.10
-    - D: b0.50 b0.15
-    - E: b0.75 v0.15
+    - A: b0.36 v0.10 (65 nm^3)
+    - B: b0.36 v0.15 (97 nm^3)
+    - C: b0.50 v0.10 (47 nm^3)
+    - D: b0.50 v0.15 (70 nm^3)
+    - E: b0.75 v0.15 (47 nm^3)
 
 ** PROG Mixture runs
 - L1 (L_  nm^3/s)
