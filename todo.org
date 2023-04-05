@@ -170,6 +170,14 @@ Running on double.c
   - All diverged
   
 ** PROG Mixture matrix
+- Definites:
+  - H vol decrease by b is more effective than by v (at decreasing
+    expelled L vol)
+  - Both decrease leads to similar peak in expelled L (distance
+    between peaks much smaller than at lower H thresh)
+- Possibles:
+  - 
+    
 - a1C
   - [-] L30
 - a1D
