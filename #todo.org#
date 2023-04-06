@@ -173,7 +173,7 @@ Running on double.c
 - Increasing \chi will disproportionately affect blended
   - Dramatic decrease of H for dilute expelled L (like Sr2014)
 - Pure L will be approx linear to \chi
-- Maybe can increase stiffness to compenstate
+- Maybe can increase stiffness to compensate for H decrease?
 ** PROG Mixture matrix
 - Definites:
   - H vol decrease by b is more effective than by v (at decreasing
