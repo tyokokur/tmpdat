@@ -177,18 +177,18 @@ Running on double.c
 - Maybe can increase stiffness to compensate for H decrease?
 
 \chi_ max = 3.5; otherwise, SAME params as original Mixture maxtrix
-- a1C
-- a1D
-- a1E
-- a2C
-- a2D
-- a2E
-- b1C
-- b1D
-- b1E
-- g1C
-- g1D
-- g1E
+- [-] a1C
+- [-] a1D
+- [-] a1E
+- [-] a2C
+- [-] a2D
+- [-] a2E
+- [-] b1C
+- [-] b1D
+- [-] b1E
+- [-] g1C
+- [-] g1D
+- [-] g1E
   
 ** PROG Mixture matrix
 - Definites:
