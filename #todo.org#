@@ -1,0 +1,734 @@
+:properties:
+#+STARTUP: indent
+#+STARTUP: overview
+#+STARTUP: entitiespretty
+:end:
+
+* TODO PE triple point
+
+
+* PROG NLH Fitting
+** DONE New NFL fit
+Correction from z/b0 --> z/nm analysis
+Running on double.c
+- b2.00 v2.70 c3.20 (L_ 272)
+  - Note: wrong freeE; use code from 01/27
+  - No longer correct
+  - Looks like previous b10v0 (b1.0v4.2)
+  - \phi on the edge of too small
+- b3.00 v3.50 c3.50 (L_ 355)
+  - Note: wrong freeE; use code from 01/27
+  - \phi unrealistically small (< 0.2)
+- b3.0 v7.0 c3.5 (L_ 375): Mimic b^3/\nu from b2v7c2
+  - b3 v7 c3.0 (L_ 373)
+- b4.0 v12.0 c3.0 (L_ 423): next b0 up
+- b5.0 v20 c{3,4} (L_ 52{3,4}): next b0 up
+  - b4.5 v20 c3 (L_ 452)
+  - b4.0 v20 c3 (L_ 402)
+  - b3.5 v20 c3 (L_ 352)
+  - Linear response only; electrostatics too high at v20?
+  - b5 v10 c3 (L_ 513): extreme v sweep
+  - b5 v5 c3: (L_ 553): extreme v sweep
+  - No kinked response; stiffness too high at b5?
+
+- b{} v10 c3
+  - b4.0 (L_ 401), b3.0 (L_ 301), b2.0 (L_ 201)
+    - Starting to curve
+  - Fine
+    - b2.0 v8.0 c3.0 (L_ 283)
+    - b2.0 v6.0 c3.0 (L_ 263)
+    - b1.8 v10  c3.0 (L_ 813)
+    - b1.8 v8.0 c3.0 (L_ 883)
+    - b1.8 v6.0 c3.0 (L_ 863)
+    - b1.6 v10  c3.0 (L_ 613)
+    - b1.6 v8.0 c3.0 (L_ 683)
+    - b1.6 v6.0 c3.0 (L_ 663)
+    - Not kinked enough, but all \phi have room to shrink
+  - Fine \nu
+    - b2.0 v4 c3 (L_ 243)
+    - b1.8 v3 c3 (L_ 833)
+    - b1.6 v2 c3 (L_ 623)
+    - Going in right trend; 623 approaching unphysical \phi
+  - Fine \nu pt 2
+    - b2.0 v2 c3 (L_ 223)
+    - b1.8 v2 c3 (L_ 823)
+    - b1.6 v1.5 c3 (L_ 653)
+    
+- b2.25 v2.70 c3.20 (L_ 257)
+- b2.50 v2.70 c3.20 (L_ 572)
+  
+- *BEST SO FAR* b1.75 v2.70 c3.20 (L_ 175)
+  - b1.75 v2.50 c3.20 (L_ 252)
+  - b1.75 v2.50 c3.00 (L_ 250)
+  - Volume seems too small; doesn't impact height of mix80
+    - Or NFH volume too large
+
+- b1.50 v2.70 c3.20 (L_ 150)
+
+** PROG NFL Candidates
+- All thresh 1e-06
+
+- Didn't work/Tried mixture
+  - b1.50 v2.70 c3.20 (L_ 150); \nu \approx 37 N_K * 2.70 = 100 nm^3/c
+  - b1.75 v2.70 c3.20 (L_ 175); \nu \approx 32 N_K * 2.70 = 86  
+  - b1.75 v2.50 c3.20 (L_ 252); \nu \approx 32 N_K * 2.50 = 80  
+  - b2.00 v2.70 c3.20 (L_ 272); \nu \approx 28 N_K * 2.70 = 76  
+  - b1.60 v2.00 c3.00 (L_ 623); \nu \approx 35 N_K * 2.00 = 70
+  - b1.80 v2.00 c3.00 (L_ 823); \nu \approx 31 N_K * 2.00 = 62 
+  - b2.00 v2.00 c3.00 (L_ 223); \nu \approx 28 N_K * 2.00 = 56
+  - b1.60 v1.50 c3.00 (L_ 653); \nu \approx 35 N_K * 1.50 = 53
+  - b2.00 v1.50 c3.00 (L_ 253); \nu \approx 42
+  - b2.00 v1.00 c3.00 (L_ 213); \nu \approx 28
+  - b0.50 v0.05 c3.00 (L_ 505); \nu \approx 5.6
+  - b0.50 v0.10 c3.00 (L_ 513); \nu \approx 112 N_K * 0.10 = 11.2 nm^3/c
+  - b0.50 v0.15 c3.00 (L_ 553); \nu \approx 112 N_K * 0.15 = 16.8
+  - b0.50 v0.25 c3.00 (L_ 525); \nu \approx 28
+  - b0.50 v0.50 c3.00 (L_ 550); \nu \approx 56
+    
+- b2.00 v4.00 c3.00 (L_ 243); \nu \approx 28 N_K * 4.00 = 112
+- b1.80 v3.00 c3.00 (L_ 833); \nu \approx 31 N_K * 3.00 = 93
+- b1.75 v2.50 c3.00 (L_ 250); \nu \approx 32 N_K * 2.50 = 80
+
+- Try next
+  - [-] b0.125 v0.15 c3.00 (L_ 125); \nu \approx 499 N_K * 0.15 = 67
+    - From V_L = V_H with \nu_L = \nu_H = 0.15
+    - Note: 0.125 nm is smaller than AA contour length; comparable to
+      C-C bond length!
+      
+  - b0.500 v0.60 c3.00 (L_ 506); \nu \approx 112 N_K * 0.60 = 67
+    - From V_L = V_H with b_L = b_H = 0.50
+     
+- New
+  - b0.36 v0.05 c3.00 (L_ 305); \nu \approx 156 N_K * 0.05 = 7.8
+  - b0.36 v0.10 c3.00 (L_ 310); \nu \approx 156 N_K * 0.10 = 15.6
+  - [-] b0.36 v0.15 c3.00 (L_ 315); \nu \approx 156 N_K * 0.15 = 23.4
+
+  - [-] b0.36 v0.20 c3.00 (L_ 320); \nu \approx 156 N_K * 0.20 = 31.2
+
+  - b2.00 v0.15 c3.00 (L_ 215)
+    - Volume is very unrealistic
+  - b1.50 v0.15 c3.00 (L_ 515)
+    - Volume is very unrealistic
+  - b1.00 v0.15 c3.00 (L_ 115)
+    - Volume is very unrealistic
+      
+  - b0.75 v0.10 c3.00 (L_ 713); \nu \approx  75 N_K * 0.10 = 7.5 
+  - b0.75 v0.15 c3.00 (L_ 753); \nu \approx  75 N_K * 0.15 = 11.25
+  - b0.75 v0.25 c3.00 (L_ 725); \nu \approx 18.75
+    
+** PROG NFH fit from NFL Candidates
+- All thresh 1e-06
+- Try to min total volume so mix80 has effect
+  
+- b0.75 v0.10 c3.20 (b5v01c2)
+  - H prof looks pretty good
+  - Density profiles pretty dilute--issue for "realistic"?
+
+- Prev fit:
+  - 311 Kuhn N * 0.10 \nu0 = 31.1 nm^3 / chain
+  - p = b^3 / \nu = 4.22
+
+- V \approx 60 nm^3/c (b5v13c2)
+  - b0.50 v0.13 c3.20
+  - Looks good; volume better than b5v01c2
+
+- V \approx 46.6 nm^3/c (b5v10c3)
+  - b0.50 v0.10 c3.00
+
+- V \approx 70 nm^3/c (b5v15c2)
+  - b0.50 v0.15 c3.20
+  - Looks fine; H prof barely too high
+    
+- V \approx 70 nm^3/c (b5v15c3)
+  - b0.50 v0.15 c3.00
+
+- V \approx 93.2 nm^3/c (b5v20c3)
+  - b0.50 v0.20 c3.00
+  - H prof probably too high; intersecting with LSA25
+
+- V \approx 140 nm^3/c (b5v30c3)
+  - b0.50 v0.30 c3.00
+  - H prof definitely too high; coinciding with LSA25
+
+- V \approx 64.7 nm^3/c (b36v10c3)
+  - b0.36 v0.10 c3.00
+  - H prof looks good, phi looks good
+
+- [-] V \approx 46.65 nm^3/c (b7v15c3)
+  - b0.75 v0.15 c3.00
+  - Init from b5v01c2
+  
+- [-] V \approx 97.05 nm^3/c (b36v15c3)
+  - b0.36 v0.15 c3.00
+  - andit 1000 --> 2000
+  - andit 1000 --> 2000, Ns 1500
+  - All diverged
+
+- [-] V \approx 129.4 nm^3/c (b36v20c3)
+  - b0.36 v0.20 c3.00
+  - All diverged; rerun with andit 1000 --> 2000
+  - All diverged
+  
+** PROG Mixture mat2
+- Increasing \chi will disproportionately affect blended
+  - Dramatic decrease of height for dilute expelled L (like Sr2014 and
+    SYSG)
+- Pure L will be approx linear to \chi
+- Maybe can increase stiffness to compensate for H decrease?
+
+\chi_ max = 3.5; otherwise, SAME params as original Mixture maxtrix
+- [-] a1C [2023-04-06 Thu 12:16]
+- [-] a1D [2023-04-06 Thu 12:16]
+- [-] a1E [2023-04-06 Thu 12:16]
+- [-] a2C [2023-04-06 Thu 12:16]
+- [-] a2D [2023-04-06 Thu 12:16]
+- [-] a2E [2023-04-06 Thu 12:16]
+- [-] b1C [2023-04-06 Thu 12:16]
+- [-] b1D [2023-04-06 Thu 12:16]
+- [-] b1E [2023-04-06 Thu 12:16]
+- [-] g1C [2023-04-06 Thu 12:16]
+- [-] g1D [2023-04-06 Thu 12:16]
+- [-] g1E [2023-04-06 Thu 12:16] 
+  
+** PROG Mixture matrix
+- Definites:
+  - H vol decrease by b is more effective than by v (at decreasing
+    expelled L vol)
+  - Decrease of expelled L allows for better /thresh/ needed to get
+    "linear" behavior
+  - Both decrease leads to similar peak in expelled L (distance
+    between peaks much smaller than at lower H
+    
+- a1C
+  - [-] L30
+- a1D
+  - [-] L30
+    - 
+- a1E
+  - [-] L30
+  
+- a2C
+  - [-] L30
+- a2E
+  - [-] L30
+      
+- b1C
+  - [-] L30
+- b1E
+  - [-] L30  
+  
+- g1C
+  - [-] L30  
+- g1E
+  - [-] L30: ./{3,7} NaN
+
+- Matrix
+  
+  |    | A | B |  C |  D |  E |
+  | a1 |   |   | 30 | 30 | 30 |
+  | a2 |   |   | 30 | 30 | 30 |
+  | a3 |   |   |    |    |    |
+  | b1 |   |   | 30 | 30 | 30 |
+  | b2 |   |   |    |    |    |
+  | b3 |   |   |    |    |    |
+  | g1 |   |   | 30 | 30 | 30 |
+  | g2 |   |   |    |    |    |
+
+  - Key:
+    - 30: nonlinear from adding any L
+    - 80: nonlinear from adding any H
+    - 30/80: Nonlinear from 30 <--> 80
+  
+  - NFL
+    - a{1..3}: b0.36 v{0.10, 0.15, 0.20} ({16, 23, 31} nm^3)
+    - b{1..3}: b0.50 v{0.15, 0.25, 0.50} ({17, 28, 56} nm^3)
+    - g{1..2}: b0.75 v{0.15, 0.25}       ({11, 19} nm^3)
+      - Pure \phi seems too low to be realistic 
+
+  - NFH
+    - A: b0.36 v0.10 (65 nm^3)
+    - B: b0.36 v0.15 (97 nm^3)
+    - C: b0.50 v0.10 (47 nm^3)
+    - D: b0.50 v0.15 (70 nm^3)
+    - E: b0.75 v0.15 (47 nm^3)
+
+** PROG Mixture runs
+- L1 (L_  nm^3/s)
+  - L: 
+  - H: b0.50 v0.15 c3.00
+  - L1_ 80
+  - L1_ 30
+- L2 (L_ 753, 11.25 nm^3/s)
+  - L: b0.75 v0.15 c3.00
+  - H: b0.50 v0.15 c3.00
+  - [-] L2_ 80
+    - ./3 rerun; 1e-03, 60
+    - ./5 rerun; 1e-03, 60
+  - [-] L2_ 30
+    - Init ./7 from ./6
+- L3 (L_ 553, 16.8 nm^3/s)
+  - L: b0.50 v0.15 c3.00
+  - H: b0.50 v0.15 c3.00
+  - [-] L3_ 80
+    - Init ./3 from ./4; 1e-03, 100 diverge at 2100 its
+    - 1e-03, 100 --> 1e-03, 200, Ns1500 --> 2000
+  - L3_ 30
+- L4 (L_ 315, 23.24 nm^3/s)
+  - L: b0.36 v0.15 c3.00
+  - H: b0.50 v0.15 c3.00
+  - [-] L4_ 80
+    - ./7 worked, ./{1..3, 5} still going
+  - [-] L4_ 30
+    - ./4 worked, ./3 still going
+
+- Assuming V_L = V_H
+  - N_H / N_L \approx 4 b_L / b_H
+  - Then \nu_L N_L = \nu_H N_H
+    - \nu_L / \nu_H = 4 b_L / b_H 
+
+  - L5 (L_ 506)
+    - L: b0.50 v0.60 c3.00; \nu \approx 67
+    - H: b0.50 v0.15 c3.00; \nu \approx 70
+    - L5_ 30
+    - L5_ 80
+
+  - L6 (L_ 125)
+    - L: b0.125 v0.15 c3.0; \nu \approx 67
+    - H: b0.50  v0.15 c3.0; \nu \approx 70
+    - L6_ 30
+    - L6_ 80
+
+  - L7 (L_ 125), based on L6 to reduce inner layer crowding
+    - L: b0.125 v0.15 c3.0; \nu \approx 67
+    - H: b0.75  v0.15 c3.0; \nu \approx 47
+    - [-] L7_ 30
+    - [-] L7_ 80
+
+30%: 0.0075 L ; 0.0175 H
+80%: 0.0200 L ; 0.0050 H
+
+** PROG Phos pure
+Start with non-phos params and adjust after
+- pNFL
+  - Necessary? Only difference is 2 residues at beginning of chain (\Delta\alpha
+    = 0.05 for Block 1)
+
+- pNFH
+  - pH1: b0.50 v0.13 c3.00
+    - Test to see what happens; params previously used for native NFH
+    - Overshot exp H prof
+  - [-] pH2: b0.50 v0.10 c3.00
+    - Moderate v to lower H; params also work for native
+    - ./3 
+      - wparams 1e-04, 200 --> andit 3000; went 3e5 its and flatlined
+      - wparams 1e-03, 50, andit 3000, Ns1200
+  - [-] pH3: b0.50 v0.20 c3.00
+    - Rerun 2 from finished ./3
+      - 1e-03, 80 --> 1e-03, 30 --> 1e-03, 50
+  - [-] pH4: b0.50 v0.30 c3.00
+    - Get ./7 to work first
+      - 1e-03, 30, andit 2000, Ns1200; Diverge at 6000
+      - 1e-03, 50, andit 3000, Ns1200; Diverge at 87000
+      - 1e-03, 30, andit 1000, Ns1500; Stoped at 5000
+      - 1e-03, 40, andit 2000, Ns1500; Worked
+    - Init ./6 from ./7 
+      - 1e-03, 40, andit 2000, Ns1000; Worked
+    - Init ./{4,5} from ./6
+      
+** PREV
+*** DONE b = 0.75
+- 10/24
+  - [X] v0 = 4/3*PI*b^3
+  - [X] v1 = 2.0*b^3
+  - [X] v2 = 1.0*b^3
+  - [X] v3 = 0.5*b^3
+- H candidates
+  - thresh: b75v2, b75v3
+  - norm: b75v1, b75v2, b75v3
+- L candidates: None
+
+*** DONE b = 1.00
+- 10/24
+  - [X] v0 = 4/3*PI*b^3
+  - [X] v1 = 2*b^3
+  - [X] v2 = 1*b^3
+  - [X] v3 = 0.5*b^3
+- H candidates
+  - thresh: b10v3 (better if even lower v)
+  - norm: b10v2, b10v3
+    
+*** DONE b = 1.25
+- 10/25
+  - [X] v0 = 4/3*PI*b^3
+  - [X] v1 = 2*b^3
+  - [X] v2 = 1*b^3
+  - [X] v3 = 0.5*b^3
+
+*** DONE Get currect L curve
+*** \chi 2.8 (b 1.25, 1.50, 2.00)
+- [X] b5c8v0, b5c8v1, b5c8v2,
+- [X] b0c8v0, b0c8v1, b0c8v2
+- [X] b5c8v3, b0c8v3
+- [X] b2c8v3, b2c8v4
+*** \chi 3.0 (b 1.25, 1.50, 2.00)
+- [X] c0b5v2, c0b0v2, c0b2v3
+*** \chi 3.2 (b 1.25, 1.50, 2.00, 2.50)
+- [X] c2b5v2, c2b0v2, c2b2v3, c2b5v4
+*** Fine tune best 
+- b2v7c2: b2.0 v2.70 c3.2
+  - Thresh 2.00e-02 better than c2b2v3
+- b2v5c2: b2.0 v2.75 c3.2
+  - Thresh 2.00e-02 better than c2b2v3
+
+*** DONE NFH fit c3.2, thresh 2.5e-02
+- [X] c2b2v3/*H: b2.00, v4.00 
+- [X] c2b1v{1,2,3}H: b1.00
+  - *BEST* v3 matches well (both thresh 2.5e-2 and 2.0e-2)
+*** DONE Mixture coding
+- b0 changed when used (sovDif_ CR)
+- v0 changed in sov_ PB, but kept v01 for freeE integ
+  - Check equations if rigorous
+- v0 needs to be changed for FH
+- Terms that use \nu_0
+  - [X] double.c some error; go through all below to confirm
+    - Changed line 1442 to fix {}
+  - [X] Q_ p, Q_ s (line 939, 986)
+  - [X] freeU (chi's) (line 744)
+  - [X] integ_ cons (line 356)
+  - [X] freeEnergy_ bulk (line 390)
+    - Used to cancel out integ_ cons
+  - [X] free_ elec_ polym (line 742)
+  - [X] Cancel out integ_ cons
+    - free_ elec_ polym (line 756)
+    - free_ elec_ laplace (line 757)
+    - free_ elec_ ion (line 758)
+  - [X] solve_ PB()
+    - rho_ elec_ polym (line 1143 and 1144)
+  - [X] V_ p (line 304) --> R_ p
+    - Only used in initializing fields
+  - [X] delt_ PS _ v0 (line 324)
+    - Unused
+  - [X] V_ p (line 396)
+    - Only used in initializing fields
+  - [X] R_ p (line 399)
+    - Only used in initializing fields
+  - [X] rho_ fix (line 406)
+    - Only used in initializing fields
+*** DONE Trial runs
+- f337 with v_0 and v_S 
+- (f337s) Single NFH: compare \phi with f337
+  - Run 1 looks good enough
+  - Run 2 true validation with v_s = v_01 
+- (f337d) Double NFH: compare F and \phi with f337s
+  - Run 1 looks good enough
+  - Run 2 true validation with v_s = v_01
+*** Calculations
+|   b0 |      v0 |      v1 |      v2 |     v3 |     v4 |
+|------+---------+---------+---------+--------+--------|
+| 0.75 |   1.767 |   0.844 |   0.422 |  0.211 |  0.105 |
+| 1.00 |   4.189 |   2.000 |   1.000 |  0.500 |  0.250 |
+| 1.25 |   8.181 |   3.906 |   1.953 |  0.977 |  0.488 |
+| 1.50 |  14.137 |   6.750 |   3.375 |  1.688 |  0.844 |
+| 1.75 |  22.449 |  10.719 |   5.359 |  2.680 |  1.340 |
+| 2.00 |  33.510 |  16.000 |   8.000 |  4.000 |  2.000 |
+| 3.00 | 113.097 |  54.000 |  27.000 | 13.500 |  6.750 |
+| 4.00 | 268.083 | 128.000 |  64.000 | 32.000 | 16.000 |
+| 5.00 | 523.599 | 250.000 | 125.000 | 62.500 | 31.250 |
+#+TBLFM: $2=(4/3)*$PI*$1^3;%.3f::$3=2*$1^3;%.3f::$4=$1^3;%.3f::$5=0.5*$1^3;%.3f::$6=0.25*$1^3;%.3f
+#+CONSTANTS: PI=3.1415926535
+
+
+
+* PROG int_ NFH
+NOTE: If needed, can refine; some points noisy so fitted over
+
+- 3 mM: NFH_ 03
+  - Copied from NFH_ 04
+  - Cross-over: Lx = 37.12
+
+- 4 mM: NFH_ 04
+  - H04a: Lx = [78..30..-2]
+  - H04b: Lx = [150..80]
+  - H04c: Lx = [160..85..-5]
+  - H04d: Lx = [29..19..-1]
+    - Sep: D = [14.5..11.5]
+    - Con: D = [11.0..9.5]
+  - H04e: Lx = [24..48..4] (condensed)
+  - Cross-over:
+    - D = 18.81; Lx = 37.6
+
+- [-] 5 mM: NFH_ 05
+  - Copied from NFH_ 03
+  - [-] H05f:
+    - 115, 113, 111, 109, 107, 105, 103, 101, 99, 97, 95, 93, 91, 89,
+      87, 85, 83, 81, 79, 77
+
+- 6 mM: NFH_ 06
+  - H06a: Lx = [78..30..-2]
+  - H06b: Lx = [150..80]
+  - H06c: Lx = [30..10..-1]
+  - H06d: Lx = [25..60..5] (condensed)
+  - Cross-over:
+    - Lx = 39.735
+      
+- 10 mM: NFH_ 10
+  - Repeat all codes from NFH_ 06
+- 20 mM: NFH_ 20
+  - Repeat from 30 mM
+    
+- 30 mM: NFH_ 30
+  - Repeat all codes form NFH_ 50
+    
+- 50 mM: NFH_ 50
+  - H50s: Lx = [75..25]
+  - H50c: Lx = [46..10]
+    - Tried to clean up 46..40, but didn't work well, just fitted over
+  - H50c2: Lx = [50..70..4]
+  - Cross-over:
+    - Lx = 68.85
+
+- Pressure SI units:
+  - p [=] Pa = N/m^2
+  - p [=] kBT/nm^3
+    - kB T = 1.38e-23 * 293 J = 4.04e-21 N m
+    - For D [=] nm, p [=] <f> * 4.04 e-21 N / nm^2 = <f> * 4.04e-03 Pa  
+
+      
+
+
+* PROG Revise NFH paper
+- See notes.org
+- Force curves (see int_ NFH)
+
+  
+* PROG int_ SYSG
+See if interaction profiles interesting and not too complicated
+If complicated, warranted for a new paper
+- [-] 1C - 1C (\chi 2.0; p1a4s02/27)
+  - [-] p1_ 2C: D = [40..30]
+    - Results look good; rerun for convergence
+  - p1_ 4030: D = [40..30]
+  - c2520: D = [25..20..-1], (in = 0, 0.90)
+  - c1915: D = [19..15..-0.5], (in = 0, 0.90)
+    - D = 17.5 seems to be max realistic pha
+  - s3020: D = [30..20..-1]
+  - s1915: D = [19..15..-0.5], init from s3020/21
+    - [X] ./1 to Lx = 39 (from Wsym_ 39)
+      - Didn't work
+    - [-] ./2 to Lx = 39.5 (from Wsym)
+      - Running with Lx=39.48 and Ns = 1200
+      - Doesn't seem to have worked
+ 
+- [-] 2C - 2C (\chi 1.75; p2a4s02/9)
+  - [-] p2: D = [50..20..-5]
+    - Results look good; rerun for convergence
+      
+** 1Cd - 1Cd (\alpha 0.2, \chi 0.8?)      
+** 2Cd - 2Cd (\alpha 0.3,  \chi 1.1?)
+** 3C - 3C (\chi 1.45) 
+** 3Cd - 3Cd (is there a meta example?)
+** 4C - 4C (\chi 1.25)
+** 4Cd - 4Cd (\alpha 0.4, \chi 1.2?)
+
+
+* TODO INT
+** Parameter space:
+- d vs Cs
+- Const. \alpha=0.5, \chi=0.5, N=200, \sigma=0.05, b=1.0, v=4/3\pi{}r^3 (\chi=0.5 to
+  eliminate p-p hydrophobic attraction)
+- Proj 1: Goal is to see threshold of like-charge attraction
+- Proj 2: Instead do interacting xC brushes
+  
+** PROG MFT for \alpha=0.5, \chi=0.4
+- Cs = logspace(2,3,10) \approx {100, 130, 165, 215, 280, 360, 465, 600,
+  775, 1000} mM 
+- D = {200..50..10} nm
+
+*** TODO Cs 1000
+*** TODO Cs 600
+*** DONE Cs 200
+*** DONE Cs 100
+** TODO Code for fluctuations
+
+** Notes:
+- 
+- 30: 0.02546
+- 15: 0.12465
+- 10: 0.17255
+- 04: 0.25322
+
+  
+* TODO SYSG paper outline [1/4]
+- [X] Fix height profile
+  - a4
+    - p1: 2.00, 1.95, 1.90, 1.85 (weird sharp trend)
+      - DONE Rerun if needed. Results seem correct
+    - p2: DONE
+    - p3: DONE
+    - p4: 10/27: 1.35 (6); changed wopt/wcmp
+  - a3
+    - p1: 10/27: 1.00  (21), 1.10 (33), 1.15 (34)
+    - p2: DONE
+  - a2
+    - p1: DONE
+  - a0
+    - p1: 10/24: 1.00 (2), 1.05 (15), 1.10 (16)
+      - anderr not low enough, but freeDiff and inCompMax look fine
+- [-] Figure list
+  - Key profs at alpha 0.40, chi 2.00, 1.70, 1.45, 1.25
+- [-] Descriptions
+- [ ] General narrative
+
+  
+* TODO Read Spectral collocation paper (Fredrickson, 2011)
+* TODO Read if brush response to AFM tip is good project
+- Cylindrical coordinate
+- Force curves measurable?
+- Response of xC to incoming surface
+
+* DONE Clay slides
+** Calculating b
+*** Fredrickson, Ch 2
+- For structural interfaces on order of 10 nm, any chain model should
+  be fine. If < 1 nm (e.g., highly immiscible polymer blends), local
+  rigidity of segment passing through interface is necessary.
+  - All under the constraint that no mesoscopic model will be accurate
+  
+- /Kuhn segment length/: At ideal and strongly stretched state,
+  R^2 = R_max
+  So, 
+    b = R^2_0/R_max: 
+    N = R^2_0/R_max^2
+      , where R^2_0 is from experiments
+    and R^2 \eqdef Nb^2
+    and R_max \eqdef bN
+  - However, such cases are "extremely rare"
+    
+- /Statistical Length/ 
+  Define N (e.g., number of repeat units) 
+  Fit b using either Rg^2 or R^2
+  
+*** Rubinstein, Ch.2
+- pdf pg 62 for Flory characteristic ratio
+- pdf pg 65,6 for C_\infty definition for freely jointed and worm-like
+- pdf pg 110: Flexible polymers typically have b/d \approx 2~3
+  - For flexible cylindrical monomers, p = b^3/v \approx (b/d)^2, so p \approx 4~9
+  - For perfectly spherical monomers,  p < 1
+
+*** Chao presentation paper
+** Simple calculations for Nafion against charged plate
+*** Guess b, v, chi (Teflon)
+*** Modeling paper for grafting density?
+
+* DONE NFH Fitting
+*MAIN FINDINGS*
+- b0 and \chi main tuning levers
+- \uarr{}b0 increases H for high \kappa_D
+  - Cannot change just b0; must change \chi & \nu to get transition
+- \uarr{}\chi shifts transition to right (see b2 v2 chi 2.{4,6,8})
+  - Also increases H slightly for high \kappa_D
+- \nu mainly used to keep density profiles "realistic," e.g. \phi > 0.5 for
+  condensed region
+  - \uarr{}\nu can also decrease H for high \kappa_D
+** DONE Mini perturb
+- (b1v1) b1.0, v0.51, c6: fine tune location of peak
+- (b1v2) b1.0, v0.52, c6: fine tune location of peak
+- (b2v2) b2.1, v1.20, c8: fine tune sharpness of peak
+- (b2v1) b2.0, v1.21, c8: fine tune sharpness of peak
+- (b2v28) b2.2, v1.22, c8
+- (b2v20) b2.2, v1.22, c0
+
+(With slightly changed \alpha dist; H-H)
+- b2v22:  b2.2, v1.22 c3.2
+- b2v2c1: b2.2 v1.22 c3.1
+- f2{0..4}: b2.2 v1.23 c3.1
+  - v1.23, v1.24 
+  - *BEST* v1.20 (f201)
+    - Extended \kappa_D doesn't reach high enough
+- b2.2 v1.20 c3.05 (f205)
+  - Combination of 2 previous sweeps
+  - Not good enough
+- b2.5 v1.25
+  - c3.10, c3.15 (f515), c3.20 (f250), c3.25 (f255), c3.30 (f253)
+  - c3.32 (f332), c3.35 (f335), c3.37 (f337), c3.40 (f340)
+- b3.0 v1.30
+  - c3.45 (f345), c3.65 (f365), f3.90 (f390)
+  - c3.95 (f395), *BEST c4.00 (f400)*
+    
+
+** DONE Perturb (~%20) v sweep
+**** b10 v2=0.50: 
+***** v = 0.40, 0.60
+***** b1v4, b1v6
+**** b20 v4=1.20:
+***** v = 1.00, 1.40
+***** b2v0 done, b2v4 done
+** DONE Initial chi sweep
+**** PAUSE b10 vopt=2
+***** chi = 2.4, 2.8, 3.0
+***** DONE b1c4 
+***** b1c8 anderrs all > 0.1
+***** b1c0 same as c8
+**** DONE b20 vopt=4
+***** chi = 2.4, 2.8, 3.0
+***** b2c4, b2c8, b2c0
+
+** DONE b25
+- Mini perturb still not sharp enough; try increase b
+- [X] 11/03 rerun: b25v3
+- [X] 11/03 rerun: b25v4
+  
+** Notes:
+- b1.0 v0.52 c2.6 (b1v2) very good fit, but only for maxpt H calc
+- b2.{0,1} b1.2{0,1} c2.8
+  - b2.{0,1} good trend for max H
+  - v1.2{0,1} good trend for transition point
+- Overall observations:
+  - \Delta{}\nu shfits transition right, max H affected little
+  - \Delta{}\chi shifts transition right, max H up (by min H down)
+  - \Delta{}b shifts transition left, max H up
+
+** Calculations
+|  bx |   v3 |   v4 |
+|-----+------+------|
+| 1.0 | 0.33 | 0.15 |
+| 2.0 | 2.64 | 1.20 |
+| 2.5 | 5.16 | 2.34 |
+| 3.0 | 8.91 | 4.05 |
+#+TBLFM: $2=$1^3*0.33;%.2f::$3=$1^3*0.15;%.2f
+
+
+* Notes on interaction profile:
+- (At high D) Initial contact leads to repulsion and compression of
+  outer layer without knowing about inner layer
+  
+- Overlap \phi_p at 4 mM during const. p regime doubles
+  - Const p because number of chains in the overlap layer is regulated
+    by D?
+  - \phi_P may be increasing simply due to less space even though less
+    chains
+    - Integrate from shoulder to D/2 and see if linearly decreasing
+      with D
+      
+- (At low D) Once stable inner layer forms, increase is due to
+  oversaturation of inner layer while outer chains come in
+  - 6 mM is already in this regime; increased screening made it
+    possible for conformation with saturated inner
+
+- Comparing 3 mM to 4 mM: Onset of increase is at lower D bc
+  compression still temporarily easier; compression of higher alpha is
+  not favorable. Thus, const. p regime is at higher energy barrier.
+
+- Slope of 3 mM, 4 mM, 6 mM same at D < 70; now due to steric effects?
+  Naively seems to support that at some point, inner layer is
+  saturated and each additional chain adds to subsequent penalties
+  
+  - Need to confirm with 5 mM. If transition at the same point, then
+    above seems to be correct
+
+
+
+* Code cleaning
+** tjy.ticks()
+- clean using ScalarFormatter class?
+** 
