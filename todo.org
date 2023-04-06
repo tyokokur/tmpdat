@@ -170,11 +170,12 @@ Running on double.c
   - All diverged
   
 ** PROG Mixture mat2
-- Increasing \chi will disproportionately affect blended
-  - Dramatic decrease of height for dilute expelled L (like Sr2014 and
-    SYSG)
-- Pure L will be approx linear to \chi
-- Maybe can increase stiffness to compensate for H decrease?
+- Hypothesis:
+  - Increasing \chi will disproportionately affect blended
+    - Dramatic decrease of height for dilute expelled L (like Sr2014 and
+      SYSG)
+  - Pure L will be approx linear to \chi
+  - Maybe can increase stiffness to compensate for H decrease?
 
 \chi_ max = 3.5; otherwise, SAME params as original Mixture maxtrix
 - [-] a1C [2023-04-06 Thu 12:16]
