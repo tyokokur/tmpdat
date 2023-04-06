@@ -176,11 +176,20 @@ Running on double.c
 - Pure L will be approx linear to \chi
 - Maybe can increase stiffness to compensate for H decrease?
 
-\chi motherwise, SAME params as original Mixture maxtrix
+\chi_ max = 3.5; otherwise, SAME params as original Mixture maxtrix
 - a1C
 - a1D
 - a1E
 - a2C
+- a2D
+- a2E
+- b1C
+- b1D
+- b1E
+- g1C
+- g1D
+- g1E
+  
 ** PROG Mixture matrix
 - Definites:
   - H vol decrease by b is more effective than by v (at decreasing
