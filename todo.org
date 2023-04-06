@@ -169,6 +169,27 @@ Running on double.c
   - All diverged; rerun with andit 1000 --> 2000
   - All diverged
   
+** PROG Mixture mat2
+- Increasing \chi will disproportionately affect blended
+  - Dramatic decrease of height for dilute expelled L (like Sr2014 and
+    SYSG)
+- Pure L will be approx linear to \chi
+- Maybe can increase stiffness to compensate for H decrease?
+
+\chi_ max = 3.5; otherwise, SAME params as original Mixture maxtrix
+- [-] a1C [2023-04-06 Thu 12:16]
+- [-] a1D [2023-04-06 Thu 12:16]
+- [-] a1E [2023-04-06 Thu 12:16]
+- [-] a2C [2023-04-06 Thu 12:16]
+- [-] a2D [2023-04-06 Thu 12:16]
+- [-] a2E [2023-04-06 Thu 12:16]
+- [-] b1C [2023-04-06 Thu 12:16]
+- [-] b1D [2023-04-06 Thu 12:16]
+- [-] b1E [2023-04-06 Thu 12:16]
+- [-] g1C [2023-04-06 Thu 12:16]
+- [-] g1D [2023-04-06 Thu 12:16]
+- [-] g1E [2023-04-06 Thu 12:16] 
+  
 ** PROG Mixture matrix
 - Definites:
   - H vol decrease by b is more effective than by v (at decreasing
