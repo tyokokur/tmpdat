@@ -171,7 +171,7 @@ Running on double.c
   
 ** PROG Mixture mat2
 - Increasing \chi will disproportionately affect blended
-  - Dramatic decrease of H for dilute expelled L (like Sr2014)
+  - Dramatic decrease of height for dilute expelled L (like Sr2014)
 - Pure L will be approx linear to \chi
 - Maybe can increase stiffness to compensate for H decrease?
 ** PROG Mixture matrix
