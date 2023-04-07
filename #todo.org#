@@ -191,8 +191,8 @@ Running on double.c
   - ./{2,3,5,6} still running
 - [-] a2E [2023-04-07 Fri 14:09]
   - ./{1..7} still running
-- [-] b1C
-  - [2023-04-06 Thu 16:23]
+- [-] b1C [2023-04-07 Fri 14:25]
+  - ./{1,2,3,4,5,7} still running
 - [-] b1D
   - [2023-04-06 Thu 16:23]
 - [-] b1E
