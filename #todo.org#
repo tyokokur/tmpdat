@@ -184,13 +184,13 @@ Running on double.c
   - ./{1..6} still running
   - ./7 rerun
 - [-] a1E [2023-04-07 Fri 14:08]
-  - ./{1,2,3,
-- [-] a2C
-  - Started late: [2023-04-06 Thu 20:26]
-- [-] a2D
-  - Started late: [2023-04-06 Thu 20:26]
-- [-] a2E
-  - Started late: [2023-04-06 Thu 20:26]
+  - ./{1,2,3,5,6} still running
+- [-] a2C [2023-04-07 Fri 14:08]
+  - ./{1..7} still running
+- [-] a2D [2023-04-07 Fri 14:09]
+  - ./{2,3,5,6} still running
+- [-] a2E [2023-04-07 Fri 14:09]
+  - ./{1..7} still running
 - [-] b1C
   - [2023-04-06 Thu 16:23]
 - [-] b1D
