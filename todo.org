@@ -178,19 +178,48 @@ Running on double.c
   - Maybe can increase stiffness to compensate for H decrease?
 
 \chi_ max = 3.5; otherwise, SAME params as original Mixture maxtrix
-- [-] a1C [2023-04-06 Thu 12:16]
-- [-] a1D [2023-04-06 Thu 12:16]
-- [-] a1E [2023-04-06 Thu 12:16]
-- [-] a2C [2023-04-06 Thu 12:16]
-- [-] a2D [2023-04-06 Thu 12:16]
-- [-] a2E [2023-04-06 Thu 12:16]
-- [-] b1C [2023-04-06 Thu 12:16]
-- [-] b1D [2023-04-06 Thu 12:16]
-- [-] b1E [2023-04-06 Thu 12:16]
-- [-] g1C [2023-04-06 Thu 12:16]
-- [-] g1D [2023-04-06 Thu 12:16]
-- [-] g1E [2023-04-06 Thu 12:16] 
-  
+- [-] a1C
+  - [2023-04-06 Thu 16:23]
+- [-] a1D
+  - [2023-04-06 Thu 16:23]
+- [-] a1E
+  - [2023-04-06 Thu 16:23]
+- [-] a2C
+  - Started late: [2023-04-06 Thu 16:27]
+- [-] a2D
+  - Started late: [2023-04-06 Thu 16:27]
+- [-] a2E
+  - Started late: [2023-04-06 Thu 16:27]
+- [-] b1C
+  - [2023-04-06 Thu 16:23]
+- [-] b1D
+  - [2023-04-06 Thu 16:23]
+- [-] b1E
+  - [2023-04-06 Thu 16:23]
+- [-] g1C
+  - [2023-04-06 Thu 16:23]
+- [-] g1D
+  - [2023-04-06 Thu 16:23]
+- [-] g1E
+  - [2023-04-06 Thu 16:23]
+
+- [-] HC
+  - [2023-04-06 Thu 17:28]
+- [-] HD
+  - [2023-04-06 Thu 17:28]
+- [-] HE
+  - [2023-04-06 Thu 17:28]
+- [-] La1
+  - [2023-04-06 Thu 17:28]
+- [-] La2
+  - [2023-04-06 Thu 17:28]
+- [-] Lb1
+  - [2023-04-06 Thu 17:28]
+- [-] Lg1
+  - [2023-04-06 Thu 17:28]
+    
+zairyushomeisho; jp us bank 
+
 ** PROG Mixture matrix
 - Definites:
   - H vol decrease by b is more effective than by v (at decreasing
