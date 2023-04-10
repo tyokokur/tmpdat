@@ -214,6 +214,7 @@ Running on double.c
 - [-] HE [2023-04-07 Fri 13:56]
   - ./{1,2,3,5,8} still running
   - ./4 rerun
+- [-] HF [2023-04-10 Mon 14:17]
 - [X] La1 [2023-04-07 Fri 13:51]
 - [-] La2 [2023-04-07 Fri 13:52]
   - ./{1,2,3,5} still running
@@ -281,7 +282,7 @@ Running on double.c
     - C: b0.50 v0.10 (47 nm^3)
     - D: b0.50 v0.15 (70 nm^3)
     - E: b0.75 v0.15 (47 nm^3)
-    - F: b1.00 v0.15 (
+    - F: b1.00 v0.15 (35 nm^3)
 
 ** PROG Mixture runs
 - L1 (L_  nm^3/s)
