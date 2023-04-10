@@ -365,6 +365,7 @@ Start with non-phos params and adjust after
 
 ** TODO Phos mix
 - Try to use same NFL params as unphos
+- Have to use same scaling factor as unphos
 
 ** PREV
 *** DONE b = 0.75
