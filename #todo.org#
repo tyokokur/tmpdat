@@ -182,8 +182,8 @@ Running on double.c
   - ./5 running 
 - [-] a1D [2023-04-10 Mon 14:26]
   - ./{1,2} running
-- [-] a1E [2023-04-07 Fri 14:08]
-  - ./{1,2,3,5,6} still running
+- [-] a1E 
+  - ./{1,5} running [2023-04-10 Mon 14:37]
   - 80 running [2023-04-10 Mon 14:14]
 - [-] a1F [2023-04-10 Mon 14:20]
 - [-] a2C [2023-04-07 Fri 14:08]
