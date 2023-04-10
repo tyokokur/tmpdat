@@ -180,9 +180,8 @@ Running on double.c
 \chi_ max = 3.5; otherwise, SAME params as original Mixture maxtrix
 - [-] a1C [2023-04-10 Mon 14:24]
   - ./5 running 
-- [-] a1D [2023-04-07 Fri 14:06]
-  - ./{1..6} still running
-  - ./7 rerun
+- [-] a1D [2023-04-10 Mon 14:26]
+  - ./{1,2} running
 - [-] a1E [2023-04-07 Fri 14:08]
   - ./{1,2,3,5,6} still running
   - 80 running [2023-04-10 Mon 14:14]
