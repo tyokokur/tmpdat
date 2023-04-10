@@ -189,8 +189,7 @@ Running on double.c
 - [-] a2C [2023-04-10 Mon 14:52]
   - ./{3,7} still running
 - [X] a2D [2023-04-10 Mon 14:52]
-- [-] a2E [2023-04-07 Fri 14:09]
-  - ./{1..7} still running
+- [X] a2E [2023-04-10 Mon 14:56]
 - [-] b1C [2023-04-07 Fri 14:25]
   - ./{1,2,3,4,5,7} still running
 - [-] b1D [2023-04-07 Fri 14:26]
