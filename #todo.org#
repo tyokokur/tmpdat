@@ -360,6 +360,10 @@ Start with non-phos params and adjust after
     - Init ./{4,5} from ./6
     - Init ./{1,2,3} from ./4 [2023-04-10 Mon 16:02]
       
+- NOTE: All prev using chimax 3.0 and using scaling factor to compare with binary; how to adjust param
+
+** TODO Phos mix
+- 
 ** PREV
 *** DONE b = 0.75
 - 10/24
