@@ -172,6 +172,10 @@ Running on double.c
 ** TODO Mixture p
 Execute on 2b1E, 2a1E, 2b1F, 2a1F
 - p1: 1.26 b0, 2.0 v0
+  - p1aE
+  - p1bE
+  - p1aF
+  - p1bF
 - p2: 1.50 b0, 3.4 v0
 - p3: 1.75 b0, 5.4 v0
 - p4: 2.00 b0, 4.0 v0
