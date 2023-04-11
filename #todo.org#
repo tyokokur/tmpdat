@@ -178,12 +178,11 @@ Running on double.c
   - Maybe can increase stiffness to compensate for H decrease?
 
 \chi_ max = 3.5; otherwise, SAME params as original Mixture maxtrix
-- [-] a1C [2023-04-10 Mon 14:24]
-  - ./5 running 
-- [-] a1D [2023-04-10 Mon 14:26]
-  - ./{1,2} running
+- [X] a1C [2023-04-10 Mon 14:24]
+- [-] a1D [2023-04-11 Tue 15:51]
+  - ./1 running
 - [-] a1E 
-  - ./{1,5} running [2023-04-10 Mon 14:37]
+  - 30 done [2023-04-11 Tue 15:50]
   - 80 running [2023-04-11 Tue 15:12]
     - ./{1,2,3,5} running
     - ./4 nan
@@ -192,19 +191,17 @@ Running on double.c
 - [X] a2C [2023-04-11 Tue 15:24]
 - [X] a2D [2023-04-10 Mon 14:52]
 - [X] a2E [2023-04-10 Mon 14:56]
-- [-] b1C [2023-04-10 Mon 15:00]
-  - ./{2,3,7} running
-- [-] b1D [2023-04-10 Mon 15:01]
-  - ./1 running
+- [-] b1C [2023-04-11 Tue 15:50]
+  - ./3 running
+- [X] b1D [2023-04-11 Tue 15:49]
 - [-] b1E 
   - 30 done [2023-04-10 Mon 15:02]
   - 80 running [2023-04-11 Tue 15:20]
     - ./4 running
     - ./7 nan
-- [-] b1F [2023-04-10 Mon 14:20]
+- [-] b1F [2023-04-11 Tue 15:48]
   - ./{1,5} running
-- [-] g1C [2023-04-10 Mon 15:07]
-  - ./{4,6} running
+- [X] g1C [2023-04-11 Tue 15:48]
 - [X] g1D [2023-04-10 Mon 15:08]
 - [X] g1E [2023-04-10 Mon 15:11]
   
