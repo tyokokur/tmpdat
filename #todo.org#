@@ -173,9 +173,9 @@ Running on double.c
 Execute on 2b1E, 2a1E, 2b1F, 2a1F
 - p1: 1.26 b0, 2.0 v0
   - p1aE: L 0.45 b, 0.20 v; H 0.95 b, 0.30 v
-  - p1bE: 
+  - p1bE: L 0.63 b, 0.30 v; H 0.95 b, 0.30 v
   - p1aF: L 0.45 b, 0.20 v; H 1.26 b, 0.30 v
-  - p1bF
+  - p1bF: 
 - p2: 1.50 b0, 3.4 v0
 - p3: 1.75 b0, 5.4 v0
 - p4: 2.00 b0, 4.0 v0
