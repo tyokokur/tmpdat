@@ -198,7 +198,9 @@ Running on double.c
   - ./1 running
 - [-] b1E 
   - 30 done [2023-04-10 Mon 15:02]
-  - 80 running [2023-04-10 Mon 14:14]
+  - 80 running [2023-04-11 Tue 15:20]
+    - ./4 running
+    - ./7 nan
 - [-] b1F [2023-04-10 Mon 14:20]
 - [-] g1C [2023-04-10 Mon 15:07]
   - ./{4,6} running
