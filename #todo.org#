@@ -168,7 +168,8 @@ Running on double.c
   - b0.36 v0.20 c3.00
   - All diverged; rerun with andit 1000 --> 2000
   - All diverged
-  
+
+** TODO Mixture 
 ** PROG Mixture mat2
 - Hypothesis:
   - Increasing \chi will disproportionately affect blended
