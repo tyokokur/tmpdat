@@ -178,7 +178,7 @@ Running on double.c
   - Maybe can increase stiffness to compensate for H decrease?
 
 \chi_ max = 3.5; otherwise, SAME params as original Mixture maxtrix
-- [X] a1C [2023-04-10 Mon 14:24]
+- [X] a1C [2023-04-11 Tue 15:51]
 - [-] a1D [2023-04-11 Tue 15:51]
   - ./1 running
 - [-] a1E 
