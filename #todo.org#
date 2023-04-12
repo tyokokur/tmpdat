@@ -200,10 +200,10 @@ Execute on 2b1E, 2a1E, 2b1F, 2a1F
   - p2bF: L 0.75 b, 0.51 v; H 1.50 b, 0.51 v
     - [-] [2023-04-11 Tue 16:39]
 
-  - p2La1: 
-  - p2Lb1: 
-  - p2HE : 
-  - p2HF : 
+  - p2La1: 0.54 b, 0.34 v
+  - p2Lb1: 0.75 b, 0.51 v
+  - p2HE : 1.13 b, 0.51 v
+  - p2HF : 1.50 b, 0.51 v
 
 - p3: 1.75 b0, 5.4 v0
   - Wait for prelim results (conv)
