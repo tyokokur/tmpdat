@@ -214,6 +214,7 @@ Execute on 2b1E, 2a1E, 2b1F, 2a1F
   - p2HE : 1.13 b, 0.51 v [2023-04-13 Thu 13:44]
   - p2HF : 1.50 b, 0.51 v
     - [-] [2023-04-12 Wed 11:23]
+    - ./{4,7} rerun
 
 - p3: 1.75 b0, 5.4 v0
   - Wait for prelim results (conv)
