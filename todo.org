@@ -837,3 +837,7 @@ If complicated, warranted for a new paper
       calc H
       cat >> ../{dir}.txt
     cd ..
+    
+- Create two files per loop:
+  - {dir}_ keys.txt: {no.} | {subdir} | {phname}
+  - {dir}.txt      : {no.} | chi.txt  | c_+      | b | vopt | vcust | Hs
