@@ -813,3 +813,27 @@ If complicated, warranted for a new paper
 ** tjy.ticks()
 - clean using ScalarFormatter class?
 ** 
+
+* NFH file tree
+- 
+- f
+  - f201, f205, f231, f241, f250, f253, f255, f332, f335, f337, f337d,
+    f337s, f340, f345, f365, f390, f395, f499, f515
+    - ./g*t
+      - 2: chi.txt
+      - 9: c_+, c_-
+      - 21: b, vopt, vcust
+    - ./ph*.dat
+      - thresh: {1e-06, 1e-05, 1e-04, 1e-03}
+      - Gibbs
+
+
+- rm {dir}.txt
+  for i in ./{dir}/*:
+    cd $i
+    pwd >> ../{dir}.txt
+    awk 'NR==2||NR==9||NR==21' g*t >> ../{dir}.txt
+    read ph*
+      calc H
+      cat >> ../{dir}.txt
+    cd ..
