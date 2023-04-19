@@ -831,7 +831,7 @@ If complicated, warranted for a new paper
 - for i in folders:
     rm {dir}.txt
     cd $i
-    pwd | cat >> ../{dir}.txt
+    pwd >> ../{dir}.txt
     read g*t
       collect 2, 9, 21
       cat >> ../{dir}.txt
