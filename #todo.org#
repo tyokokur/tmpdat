@@ -824,3 +824,9 @@ If complicated, warranted for a new paper
       - 9: c_+, c_-
       - 21: b, vopt, vcust
     - ./ph*.dat
+
+
+- for i in folders:
+    read g*t
+    collect 2, 9, 21
+    
