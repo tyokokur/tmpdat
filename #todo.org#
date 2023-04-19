@@ -829,6 +829,12 @@ If complicated, warranted for a new paper
 
 
 - for i in folders:
+    rm {dir}.txt
+    cd $i
     read g*t
-    collect 2, 9, 21
-    calc H 
+      collect 2, 9, 21
+      cat >> ../{dir}.txt
+    read ph*
+      calc H
+      cat >> ../{dir}.txt
+    cd ..
