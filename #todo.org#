@@ -828,8 +828,8 @@ If complicated, warranted for a new paper
       - Gibbs
 
 
-- for i in ./{dir}/*:
-    rm {dir}.txt
+- rm {dir}.txt
+  for i in ./{dir}/*:
     cd $i
     pwd >> ../{dir}.txt
     awk 'NR==2||NR==9||NR==21' g*t >> ../{dir}.txt
