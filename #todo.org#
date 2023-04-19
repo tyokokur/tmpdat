@@ -828,13 +828,11 @@ If complicated, warranted for a new paper
       - Gibbs
 
 
-- for i in folders:
+- for i in ./{dir}/*:
     rm {dir}.txt
     cd $i
     pwd >> ../{dir}.txt
-    read g*t
-      collect 2, 9, 21
-      cat >> ../{dir}.txt
+    awk 'NR==2||NR==9||NR==21' g*t >> ../{dir}.txt
     read ph*
       calc H
       cat >> ../{dir}.txt
