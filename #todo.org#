@@ -824,10 +824,11 @@ If complicated, warranted for a new paper
       - 9: c_+, c_-
       - 21: b, vopt, vcust
     - ./ph*.dat
-      - thresh: {}
+      - thresh: {1e-06, 1e-05, 1e-04, 1e-03}
+      - Gibbs
 
 
 - for i in folders:
     read g*t
     collect 2, 9, 21
-    calculate 
+    calc H 
