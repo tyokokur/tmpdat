@@ -827,7 +827,6 @@ If complicated, warranted for a new paper
       - thresh: {1e-06, 1e-05, 1e-04, 1e-03}
       - Gibbs
 
-
 - rm {dir}.txt
   for i in ./{dir}/*:
     cd $i
