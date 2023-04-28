@@ -176,6 +176,7 @@ Running on double.c
   - ./1 solve; init from ./2 
   - W_ 1in.dat from it 1900
   - Rerun from W_ 1in.dat; 1e-04, 70
+  - Try 1.6e-03 to see if easier to conv then do 1.5e-03
 - pH4: b0.50 v0.30 c3.00
     
 ** PROG Phos M pure
