@@ -116,7 +116,7 @@ Running on double.c
   - b0.75 v0.15 c3.00 (L_ 753); \nu \approx  75 N_K * 0.15 = 11.25
   - b0.75 v0.25 c3.00 (L_ 725); \nu \approx 18.75
     
-** PROG NFH fit from NFL Candidates
+** PROG NFH Candidates
 - All thresh 1e-06
 - Try to min total volume so mix80 has effect
   
@@ -169,6 +169,22 @@ Running on double.c
   - All diverged; rerun with andit 1000 --> 2000
   - All diverged
 
+** PROG Phos H pure
+Start with non-phos params and adjust after
+- pNFL
+  - Necessary? Only difference is 2 residues at beginning of chain (\Delta\alpha
+    = 0.05 for Block 1)
+
+- pNFH
+  - pH1: b0.50 v0.13 c3.00
+  - [-] pH2: b0.50 v0.10 c3.00
+  - [-] pH3: b0.50 v0.20 c3.00
+    - ./1 solve; init from ./2 <2023-04-27 Thu 16:48>
+  - [X] pH4: b0.50 v0.30 c3.00 [2023-04-27 Thu 16:48]
+    
+** PROG Phos M pure
+  
+* DONE Prev NLH Mix
 ** PROG Mixture p
 Execute on 2b1E, 2a1E, 2b1F, 2a1F
 - p1: 1.26 b0, 2.0 v0
@@ -380,29 +396,6 @@ Execute on 2b1E, 2a1E, 2b1F, 2a1F
 
 30%: 0.0075 L ; 0.0175 H
 80%: 0.0200 L ; 0.0050 H
-
-** PROG Phos pure
-Start with non-phos params and adjust after
-- pNFL
-  - Necessary? Only difference is 2 residues at beginning of chain (\Delta\alpha
-    = 0.05 for Block 1)
-
-- pNFH
-  - pH1: b0.50 v0.13 c3.00
-    - Test to see what happens; params previously used for native NFH
-    - Overshot exp H prof
-  - [-] pH2: b0.50 v0.10 c3.00
-    - Moderate v to lower H; params also work for native
-    - ./3 
-      - wparams 1e-04, 200 --> andit 3000; went 3e5 its and flatlined
-      - wparams 1e-03, 50, andit 3000, Ns1200
-    - Init ./2 from ./3 
-  - [-] pH3: b0.50 v0.20 c3.00
-    - ./1 solve; init from ./2 <2023-04-27 Thu 16:48>
-  - [X] pH4: b0.50 v0.30 c3.00 [2023-04-27 Thu 16:48]
-      
-- NOTE: All prev using chimax 3.0 and using scaling factor to compare
-  with binary; how to adjust params for same scaling factor?
 
 ** TODO Phos mix
 - Try to use same NFL params as unphos
