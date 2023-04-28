@@ -175,9 +175,10 @@ Running on double.c
 - [-] pH3: b0.50 v0.20 c3.00
   - ./1 solve; init from ./2 
   - W_ 1in.dat from it 1900
-  - Rerun from W_ 1in.dat; 1e-03, 30
-    - Went to 0.20 at 1640
-- pH4: b0.50 v0.30 c3.00 [2023-04-27 Thu 16:48]
+  - Rerun from W_ 1in.dat; 1e-04, 70
+  - Try 2.0e-03 to see if easier to conv then do 1.5e-03
+    [2023-04-28 Fri 15:20]
+- pH4: b0.50 v0.30 c3.00
     
 ** PROG Phos M pure
 - pM1: b0.50 v0.20 c3.00
@@ -185,7 +186,7 @@ Running on double.c
   - W_ 0in.dat from it 1800
   - Rerun from W_ 0in.dat; 1e-04, 50; andit 0
   - W_ in from it 900
-  - Rerun from W_ in; andit 2000
+  - Rerun from W_ in; andit 0 [2023-04-28 Fri 14:11]
 
 * DONE Prev NLH Mix
 ** PROG Mixture p
