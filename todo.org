@@ -171,14 +171,21 @@ Running on double.c
 
 ** PROG Phos H pure
 - pH1: b0.50 v0.13 c3.00
-- [-] pH2: b0.50 v0.10 c3.00
+- pH2: b0.50 v0.10 c3.00
 - [-] pH3: b0.50 v0.20 c3.00
-  - ./1 solve; init from ./2 <2023-04-27 Thu 16:48>
-- [X] pH4: b0.50 v0.30 c3.00 [2023-04-27 Thu 16:48]
+  - ./1 solve; init from ./2 
+  - W_ 1in.dat from it 1900
+  - Rerun from W_ 1in.dat; 1e-03, 30
+    - Went to 0.20 at 1640
+- pH4: b0.50 v0.30 c3.00 [2023-04-27 Thu 16:48]
     
 ** PROG Phos M pure
 - pM1: b0.50 v0.20 c3.00
   - ./0 starting with in = 0
+  - W_ 0in.dat from it 1800
+  - Rerun from W_ 0in.dat; 1e-04, 50; andit 0
+  - W_ in from it 900
+  - Rerun from W_ in; andit 2000
 
 * DONE Prev NLH Mix
 ** PROG Mixture p
