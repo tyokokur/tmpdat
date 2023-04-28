@@ -180,7 +180,7 @@ Running on double.c
 ** PROG Phos M pure
 - pM1: b0.50 v0.20 c3.00
   - ./0 starting with in = 0
-  - W_ 0in.dat from it 1900
+  - W_ 0in.dat from it 1800
 
 * DONE Prev NLH Mix
 ** PROG Mixture p
