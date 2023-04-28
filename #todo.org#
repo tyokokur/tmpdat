@@ -177,7 +177,6 @@ Start with non-phos params and adjust after
 
 - pNFH
   - pH1: b0.50 v0.13 c3.00
-
   - [-] pH2: b0.50 v0.10 c3.00
   - [-] pH3: b0.50 v0.20 c3.00
     - ./1 solve; init from ./2 <2023-04-27 Thu 16:48>
