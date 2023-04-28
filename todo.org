@@ -396,10 +396,10 @@ Start with non-phos params and adjust after
     - ./3 
       - wparams 1e-04, 200 --> andit 3000; went 3e5 its and flatlined
       - wparams 1e-03, 50, andit 3000, Ns1200
-    - Init ./2 from ./3 [2023-04-10 Mon 16:22]
+    - Init ./2 from ./3 
   - [-] pH3: b0.50 v0.20 c3.00
-    - ./1 solve; init from ./2 
-  - [X] pH4: b0.50 v0.30 c3.00
+    - ./1 solve; init from ./2 <2023-04-27 Thu 16:48>
+  - [X] pH4: b0.50 v0.30 c3.00 [2023-04-27 Thu 16:48]
       
 - NOTE: All prev using chimax 3.0 and using scaling factor to compare
   with binary; how to adjust params for same scaling factor?
