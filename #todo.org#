@@ -185,11 +185,10 @@ Running on double.c
 ** PROG Phos M pure
 - pM1: b0.50 v0.20 c3.00
   - ./0 starting with in = 0
-  - Rerun from W_ 0in.dat; 1e-04, 50; andit 0
   - Rerun from W_ in; andit 0
     - it 50000, anderr 0.4
-    - ../W_ 0in.dat
-  - 
+    - ../W_ 0in.dat created 
+  - Rerun from ../W_ 0in.dat; 1e-03, 40, 1000
 
 * DONE Prev NLH Mix
 ** PROG Mixture p
