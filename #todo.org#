@@ -174,12 +174,11 @@ Running on double.c
 - pH2: b0.50 v0.10 c3.00
 - [-] pH3: b0.50 v0.20 c3.00
   - ./1 solve; init from ./2 
-  - W_ 1in.dat from it 1900
-  - Rerun from W_ 1in.dat; 1e-04, 70
   - Try 2.0e-03 to see if easier to conv then do 1.5e-03
     [2023-04-28 Fri 15:20]
     - Ran until 16000, best at 5000
-  - 
+    - W_ 1in.dat from it 5000
+    - Rerun from W_ 1in.dat; 1e-03, 70, andit 2000
 - pH4: b0.50 v0.30 c3.00
     
 ** PROG Phos M pure
