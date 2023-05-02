@@ -177,7 +177,8 @@ Running on double.c
   - Try 2.0e-03 to see if easier to conv then do 1.5e-03
     - Ran until 16000, best at 5000
     - W_ 1in.dat from it 5000
-    - Rerun from W_ 1in.dat; 1e-03, 50, andit 2000, Lx 120 
+    - Rerun from W_ 1in.dat; 1e-03, 50, andit 2000, Lx 120
+    - Rerun with Lx150 [2023-05-02 Tue 14:21] 
 - pH4: b0.50 v0.30 c3.00
     
 ** PROG Phos M pure
@@ -186,7 +187,7 @@ Running on double.c
   - Rerun from W_ in; andit 0
     - it 50000, anderr 0.4
     - ../W_ 0in.dat created 
-  - Rerun from ../W_ 0in.dat; 1e-03, 50, 1000 [2023-05-01 Mon 15:05]
+  - Rerun from ../W_ 0in.dat; 1e-03, 50, 1000 [2023-05-01 Mon 15:05] 
   - ./{5..7} running from ../W_ 0in.dat (10e-03)
 
 * DONE Prev NLH Mix
