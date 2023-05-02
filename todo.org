@@ -177,10 +177,7 @@ Running on double.c
   - Try 2.0e-03 to see if easier to conv then do 1.5e-03
     - Ran until 16000, best at 5000
     - W_ 1in.dat from it 5000
-    - Currently rerunning W_ 1in.dat with Lx120
-
-      
-    - Rerun from W_ 1in.dat; 1e-03, 70, andit 2000, Lx 120 
+    - Rerun from W_ 1in.dat; 1e-03, 50, andit 2000, Lx 120 
 - pH4: b0.50 v0.30 c3.00
     
 ** PROG Phos M pure
