@@ -187,8 +187,8 @@ Running on double.c
   - Rerun from W_ in; andit 0
     - it 50000, anderr 0.4
     - ../W_ 0in.dat created 
-  - Rerun from ../W_ 0in.dat; 1e-03, 50, 1000 [2023-05-01 Mon 15:05] 
-  - ./{5..7} running from ../W_ 0in.dat (10e-03)
+  - Rerun from ../W_ 0in.dat; 1e-03, 50, 1000
+  - ./{1..4} from ./5 [2023-05-03 Wed 10:24]
 
 * DONE Prev NLH Mix
 ** PROG Mixture p
