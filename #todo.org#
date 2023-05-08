@@ -8,8 +8,9 @@
 
 
 * PROG FFT test
-** FFT 1D:
-- Nm 300, a000, c1.50
+** FFT 1D confirm:
+- [X] qInt disc delta: Nm 300, a000, c1.50
+- [X] temp cos fft
 - 
 
 * PROG NLH Fitting
