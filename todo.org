@@ -10,9 +10,9 @@
 * PROG FFT test
 ** FFT 1D confirm:
 - [X] qInt disc delta: Nm 300, a000, c1.50
-- [-] temp cos fft
-- [-] qInt gauss
-- [-] j=2: Nm 200, a030, c1.50
+- [-] speedCOS (temp cos fft): Nm300, a000, c1.50
+- [-] speedGAUSS (qInt gauss): Nm300, a000, c1.50
+- [-] testFFT (j=2): Nm 200, a030, c1.50
 
 * PROG NLH Fitting
 ** DONE New NFL fit
