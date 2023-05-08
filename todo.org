@@ -7,6 +7,13 @@
 * TODO PE triple point
 
 
+* PROG FFT test
+** FFT 1D confirm:
+- [X] qInt disc delta: Nm 300, a000, c1.50
+- [-] temp cos fft
+- [-] qInt gauss
+- [-] j=2: Nm 200, a030, c1.50
+
 * PROG NLH Fitting
 ** DONE New NFL fit
 Correction from z/b0 --> z/nm analysis
@@ -194,6 +201,7 @@ Running on double.c
   - 4: 1.00, 1.00
   - 5: 2.00, 1.00
   - 6: 3.00, 1.00
+
     
 * DONE Prev NLH Mix
 ** PROG Mixture p
