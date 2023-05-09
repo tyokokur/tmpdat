@@ -200,7 +200,8 @@ Running on double.c
   - 3: 3.00, 0.50
   - 4: 1.00, 1.00
   - 5: 2.00, 1.00
-  - 6: 3.00, 1.00
+  - 6: 3.00, 1.00: 70 nm
+    - pM3: Run full
     
 * DONE Prev NLH Mix
 ** PROG Mixture p
