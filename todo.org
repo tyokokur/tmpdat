@@ -9,7 +9,7 @@
 
 * PROG FFT test
 ** FFT 1D confirm:
-- [X] speed (qInt disc delta): Nm 300, a000, c1.50
+- [X] speed (qInt disc delta): Nm300, a000, c1.50
 - [-] speedCOS (temp cos fft): Nm300, a000, c1.50
 - [X] speedGAUSS (qInt gauss): Nm300, a000, c1.50
 - [-] testFFT (j=2): Nm 200, a030, c1.50
