@@ -9,9 +9,9 @@
 
 * PROG FFT test
 ** FFT 1D confirm:
-- [X] qInt disc delta: Nm 300, a000, c1.50
+- [X] speed (qInt disc delta): Nm 300, a000, c1.50
 - [-] speedCOS (temp cos fft): Nm300, a000, c1.50
-- [-] speedGAUSS (qInt gauss): Nm300, a000, c1.50
+- [X] speedGAUSS (qInt gauss): Nm300, a000, c1.50
 - [-] testFFT (j=2): Nm 200, a030, c1.50
 
 * PROG NLH Fitting
@@ -72,7 +72,7 @@ Running on double.c
 
 - b1.50 v2.70 c3.20 (L_ 150)
 
-** PROG NFL Candidates
+** DONE NFL Cadnidates
 - All thresh 1e-06
 
 - Didn't work/Tried mixture
@@ -123,7 +123,7 @@ Running on double.c
   - b0.75 v0.15 c3.00 (L_ 753); \nu \approx  75 N_K * 0.15 = 11.25
   - b0.75 v0.25 c3.00 (L_ 725); \nu \approx 18.75
     
-** PROG NFH Candidates
+** DONE NFH Candidates
 - All thresh 1e-06
 - Try to min total volume so mix80 has effect
   
@@ -176,7 +176,7 @@ Running on double.c
   - All diverged; rerun with andit 1000 --> 2000
   - All diverged
 
-** PROG Phos H pure
+** DONE Phos H pure
 - pH1: b0.50 v0.13 c3.00
 - pH2: b0.50 v0.10 c3.00
 - [-] pH3: b0.50 v0.20 c3.00
