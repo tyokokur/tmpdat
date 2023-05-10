@@ -196,14 +196,15 @@ Note: V pH \approx 100 nm^3
   - All running 
   - Stopped; not high enough
 - pMx: Focus on getting 3 mM to H = 80
-  - 1: 1.00, 0.50
-  - 2: 2.00, 0.50
-  - 3: 3.00, 0.50
+  - 1: 1.00, 0.50 [2023-05-09 Tue 17:21]
+  - 2: 2.00, 0.50 running
+  - 3: 3.00, 0.50n
   - 4: 1.00, 1.00
   - 5: 2.00, 1.00: 64 nm
   - 6: 3.00, 1.00: 70 nm, 0.1 phi max 
+    - 53 Nk * 1.00 = 53 nm^3
     - pM3: Run full [2023-05-09 Tue 16:59]
-  - 7: 3.00, 1.50
+  - 7: 3.00, 2.00
   - 8: 4.00, 1.00
     
 * DONE Prev NLH Mix
