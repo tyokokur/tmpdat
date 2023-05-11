@@ -197,12 +197,13 @@ Note: V pH \approx 100 nm^3
   - 5: 2.00, 1.00: 64 nm
   - 6: 3.00, 1.00: 70 nm, 0.1 phi max 
     - 53 Nk * 1.00 = 53 nm^3
-    - pM3: Run full [2023-05-09 Tue 16:59]
+    - pM3: Run full 
   - 7: 3.00, 2.00: 69 nm
     - 53 Nk * 2.00 = 106 nm^3
-    - pM2: Run full 
-  - 8: 4.00, 2.00: 74 nm
-  - 9: 4.00, 2.50: 
+    - pM2: Run full [2023-05-11 Thu 16:18]
+  - 8 : 4.00, 2.00: 74 nm
+  - 9 : 4.00, 2.50 [2023-05-11 Thu 16:18]
+  - 10: 4.00, 3.00 [2023-05-11 Thu 16:18]
     
 * DONE Prev NLH Mix
 ** PROG Mixture p
