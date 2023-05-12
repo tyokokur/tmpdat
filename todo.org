@@ -190,8 +190,8 @@ Running on double.c
 Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
 - pM1: b0.50 v0.20 c3.00
 - pMx: Focus on getting 3 mM to H = 80
-  - 1: 1.00, 0.50 [2023-05-09 Tue 17:21]
-  - 2: 2.00, 0.50 running
+  - 1: 1.00, 0.50 NAN
+  - 2: 2.00, 0.50: 65 nm
   - 3: 3.00, 0.50 NAN
   - 4: 1.00, 1.00 NAN
   - 5: 2.00, 1.00: 64 nm
@@ -204,9 +204,10 @@ Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
   - 8 : 4.00, 2.00: 74 nm
     - 39 * 2 = 78 nm^3
     - pM4: Run full [2023-05-11 Thu 19:13]
-  - 9 : 4.00, 2.50 [2023-05-11 Thu 16:18]
+  - 9 : 4.00, 2.50: 74 nm
+    - pM5: Run full
   - 10: 4.00, 3.00 [2023-05-11 Thu 16:18]
-    - 
+    - pM6: Run full 
     
 * DONE Prev NLH Mix
 ** PROG Mixture p
