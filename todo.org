@@ -212,6 +212,7 @@ Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
 - pM7: 5.00, 10.0
   - [2023-05-11 Thu 23:57]
 - pM8: 5.00, 40.0
+  - [2023-05-12 Fri 01:24]
     
 * DONE Prev NLH Mix
 ** PROG Mixture p
