@@ -186,6 +186,7 @@ Running on double.c
     - Rerun with Lx150 [2023-05-02 Tue 14:21] 
 - pH4: b0.50 v0.30 c3.00
 - For better fit, decrease b and aim for v from H1 and H2
+  - pH5: b0.45 v0.20 c3.00 
   
 ** PROG Phos M pure
 Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
