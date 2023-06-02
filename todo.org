@@ -183,10 +183,12 @@ Running on double.c
     - Ran until 16000, best at 5000
     - W_ 1in.dat from it 5000
     - Rerun from W_ 1in.dat; 1e-03, 50, andit 2000, Lx 120
-    - Rerun with Lx150 [2023-05-02 Tue 14:21] 
+    - Rerun with Lx150
+    - Still nan
 - pH4: b0.50 v0.30 c3.00
 - For better fit, decrease b and aim for v from H1 and H2
-    
+  - pH5: b0.45 v0.15 c3.00 [2023-06-01 Thu 14:28]
+  
 ** PROG Phos M pure
 Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
 - pM1: b0.50 v0.20 c3.00
@@ -204,15 +206,20 @@ Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
     - pM2: Run full
   - 8 : 4.00, 2.00: 74 nm
     - 39 * 2 = 78 nm^3
-    - pM4: Run full [2023-05-11 Thu 19:13]
+    - pM4: ./2 NAN
   - 9 : 4.00, 2.50: 74 nm
     - pM5: Run full 
   - 10: 4.00, 3.00
     - pM6: Run full
+- pM305: 3.00, 0.50 [2023-06-01 Thu 15:35]
+- pM33:  3.00, 3.00 [2023-06-01 Thu 15:40]
+- pM35:  3.00, 5.00 [2023-06-01 Thu 15:44]
+- pM31:  3.00, 10.0 [2023-06-01 Thu 15:45]
 - pM45: 4.00, 5.00 
 - pM410: 4.00, 10
-- pM53: 5.00, 3.0 [2023-05-14 Sun 16:54]
-- pM55: 5.00, 5.0 [2023-05-14 Sun 16:54]
+- pM420: 4.00, 20 [2023-06-01 Thu 15:51]
+- pM53: 5.00, 3.0 
+- pM55: 5.00, 5.0 
 - pM7: 5.00, 10.0
 - pM515: 5.00, 15 
 - pM520: 5.00, 20 
