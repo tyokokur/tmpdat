@@ -188,8 +188,6 @@ Running on double.c
 - pH4: b0.50 v0.30 c3.00
 - For better fit, decrease b and aim for v from H1 and H2
   - pH5: b0.45 v0.15 c3.00 [2023-06-01 Thu 14:28]
-    - 3: looked good until nan at 5.5e4; run until 5e4 (new double.o)
-    - Rerun 1,2 from 3
   
 ** PROG Phos M pure
 Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
@@ -213,12 +211,9 @@ Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
     - pM5: Run full 
   - 10: 4.00, 3.00
     - pM6: Run full
-- pM305: 3.00, 0.50 [2023-06-01 Thu 15:40]
-- pM33:  3.00, 3.00 
-  - 1 rerun from 2 [2023-06-02 Fri 15:54]
-  - 3 rerun from 2 [2023-06-02 Fri 15:54]
+- pM305: 3.00, 0.50 [2023-06-01 Thu 15:35]
+- pM33:  3.00, 3.00 [2023-06-01 Thu 15:40]
 - pM35:  3.00, 5.00 [2023-06-01 Thu 15:44]
-  - 
 - pM31:  3.00, 10.0 [2023-06-01 Thu 15:45]
 - pM45: 4.00, 5.00 
 - pM410: 4.00, 10
@@ -229,7 +224,8 @@ Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
 - pM515: 5.00, 15 
 - pM520: 5.00, 20 
 - pM8: 5.00, 40.0
-    
+
+  
 * DONE Prev NLH Mix
 ** PROG Mixture p
 Execute on 2b1E, 2a1E, 2b1F, 2a1F
