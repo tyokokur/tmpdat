@@ -187,7 +187,9 @@ Running on double.c
     - Still nan
 - pH4: b0.50 v0.30 c3.00
 - For better fit, decrease b and aim for v from H1 and H2
-  - pH5: b0.45 v0.15 c3.00 [2023-06-01 Thu 14:28]
+  - pH5: b0.45 v0.15 c3.00
+    - ./3 rerun using 5e4 MaxIT [2023-06-06 Tue 01:31]
+    - ./{1,2} rerun from ./3 when done 
   
 ** PROG Phos M pure
 Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
@@ -212,7 +214,9 @@ Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
   - 10: 4.00, 3.00
     - pM6: Run full
 - pM305: 3.00, 0.50 [2023-06-01 Thu 15:35]
+  - All NAN
 - pM33:  3.00, 3.00 [2023-06-01 Thu 15:40]
+  - 
 - pM35:  3.00, 5.00 [2023-06-01 Thu 15:44]
 - pM31:  3.00, 10.0 [2023-06-01 Thu 15:45]
 - pM45: 4.00, 5.00 
