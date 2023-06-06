@@ -174,7 +174,7 @@ Running on double.c
   - All diverged; rerun with andit 1000 --> 2000
   - All diverged
 
-** DONE Phos H pure
+** PROG Phos H pure
 - pH1: b0.50 v0.13 c3.00
 - pH2: b0.50 v0.10 c3.00
 - [-] pH3: b0.50 v0.20 c3.00
@@ -187,13 +187,15 @@ Running on double.c
     - Still nan
 - pH4: b0.50 v0.30 c3.00
 - For better fit, decrease b and aim for v from H1 and H2
-  - pH5: b0.45 v0.15 c3.00 [2023-06-01 Thu 14:28]
+  - pH5: b0.45 v0.15 c3.00
+    - ./3 rerun using 5e4 MaxIT [2023-06-06 Tue 01:31]
+    - ./{1,2} rerun from ./3 when done 
   
 ** PROG Phos M pure
 Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
 - pM1: b0.50 v0.20 c3.00
 - pMx: Focus on getting 3 mM to H = 80
-  - 1: 1.00, 0.50 NAN
+  - 1: 1.00, 0.50 NAN 
   - 2: 2.00, 0.50: 65 nm
   - 3: 3.00, 0.50 NAN
   - 4: 1.00, 1.00 NAN
@@ -212,19 +214,25 @@ Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
   - 10: 4.00, 3.00
     - pM6: Run full
 - pM305: 3.00, 0.50 [2023-06-01 Thu 15:35]
-- pM33:  3.00, 3.00 [2023-06-01 Thu 15:40]
-- pM35:  3.00, 5.00 [2023-06-01 Thu 15:44]
-- pM31:  3.00, 10.0 [2023-06-01 Thu 15:45]
+  - All NAN
+- pM33:  3.00, 3.00
+  - ./1,3 rerun from ./2 [2023-06-06 Tue 01:33]
+- pM35:  3.00, 5.00 
+  - ./1,3 rerun from ./2 [2023-06-06 Tue 01:33]
+- pM31:  3.00, 10.0
+  - Done need to analyze
 - pM45: 4.00, 5.00 
 - pM410: 4.00, 10
-- pM420: 4.00, 20 [2023-06-01 Thu 15:51]
+- pM420: 4.00, 20
+  - ./3 rerun from ./2 [2023-06-06 Tue 01:36]
 - pM53: 5.00, 3.0 
 - pM55: 5.00, 5.0 
 - pM7: 5.00, 10.0
 - pM515: 5.00, 15 
 - pM520: 5.00, 20 
 - pM8: 5.00, 40.0
-    
+
+  
 * DONE Prev NLH Mix
 ** PROG Mixture p
 Execute on 2b1E, 2a1E, 2b1F, 2a1F
