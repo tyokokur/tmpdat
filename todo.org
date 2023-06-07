@@ -216,15 +216,16 @@ Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
 - pM305: 3.00, 0.50 [2023-06-01 Thu 15:35]
   - All NAN
 - pM33:  3.00, 3.00
-  - ./3 rerun from ./2 [2023-06-06 Tue 23:49]
+  - Done need to analyze [2023-06-07 Wed 10:49]
 - pM35:  3.00, 5.00 
-  - ./1,3 rerun from ./2 [2023-06-06 Tue 01:33]
+  - ./1 rerun from ./2 5e4 maxit [2023-06-07 Wed 13:13]
+  - ./3 still NAN
 - pM31:  3.00, 10.0
   - Done need to analyze [2023-06-06 Tue 01:36]
 - pM45: 4.00, 5.00 
 - pM410: 4.00, 10
 - pM420: 4.00, 20
-  - ./3 rerun from ./2 [2023-06-06 Tue 01:36]
+  - Done need to analyze [2023-06-07 Wed 10:49]
 - pM53: 5.00, 3.0 
 - pM55: 5.00, 5.0 
 - pM7: 5.00, 10.0
