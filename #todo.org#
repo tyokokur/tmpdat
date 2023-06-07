@@ -217,7 +217,6 @@ Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
 - pM305: 3.00, 0.50 [2023-06-01 Thu 15:35]
   - All NAN
 - pM33:  3.00, 3.00
-  - Done need to analyze [2023-06-07 Wed 10:49]
 - pM35:  3.00, 5.00 
   - ./1 rerun from ./2 5e4 maxit [2023-06-07 Wed 13:13]
   - ./3 still NAN
