@@ -188,8 +188,8 @@ Running on double.c
 - pH4: b0.50 v0.30 c3.00
 - For better fit, decrease b and aim for v from H1 and H2
   - pH5: b0.45 v0.15 c3.00
-    - ./3 rerun using 5e4 MaxIT [2023-06-06 Tue 01:31]
-    - ./{1,2} rerun from ./3 when done 
+    - ./{2,3} running, andit 1e-02 [2023-06-08 Thu 01:01]
+    - ./1 from ./2 [2023-06-08 Thu 01:05]
   
 ** PROG Phos M pure
 Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
@@ -230,6 +230,9 @@ Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
 - pM515: 5.00, 15 
 - pM520: 5.00, 20 
 - pM8: 5.00, 40.0
+  
+- bin3: 3.00, 2.00, hparams 29, 3
+  - init from pM2 [2023-06-08 Thu 01:27]
 
   
 * DONE Prev NLH Mix
