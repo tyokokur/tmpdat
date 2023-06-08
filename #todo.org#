@@ -189,7 +189,7 @@ Running on double.c
 - For better fit, decrease b and aim for v from H1 and H2
   - pH5: b0.45 v0.15 c3.00
     - ./{2,3} running, andit 1e-02 [2023-06-08 Thu 01:01]
-    - ./1 from ./2
+    - ./1 from ./2 [2023-06-08 Thu 01:05]
   
 ** PROG Phos M pure
 Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
