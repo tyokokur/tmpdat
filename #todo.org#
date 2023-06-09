@@ -185,7 +185,7 @@ Running on double.c
     - Rerun from W_ 1in.dat; 1e-03, 50, andit 2000, Lx 120
     - Rerun with Lx150
     - Still nan
-    - Retrying (1e-03, 10) [2023-06-09 Fri 15:54]
+    - Retrying (1e-03, 10, 2e4 maxit) [2023-06-09 Fri 15:54]
 - pH4: b0.50 v0.30 c3.00
 - For better fit, decrease b and aim for v from H1 and H2
   - pH5: b0.45 v0.15 c3.00
