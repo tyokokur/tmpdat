@@ -200,7 +200,6 @@ Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
   - 3: 3.00, 0.50 NAN
   - 4: 1.00, 1.00 NAN
   - 5: 2.00, 1.00:
-    - Rerun [2023-06-07 Wed 15:40]
   - 6: 3.00, 1.00: 70 nm, 0.1 phi max 
     - 53 Nk * 1.00 = 53 nm^3
     - pM3: Run full 
@@ -218,7 +217,6 @@ Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
   - All NAN
 - pM33:  3.00, 3.00
 - pM35:  3.00, 5.00 
-  - ./1 rerun from ./2 5e4 maxit [2023-06-07 Wed 13:13]
   - ./3 still NAN
 - pM31:  3.00, 10.0
 - pM45: 4.00, 5.00 
@@ -236,7 +234,8 @@ See effect from aa_ disc
   - Pretty much same as pM2 (bin4)
 - bin5: 3.00, 2.00, hparams 24, 5
   - Init from pM2 [2023-06-09 Fri 14:52]
-    
+- pM33_ 2: phos charge -2.0 from -1.5
+  - Init from pM33 [2023-06-09 Fri 15:49]
 
   
 * DONE Prev NLH Mix
