@@ -236,7 +236,7 @@ See effect from aa_ disc
   - ./1: rerun from ./2
   - ./2: rerun from ./2
 - pM2_ c5
-  - 
+  - Init from pM2 [2023-06-12 Mon 13:37]
 
   
 * DONE Prev NLH Mix
