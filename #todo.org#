@@ -185,6 +185,7 @@ Running on double.c
   - pH5: b0.45 v0.15 c3.00
     - ./1: Init from ./2 [TERMINAL]
     - ./2: Good enough (2e-11, 7e-07, 3.4e-03)
+    - Worse than pH3
   
 ** PROG Phos M pure
 Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
