@@ -192,7 +192,10 @@ Running on double.c
     - ./2: Good enough (2e-11, 7e-07, 3.4e-03)
     - Worse than pH3
   
-** PROG Phos M pure
+** PROG M pure
+- M1: init from pM2 [2023-06-21 Wed 13:58]
+    
+** DONE Phos M pure
 Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
 - pM1: b0.50 v0.20 c3.00
 - pMx: Focus on getting 3 mM to H = 80
@@ -240,7 +243,8 @@ See effect from aa_ disc
 - pM2_ c5
   - Height increases from screened portion (undesired)
 
-  
+
+
 * DONE Prev NLH Mix
 ** PROG Mixture p
 Execute on 2b1E, 2a1E, 2b1F, 2a1F
