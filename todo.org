@@ -182,8 +182,7 @@ Running on double.c
     - 1e-04, 50, 5000, 1500
     - 5e-04, 70, 5000, 1500
     - 1e-03, 60, [2023-06-13 Tue 17:50]
-  - ./8: 15 mM DONE NEED TO ANALYZE
-  - ./9: 8  mM DONE NEED TO ANALYZE
+- b5v20c3/1
 - pH4: b0.50 v0.30 c3.00
 - For better fit, decrease b and aim for v from H1 and H2
   - pH5: b0.45 v0.15 c3.00
