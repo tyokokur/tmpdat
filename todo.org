@@ -182,9 +182,10 @@ Running on double.c
     - 1e-04, 50, 5000, 1500
     - 5e-04, 70, 5000, 1500
     - 1e-03, 60,
-    - 1e-03, 50, Lx170 [2023-06-21 Wed 13:57]
-  - ./10: 12 mM [2023-06-21 Wed 14:02]
-- [-] b5v20c3/1 [2023-06-21 Wed 13:56]
+    - 1e-03, 50, Lx170
+  - ./10: 12 mM
+  - ./11: 9  mM
+- b5v20c3/1 
 
 - pH4: b0.50 v0.30 c3.00
 - For better fit, decrease b and aim for v from H1 and H2
@@ -193,9 +194,9 @@ Running on double.c
     - ./2: Good enough (2e-11, 7e-07, 3.4e-03)
     - Worse than pH3
   
-** PROG M pure
-- M1: init from pM2 [2023-06-21 Wed 13:58]
-    
+** DONE M pure
+- M1: init from pM2 
+  
 ** DONE Phos M pure
 Note: V pH \approx 100 nm^3; N_ AA H 650, M 450 (70%)
 - pM1: b0.50 v0.20 c3.00
