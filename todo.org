@@ -860,8 +860,9 @@ If complicated, warranted for a new paper
 * Code cleaning
 ** tjy.ticks()
 - clean using ScalarFormatter class?
-** 
-
+** C Makefile
+- Need to clean functions and make header files
+  
 * NFH file tree
 - 
 - f
