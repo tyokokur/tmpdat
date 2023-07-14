@@ -13,6 +13,20 @@
 - [-] testFFT (j=2): Nm 200, a030, c1.50
 
 * PROG NLH Fitting
+** PROG NEW SIGMAS
+NFL: 0.0365
+- Start with 553
+pNFL 
+- Start with ?
+NFM: 0.0278
+- Start with M1
+pNFM 
+- Start with pM2
+NFH: 0.0301
+- Start with b5v20c3
+pNFH
+- Start with pH3
+  
 ** DONE New NFL fit
 Correction from z/b0 --> z/nm analysis
 Running on double.c
@@ -174,7 +188,7 @@ Running on double.c
   - All diverged; rerun with andit 1000 --> 2000
   - All diverged
 
-** PROG Phos H pure
+** DONE Phos H pure
 - pH1: b0.50 v0.13 c3.00
 - pH2: b0.50 v0.10 c3.00
 - [-] pH3: b0.50 v0.20 c3.00
