@@ -15,7 +15,7 @@
 * PROG NLH Fitting
 ** PROG NEW SIGMAS
 NFL: 0.0365
-- b0.5 v0.15 c3 (L_ 553): too stiff
+- b0.5 v0.15 c3 (L_ 553); ./1 rerun : too stiff
 - b0.5 v0.10 c3 (L_ 513)
 - b0.4 v0.15 c3 (L_ 453)
 pNFL 
