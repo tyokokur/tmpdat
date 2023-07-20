@@ -15,11 +15,11 @@
 * PROG NLH Fitting
 ** PROG NEW SIGMAS
 NFL: 0.0365
-- b0.5 v0.15 c3 (L_ 553); stiff
-- b0.5 v0.10 c3 (L_ 513); stiffer
-- b0.4 v0.15 c3 (L_ 453); less stiff
-- b0.4 v0.10 c3 (L_ 413) [2023-07-19 Wed 14:57]
-- b0.3 v0.15 c3 (L_ 353) [2023-07-19 Wed 14:57]
+- b0.5 v0.15 c3 (L_ 553); 2nd stiffest
+- b0.5 v0.10 c3 (L_ 513); 1st stiffest
+- b0.4 v0.15 c3 (L_ 453); 3rd stiffest
+- b0.4 v0.10 c3 (L_ 413); 2nd stiffest
+- b0.3 v0.15 c3 (L_ 353); 3rd stiffest [2023-07-19 Wed 14:57]
 
 pNFL 
 - Start with ?
@@ -30,7 +30,7 @@ pNFM
 NFH: 0.0301
 - b0.5 v0.20 c3 (b5v20c3) : looks fine 
 pNFH
-- b0.5 v0.20 c3 (pH3); rerun ./1 (wait), 2 [2023-07-19 Wed 15:02]
+- b0.5 v0.20 c3 (pH3); rerun ./1 (wait), 2 [2023-07-20 Thu 10:29]
   
 ** DONE New NFL fit
 Correction from z/b0 --> z/nm analysis
