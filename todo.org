@@ -15,11 +15,12 @@
 * PROG NLH Fitting
 ** PROG NEW SIGMAS
 NFL: 0.0365
-- b0.5 v0.15 c3 (L_ 553); 2nd stiffest
-- b0.5 v0.10 c3 (L_ 513); 1st stiffest
-- b0.4 v0.15 c3 (L_ 453); 3rd stiffest
-- b0.4 v0.10 c3 (L_ 413); 2nd stiffest
-- b0.3 v0.15 c3 (L_ 353); 3rd stiffest [2023-07-19 Wed 14:57]
+- b0.5 v0.15 c3 (L_ 553)
+- b0.5 v0.10 c3 (L_ 513)
+- b0.4 v0.15 c3 (L_ 453)
+- b0.4 v0.10 c3 (L_ 413)
+- b0.3 v0.15 c3 (L_ 353) [2023-07-19 Wed 14:57]
+- b0.3 v0.10 c3 (L_ 313)
 
 pNFL 
 - Start with ?
