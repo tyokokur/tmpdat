@@ -1,0 +1,34 @@
+PROGRAM = tjygo
+FILES.c = main.c setup.c report.c FFT_solve.c MDE.c gets.c
+FILES.o = ${FILES.c:.c=.o}
+IN.h    = common.h consts.h input.h
+FUNS.h  = setup.h report.h FFT_solve.h MDE.h gets.h
+UTILS.h = common.h gets.h
+L_FFTW3 = -L/share/apps/software/fftw-3.3.8/lib 
+
+CC = gcc
+WFLAGS = -Wall 
+
+
+# DEFAULT
+all: ${PROGRAM}
+
+${PROGRAM}: ${FILES.o}
+	${CC} ${L_FFTW3} -o $@ ${WFLAGS} ${FILES.o} -lfftw3 -lm
+
+main.o: ${IN.h} ${FUNS.h}
+setup.o:  ${UTILS.h}
+report.o: ${UTILS.h}
+FFT_solve.o: ${UTILS.h}
+MDE.o: ${UTILS.h} FFT_solve.h
+gets.o: ${UTILS.h}
+
+# AUXILARIES
+.PHONY: clean win
+
+clean: 
+	@rm -f "("* ph*.dat it*.dat el*.dat printout.dat
+
+win:
+	@mv W_a* W_in.dat 2>/dev/null; true
+
