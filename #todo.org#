@@ -40,7 +40,7 @@ NFH: 0.0301
 pNFH
 - b0.5 v0.20 c3 (pH3); ./1 [2023-07-27 Thu 12:30]
 - b0.5 v0.25 c3 (pH_ 525) ./1,2,3,8 [2023-07-27 Thu 12:34]
-- b0.5 v0.30 c3 (pH_ 530) [2023-07-25 Tue 10:00]
+- b0.5 v0.30 c3 (pH_ 530) ./2,3,5 
   
 ** DONE New NFL fit
 Correction from z/b0 --> z/nm analysis
