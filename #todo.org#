@@ -50,7 +50,7 @@ pNFH
 p0NFH: Take out block 2
 - b0.5 v0.30 c3 (p1NFH) ./1,2,7 [2023-08-06 Sun 13:51]
 p1NFH: Negate charges on block 2
-- b0.5 v0.30 c3 (p0NFH) [2023-08-06 Sun 13:51] 
+- b0.5 v0.30 c3 (p0NFH) ./1, [2023-08-06 Sun 13:51] 
   
 ** DONE New NFL fit
 Correction from z/b0 --> z/nm analysis
