@@ -6,11 +6,17 @@
 
 * TODO PE triple point
 * PROG FFT test
-** FFT 1D confirm:
-- [X] speed (qInt disc delta): Nm300, a000, c1.50
-- [-] speedCOS (temp cos fft): Nm300, a000, c1.50
-- [X] speedGAUSS (qInt gauss): Nm300, a000, c1.50
-- [-] testFFT (j=2): Nm 200, a030, c1.50
+** Numerical
+- dz
+- ds
+- Y
+** Parameter space
+- s: a00_ sXX (s002, s005, s010)
+- x: a00_ xXX (x055, x075, x100)
+- a
+- N
+** SYSG replicate
+** Quenched surface
 
 * PROG NLH Fitting
 ** PROG NEW SIGMAS
