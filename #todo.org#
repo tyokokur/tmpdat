@@ -9,17 +9,20 @@
 ** Multi-threaded
 - FFTW OMP
 - Integration OMP
-** Numerical
-- dz
-- ds
-- Y
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
 - x: a00_ xXX (x055, x075, x100) ./3
 - a: aXX_ x75 (a010, a020, a030) ./2,3
 - N: a00_ NXX (N100, N150, N200) 
+** Numerical
+- dz
+- ds
+- Y
 ** SYSG replicate
 ** Quenched surface
+- Hexagon code done
+
+
 
 * PROG NLH Fitting
 ** PROG NEW SIGMAS
