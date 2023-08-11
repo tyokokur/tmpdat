@@ -6,6 +6,9 @@
 
 * TODO PE triple point
 * PROG FFT test
+** Multi-threaded
+- FFTW OMP
+- Integration OMP
 ** Numerical
 - dz
 - ds
