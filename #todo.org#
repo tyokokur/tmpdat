@@ -15,8 +15,8 @@
 - a: aXX_ x75 (a010, a020, a030) ./2,3
 - N: a00_ NXX (N100, N150, N200) 
 ** Numerical
-- dz: 0.25, 0.10
-- ds: 0.10, 0.05
+- dz: 1.00, 0.50, 0.25; dz50: a010x075s002c010N200 
+- ds: 0.5, 0.20, 0.10
 - Y: 2, 5, 10
 ** SYSG replicate
 ** Quenched surface
