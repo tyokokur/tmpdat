@@ -15,9 +15,9 @@
 - a: aXX_ x75 (a010, a020, a030) ./2,3
 - N: a00_ NXX (N100, N150, N200) 
 ** Numerical
-- dz
-- ds
-- Y
+- dz: 0.25, 0.10
+- ds: 0.10, 0.05
+- Y: 2, 5, 10
 ** SYSG replicate
 ** Quenched surface
 - Hexagon code done
