@@ -18,7 +18,7 @@
 a010x075s002c010N50
 - dz: 0.50, 0.25, 0.10; ./1 first
 - ds: 0.50, 0.20, 0.10; 
-- Y: 2, 5, 10
+- Y: 2, 5, 10; ./1 first
 ** SYSG replicate
 ** Quenched surface
 - Hexagon code done
