@@ -6,11 +6,23 @@
 
 * TODO PE triple point
 * PROG FFT test
-** FFT 1D confirm:
-- [X] speed (qInt disc delta): Nm300, a000, c1.50
-- [-] speedCOS (temp cos fft): Nm300, a000, c1.50
-- [X] speedGAUSS (qInt gauss): Nm300, a000, c1.50
-- [-] testFFT (j=2): Nm 200, a030, c1.50
+** Multi-threaded
+- FFTW OMP
+- Integration OMP
+** Parameter space
+- s: a00_ sXX (s005, s010) 
+- x: a00_ xXX (x055, x075, x100) ./3
+- a: aXX_ x75 (a010, a020, a030) ./2,3
+- N: a00_ NXX (N100, N150, N200) 
+** Numerical
+- dz
+- ds
+- Y
+** SYSG replicate
+** Quenched surface
+- Hexagon code done
+
+
 
 * PROG NLH Fitting
 ** PROG NEW SIGMAS
@@ -43,14 +55,17 @@ pNFH
 - b0.5 v0.20 c3 (pH3)
 - b0.5 v0.25 c3 (pH_ 525)
 - b0.5 v0.30 c3 (pH_ 530)
-- b0.5 v0.50 c3 (pH_ 550) ./1,2,3 [2023-08-10 Thu 10:23]
+- b0.5 v0.40 c3 (pH_ 540) [2023-08-11 Fri 14:44]
+- b0.5 v0.50 c3 (pH_ 550)
+- b0.65v0.35 c3 (pH_ 6535) [2023-08-11 Fri 14:49]
 - b0.75v0.50 c3 (pH_ 755)
-- b0.8 v0.40 c3 (pH_ 840) ./1,2 [2023-08-10 Thu 10:45]
-- b0.8 v0.30 c3 (pH_ 830) ./2,3,4,6,7 [2023-08-07 Mon 17:05]
+- b0.8 v0.40 c3 (pH_ 840) ./1,2 [2023-08-11 Fri 14:14]
+- b0.8 v0.30 c3 (pH_ 830) ./2,3,6 [2023-08-11 Fri 14:14]
+- b0.8 v0.20 c3 (pH_ 820) [2023-08-11 Fri 14:52]
 p0NFH: Take out block 2
-- b0.5 v0.30 c3 (p1NFH) ./1,2,7 [2023-08-06 Sun 13:51]
+- b0.5 v0.30 c3 (p0NFH) ./1,4,5 [2023-08-11 Fri 13:00]
 p1NFH: Negate charges on block 2
-- b0.5 v0.30 c3 (p0NFH) ./1,6 [2023-08-06 Sun 13:51] 
+- b0.5 v0.30 c3 (p1NFH) ./2 [2023-08-06 Sun 13:51]
   
 ** DONE New NFL fit
 Correction from z/b0 --> z/nm analysis
