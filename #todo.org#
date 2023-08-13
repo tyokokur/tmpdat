@@ -16,7 +16,7 @@
 - N: a00_ NXX (N100, N150, N200) 
 ** Numerical
 a010x075s002c010N50
-- dz: 0.50, 0.25, 0.10; ./1,2 first
+- dz: 0.50, 0.25, 0.10; ./1; write code for WIN with diff dz
 - ds: 0.50, 0.20, 0.10; ./2 running above (copy when done)
 - Y: 2, 5, 10; ./1 first
 ** SYSG replicate
