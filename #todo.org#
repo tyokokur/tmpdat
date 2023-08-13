@@ -946,6 +946,8 @@ If complicated, warranted for a new paper
   - {dir}.txt      : {no.} | chi.txt  | c_+      | b | vopt | vcust | Hs
 
 
+** MISC
+
 | mM | peak 1 | peak 2 | d = 2\pi / \Delta_{}Q |
 |----+--------+--------+-------------|
 | 50 |  0.088 |  0.200 |   56.098214 |
@@ -956,3 +958,13 @@ If complicated, warranted for a new paper
 |  8 |  0.073 |  0.165 |   68.293478 |
 |  6 |  0.070 |  0.155 |   73.917647 |
 #+TBLFM: $4=2*3.1415/($3-$2)
+
+| mM | valley 1 | valley 2 | d |
+|----+----------+----------+---|
+|  6 |          |          |   |
+|  8 |          |          |   |
+| 10 |          |          |   |
+| 20 |          |          |   |
+| 30 |          |          |   |
+| 40 |    0.041 |          |   |
+| 50 |    0.041 |          |   |
