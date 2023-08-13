@@ -18,7 +18,7 @@
 a010x075s002c010N50
 - dz: 0.50, 0.25, 0.10; ./1; write code for WIN with diff dz
 - ds: 0.50, 0.20, 0.10; ./2,3 (2 is ./dz50)
-- Y: 2, 5, 10; ./1 first
+- Y: 2, 5, 10; ./1,2,3
 ** SYSG replicate
 ** Quenched surface
 - Hexagon code done
