@@ -15,9 +15,10 @@
 - a: aXX_ x75 (a010, a020, a030) ./2,3
 - N: a00_ NXX (N100, N150, N200) 
 ** Numerical
-- dz
-- ds
-- Y
+a010x075s002c010N50
+- dz: 0.50, 0.25, 0.10; ./1 first
+- ds: 0.50, 0.20, 0.10; ./2 running above (copy when done)
+- Y: 2, 5, 10; ./1 first
 ** SYSG replicate
 ** Quenched surface
 - Hexagon code done
@@ -943,3 +944,15 @@ If complicated, warranted for a new paper
 - Create two files per loop:
   - {dir}_ keys.txt: {no.} | {subdir} | {phname}
   - {dir}.txt      : {no.} | chi.txt  | c_+      | b | vopt | vcust | Hs
+
+
+| mM | peak 1 | peak 2 | d = 2\pi / \Delta_{}Q |
+|----+--------+--------+-------------|
+| 50 |  0.088 |  0.200 |   56.098214 |
+| 40 |  0.088 |  0.200 |   56.098214 |
+| 30 |  0.086 |  0.195 |   57.642202 |
+| 20 |  0.083 |  0.185 |   61.598039 |
+| 10 |  0.076 |  0.170 |   66.840426 |
+|  8 |  0.073 |  0.165 |   68.293478 |
+|  6 |  0.070 |  0.155 |   73.917647 |
+#+TBLFM: $4=2*3.1415/($3-$2)
