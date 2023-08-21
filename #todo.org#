@@ -12,7 +12,7 @@
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
 - x: a00_ xXX (x055, x075, x100) 
-- a: aXX_ x75 (a010, a020, a030) 3D NOT SENSITIVE TO ALPHA (and psi = 0 at z0)
+- a: aXX_ x75 (a010, a020, a030) [2023-08-21 Mon 16:26]; IF SUCCESS PUSH ./bin
 - N: a00_ NXX (N100, N150, N200) 
 ** Numerical
 a010x075s002c010N50
