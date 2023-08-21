@@ -12,14 +12,15 @@
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
 - x: a00_ xXX (x055, x075, x100) 
-- a: aXX_ x75 (a010, a020, a030) [2023-08-21 Mon 16:26]; IF SUCCESS PUSH ./bin
+- a: aXX_ x75 (a010, a020, a030) [2023-08-21 Mon 16:26];
+  - eps_ 0 calculation; setup.c/ASSIGN_ CONSTS; PUSHED TO SYSG3/BIN
 - N: a00_ NXX (N100, N150, N200) 
 ** Numerical
 a010x075s002c010N50
 - dz: 0.50, 0.25, 0.10; ./1 done ; write code for WIN with diff dz
 - ds: 0.30, 0.20, 0.10
 - Y: 2, 5, 10;
-  - K_ i[X] <-- K_ i[Y] gets.c/int_ PHA; PUSHED TO SYSG3/BIN
+  - K_ i[X] <-- K_ i[Y]; gets.c/int_ PHA; PUSHED TO SYSG3/BIN
 ** SYSG replicate
 ** Quenched surface
 - Hexagon code done
