@@ -14,6 +14,7 @@
 - x: a00_ xXX (x055, x075, x100) 
 - a: aXX_ x75 (a010, a020, a030) [2023-08-21 Mon 16:26]
   - eps_ 0 calculation; setup.c/ASSIGN_ CONSTS; PUSHED TO SYSG3/BIN
+  - L298: - rho_ ele_ polym <-- (+)
 - N: a00_ NXX (N100, N150, N200) 
 ** Numerical
 a010x075s002c010N50
