@@ -12,13 +12,15 @@
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
 - x: a00_ xXX (x055, x075, x100) 
-- a: aXX_ x75 (a010, a020, a030) 3D NOT SENSITIVE TO ALPHA (and psi = 0 at z0)
+- a: aXX_ x75 (a010, a020, a030) [2023-08-21 Mon 16:26];
+  - eps_ 0 calculation; setup.c/ASSIGN_ CONSTS; PUSHED TO SYSG3/BIN
 - N: a00_ NXX (N100, N150, N200) 
 ** Numerical
 a010x075s002c010N50
 - dz: 0.50, 0.25, 0.10; ./1 done ; write code for WIN with diff dz
 - ds: 0.30, 0.20, 0.10
-- Y: 2, 5, 10; Y INCREASING POLYMER VOLUME
+- Y: 2, 5, 10; ./2 [2023-08-21 Mon 16:53]
+  - K_ i[X] <-- K_ i[Y]; gets.c/int_ PHA; PUSHED TO SYSG3/BIN
 ** SYSG replicate
 ** Quenched surface
 - Hexagon code done
@@ -58,15 +60,15 @@ pNFH
 - b0.5 v0.30 c3 (pH_ 530)
 - b0.5 v0.40 c3 (pH_ 540) [2023-08-11 Fri 14:44]
 - b0.5 v0.50 c3 (pH_ 550)
-- b0.65v0.35 c3 (pH_ 6535) [2023-08-11 Fri 14:49]
+- b0.65v0.35 c3 (pH_ 6535) [2023-08-21 Mon 11:20]
 - b0.75v0.50 c3 (pH_ 755)
-- b0.8 v0.40 c3 (pH_ 840) ./1,2 [2023-08-11 Fri 14:14]
-- b0.8 v0.30 c3 (pH_ 830) ./2,3,6 [2023-08-11 Fri 14:14]
-- b0.8 v0.20 c3 (pH_ 820) [2023-08-11 Fri 14:52]
+- b0.8 v0.40 c3 (pH_ 840) ./1 [2023-08-21 Mon 11:22]
+- b0.8 v0.30 c3 (pH_ 830) ./2,3 [2023-08-21 Mon 11:25]
+- b0.8 v0.20 c3 (pH_ 820) ./3,4,5,6,7 [2023-08-21 Mon 12:36]
 p0NFH: Take out block 2
-- b0.5 v0.30 c3 (p0NFH) ./1,4,5 [2023-08-11 Fri 13:00]
+- b0.5 v0.30 c3 (p0NFH) ./1 [2023-08-21 Mon 12:43]
 p1NFH: Negate charges on block 2
-- b0.5 v0.30 c3 (p1NFH) ./2 [2023-08-06 Sun 13:51]
+- b0.5 v0.30 c3 (p1NFH) 
   
 ** DONE New NFL fit
 Correction from z/b0 --> z/nm analysis
