@@ -76,7 +76,8 @@ p0NFH: Take out block 2
 - b0.5 v0.30 c3 (p0NFH) 
 p1NFH: Negate charges on block 2
 - b0.5 v0.30 c3 (p1NFH) 
-  
+  14
+  17
 ** DONE New NFL fit
 Correction from z/b0 --> z/nm analysis
 Running on double.c
