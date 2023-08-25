@@ -38,7 +38,7 @@ NFL: 0.0365
 - b0.4 v0.10 c3 (L_ 413)
 - b0.3 v0.15 c3 (L_ 353)
 - b0.3 v0.20 c3 (L_ 323) 
-- b0.3 v0.25 c3 (L_ 325) 
+- /b0.3 v0.25 c3 (L_ 325)/ 
 - b0.4 v0.20 c3 (L_ 423) 
 - b0.2 v0.20 c3 (L_ 223)
 - b0.35v0.20 c3 (L_ 352) 
@@ -52,29 +52,36 @@ pNFL
 - Start with ? 
 NFM: 0.0278
 - b3.0 v2.0 c3 (M1) : Very similar to prev 
-pNFM 
+pNFM
+- b3.0 v2.5 c3 (pM_ 325) [2023-08-24 Thu 22:34]
 - b3.0 v2.0 c3 (pM2) : Very similar to prev
-- b3.0 v1.75c3 (pM_ 3175)[2023-08-23 Wed 16:33]
-- b3.0 v1.5 c3 (pM_ 315) [2023-08-23 Wed 16:32]
+- b3.0 v1.75c3 (pM_ 3175) 
+- b3.0 v1.5 c3 (pM_ 315) 
 NFH: 0.0301
 - b0.5 v0.20 c3 (b5v20c3) 
-- b0.8 v0.30 c3 (H_ 830) [2023-08-23 Wed 16:17]
+- b0.8 v0.30 c3 (H_ 830)
+- b0.8 v0.20 c3 (H_ 820) [2023-08-24 Thu 22:51]
 pNFH
 - b0.5 v0.20 c3 (pH3)
 - b0.5 v0.25 c3 (pH_ 525)
 - b0.5 v0.30 c3 (pH_ 530)
-- b0.5 v0.40 c3 (pH_ 540) ./2 [2023-08-23 Wed 13:20]
+- b0.5 v0.40 c3 (pH_ 540) ./1 [2023-08-24 Thu 21:44]
 - b0.5 v0.50 c3 (pH_ 550)
-- b0.65v0.35 c3 (pH_ 6535)./2,3,7 [2023-08-23 Wed 13:27]
+- b0.65v0.35 c3 (pH_ 6535) WEIRD BIMODAL
 - b0.75v0.50 c3 (pH_ 755)
-- b0.8 v0.40 c3 (pH_ 840) ./1 [2023-08-23 Wed 14:37]
-- b0.8 v0.30 c3 (pH_ 830) ./1,2,3 [2023-08-23 Wed 14:30]
-- b0.8 v0.20 c3 (pH_ 820) ./1,2,4 [2023-08-23 Wed 15:03]
+- b0.8 v0.40 c3 (pH_ 840) WEIRD BIMODAL
+- b0.8 v0.30 c3 (pH_ 830) WEIRD BIMODAL
+- /b0.8 v0.20 c3 (pH_ 820)/
 p0NFH: Take out block 2
 - b0.5 v0.30 c3 (p0NFH) 
 p1NFH: Negate charges on block 2
 - b0.5 v0.30 c3 (p1NFH) 
-  
+  14 (22)
+  17 (21)
+  14 (20)
+  14?(19)
+  25?(18)
+  = 80?
 ** DONE New NFL fit
 Correction from z/b0 --> z/nm analysis
 Running on double.c
