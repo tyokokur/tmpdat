@@ -38,7 +38,7 @@ NFL: 0.0365
 - b0.4 v0.10 c3 (L_ 413)
 - b0.3 v0.15 c3 (L_ 353)
 - b0.3 v0.20 c3 (L_ 323) 
-- b0.3 v0.25 c3 (L_ 325) 
+- /b0.3 v0.25 c3 (L_ 325)/ 
 - b0.4 v0.20 c3 (L_ 423) 
 - b0.2 v0.20 c3 (L_ 223)
 - b0.35v0.20 c3 (L_ 352) 
@@ -70,7 +70,7 @@ pNFH
 - b0.75v0.50 c3 (pH_ 755)
 - b0.8 v0.40 c3 (pH_ 840) WEIRD BIMODAL
 - b0.8 v0.30 c3 (pH_ 830) WEIRD BIMODAL
-- b0.8 v0.20 c3 (pH_ 820)
+- /b0.8 v0.20 c3 (pH_ 820)/
 p0NFH: Take out block 2
 - b0.5 v0.30 c3 (p0NFH) 
 p1NFH: Negate charges on block 2
