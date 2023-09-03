@@ -17,6 +17,8 @@
   - a020: INIT_ PHA_ PHAz; NOT PUSHED TO SYSG3/BIN
   - a020: freeEnergy typo (L ); NOT PUSHED TO SYSG3/BIN
   - a020: setup.c: NOT PUSHED TO SYSG3/BIN
+  - a020: gets.c: NOT PUSHED TO SYSG3/BIN
+  - a020: main.c: NOT PUSHED TO SYSG3/BIN
 - N: a00_ NXX (N100, N150, N200) 
 ** Numerical
 a010x075s002c010N50
