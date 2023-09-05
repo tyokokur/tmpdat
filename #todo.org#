@@ -34,8 +34,8 @@ a010x075s002c010N50
 
 * PROG NLH Fitting
 ** PROG NFH(\Delta{}2)
-- b = 0.40, v = 0.15; 0phas done
-- b = 0.50, v = 0.05; 0phas done
+- b = 0.40, v = 0.15; downloaded
+- b = 0.50, v = 0.05; downloaded
 - b = 0.50, v = 0.10; 0phas done 
   - \chi max = 3.50
   - \chi max = 3.00
