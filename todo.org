@@ -12,11 +12,11 @@
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
 - x: a00_ xXX (x055, x075, x100) 
-- a: aXX_ x75 (a010, a020, a030) [2023-08-21 Mon 16:26]
+- a: aXX_ x75 (a010, a020, a030) [2023-09-05 Tue 12:01]
   - a020: freeEnergy typo (L ); NOT PUSHED TO SYSG3/BIN (maybe)
-  - a020: setup.c/INIT_FIELDS, WAz: NOT PUSHED
-  - a020: common.h: NOT PUSHED
-  - a020: int_phA_Quad: NOT PUSHED
+  - a020: setup.c/INIT_FIELDS, WAz: PUSHED
+  - a020: common.h: PUSHED
+  - a020: int_phA_Quad: PUSHED
 - N: a00_ NXX (N100, N150, N200) 
 ** Numerical
 a010x075s002c010N50
