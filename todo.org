@@ -21,11 +21,8 @@
 ** Numerical
 a010x075s002c010N50
 - dz: 0.50, 0.25, 0.10; ./1 done ; write code for WIN with diff dz
-- ds: 0.30, 0.20, 0.10
-- Y: 2, 5, 10; 
-  - K_ i[X] <-- K_ i[Y]; gets.c/int_ PHA; PUSHED TO SYSG3/BIN
-  - nsf, nsi; gets.c int_ Pha_ Quad; PUSHED TO SYSG3/BIN
-    - SECOND TIME; PUSHED TO SYSG3/BIN
+- ds: 0.30, 0.20, 0.10 [2023-09-05 Tue 12:18]
+- Y: 2, 5, 10; [2023-09-05 Tue 12:18]
 ** SYSG replicate
 ** Quenched surface
 - Hexagon code done
