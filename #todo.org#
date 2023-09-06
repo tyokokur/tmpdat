@@ -20,7 +20,7 @@ a010x075s002c010N50
 - dz: 0.50, 0.25, 0.10; ./1 done ; write code for WIN with diff dz
 - ds: 0.05, 0.10, 0.15 ./1,2,3 [2023-09-06 Wed 12:19]
 - Y: 2, 5, 10;[2023-09-05 Tue 12:18]
-- Lxy = 5, 10, 15
+- Lxy = 5, 10, 15 ./2,3 [2023-09-06 Wed 15:08]
 ** SYSG replicate
 - p4a4 (a0.40 c1.25; SYSG/.../p4a4s02/3)
 ** Quenched surface
