@@ -22,9 +22,13 @@ a010x075s002c010N50
 - Y: 2, 5, 10;[2023-09-05 Tue 12:18]
 - Lxy = 5, 10, 15 ./2,3 [2023-09-06 Wed 15:08]
 ** SYSG replicate
+- Concerns:
+  - Lxy not large enough
+  - dz far too large
+  - annealed grafting site assumption
 - p4a4 (a0.40 c1.25; SYSG/.../p4a4s02/3) [2023-09-06 Wed 15:12]
-- p3a4 (a0.40
-- p2a4 (a0.40 c1.45; SYSG/.../p2a4s02/1)
+- p3a4 (a0.40 c1.35; SYSG/.../p3a4s02/1) 
+- p2a4 (a0.40 c1.45; SYSG/.../p2a4s02/1) [2023-09-06 Wed 15:23]
 ** Quenched surface
 - Hexagon code done
 
