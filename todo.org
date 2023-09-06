@@ -12,10 +12,7 @@
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
 - x: a00_ xXX (x055, x075, x100) 
-- a: aXX_ x75 (a010, a020, a030) [2023-09-05 Tue 12:01]
-  - a020: setup.c/INIT_FIELDS, WAz: PUSHED
-  - a020: common.h: PUSHED
-  - a020: int_phA_Quad: PUSHED
+- a: aXX_ x75 (a010, a020, a030)
 - N: a00_ NXX (N100, N150, N200)
 - L: Nx, Ny
   - TODO
