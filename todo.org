@@ -14,16 +14,21 @@
 - x: a00_ xXX (x055, x075, x100) 
 - a: aXX_ x75 (a010, a020, a030)
 - N: a00_ NXX (N100, N150, N200)
-- L: Nx, Ny
-  - TODO
+- L: Lxy05, Lxy10, Lxy15 [2023-09-06 Wed 15:05]
 ** Numerical
 a010x075s002c010N50
 - dz: 0.50, 0.25, 0.10; ./1 done ; write code for WIN with diff dz
-- ds: 0.30, 0.20, 0.10 [2023-09-05 Tue 12:18]
-  - 0.20, 0.10 nan; too high or not good W_ in?
-- Y: 2, 5, 10; [2023-09-05 Tue 12:18]
+- ds: 0.05, 0.10, 0.15 ./1,2,3 [2023-09-06 Wed 12:19]
+- Y: 2, 5, 10;[2023-09-05 Tue 12:18]
+- Lxy = 5, 10, 15 ./2,3 [2023-09-06 Wed 15:08]
 ** SYSG replicate
-- p4a4 (a0.40 c1.25; SYSG/.../p4a4s02/3)
+- Concerns:
+  - Lxy not large enough
+  - dz far too large
+  - annealed grafting site assumption
+- p4a4 (a0.40 c1.25; SYSG/.../p4a4s02/3) [2023-09-06 Wed 15:12]
+- p3a4 (a0.40 c1.35; SYSG/.../p3a4s02/1) [2023-09-06 Wed 16:16]
+- p2a4 (a0.40 c1.45; SYSG/.../p2a4s02/1) [2023-09-06 Wed 15:23]
 ** Quenched surface
 - Hexagon code done
 
