@@ -33,16 +33,17 @@ a010x075s002c010N50
 
 
 * PROG NLH Fitting
-** PROG NFH(\Delta{}2)
+** PROG NFH(\Delta{}2) (chi max = 2, 2.5, 3, 3.5)
 - b = 0.40, v = 0.15; corrected H.txt [2023-09-05 Tue 17:06]
+  - cm250, cm300, cm350
 - b = 0.50, v = 0.05; corrected H.txt [2023-09-05 Tue 17:09]
+  - cm250, cm300
 - b = 0.50, v = 0.10; corrected H.txt [2023-09-05 Tue 17:10]
-  - \chi max = 3.50
-  - \chi max = 3.00
-  - \chi max = 2.50
-  - \chi max = 2.00
+  - cm250, cm300
 - b = 0.50, v = 0.15; corrected H.txt [2023-09-05 Tue 17:12]
-- b = 0.60, v = 0.15; corrected H.txt 
+  - cm250, cm300, cm350
+- b = 0.60, v = 0.15; corrected H.txt [2023-09-05 Tue 17:13]
+  - cm250, cm300, cm350
   
 ** DONE NEW SIGMAS
 NFL: 0.0365
