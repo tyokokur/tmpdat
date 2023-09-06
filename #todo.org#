@@ -36,12 +36,12 @@ a010x075s002c010N50
 ** PROG NFH(\Delta{}2)
 - b = 0.40, v = 0.15; corrected H.txt [2023-09-05 Tue 17:06]
 - b = 0.50, v = 0.05; corrected H.txt [2023-09-05 Tue 17:09]
-- b = 0.50, v = 0.10; corrected H.txt 
+- b = 0.50, v = 0.10; corrected H.txt [2023-09-05 Tue 17:10]
   - \chi max = 3.50
   - \chi max = 3.00
   - \chi max = 2.50
   - \chi max = 2.00
-- b = 0.50, v = 0.15; corrected H.txt
+- b = 0.50, v = 0.15; corrected H.txt 
 - b = 0.60, v = 0.15; corrected H.txt
   
 ** DONE NEW SIGMAS
