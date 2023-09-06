@@ -34,6 +34,7 @@ a010x075s002c010N50
 
 * PROG NLH Fitting
 ** PROG NFH(\Delta{}2) (chi max = 2, 2.5, 3, 3.5)
+- \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
 - b = 0.40, v = 0.15; corrected H.txt [2023-09-05 Tue 17:06]
   - cm250, cm300, cm350
 - b = 0.50, v = 0.05; corrected H.txt [2023-09-05 Tue 17:09]
