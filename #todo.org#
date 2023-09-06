@@ -14,8 +14,7 @@
 - x: a00_ xXX (x055, x075, x100) 
 - a: aXX_ x75 (a010, a020, a030)
 - N: a00_ NXX (N100, N150, N200)
-- L: Nx, Ny
-  - TODO
+- L: Lxy05, Lxy10, Lxy15 [2023-09-06 Wed 15:05]
 ** Numerical
 a010x075s002c010N50
 - dz: 0.50, 0.25, 0.10; ./1 done ; write code for WIN with diff dz
