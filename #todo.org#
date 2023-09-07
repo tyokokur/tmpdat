@@ -38,7 +38,7 @@ a010x075s002c010N50
 ** PROG NFH(\Delta{}2) (chi max = 2, 2.5, 3, 3.5)
 - \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
 - b = 0.40, v = 0.15; corrected H.txt [2023-09-05 Tue 17:06]
-  - D2: cm250, cm300, cm350 
+  - D2: cm250, cm300, cm350 ; DONE
 - b = 0.50, v = 0.05; corrected H.txt [2023-09-05 Tue 17:09]
   - D2: cm250, cm300 
 - b = 0.50, v = 0.10; corrected H.txt [2023-09-05 Tue 17:10]
