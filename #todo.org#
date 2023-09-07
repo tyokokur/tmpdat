@@ -38,15 +38,15 @@ a010x075s002c010N50
 ** PROG NFH(\Delta{}2) (chi max = 2, 2.5, 3, 3.5)
 - \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
 - b = 0.40, v = 0.15; corrected H.txt [2023-09-05 Tue 17:06]
-  - cm250, cm300, cm350 
+  - D2: cm250, cm300, cm350 
 - b = 0.50, v = 0.05; corrected H.txt [2023-09-05 Tue 17:09]
-  - cm250, cm300 
+  - D2: cm250, cm300 
 - b = 0.50, v = 0.10; corrected H.txt [2023-09-05 Tue 17:10]
-  - cm250, cm300 
+  - D2: cm250, cm300 
 - b = 0.50, v = 0.15; corrected H.txt [2023-09-05 Tue 17:12]
-  - cm250, cm300, cm350 [2023-09-05 Tue 17:56]
+  - D2: cm250, cm300, cm350 
 - b = 0.60, v = 0.15; corrected H.txt [2023-09-05 Tue 17:13]
-  - cm250, cm300, cm350 [2023-09-05 Tue 18:04]
+  - D2: cm250, cm300, cm350 
   
 ** DONE NEW SIGMAS
 NFL: 0.0365
