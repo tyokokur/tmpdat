@@ -41,7 +41,7 @@ a010x075s002c010N50
   - D2: cm250, cm300, cm350 ; DONE
 - b = 0.50, v = 0.05; 
   - D2: cm250, cm300 ; REDO END Cs
-- b = 0.50, v = 0.10; corrected H.txt [2023-09-05 Tue 17:10]
+- b = 0.50, v = 0.10; 
   - D2: cm250, cm300 ; DONE
 - b = 0.50, v = 0.15; corrected H.txt [2023-09-05 Tue 17:12]
   - D2: cm250, cm300, cm350 ; DONE 
