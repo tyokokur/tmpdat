@@ -48,7 +48,7 @@ a010x075s002c010N50
 - b = 0.60, v = 0.15
   - D2: cm250, cm300, cm350
 - b = 0.60, v = 0.05 
-  - D2: cm250, cm300, cm350 
+  - D2: cm250, cm300 REDO (updated D2)
   
 ** DONE NEW SIGMAS
 NFL: 0.0365
