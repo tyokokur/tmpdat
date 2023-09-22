@@ -39,7 +39,9 @@ a010x075s002c010N50
 - \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
 - b = 0.40, v = 0.15
   - D2: cm250, cm300, cm350 
-- b = 0.50, v = 0.05 
+- b = 0.50, v = 0.05
+  - cm225 TODO
+  - cm225_ D2 TODO 
   - cm250_ D2. 
   - cm300_ D2. REDO (updated D2) [2023-09-21 Thu 16:48]
 - b = 0.50, v = 0.10
