@@ -40,7 +40,7 @@ a010x075s002c010N50
 - b = 0.40, v = 0.15
   - D2: cm250, cm300, cm350 
 - b = 0.50, v = 0.05 
-  - cm250_ D2. REDO (updated D2) [2023-09-21 Thu 16:45]
+  - cm250_ D2. NOT DOWNLOADED
   - cm300_ D2. REDO (updated D2) [2023-09-21 Thu 16:48]
 - b = 0.50, v = 0.10
   - D2: cm250, cm300 
@@ -49,9 +49,9 @@ a010x075s002c010N50
 - b = 0.60, v = 0.15
   - D2: cm250, cm300, cm350
 - b = 0.60, v = 0.05
-  - cm250_ D2. REDO (updated D2) [2023-09-21 Thu 16:42]
-  - cm300_ D2. REDO (updated D2) [2023-09-21 Thu 15:37]
-  - pcm250 [2023-09-21 Thu 16:21]
+  - cm250_ D2. NOT DOWNLOADED
+  - cm300_ D2. NOT DONWLAODED
+  - pcm250 NOT DOWNLOADED
   - pcm250_ D2 [2023-09-21 Thu 16:19]
   - pcm300 [2023-09-21 Thu 16:18]
   - pcm300_ D2. REDO Lx [2023-09-21 Thu 16:15]
