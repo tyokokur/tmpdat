@@ -7,8 +7,7 @@
 * TODO PE triple point
 * PROG FFT test
 ** Multi-threaded
-- FFTW OMP
-- Integration OMP
+- MAKE freeE SAME AS a020x075
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
 - x: a00_ xXX (x055, x075, x100) 
