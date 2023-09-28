@@ -40,9 +40,8 @@ a010x075s002c010N50
 - b = 0.40, v = 0.15
   - D2: cm250, cm300, cm350 
 - b = 0.50, v = 0.05
-  - cm225
-  - cm225_ D2. 
-  - cm250_ D2. *TO DOWNLOAD*
+  - cm225, cm225_ D2. 
+  - cm250_ D2. 
   - cm300_ D2. REDO ./6 [2023-09-28 Thu 15:48]
 - b = 0.50, v = 0.10
   - D2: cm250, cm300 
@@ -52,12 +51,10 @@ a010x075s002c010N50
   - D2: cm250, cm300, cm350
 - b = 0.60, v = 0.10
   - cm225, cm225_ D2
-  - cm250 
-  - cm250_ D2 *TO DOWNLOAD*
+  - cm250, cm250_ D2 
   - cm300 {b50v05 cm225}
   - cm300_ D2 ./{2,6,7} REDO [2023-09-28 Thu 16:01]
-  - pcm225 *TO DOWNLOAD*
-  - pcm225_ D2 *TO DOWNLOAD*
+  - pcm225, pcm225_ D2 
 - b = 0.60, v = 0.05
   - cm250_ D2. cm300_ D2.
   - pcm250. pcm300.
