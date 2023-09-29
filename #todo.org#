@@ -7,9 +7,10 @@
 * TODO PE triple point
 * PROG FFT test
 ** Multi-threaded
+- freeE = 9.25040693
 - it=1 same btw omp_ learn and a020x075
 - AndErr different, it=2 different
-- get_ freeEnergy (4) : 0.019938
+- 
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
 - x: a00_ xXX (x055, x075, x100) 
