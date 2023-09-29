@@ -10,8 +10,9 @@
 - freeE = 9.25040693
 - it=1 same btw omp_ learn and a020x075
 - AndErr different, it=2 different
-- MDE_ FFT_ BACK: 26.444755 --> 13.953933 (4), 
-- MDE_ FFT_ FOR : 24.140500 --> 13.333932 (4), 
+- MDE_ FFT_ BACK: 26.444755 --> 20.552363 (2), 13.953933 (4)
+- MDE_ FFT_ FOR : 24.140500 --> 15.922326 (2), 13.333932 (4),
+- PB:             11.972510 -->  8.406981 (2), 
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
 - x: a00_ xXX (x055, x075, x100) 
