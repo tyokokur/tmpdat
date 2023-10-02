@@ -13,7 +13,8 @@
   - PB:             11.972510 -->  8.406981 (2),  3.317846 (4)
   - num_ threads > 4: too much overhead (MDE_ FOR: 120 sec)
 - For a040x145s002N200
-  - MDE_ FFT_ BACK: 
+  - MDE_ FFT_ BACK: 215 (4)
+  - MDE_ FFT_ FOR : 
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
 - x: a00_ xXX (x055, x075, x100) 
