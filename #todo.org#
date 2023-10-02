@@ -9,7 +9,7 @@
 ** Multi-threaded
 - a020x075:
   - freeE  = 9.25040693
-  - andErr = 
+  - andErr = 1.15895190e-03
 - it=1 same btw omp_ learn and a020x075
 - AndErr different, it=2 different
 - Infinite loop for nthreads > 4
