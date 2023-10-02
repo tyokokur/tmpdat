@@ -7,15 +7,13 @@
 * TODO PE triple point
 * PROG FFT test
 ** Multi-threaded
-- a020x075:
-  - freeE  = 9.25040693
-  - andErr = 1.15895190e-03
-- it=1 same btw omp_ learn and a020x075
-- AndErr different, it=2 different
-- Infinite loop for nthreads > 4
-- MDE_ FFT_ BACK: 26.444755 --> 20.552363 (2), 13.953933 (4)
-- MDE_ FFT_ FOR : 24.140500 --> 15.922326 (2), 13.333932 (4)
-- PB:             11.972510 -->  8.406981 (2),  3.317846 (4)
+- For a020x075s002N50
+  - MDE_ FFT_ BACK: 26.444755 --> 20.552363 (2), 13.953933 (4)
+  - MDE_ FFT_ FOR : 24.140500 --> 15.922326 (2), 13.333932 (4)
+  - PB:             11.972510 -->  8.406981 (2),  3.317846 (4)
+  - num_ threads > 4: too much overhead (MDE_ FOR: 120 sec)
+- For a040x145s002N200
+  - MDE_ FFT_ BACK: 
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
 - x: a00_ xXX (x055, x075, x100) 
