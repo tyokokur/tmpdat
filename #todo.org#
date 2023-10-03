@@ -57,8 +57,8 @@ a010x075s002c010N50
 - b = 0.60, v = 0.15
   - D2: cm250, cm300, cm350
 - b = 0.60, v = 0.10
-  - cm200 --> norm NFH *DOWNLOADED*
-  - cm200_ D2 --> norm NFH ./7 [2023-10-03 Tue 13:45] *DOWNLOADED*
+  - cm200     --> norm NFH
+  - cm200_ D2 --> norm NFH ./7,8 [2023-10-03 Tue 14:23]
   - cm225, cm225_ D2
   - cm250, cm250_ D2 
   - cm300, cm300_ D2 
