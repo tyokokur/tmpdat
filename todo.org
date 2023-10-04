@@ -54,25 +54,26 @@ a010x075s002c010N50
   - D2: cm250, cm300 
 - b = 0.50, v = 0.15
   - D2: cm250, cm300, cm350
+- b = 0.55, v = 0.05
+  - cm200 *TODO*
+  - cm200_ D2 *TODO*
+  - pcm200 *TODO*
+  - pcm200_ D2 *TODO*
 - b = 0.60, v = 0.15
   - D2: cm250, cm300, cm350
 - b = 0.60, v = 0.10
   - cm200      --> norm/thresh
-  - cm200_ D2  --> norm/thresh ./7,8 [2023-10-03 Tue 14:23]
+  - cm200_ D2  --> norm/thresh 
   - pcm200     --> norm/thresh 
   - pcm200_ D2 --> norm/thresh 
-  - cm225, cm225_ D2 (D2): [2023-10-03 Tue 14:44]
+  - cm225, cm225_ D2 (D2: ./7 [2023-10-04 Wed 11:06])
   - cm250, cm250_ D2 
   - cm300, cm300_ D2 
-  - pcm225, pcm225_ D2 (D2) 
+  - pcm225, pcm225_ D2
 - b = 0.60, v = 0.05
-  - cm200,  cm200_ D2 --> thresh 
-  - pcm200      --> thresh [2023-10-03 Tue 14:51]
-  - pcm200_ D2  --> thresh *DOWNLOADED*
-  - cm250_ D2. cm300_ D2.
-  - pcm250. pcm300.
-  - pcm250_ D2. pcm300_ D2.
-  
+  - cm200. cm200_ D2. pcm200 (./1 el e-06). pcm200_ D2 
+  - cm250, cm250_ D2. pcm250. pcm250_ D2. 
+  - cm300, cm300_ D2. pcm300. pcm300_ D2.
    
 ** DONE NEW SIGMAS
 NFL: 0.0365
@@ -973,10 +974,8 @@ If complicated, warranted for a new paper
 * Code cleaning
 ** tjy.ticks()
 - clean using ScalarFormatter class?
-** C Makefile
-- Need to clean functions and make header files
-  
-* NFH file tree
+
+* NF`H file tree
 - 
 - f
   - f201, f205, f231, f241, f250, f253, f255, f332, f335, f337, f337d,
