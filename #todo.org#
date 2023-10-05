@@ -55,10 +55,8 @@ a010x075s002c010N50
 - b = 0.50, v = 0.15
   - D2: cm250, cm300, cm350
 - b = 0.55, v = 0.05
-  - cm200      *DOWNLOAD*
-  - cm200_ D2  *DOWNLOAD*
-  - pcm200     *DOWNLOAD*
-  - pcm200_ D2 *DOWNLOAD*
+  -  cm200,  cm200_ D2 *DOWNLOADED*
+  - pcm200, pcm200_ D2 *DOWNLOADED*
 - b = 0.60, v = 0.15
   - D2: cm250, cm300, cm350
 - b = 0.60, v = 0.10
