@@ -72,7 +72,8 @@ a010x075s002c010N50
   - pcm200P100, pcm225P100, pcm250P100
 - b = 0.60, v = 0.05
   - cm200. cm200_ D2. pcm200 (./1 el e-06). pcm200_ D2
-    - cm200_ D2 ./9 : get to 600, 700 [2023-10-13 Fri 14:10]
+    - cm200 ./9 get to 600
+    - cm200_ D2 *DOWNLOAD 0PHAS for 600*
   - pcm200P100, pcm200P125, pcm200P100_ D2
   - pcm225P100
   - cm250, cm250_ D2. pcm250. pcm250_ D2. pcm250P100
