@@ -19,7 +19,7 @@
 - 10/16 notes
   - Y = 1:
     - fftw_ execute (fftw / MDE forw):
-      - nthr = 1 --> 18.2 / 
+      - nthr = 1 --> 18.2 / 286 sec 
       - nthr = 2 --> 
       - nthr = 4 --> 22.7 / 150 sec
       - nthr = 8 --> 
