@@ -8,8 +8,8 @@
 * PROG FFT test
 ** Multi-threaded
 - PRIORITIES
-  - [-] Get omplearn working for nthreads = 1 (Y = 2, ds = 0.113)
-  - [ ] Fix Y = x for nthreads = 4
+  - [-] dz = 17/150 = 0.113; dx, dy = ?
+  - [ ] Y = x
     - Start running p1a4, p2a4
   - [ ] Diagnose nthread scaling
     - False sharing? --> Static chuck size?
