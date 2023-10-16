@@ -15,7 +15,10 @@
 - For a040x145s002N200
   - MDE_ FFT_ BACK: 215 (4)
   - MDE_ FFT_ FOR : 223 (4)
-  - PB            :  
+  - PB            :
+- 10/16: omplearn 
+  - Y = 1: working with nthreads = 4
+  - Y = 5: MDE broken
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
 - x: a00_ xXX (x055, x075, x100) 
@@ -57,10 +60,12 @@ a010x075s002c010N50
 - b = 0.55, v = 0.05
   - cm200,  cm200_ D2
   - pcm200, pcm200_ D2
+- b = 0.60, v = 0.40
+  - pcm250P100 ./6 running; ./{1..5} NaN [2023-10-16 Mon 13:15]
 - b = 0.60, v = 0.25
-  - pcm200P100 [2023-10-13 Fri 13:52] *DOWNLOADED*
-  - pcm225P100 [2023-10-13 Fri 13:52]
-  - pcm250P100 [2023-10-13 Fri 13:52]
+  - pcm200P100
+  - pcm225P100
+  - pcm250P100
 - b = 0.60, v = 0.15
   - D2: cm250, cm300, cm350
   - pcm200P100, pcm225P100, pcm250P100
