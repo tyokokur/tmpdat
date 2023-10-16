@@ -8,7 +8,9 @@
 * PROG FFT test
 ** Multi-threaded
 - PRIORITIES
-  - [-] dz = 17/150 = 0.113; dx, dy = ? 
+  - [-] dz = 17/150 = 0.113; dx, dy = ?
+    - [-] dz = 0.50; dx = 0.10, dy = 0.10
+    - [ ] dz = 0.40; dx = , dy =
   - [ ] Y = x
     - Start running p1a4, p2a4
   - [ ] Diagnose nthread scaling
