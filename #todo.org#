@@ -11,7 +11,7 @@
   - [-] dz = 17/150 = 0.113; dx, dy = ?
     - [-] dz = 0.50; dx = 0.10, dy = 0.10
     - [-] dz = 0.40; dx = 0.10, dy = 0.10 (ran it = 1)
-    - [-] dz = 0.30; dx = 0.10, dy = 0.10
+    - [-] dz = 0.30; dx = 0.10, dy = 0.10 (NaN)
   - [ ] Y = x
     - Start running p1a4, p2a4
   - [ ] Diagnose nthread scaling
