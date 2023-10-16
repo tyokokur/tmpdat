@@ -11,16 +11,13 @@
   - MDE_ FFT_ BACK: 26.444755 --> 20.552363 (2), 13.953933 (4)
   - MDE_ FFT_ FOR : 24.140500 --> 15.922326 (2), 13.333932 (4)
   - PB            : 11.972510 -->  8.406981 (2),  3.317846 (4)
-  - num_ threads > 4: too much overhead (MDE_ FOR: 120 sec)
-- For a040x145s002N200
-  - MDE_ FFT_ BACK: 215 (4)
-  - MDE_ FFT_ FOR : 223 (4)
-  - PB            :
-- 10/16 notes
+  - num_ threads > 4: too much overhead (MDE_ FOR: 120)
+ 
+- 10/16 notes (a040x145s002N200)
   - Y = 1:
     - fftw_ execute (fftw / MDE forw):
       - nthr = 1 --> 18.2 / 286 sec 
-      - nthr = 2 --> 
+      - nthr = 2 --> 20.8 / 
       - nthr = 4 --> 22.7 / 150 sec
       - nthr = 8 --> 
   - Y = 5: MDE broken
