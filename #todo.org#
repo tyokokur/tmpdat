@@ -10,7 +10,8 @@
 - PRIORITIES
   - [-] dz = 17/150 = 0.113; dx, dy = ?
     - [-] dz = 0.50; dx = 0.10, dy = 0.10
-    - [ ] dz = 0.40; dx = , dy =
+    - [-] dz = 0.40; dx = 0.10, dy = 0.10 (ran it = 1)
+    - [-] dz = 0.30; dx = 0.10, dy = 0.10
   - [ ] Y = x
     - Start running p1a4, p2a4
   - [ ] Diagnose nthread scaling
@@ -66,7 +67,7 @@ a010x075s002c010N50
   - cm200,  cm200_ D2
   - pcm200, pcm200_ D2
 - b = 0.60, v = 0.40
-  - pcm250P100 ./6 running; ./{1..5} NaN [2023-10-16 Mon 13:15]
+  - pcm250P100 RERUN NOW V = 0.35 [2023-10-16 Mon 15:57]
 - b = 0.60, v = 0.25
   - pcm200P100
   - pcm225P100
