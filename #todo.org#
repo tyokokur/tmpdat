@@ -17,7 +17,7 @@
   - Y = 1:
     - fftw_ execute (fftw / MDE forw):
       - nthr = 1 --> 18.2 / 286 sec 
-      - nthr = 2 --> 20.8 / 
+      - nthr = 2 --> 20.8 / 190 sec
       - nthr = 4 --> 22.7 / 150 sec
       - nthr = 8 --> 
   - Y = 5: MDE broken
