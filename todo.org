@@ -7,18 +7,22 @@
 * TODO PE triple point
 * PROG FFT test
 ** Multi-threaded
+- PRIORITIES
+  - [-] Get omplearn working for nthreads = 1 (Y = 2)
+  - [ ] Fix Y = X for nthreads = 4
+  - [ ] Find dx, dy for dz_ 1D = 0.117
+    - Start running p1a4, p2a4
+  - [ ] Diagnose nthread scaling
+    - False sharing? --> Static chuck size?
+  - [ ] time.out
+    - Report for all timings
+
 - For a020x075s002N50
   - MDE_ FFT_ BACK: 26.444755 --> 20.552363 (2), 13.953933 (4)
   - MDE_ FFT_ FOR : 24.140500 --> 15.922326 (2), 13.333932 (4)
   - PB            : 11.972510 -->  8.406981 (2),  3.317846 (4)
-  - num_ threads > 4: too much overhead (MDE_ FOR: 120 sec)
-- For a040x145s002N200
-  - MDE_ FFT_ BACK: 215 (4)
-  - MDE_ FFT_ FOR : 223 (4)
-  - PB            :
-- 10/16: omplearn 
-  - Y = 1: working with nthreads = 4
-  - Y = 5: MDE broken
+  - num_ threads > 4: too much overhead (MDE_ FOR: 120)
+ 
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
 - x: a00_ xXX (x055, x075, x100) 
