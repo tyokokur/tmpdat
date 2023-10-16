@@ -8,11 +8,12 @@
 * PROG FFT test
 ** Multi-threaded
 - PRIORITIES
-  - Fix Y = X for nthreads = 4
+  - [-] Get omplearn working for nthreads = 1 
+  - [ ] Fix Y = X for nthreads = 4
     - Start running p1a4, p2a4
-  - Diagnose nthread scaling
+  - [ ] Diagnose nthread scaling
     - False sharing? --> Static chuck size?
-  - time.out
+  - [ ] time.out
     - Report for all timings
 
 - For a020x075s002N50
@@ -21,14 +22,6 @@
   - PB            : 11.972510 -->  8.406981 (2),  3.317846 (4)
   - num_ threads > 4: too much overhead (MDE_ FOR: 120)
  
-- 10/16 notes (a040x145s002N200)
-  - Y = 1:
-    - fftw_ execute (fftw / MDE forw):
-      - nthr = 1 --> 18.2 / 286 sec 
-      - nthr = 2 --> 20.8 / 190 sec
-      - nthr = 4 --> 22.7 / 150 sec
-      - nthr = 8 --> FFTW PATIENT too long 
-  - Y = 5: MDE broken
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
 - x: a00_ xXX (x055, x075, x100) 
