@@ -15,7 +15,7 @@
 - For a040x145s002N200
   - MDE_ FFT_ BACK: 215 (4)
   - MDE_ FFT_ FOR : 223 (4)
-  - PB            :  
+  - PB            : 
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
 - x: a00_ xXX (x055, x075, x100) 
