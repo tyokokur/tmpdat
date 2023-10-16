@@ -17,7 +17,7 @@
   - MDE_ FFT_ FOR : 223 (4)
   - PB            :
 - 10/16: omplearn 
-  - Y = 1: working
+  - Y = 1: working with nthreads = 4
   - Y = 5: MDE broken
 ** Parameter space
 - s: a00_ sXX (s005, s010) 
