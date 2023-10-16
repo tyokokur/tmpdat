@@ -8,7 +8,7 @@
 * PROG FFT test
 ** Multi-threaded
 - PRIORITIES
-  - [-] Get omplearn working for nthreads = 1 
+  - [-] Get omplearn working for nthreads = 1 (Y = 2)
   - [ ] Fix Y = X for nthreads = 4
     - Start running p1a4, p2a4
   - [ ] Diagnose nthread scaling
