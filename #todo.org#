@@ -9,8 +9,9 @@
 ** Multi-threaded
 - PRIORITIES
   - Fix Y = X for nthreads = 4
+    - Start running p1a4, p2a4
   - Diagnose nthread scaling
-    - False sharing? --> Static chuck size
+    - False sharing? --> Static chuck size?
 
 - For a020x075s002N50
   - MDE_ FFT_ BACK: 26.444755 --> 20.552363 (2), 13.953933 (4)
