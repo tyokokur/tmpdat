@@ -20,6 +20,7 @@
   - [ ] Diagnose nthread scaling
     - False sharing? --> Static chuck size?
     - Assign thread team based on blocks?
+    - submit.sh request correct number of threads
   - [ ] time.out
     - Report for all timings
   - [ ] Andmix parallelize
