@@ -13,12 +13,13 @@
     - [-] dz = 0.40; dx = 0.10, dy = 0.10 [2023-10-16 Mon 16:20]
     - [ ] dz = 0.30; dx = 0.10, dy = 0.10 (NaN)
   - [X] stdout --> file.out (dup, dup2?)
-    - Final version in Y2 (report.c, report.h, main.c)
+    - Final version in Y2 (report.c, report.h, main.c, Makefile)
   - [ ] Y = x
     - Y2 
     - Start running p1a4, p2a4
   - [ ] Diagnose nthread scaling
     - False sharing? --> Static chuck size?
+    - Assign thread team based on blocks?
   - [ ] time.out
     - Report for all timings
 
