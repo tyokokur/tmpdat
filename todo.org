@@ -12,9 +12,8 @@
     - [ ] dz = 0.50; dx = 0.10, dy = 0.10
     - [-] dz = 0.40; dx = 0.10, dy = 0.10 [2023-10-16 Mon 16:20]
     - [ ] dz = 0.30; dx = 0.10, dy = 0.10 (NaN)
-  - [-] stdout --> file.out (dup, dup2?)
-    - Check merge to omp_ learn; automake logs dir?
-    - Figure out more elegant way to update log
+  - [X] stdout --> file.out (dup, dup2?)
+    - Final version in Y2 (report.c, report.h, main.c)
   - [ ] Y = x
     - Y2 
     - Start running p1a4, p2a4
