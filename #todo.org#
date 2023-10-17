@@ -22,6 +22,7 @@
     - Assign thread team based on blocks?
   - [ ] time.out
     - Report for all timings
+  - [ ] Andmix parallelize
 
 - For a020x075s002N50
   - MDE_ FFT_ BACK: 26.444755 --> 20.552363 (2), 13.953933 (4)
