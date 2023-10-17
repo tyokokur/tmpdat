@@ -12,9 +12,11 @@
     - [ ] dz = 0.50; dx = 0.10, dy = 0.10
     - [-] dz = 0.40; dx = 0.10, dy = 0.10 [2023-10-16 Mon 16:20]
     - [ ] dz = 0.30; dx = 0.10, dy = 0.10 (NaN)
-  - [X] stdout --> file.out (dup, dup2?)
+  - [-] stdout --> file.out (dup, dup2?)
     - Check merge to omp_ learn; automake logs dir?
+    - Figure out more elegant way to update log
   - [ ] Y = x
+    - Y2 
     - Start running p1a4, p2a4
   - [ ] Diagnose nthread scaling
     - False sharing? --> Static chuck size?
@@ -69,15 +71,16 @@ a010x075s002c010N50
   - cm200,  cm200_ D2
   - pcm200, pcm200_ D2
 - b = 0.60, v = 0.40
-  - pcm250P100 RERUN NOW V = 0.35 [2023-10-16 Mon 15:57]
+  - pcm250P100 RERUN NOW V = 0.35 *All NaN*
 - b = 0.60, v = 0.25
   - pcm200P100
   - pcm225P100
   - pcm250P100
 - b = 0.60, v = 0.20
-  - pcm250P100 (better than v0.15 but no weird PHA) [2023-10-16 Mon 16:25]
+  - pcm250P100 (better than v0.15 but no weird PHA) ./5 [2023-10-17 Tue 13:29]
 - b = 0.60, v = 0.15
   - D2: cm250, cm300, cm350
+  - D2: pcm225P100 *DONWLOAD*
   - pcm200P100, pcm225P100, pcm250P100
 - b = 0.60, v = 0.10
   - cm200,  cm200_ D2, pcm200, pcm200_ D2 
