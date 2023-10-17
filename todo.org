@@ -14,14 +14,15 @@
     - [ ] dz = 0.30; dx = 0.10, dy = 0.10 (NaN)
   - [X] stdout --> file.out (dup, dup2?)
     - Final version in Y2 (report.c, report.h, main.c, Makefile)
-  - [ ] Y = x
-    - Y2 
+  - [-] Y = x
+    - Y2 [2023-10-17 Tue 16:26]
     - Start running p1a4, p2a4
   - [ ] Diagnose nthread scaling
     - False sharing? --> Static chuck size?
     - Assign thread team based on blocks?
   - [ ] time.out
     - Report for all timings
+  - [ ] Andmix parallelize
 
 - For a020x075s002N50
   - MDE_ FFT_ BACK: 26.444755 --> 20.552363 (2), 13.953933 (4)
