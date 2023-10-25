@@ -58,7 +58,13 @@ a010x075s002c010N50
 
 
 * PROG NLH Fitting
-** PROG NFH(\Delta{}2) (chi max = 2, 2.5, 3, 3.5)
+** PROG NFM
+- M1: prev fit for c3.00; b = 3.0, v = 2.0 [2023-10-25 Wed 14:18]
+- b60v0
+** PROG NFL
+- b50v15: prev fit for c3.00; b = 0.50, v = 0.15 *TODO*
+  
+** DONE NFH(\Delta{}2) (chi max = 2, 2.5, 3, 3.5)
 - \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
 - b = 0.40, v = 0.15
   - D2: cm250, cm300, cm350 
@@ -101,7 +107,8 @@ a010x075s002c010N50
   - pcm225P100
   - cm250, cm250_ D2. pcm250. pcm250_ D2. pcm250P100
   - cm300, cm300_ D2. pcm300. pcm300_ D2.
-   
+
+    
 ** DONE NEW SIGMAS
 NFL: 0.0365
 - b0.5 v0.15 c3 (L_ 553)
