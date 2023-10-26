@@ -89,11 +89,11 @@ a010x075s002c010N50
   - pcm250P100_ D2
 - b = 0.60, v = 0.20
   - pcm250P100, pcm250P100_ D2 
-- b = 0.60, v = 0.15
+- /b = 0.60, v = 0.15/
   - cm250, cm300, cm350
   - cm250_ D2, cm300_ D2, cm350_ D2
-  - pcm200P100, pcm225P100, pcm250P100
-  - pcm225P100_ D2
+  - pcm200P100, /pcm225P100/, pcm250P100
+  - /pcm225P100_ D2/
   - pcm250P100_ D2
 - b = 0.60, v = 0.10
   - cm200,  cm200_ D2, pcm200, pcm200_ D2 
@@ -101,15 +101,18 @@ a010x075s002c010N50
   - cm250, cm250_ D2 
   - cm300, cm300_ D2
   - pcm200P100, pcm225P100, pcm250P100
-- b = 0.60, v = 0.05
+- /b = 0.60, v = 0.05/
   - cm200. cm200_ D2. pcm200 (./1 el e-06). pcm200_ D2
   - pcm200P100, pcm200P125, pcm200P100_ D2
-  - cm225, cm225_ D2
+  - /cm225, cm225_ D2/
   - pcm225P100
   - cm250, cm250_ D2. pcm250. pcm250_ D2. pcm250P100
   - cm300, cm300_ D2. pcm300. pcm300_ D2.
 
-    
+
+** PROG Pressure calc (single plate)
+- pNFHD2 / b60v15 / *n / i0015, i003, i005 [2023-10-25 Wed 17:48]
+
 ** DONE NEW SIGMAS
 NFL: 0.0365
 - b0.5 v0.15 c3 (L_ 553)
