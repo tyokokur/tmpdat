@@ -59,11 +59,11 @@ a010x075s002c010N50
 
 * PROG NLH Fitting
 ** PROG NFM
-- M1: prev fit for c3.00; b = 3.0, v = 2.0 [2023-10-25 Wed 14:18]
-- b60v05: NFH fit; b = 0.60, v = 0.05 [2023-10-25 Wed 14:21]
+- M1: prev fit for c3.00; b = 3.0, v = 2.0 *DOWNLOADED*
+- b60v05: NFH fit; b = 0.60, v = 0.05 *DOWNLOADED*
 ** PROG NFL
-- b50v15: prev fit for c3.00; b = 0.50, v = 0.15 [2023-10-25 Wed 14:27]
-- b60v05: NFH fit; b = 0.60, v = 0.05 [2023-10-25 Wed 14:27]
+- b50v15: prev fit for c3.00; b = 0.50, v = 0.15 *DOWNLOADED*
+- b60v05: NFH fit; b = 0.60, v = 0.05 *DOWNLOADED*
   
 ** DONE NFH(\Delta{}2) (chi max = 2, 2.5, 3, 3.5)
 - \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
