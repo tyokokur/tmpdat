@@ -6,8 +6,8 @@
 
 * PROG NFH REVISION RUNS
 ** NFH/f/f400_ 2 [2023-10-26 Thu 16:32]
-** NFH/f/f400_ 8 [2023-10-26 Thu 17:13]
-** NFH/f/f400_ 15 [2023-10-26 Thu 17:13]
+** NFH/f/f400_ 8 [2023-10-27 Fri 13:41] (./14 for 4.5)
+** NFH/f/f400_ 15 ; H too high
 
 * PROG FFT test
 ** Multi-threaded
@@ -116,7 +116,10 @@ a010x075s002c010N50
 
 
 ** PROG Pressure calc (single plate)
-- pNFHD2 / b60v15 / *n / i0015, i003, i005 [2023-10-26 Thu 15:24]
+- pNFHD2 / b60v15 / *n
+  - i0015: 37, 38, 39, 40, 41
+  - i003 : 37, 38, 38, 40, 41
+  - i005 : 36, 37, 38, 39, 40
 
 ** DONE NEW SIGMAS
 NFL: 0.0365
