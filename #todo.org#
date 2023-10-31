@@ -121,7 +121,7 @@ a010x075s002c010N50
   - cm300, cm300_ D2. pcm300. pcm300_ D2.
 
 
-** PROG Pressure calc (single plate)
+** PROG Pressur ecalc (single plate)
 - ./ pNFHD2 / b60v15 / *n
   - i0015: 37, 38, 39, 40, 41 
   - i003 : 37, 38, 38, 40, 41 
