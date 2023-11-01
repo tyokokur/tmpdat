@@ -5,7 +5,7 @@
 :end:
 
 * PROG NFH REVISION RUNS
-** NFH/f/f400_ 1 [2023-10-30 Mon 11:45]
+** NFH/f/f400_ 1 *DOWNLOADED*
 ** NFH/f/f400_ 2 
 ** NFH/f/f400 (5)
 ** NFH/f/f400_ 7 
