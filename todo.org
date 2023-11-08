@@ -4,17 +4,6 @@
 #+STARTUP: entitiespretty
 :end:
 
-* PROG NFH REVISION RUNS
-** NFH/f/f400_ 1 *DOWNLOADED*
-** NFH/f/f400_ 2 
-** NFH/f/f400 (5)
-** NFH/f/f400_ 7 
-** NFH/f/f400_ 8
-** NFH/f/f400_ 10
-** NFH/f/f400_ 15
-- weird behavior and too high anyways
-
-
 * PROG FFT test
 ** Multi-threaded
 - PRIORITIES
@@ -414,6 +403,36 @@ See effect from aa_ disc
 
 
 
+* PROG int_ SYSG
+See if interaction profiles interesting and not too complicated
+If complicated, warranted for a new paper
+- [-] 1C - 1C (\chi 2.0; p1a4s02/27)
+  - [-] p1_ 2C: D = [40..30]
+    - Results look good; rerun for convergence
+  - p1_ 4030: D = [40..30]
+  - c2520: D = [25..20..-1], (in = 0, 0.90)
+  - c1915: D = [19..15..-0.5], (in = 0, 0.90)
+    - D = 17.5 seems to be max realistic pha
+  - s3020: D = [30..20..-1]
+  - s1915: D = [19..15..-0.5], init from s3020/21
+    - [X] ./1 to Lx = 39 (from Wsym_ 39)
+      - Didn't work
+    - [-] ./2 to Lx = 39.5 (from Wsym)
+      - Running with Lx=39.48 and Ns = 1200
+      - Doesn't seem to have worked
+ 
+- [-] 2C - 2C (\chi 1.75; p2a4s02/9)
+  - [-] p2: D = [50..20..-5]
+    - Results look good; rerun for convergence
+      
+** 1Cd - 1Cd (\alpha 0.2, \chi 0.8?)      
+** 2Cd - 2Cd (\alpha 0.3,  \chi 1.1?)
+** 3C - 3C (\chi 1.45) 
+** 3Cd - 3Cd (is there a meta example?)
+** 4C - 4C (\chi 1.25)
+** 4Cd - 4Cd (\alpha 0.4, \chi 1.2?)
+
+
 * DONE Prev NLH Mix
 ** PROG Mixture p
 Execute on 2b1E, 2a1E, 2b1F, 2a1F
@@ -735,7 +754,7 @@ Execute on 2b1E, 2a1E, 2b1F, 2a1F
 
 
 
-* PROG int_ NFH
+* DONE int_ NFH
 NOTE: If needed, can refine; some points noisy so fitted over
 
 - 3 mM: NFH_ 03
@@ -792,39 +811,20 @@ NOTE: If needed, can refine; some points noisy so fitted over
       
 
 
-* PROG Revise NFH paper
+* DONE Revise NFH paper
 - See notes.org
 - Force curves (see int_ NFH)
 
   
-* PROG int_ SYSG
-See if interaction profiles interesting and not too complicated
-If complicated, warranted for a new paper
-- [-] 1C - 1C (\chi 2.0; p1a4s02/27)
-  - [-] p1_ 2C: D = [40..30]
-    - Results look good; rerun for convergence
-  - p1_ 4030: D = [40..30]
-  - c2520: D = [25..20..-1], (in = 0, 0.90)
-  - c1915: D = [19..15..-0.5], (in = 0, 0.90)
-    - D = 17.5 seems to be max realistic pha
-  - s3020: D = [30..20..-1]
-  - s1915: D = [19..15..-0.5], init from s3020/21
-    - [X] ./1 to Lx = 39 (from Wsym_ 39)
-      - Didn't work
-    - [-] ./2 to Lx = 39.5 (from Wsym)
-      - Running with Lx=39.48 and Ns = 1200
-      - Doesn't seem to have worked
- 
-- [-] 2C - 2C (\chi 1.75; p2a4s02/9)
-  - [-] p2: D = [50..20..-5]
-    - Results look good; rerun for convergence
-      
-** 1Cd - 1Cd (\alpha 0.2, \chi 0.8?)      
-** 2Cd - 2Cd (\alpha 0.3,  \chi 1.1?)
-** 3C - 3C (\chi 1.45) 
-** 3Cd - 3Cd (is there a meta example?)
-** 4C - 4C (\chi 1.25)
-** 4Cd - 4Cd (\alpha 0.4, \chi 1.2?)
+* DONE NFH REVISION RUNS
+** NFH/f/f400_ 1 *DOWNLOADED*
+** NFH/f/f400_ 2 
+** NFH/f/f400 (5)
+** NFH/f/f400_ 7 
+** NFH/f/f400_ 8
+** NFH/f/f400_ 10
+** NFH/f/f400_ 15
+- weird behavior and too high anyways
 
 
 * TODO INT
@@ -875,8 +875,6 @@ If complicated, warranted for a new paper
 - [-] Descriptions
 - [ ] General narrative
 
-  
-* TODO Read Spectral collocation paper (Fredrickson, 2011)
 
 
 * Code cleaning
