@@ -18,6 +18,7 @@
 - [ ] Update with accepted link
 ** tmpdat/nfh --> flash drive
 
+
 * PROG FFT test
 ** Multi-threaded
 - PRIORITIES
@@ -129,7 +130,10 @@ a010x075s002c010N50
   - i0015: 37, 38, 39, 40, 41 
   - i003 : 37, 38, 38, 40, 41 
   - i005 : 36, 37, 38, 39, 40
-  - i010 : 24, 26, 28, 30, 32, 35 /retry/ [2023-10-31 Tue 17:22]
+  - i010 : 24, 26, 28, 30, 32, 34, 35,
+    - 36, 37, 38, 39, 40, 45, 50 [2023-11-09 Thu 16:41]
+- Overall
+  - Don't think useful
 
 ** DONE NEW SIGMAS
 NFL: 0.0365
