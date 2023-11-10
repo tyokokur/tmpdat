@@ -73,13 +73,8 @@ a010x075s002c010N50
 
 * PROG NLH Fitting
 ** PROG NFM
-- b30v25; b = 3.0, v = 2.5 *DOWNLOAD*
-- b30v15; b = 3.0, v = 1.5 *DOWNLOAD*
-- b30v10; b = 3.0, v = 1.0 *DOWNLOAD*
-- b30v05; b = 3.0, v = 0.5 *DOWNLOAD*
-- b25v20; b = 2.5, v = 2.0 *DOWNLOAD*
-- b25v15; b = 2.5, v = 1.5 *DOWNLOAD*
-- b25v10; b = 2.5, v = 1.0 *DOWNLOAD*
+- b30v{25, 15, 10, 05}; b = 3.0, v = {2.5, 1.5, 1.0, 0.5}
+- b25v{20, 15, 10}; b = 2.5, v = {2.0, 1.5, 1.0}
   
 - M1: prev fit for c3.00; b = 3.0, v = 2.0
 - b60v05: NFH fit; b = 0.60, v = 0.05
@@ -95,9 +90,9 @@ a010x075s002c010N50
   - i003 : 37, 38, 38, 40, 41 
   - i005 : 36, 37, 38, 39, 40
   - i010 : 24, 26, 28, 30, 32, 34, 35,
-    - 36, 37, 38, 39, 40, 45, 50 *DOWNLOAD*
+    - 36, 37, 38, 39, 40, 45, 50
 - Overall
-  - Don't think useful based on preliminary i010 (no height decrease)
+  - Don't think useful based on preliminary i010 (weird 10 mM)
 
 ** DONE NFL
 - b50v15: prev fit for c3.00; b = 0.50, v = 0.15
