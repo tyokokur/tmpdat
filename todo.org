@@ -84,9 +84,9 @@ a010x075s002c010N50
 - M1: prev fit for c3.00; b = 3.0, v = 2.0
 - b60v05: NFH fit; b = 0.60, v = 0.05
 
-** TODO pNFL
+** PROG pNFL
 - b50v15: worked for NFL; b = 0.50, v = 0.15 [2023-11-09 Thu 17:26]
-- b60v05: worked for NFL; b = 0.60, v = 0.05
+- b60v05: worked for NFL; b = 0.60, v = 0.05 [2023-11-09 Thu 17:29]
 - Could \Delta{}v based on # phospho residues wrt to NFH --> pNFH
   
 ** PROG Pressure calc (single plate)
