@@ -4,6 +4,20 @@
 #+STARTUP: entitiespretty
 :end:
 
+* TODO NFH Finalization
+** findat update
+- [ ] All files used for paper in findat
+  - ph, ph_ int, el, .bib
+  - include code?
+- [ ] Git description should link to
+** ipynb update
+- [ ] All code used for paper
+- [ ] Refers to git/findat
+** Arxiv update
+- [ ] Update with v2
+- [ ] Update with accepted link
+** tmpdat/nfh --> flash drive
+
 * PROG FFT test
 ** Multi-threaded
 - PRIORITIES
