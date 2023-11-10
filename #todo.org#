@@ -73,6 +73,12 @@ a010x075s002c010N50
 
 * PROG NLH Fitting
 ** PROG NFM
+- b30v25; b = 3.0, v = 2.5
+- b30v15; b = 3.0, v = 1.5
+- b30v10; b = 3.0, v = 1.0
+- b30v05; b = 3.0, v = 0.5
+- b25v15; b = 2.5, v = 1.5
+- b25v1
 - M1: prev fit for c3.00; b = 3.0, v = 2.0
 - b60v05: NFH fit; b = 0.60, v = 0.05
   
