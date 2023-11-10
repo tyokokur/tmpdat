@@ -73,12 +73,35 @@ a010x075s002c010N50
 
 * PROG NLH Fitting
 ** PROG NFM
+- b30v25; b = 3.0, v = 2.5 [2023-11-09 Thu 17:17]
+- b30v15; b = 3.0, v = 1.5 [2023-11-09 Thu 17:17]
+- b30v10; b = 3.0, v = 1.0 [2023-11-09 Thu 17:17]
+- b30v05; b = 3.0, v = 0.5 [2023-11-09 Thu 17:18]
+- b25v20; b = 2.5, v = 2.0 [2023-11-09 Thu 17:18]
+- b25v15; b = 2.5, v = 1.5 [2023-11-09 Thu 17:18]
+- b25v10; b = 2.5, v = 1.0 [2023-11-09 Thu 17:19]
+  
 - M1: prev fit for c3.00; b = 3.0, v = 2.0
 - b60v05: NFH fit; b = 0.60, v = 0.05
+
+** TODO pNFL
+- b50v15: worked for NFL; b = 0.50, v = 0.15
+- b60v05: worked for NFL; b = 0.60, v = 0.05
   
-** PROG NFL
+** PROG Pressure calc (single plate)
+- ./ pNFHD2 / b60v15 / *n
+  - i0015: 37, 38, 39, 40, 41 
+  - i003 : 37, 38, 38, 40, 41 
+  - i005 : 36, 37, 38, 39, 40
+  - i010 : 24, 26, 28, 30, 32, 34, 35,
+    - 36, 37, 38, 39, 40, 45, 50 [2023-11-09 Thu 16:41]
+- Overall
+  - Don't think useful based on preliminary i010 (no height decrease)
+
+** DONE NFL
 - b50v15: prev fit for c3.00; b = 0.50, v = 0.15
 - b60v05: NFH fit; b = 0.60, v = 0.05
+
   
 ** DONE NFH(\Delta{}2) (chi max = 2, 2.5, 3, 3.5)
 - \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
@@ -123,17 +146,6 @@ a010x075s002c010N50
   - pcm225P100
   - cm250, cm250_ D2. pcm250. pcm250_ D2. pcm250P100
   - cm300, cm300_ D2. pcm300. pcm300_ D2.
-
-
-** PROG Pressure calc (single plate)
-- ./ pNFHD2 / b60v15 / *n
-  - i0015: 37, 38, 39, 40, 41 
-  - i003 : 37, 38, 38, 40, 41 
-  - i005 : 36, 37, 38, 39, 40
-  - i010 : 24, 26, 28, 30, 32, 34, 35,
-    - 36, 37, 38, 39, 40, 45, 50 [2023-11-09 Thu 16:41]
-- Overall
-  - Don't think useful based on preliminary i010 (no height decrease)
 
 ** DONE NEW SIGMAS
 NFL: 0.0365
