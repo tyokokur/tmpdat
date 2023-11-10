@@ -133,7 +133,7 @@ a010x075s002c010N50
   - i010 : 24, 26, 28, 30, 32, 34, 35,
     - 36, 37, 38, 39, 40, 45, 50 [2023-11-09 Thu 16:41]
 - Overall
-  - Don't think useful
+  - Don't think useful based on preliminary i010 (no height decrease)
 
 ** DONE NEW SIGMAS
 NFL: 0.0365
