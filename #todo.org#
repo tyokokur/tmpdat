@@ -86,7 +86,10 @@ a010x075s002c010N50
 
 *** TRY NEW DISCS (lower N)
 - Current: N = 9; SB = 4, SC = 32
-- Other: 
+- Other:
+  - N = 5; SB = 2, SC = 32
+  - N = 6; SB = 4, SC = 45
+  - 
 
 ** DONE Pressure calc (single plate)
 - ./ pNFHD2 / b60v15 / *n
