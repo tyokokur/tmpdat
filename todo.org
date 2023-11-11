@@ -84,6 +84,10 @@ a010x075s002c010N50
 - M1: prev fit for c3.00; b = 3.0, v = 2.0
 - b60v05: NFH fit; b = 0.60, v = 0.05
 
+*** TRY NEW DISCS (lower N)
+- Current: N = 9; SB = 4, SC = 32
+- Other: 
+
 ** PROG pNFL
 - b50v15: worked for NFL; b = 0.50, v = 0.15 *DOWNLOAD*
 - b60v05: worked for NFL; b = 0.60, v = 0.05 *DOWNLOAD*
