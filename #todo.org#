@@ -88,12 +88,7 @@ a010x075s002c010N50
 - Current: N = 9; SB = 4, SC = 32
 - Other: 
 
-** PROG pNFL
-- b50v15: worked for NFL; b = 0.50, v = 0.15 
-- b60v05: worked for NFL; b = 0.60, v = 0.05 
-- Could \Delta{}v based on # phospho residues wrt to NFH --> pNFH
-  
-** PROG Pressure calc (single plate)
+** DONE Pressure calc (single plate)
 - ./ pNFHD2 / b60v15 / *n
   - i0015: 37, 38, 39, 40, 41
   - i003 : 37, 38, 38, 40, 41 
@@ -103,6 +98,11 @@ a010x075s002c010N50
 - Overall
   - Don't think useful based on preliminary i010 (weird 10 mM)
 
+** DONE pNFL
+- b50v15: worked for NFL; b = 0.50, v = 0.15 
+- b60v05: worked for NFL; b = 0.60, v = 0.05 
+- Could \Delta{}v based on # phospho residues wrt to NFH --> pNFH
+  
 ** DONE NFL
 - b50v15: prev fit for c3.00; b = 0.50, v = 0.15
 - b60v05: NFH fit; b = 0.60, v = 0.05
