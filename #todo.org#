@@ -73,13 +73,11 @@ a010x075s002c010N50
 
 * PROG NLH Fitting
 ** PROG NFM
-- b50v03; b = 5.0, v = 3  *DOWNLOAD*
-- b50v10; b = 5.0, v = 10 *DOWNLOAD*
-- b50v15; b = 5.0, v = 15 *DOWNLOAD*
-- b50v30; b = 5.0, v = 30 *DOWNLOAD*
-
-- b30v{25, 15, 10, 05}; b = 3.0, v = {2.5, 1.5, 1.0, 0.5}
 - b25v{20, 15, 10}; b = 2.5, v = {2.0, 1.5, 1.0}
+  - 
+- b30v{25, 15, 10, 05}; b = 3.0, v = {2.5, 1.5, 1.0, 0.5}
+- b50v{03,10,15,30}; b = 5.0, v = {3, 10, 15, 30}
+  - Good max H but too little I dependence
   
 - M1: prev fit for c3.00; b = 3.0, v = 2.0
 - b60v05: NFH fit; b = 0.60, v = 0.05
