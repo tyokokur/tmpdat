@@ -90,6 +90,7 @@ a010x075s002c010N50
   - N = 8; SB = 3, SC = 38
 - Result: Same for N = 5, 6, 8, 9 (Mb30v25)
 
+  
 ** DONE Pressure calc (single plate)
 - ./ pNFHD2 / b60v15 / *n
   - i0015: 37, 38, 39, 40, 41
