@@ -73,10 +73,10 @@ a010x075s002c010N50
 
 * PROG NLH Fitting
 ** PROG NFM
-- b50v03; b = 5.0, v = 3  [2023-11-10 Fri 16:11]
-- b50v10; b = 5.0, v = 10 [2023-11-10 Fri 16:11]
-- b50v15; b = 5.0, v = 15 [2023-11-10 Fri 16:11]
-- b50v30; b = 5.0, v = 30 [2023-11-10 Fri 16:11]
+- b50v03; b = 5.0, v = 3  *DOWNLOAD*
+- b50v10; b = 5.0, v = 10 *DOWNLOAD*
+- b50v15; b = 5.0, v = 15 *DOWNLOAD*
+- b50v30; b = 5.0, v = 30 *DOWNLOAD*
 
 - b30v{25, 15, 10, 05}; b = 3.0, v = {2.5, 1.5, 1.0, 0.5}
 - b25v{20, 15, 10}; b = 2.5, v = {2.0, 1.5, 1.0}
@@ -87,9 +87,9 @@ a010x075s002c010N50
 *** PROG TRY NEW DISCS (lower N)
 - Current: N = 9; SB = 4, SC = 32
 - Other:
-  - N = 5; SB = 2, SC = 32 [2023-11-10 Fri 16:38]
-  - N = 6; SB = 3, SC = 45 [2023-11-10 Fri 16:38]
-  - N = 8; SB = 3, SC = 38 [2023-11-10 Fri 16:38]
+  - N = 5; SB = 2, SC = 32 *DOWNLOAD*
+  - N = 6; SB = 3, SC = 45 *DOWNLOAD*
+  - N = 8; SB = 3, SC = 38 *DOWNLOAD*
 
 ** DONE Pressure calc (single plate)
 - ./ pNFHD2 / b60v15 / *n
