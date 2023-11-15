@@ -20,11 +20,15 @@
 
 
 * PROG FFT test
+** Current jobs
+- nums/dz25 [2023-11-14 Tue 16:14]
+  = dz0.25, a0.40, x1.75, N100, dx0.20, dy0.20, ds0.30, LxLy 7.4
+- nums/dz10: dz0.10, same as above [2023-11-14 Tue 16:15] 
 ** Multi-threaded
 - PRIORITIES
   - [-] dz = 17/150 = 0.113; dx, dy = ?
     - [ ] dz = 0.50; dx = 0.10, dy = 0.10
-    - [-] dz = 0.40; dx = 0.10, dy = 0.10 [2023-10-16 Mon 16:20]
+    - [X] dz = 0.40; dx = 0.10, dy = 0.10 [Done, 11/14]
     - [ ] dz = 0.30; dx = 0.10, dy = 0.10 (NaN)
   - [X] stdout --> file.out (dup, dup2?)
     - Final version in Y2 (report.c, report.h, main.c, Makefile)
@@ -62,7 +66,6 @@ a010x075s002c010N50
 - Concerns:
   - Lxy not large enough
   - dz far too large
-  - 
 - p4a4 (a0.40 c1.25; SYSG/.../p4a4s02/3) [2023-09-06 Wed 15:12]
 - p3a4 (a0.40 c1.35; SYSG/.../p3a4s02/1) 
 - p2a4 (a0.40 c1.45; SYSG/.../p2a4s02/1) [2023-09-06 Wed 15:23]
@@ -80,11 +83,13 @@ a010x075s002c010N50
   
 - M1: prev fit for c3.00; b = 3.0, v = 2.0
 - b60v05: NFH fit; b = 0.60, v = 0.05
+  
 - pNFM:
-  - pb60bv05 [2023-11-13 Mon 18:28]
+  - pb60bv05 
 
-- Ask Rui if non-constant b(s) is reasonable for just NFM (most
-  heterogeneous filament evidenced by N = 9)
+- See if any unique residues in NFM/NFH vs NFL; maybe that \chi can be
+  updated? Don't make too many arbitrary changes and only if it is
+  preliminarily promising
 
 *** DONE TRY NEW DISCS (lower N)
 - Current: N = 9; SB = 4, SC = 32
@@ -94,6 +99,8 @@ a010x075s002c010N50
   - N = 8; SB = 3, SC = 38
 - Result: Same for N = 5, 6, 8, 9 (Mb30v25)
 
+*** TODO TRY NEW DISCS (N = 12, 15)
+- 
   
 ** DONE Pressure calc (single plate)
 - ./ pNFHD2 / b60v15 / *n
