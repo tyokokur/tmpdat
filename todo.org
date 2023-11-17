@@ -21,9 +21,9 @@
 
 * PROG FFT test
 ** Current jobs
-- nums/dz25 [2023-11-14 Tue 16:14]
+- nums/dz25; NaN, redoing in terminal [2023-11-17 Fri 12:44]
   = dz0.25, a0.40, x1.75, N100, dx0.20, dy0.20, ds0.30, LxLy 7.4
-- nums/dz10: dz0.10, same as above [2023-11-14 Tue 16:15] 
+- nums/dz10: dz0.10; NaN (11/17)
 ** Multi-threaded
 - PRIORITIES
   - [-] dz = 17/150 = 0.113; dx, dy = ?
@@ -91,13 +91,13 @@ a010x075s002c010N50
   updated? Don't make too many arbitrary changes and only if it is
   preliminarily promising
 
-*** PROG TRY NEW DISCS (Mb60v05)
-- N =  5: [32 / 2] [2023-11-16 Thu 15:47]
-- N =  6: [45 / 3] [2023-11-16 Thu 15:47]
-- N =  8: [38 / 3] [2023-11-16 Thu 15:47]
-- N = 11: [26 / 4] [2023-11-16 Thu 15:46]
-- N = 13: [18 / 3] [2023-11-16 Thu 15:47]
-- N = 15: [20 / 4] [2023-11-16 Thu 15:47]
+*** DONE TRY NEW DISCS (Mb60v05)
+- N =  5: [32 / 2]
+- N =  6: [45 / 3]
+- N =  8: [38 / 3]
+- N = 11: [26 / 4]
+- N = 13: [18 / 3]
+- N = 15: [20 / 4]
   
 *** DONE TRY NEW DISCS (lower N)
 - Current: N = 9; SB = 4, SC = 32
@@ -107,27 +107,13 @@ a010x075s002c010N50
   - N = 8; SB = 3, SC = 38
 - Result: Same for N = 5, 6, 8, 9 (Mb30v25)
 
-** DONE Pressure calc (single plate)
-- ./ pNFHD2 / b60v15 / *n
-  - i0015: 37, 38, 39, 40, 41
-  - i003 : 37, 38, 38, 40, 41 
-  - i005 : 36, 37, 38, 39, 40
-  - i010 : 24, 26, 28, 30, 32, 34, 35,
-    - 36, 37, 38, 39, 40, 45, 50
-- Overall
-  - Don't think useful based on preliminary i010 (weird 10 mM)
-
-** DONE pNFL
-- b50v15: worked for NFL; b = 0.50, v = 0.15 
-- b60v05: worked for NFL; b = 0.60, v = 0.05 
-- Could \Delta{}v based on # phospho residues wrt to NFH --> pNFH
+** PROG NFH(\Delta{}2) (chi max = 2, 2.5, 3, 3.5)
+- b60v15 NX
+  - N4: [4 / 36] (Current)
+  - N6: [4 / 40]
+  - N8: [3 / 33] 
+  - N10:[4 / 31]
   
-** DONE NFL
-- b50v15: prev fit for c3.00; b = 0.50, v = 0.15
-- b60v05: NFH fit; b = 0.60, v = 0.05
-
-  
-** DONE NFH(\Delta{}2) (chi max = 2, 2.5, 3, 3.5)
 - \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
 - b = 0.40, v = 0.15
   - D2: cm250, cm300, cm350 
@@ -171,6 +157,26 @@ a010x075s002c010N50
   - cm250, cm250_ D2. pcm250. pcm250_ D2. pcm250P100
   - cm300, cm300_ D2. pcm300. pcm300_ D2.
 
+** DONE Pressure calc (single plate)
+- ./ pNFHD2 / b60v15 / *n
+  - i0015: 37, 38, 39, 40, 41
+  - i003 : 37, 38, 38, 40, 41 
+  - i005 : 36, 37, 38, 39, 40
+  - i010 : 24, 26, 28, 30, 32, 34, 35,
+    - 36, 37, 38, 39, 40, 45, 50
+- Overall
+  - Don't think useful based on preliminary i010 (weird 10 mM)
+
+** DONE pNFL
+- b50v15: worked for NFL; b = 0.50, v = 0.15 
+- b60v05: worked for NFL; b = 0.60, v = 0.05 
+- Could \Delta{}v based on # phospho residues wrt to NFH --> pNFH
+  
+** DONE NFL
+- b50v15: prev fit for c3.00; b = 0.50, v = 0.15
+- b60v05: NFH fit; b = 0.60, v = 0.05
+
+  
 ** DONE NEW SIGMAS
 NFL: 0.0365
 - b0.5 v0.15 c3 (L_ 553)
