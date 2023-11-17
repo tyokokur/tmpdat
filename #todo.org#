@@ -108,7 +108,8 @@ a010x075s002c010N50
 - Result: Same for N = 5, 6, 8, 9 (Mb30v25)
 
 ** PROG NFH(\Delta{}2) (chi max = 2, 2.5, 3, 3.5)
-- 
+- b60v15 NX
+  - 
   
 - \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
 - b = 0.40, v = 0.15
