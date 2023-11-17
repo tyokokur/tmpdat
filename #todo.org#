@@ -21,9 +21,9 @@
 
 * PROG FFT test
 ** Current jobs
-- nums/dz25 [2023-11-14 Tue 16:14]
+- nums/dz25; NaN, redoing in terminal [2023-11-17 Fri 12:44]
   = dz0.25, a0.40, x1.75, N100, dx0.20, dy0.20, ds0.30, LxLy 7.4
-- nums/dz10: dz0.10, same as above [2023-11-14 Tue 16:15] 
+- nums/dz10: dz0.10; NaN (11/17)
 ** Multi-threaded
 - PRIORITIES
   - [-] dz = 17/150 = 0.113; dx, dy = ?
@@ -97,7 +97,7 @@ a010x075s002c010N50
 - N =  8: [38 / 3] *DOWNLOAD*
 - N = 11: [26 / 4] *DOWNLOAD*
 - N = 13: [18 / 3] *DOWNLOAD*
-- N = 15: [20 / 4] *DOWNLOAD*
+- N = 15: [20 / 4] redoing ./2 *DOWNLOAD*
   
 *** DONE TRY NEW DISCS (lower N)
 - Current: N = 9; SB = 4, SC = 32
