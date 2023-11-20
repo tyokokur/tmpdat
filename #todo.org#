@@ -110,9 +110,9 @@ a010x075s002c010N50
 ** PROG NFH(\Delta{}2) (chi max = 2, 2.5, 3, 3.5)
 - b60v15 NX
   - N4: [4 / 36] (Current)
-  - N6: [4 / 40] *DOWNLOAD*
-  - N8: [3 / 33] [2023-11-20 Mon 12:42]
-  - N10:[4 / 31] [2023-11-20 Mon 12:44]
+  - N6: [4 / 40] *DOWNLOADED*
+  - N8: [3 / 33] ./7,8 still running *DOWNLOADED*
+  - N10:[4 / 31] ./7,8 still running *DOWNLOADED*
   
 - \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
 - b = 0.40, v = 0.15
