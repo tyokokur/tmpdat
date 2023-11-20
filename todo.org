@@ -21,8 +21,8 @@
 
 * PROG FFT test
 ** Current jobs
-- nums/dz25; NaN, redoing in terminal [2023-11-17 Fri 12:44]
-  = dz0.25, a0.40, x1.75, N100, dx0.20, dy0.20, ds0.30, LxLy 7.4
+- nums/N100 (starting from omp_ learn dz40 to N100 in terminal) [2023-11-20 Mon 12:22]
+  - dz0.40, a0.40, x1.75, N100, dx0.20, dy0.20, ds0.20, LxLy 7.4
 - nums/dz10: dz0.10; NaN (11/17)
 ** Multi-threaded
 - PRIORITIES
@@ -110,9 +110,9 @@ a010x075s002c010N50
 ** PROG NFH(\Delta{}2) (chi max = 2, 2.5, 3, 3.5)
 - b60v15 NX
   - N4: [4 / 36] (Current)
-  - N6: [4 / 40]  [2023-11-17 Fri 15:43]
-  - N8: [3 / 33] *TODO*
-  - N10:[4 / 31] *TODO*
+  - N6: [4 / 40] *DOWNLOAD*
+  - N8: [3 / 33] [2023-11-20 Mon 12:42]
+  - N10:[4 / 31] [2023-11-20 Mon 12:44]
   
 - \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
 - b = 0.40, v = 0.15
