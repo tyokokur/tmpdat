@@ -110,9 +110,11 @@ a010x075s002c010N50
 ** PROG NFH(\Delta{}2) (chi max = 2, 2.5, 3, 3.5)
 - b60v15 NX
   - N4: [4 / 36] (Current)
-  - N6: [4 / 40] *DOWNLOAD*
-  - N8: [3 / 33] [2023-11-20 Mon 12:42]
-  - N10:[4 / 31] [2023-11-20 Mon 12:44]
+  - N6: [4 / 40] *DOWNLOADED*
+  - N8: [3 / 33] ./7,8 still running *DOWNLOADED*
+  - N10:[4 / 31] ./7,8 still running *DOWNLOADED*
+- b60v20 N10
+  - try b60v20cm225N10 (only b60v20 last time was cm250) [2023-11-20 Mon 15:15]
   
 - \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
 - b = 0.40, v = 0.15
@@ -914,29 +916,6 @@ NOTE: If needed, can refine; some points noisy so fitted over
 - 04: 0.25322
 
   
-* TODO SYSG paper outline [1/4]
-- [X] Fix height profile
-  - a4
-    - p1: 2.00, 1.95, 1.90, 1.85 (weird sharp trend)
-      - DONE Rerun if needed. Results seem correct
-    - p2: DONE
-    - p3: DONE
-    - p4: 10/27: 1.35 (6); changed wopt/wcmp
-  - a3
-    - p1: 10/27: 1.00  (21), 1.10 (33), 1.15 (34)
-    - p2: DONE
-  - a2
-    - p1: DONE
-  - a0
-    - p1: 10/24: 1.00 (2), 1.05 (15), 1.10 (16)
-      - anderr not low enough, but freeDiff and inCompMax look fine
-- [-] Figure list
-  - Key profs at alpha 0.40, chi 2.00, 1.70, 1.45, 1.25
-- [-] Descriptions
-- [ ] General narrative
-
-
-
 * Code cleaning
 ** tjy.ticks()
 - clean using ScalarFormatter class?
