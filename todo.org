@@ -84,7 +84,7 @@ a010x075s002c010N50
 - PKR adjustments:
   - Biggest discrepancies btw Monera and Zhulina: P (0.30 -> 0.40); K
     (0.46 -> 0.00); R (0.60 -> 0.0)
-  - b60v05_ PKR [2023-11-20 Mon 16:02]
+  - b60v05_ PKR 
 
 *** DONE TRY NEW DISCS (Mb60v05)
 - N =  5: [32 / 2]
@@ -109,9 +109,9 @@ a010x075s002c010N50
   - N8: [3 / 33] 
   - N10:[4 / 31] 
 - b60v20 N10
-  - try b60v20cm225N10 (only b60v20 last time was cm250) [2023-11-20 Mon 15:15]
+  - try b60v20cm225N10 (only b60v20 last time was cm250) ./6 waiting [2023-11-21 Tue 12:41]
 - pb60v15_ PKR
-  - PKR adjustments [2023-11-20 Mon 16:17]
+  - PKR adjustments ./5,6 waiting [2023-11-21 Tue 12:40]
   
 - \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
 - b = 0.40, v = 0.15
@@ -464,11 +464,11 @@ See effect from aa_ disc
 
 * PROG int_ SYSG (p2a4 x1.75. p2a4/9)
 ** 1C (seed int_ SYSGp2/7; D20)
-- p21C [40..35..-1] [2023-11-20 Mon 16:37]
+- p21C [40..35..-1] [2023-11-21 Tue 12:50]
 ** 3C (seed int_ SYSGp2/6; D25)
-- p23C [50..40..-1] [2023-11-20 Mon 16:41]
+- p23C [50..40..-1] [2023-11-21 Tue 12:57]
 ** 4C (seed int_ SYSGp2/5; D30)
-- p24C [60..50..-1] [2023-11-20 Mon 16:43]
+- p24C [60..50..-1] [2023-11-21 Tue 13:01]
 
 
 * DONE [OLD] int_ SYSG
