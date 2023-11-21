@@ -463,7 +463,8 @@ See effect from aa_ disc
 
 
 * PROG int_ SYSG (p2a4 x1.75. p2a4/9)
-** 
+** 1C:
+- p2a/{1..10}
 
 ** p2a (seed int_ SYSGp2/7; D20)
 - p21C Nx [40..36..-1] (d [20..18..-0.5])
