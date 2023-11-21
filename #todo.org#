@@ -20,10 +20,6 @@
 
 
 * PROG FFT test
-** Current jobs
-- nums/N100 (starting from omp_ learn dz40 to N100 in terminal) [2023-11-20 Mon 12:22]
-  - dz0.40, a0.40, x1.75, N100, dx0.20, dy0.20, ds0.20, LxLy 7.4
-- nums/dz10: dz0.10; NaN (11/17)
 ** Multi-threaded
 - PRIORITIES
   - [-] dz = 17/150 = 0.113; dx, dy = ?
@@ -474,7 +470,7 @@ See effect from aa_ disc
 ** 3C (seed int_ SYSGp2/6; D25)
 - p23C [50..40..-1] [2023-11-20 Mon 16:41]
 ** 4C (seed int_ SYSGp2/5; D30)
-- p24C [60..50..-1] 
+- p24C [60..50..-1] [2023-11-20 Mon 16:43]
 
 
 * DONE [OLD] int_ SYSG
