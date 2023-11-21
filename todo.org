@@ -87,9 +87,10 @@ a010x075s002c010N50
 - pNFM:
   - pb60bv05 
 
-- See if any unique residues in NFM/NFH vs NFL; maybe that \chi can be
-  updated? Don't make too many arbitrary changes and only if it is
-  preliminarily promising
+- PKR adjustments:
+  - Biggest discrepancies btw Monera and Zhulina: P (0.30 -> 0.40); K
+    (0.46 -> 0.00); R (0.60 -> 0.0)
+  - b60v05_ PKR [2023-11-20 Mon 16:02]
 
 *** DONE TRY NEW DISCS (Mb60v05)
 - N =  5: [32 / 2]
@@ -110,11 +111,13 @@ a010x075s002c010N50
 ** PROG NFH(\Delta{}2) (chi max = 2, 2.5, 3, 3.5)
 - b60v15 NX
   - N4: [4 / 36] (Current)
-  - N6: [4 / 40] *DOWNLOADED*
-  - N8: [3 / 33] ./7,8 still running *DOWNLOADED*
-  - N10:[4 / 31] ./7,8 still running *DOWNLOADED*
+  - N6: [4 / 40] 
+  - N8: [3 / 33] 
+  - N10:[4 / 31] 
 - b60v20 N10
   - try b60v20cm225N10 (only b60v20 last time was cm250) [2023-11-20 Mon 15:15]
+- pb60v15_ PKR
+  - PKR adjustments [2023-11-20 Mon 16:17]
   
 - \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
 - b = 0.40, v = 0.15
