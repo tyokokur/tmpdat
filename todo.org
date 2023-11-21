@@ -20,18 +20,12 @@
 
 
 * PROG FFT test
-** Current jobs
-- nums/N100 (starting from omp_ learn dz40 to N100 in terminal) [2023-11-20 Mon 12:22]
-  - dz0.40, a0.40, x1.75, N100, dx0.20, dy0.20, ds0.20, LxLy 7.4
-- nums/dz10: dz0.10; NaN (11/17)
 ** Multi-threaded
 - PRIORITIES
   - [-] dz = 17/150 = 0.113; dx, dy = ?
     - [ ] dz = 0.50; dx = 0.10, dy = 0.10
     - [X] dz = 0.40; dx = 0.10, dy = 0.10 [Done, 11/14]
     - [ ] dz = 0.30; dx = 0.10, dy = 0.10 (NaN)
-  - [X] stdout --> file.out (dup, dup2?)
-    - Final version in Y2 (report.c, report.h, main.c, Makefile)
   - [-] Y = x
     - Y2 [2023-10-17 Tue 16:26]
     - Start running p1a4, p2a4
@@ -468,7 +462,16 @@ See effect from aa_ disc
 
 
 
-* PROG int_ SYSG
+* PROG int_ SYSG (p2a4 x1.75. p2a4/9)
+** 1C (seed int_ SYSGp2/7; D20)
+- p21C [40..35..-1] [2023-11-20 Mon 16:37]
+** 3C (seed int_ SYSGp2/6; D25)
+- p23C [50..40..-1] [2023-11-20 Mon 16:41]
+** 4C (seed int_ SYSGp2/5; D30)
+- p24C [60..50..-1] [2023-11-20 Mon 16:43]
+
+
+* DONE [OLD] int_ SYSG
 See if interaction profiles interesting and not too complicated
 If complicated, warranted for a new paper
 - [-] 1C - 1C (\chi 2.0; p1a4s02/27)
@@ -874,22 +877,6 @@ NOTE: If needed, can refine; some points noisy so fitted over
     - For D [=] nm, p [=] <f> * 4.04 e-21 N / nm^2 = <f> * 4.04e-03 Pa  
 
       
-
-
-* DONE Revise NFH paper
-- See notes.org
-- Force curves (see int_ NFH)
-
-  
-* DONE NFH REVISION RUNS
-** NFH/f/f400_ 1 *DOWNLOADED*
-** NFH/f/f400_ 2 
-** NFH/f/f400 (5)
-** NFH/f/f400_ 7 
-** NFH/f/f400_ 8
-** NFH/f/f400_ 10
-** NFH/f/f400_ 15
-- weird behavior and too high anyways
 
 
 * TODO INT
