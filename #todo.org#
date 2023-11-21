@@ -465,9 +465,11 @@ See effect from aa_ disc
 * PROG int_ SYSG (p2a4 x1.75. p2a4/9)
 ** 1C (seed int_ SYSGp2/7; D20)
 - p21C [40..36..-1]
-  - 
+  - All 1C (p21C.txt)
 ** 3C (seed int_ SYSGp2/6; D25)
 - p23C [50..40..-1] [2023-11-21 Tue 12:57]
+  - 40 (d20): 1C
+  - 42, 44, 46: 1C-1C
 ** 4C (seed int_ SYSGp2/5; D30)
 - p24C [60..50..-1] [2023-11-21 Tue 13:01]
 
