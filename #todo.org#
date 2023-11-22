@@ -490,7 +490,7 @@ See effect from aa_ disc
 *** p2d
 - 1-1: Nx[41..35] (seed p2b/18) 
   - ./1,2: Nx41.8,41.7 (1-1)
-  - ./3,4: Nx41.5,41.4 NOT 1-1
+  - ./3,4: Nx41.5,41.4 *PROG*
 
 *** p2c (seed int_ SYSGp2/5; D30)
 - p24C Nx [60..50..-1] [2023-11-21 Tue 15:45]
