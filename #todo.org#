@@ -481,23 +481,27 @@ See effect from aa_ disc
 ** 3-3
 - p2c/{9..10}  Nx[56]
 
-** p2a (seed int_ SYSGp2/7; D20)
-- p21C Nx [40..36..-1] 
-  - All 1C (p21C.txt) 
-** p2b (seed int_ SYSGp2/6; D25)
-- p23C Nx [50..40..-1] 
-  - 40..41: 1
-  - 42..46: 1+1
-  - 48..50: 1+1+1
-** p2c (seed int_ SYSGp2/5; D30)
+** PRODUCTIONS
+*** p2d
+- 1-1: Nx[41..35] (seed p2b/18) [2023-11-21 Tue 16:12]
+
+*** p2c (seed int_ SYSGp2/5; D30)
 - p24C Nx [60..50..-1] [2023-11-21 Tue 15:45]
   - 60..57: 2+2
   - 56    : 3+3
   - 55..52: 2+2
   - 51..50: 1+1+1
-** p2d
-- 1-1: Nx[41..35] (seed p2b/18) 
-
+    
+*** p2b (seed int_ SYSGp2/6; D25)
+- p23C Nx [50..40..-1] 
+  - 40..41: 1
+  - 42..46: 1+1
+  - 48..50: 1+1+1
+    
+*** p2a (seed int_ SYSGp2/7; D20)
+- p21C Nx [40..36..-1] 
+  - All 1C (p21C.txt)
+    
 * DONE [OLD] int_ SYSG
 See if interaction profiles interesting and not too complicated
 If complicated, warranted for a new paper
