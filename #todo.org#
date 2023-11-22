@@ -484,7 +484,7 @@ See effect from aa_ disc
 ** PRODUCTIONS
 *** p2e (1-1 to 1-1-1 transition)
 - 1-1-1: Nx[46..44] (seed p2b/18, Nx42)
-  - ./{1..5} working for 1-1-1 [2023-11-21 Tue 17:05]
+  - ./{1..6} working for 1-1-1 [2023-11-21 Tue 17:05]
   
 *** p2d
 - 1-1: Nx[41..35] (seed p2b/18) 
