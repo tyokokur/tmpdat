@@ -483,7 +483,8 @@ See effect from aa_ disc
 
 ** PRODUCTIONS
 *** p2e (1-1 to 1-1-1 transition)
-- 1-1-1 (seed p2b/18, Nx42)
+- 1-1-1: Nx[46..44] (seed p2b/18, Nx42)
+  - ./{1..5} workign for 1-1-1
   
 *** p2d
 - 1-1: Nx[41..35] (seed p2b/18) 
