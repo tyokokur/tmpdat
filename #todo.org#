@@ -482,9 +482,9 @@ See effect from aa_ disc
 - p2c/{9..10}  Nx[56]
 
 ** PRODUCTIONS
-*** p2e
-- 1-1 to 1-1-1 transition
-- 1-1-1: Nx[46..43] (seed p2b/8) [2023-11-21 Tue 16:30]
+*** p2e (1-1 to 1-1-1 transition)
+- 1-1-1 (seed p2b/18, Nx42)
+  - ./1,2: Nx41.8,41.7
   
 *** p2d
 - 1-1: Nx[41..35] (seed p2b/18) [2023-11-21 Tue 16:12]
