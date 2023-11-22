@@ -463,7 +463,7 @@ See effect from aa_ disc
 
 
 * PROG int_ SYSG (p2a4 x1.75. p2a4/9)
-** 0-1-0
+** [DONE] 0-1-0
 - p2a/{1..10}  Nx[50..40]
 - p2b/{19..22} Nx[40..41]
 
@@ -486,12 +486,13 @@ See effect from aa_ disc
 ** PRODUCTIONS
 *** p2e (1-1 to 1-1-1 transition)
 - 1-1-1: Nx[46..44] (seed p2b/18, Nx42)
-  - ./{1..6} working for 1-1-1 *WAITING ON ONLY ./5*
+  - ./{1..6}
+  - /Go to 43 for clear transition/
   
 *** p2d
 - 1-1: Nx[41..35] (seed p2b/18) 
   - ./1,2: Nx41.8,41.7 (1-1)
-  - ./3,4: Nx41.6,41.5 ./3 prog, ./4 waiting on result [2023-11-21 Tue 18:26]
+  - ./3,4: Nx41.6,41.5 *MANUALLY MONITOR ./3*; just need to cross 010
 
 *** p2c (seed int_ SYSGp2/5; D30)
 - p24C Nx [60..50..-1] 
