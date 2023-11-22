@@ -111,7 +111,10 @@ a010x075s002c010N50
 - b60v20 N10
   - try b60v20cm225N10 (only b60v20 last time was cm250) *DOWNLOAD*
 - pb60v15_ PKR
-  - PKR adjustments *DOWNLOAD*
+  - P (0.30 -> 4.0); K (0.46 -> 0); R (0.60, 0)
+- pb60v10_ PKR
+- pb60v15_ P
+- pb60v10_ P
   
 - \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
 - b = 0.40, v = 0.15
