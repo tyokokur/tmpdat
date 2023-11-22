@@ -463,7 +463,7 @@ See effect from aa_ disc
 
 
 * PROG int_ SYSG (p2a4 x1.75. p2a4/9)
-** 0-1-0
+** [DONE] 0-1-0
 - p2a/{1..10}  Nx[50..40]
 - p2b/{19..22} Nx[40..41]
 
