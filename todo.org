@@ -474,6 +474,7 @@ See effect from aa_ disc
 ** 1-1-1
 - p2c/{19..22} Nx[51..50]
 - p2b/{1..8}   Nx[50..47]
+- p2e/{1..6}   Nx[46..44]
 
 ** 2-2
 - p2c/{1..8}   Nx[60..57]
@@ -485,12 +486,12 @@ See effect from aa_ disc
 ** PRODUCTIONS
 *** p2e (1-1 to 1-1-1 transition)
 - 1-1-1: Nx[46..44] (seed p2b/18, Nx42)
-  - ./{1..6} working for 1-1-1 [2023-11-21 Tue 17:05]
+  - ./{1..6} working for 1-1-1 *WAITING ON ONLY ./5*
   
 *** p2d
 - 1-1: Nx[41..35] (seed p2b/18) 
   - ./1,2: Nx41.8,41.7 (1-1)
-  - ./3,4: Nx41.5,41.4 ./3 prog, ./4 waiting on result [2023-11-21 Tue 18:26]
+  - ./3,4: Nx41.6,41.5 ./3 prog, ./4 waiting on result [2023-11-21 Tue 18:26]
 
 *** p2c (seed int_ SYSGp2/5; D30)
 - p24C Nx [60..50..-1] 
