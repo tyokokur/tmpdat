@@ -109,9 +109,12 @@ a010x075s002c010N50
   - N8: [3 / 33] 
   - N10:[4 / 31] 
 - b60v20 N10
-  - try b60v20cm225N10 (only b60v20 last time was cm250) ./6 waiting [2023-11-21 Tue 12:41]
+  - try b60v20cm225N10 (only b60v20 last time was cm250) *DOWNLOAD*
 - pb60v15_ PKR
-  - PKR adjustments ./5,6 waiting [2023-11-21 Tue 12:40]
+  - P (0.30 -> 2.25); K (0.46 -> 0); R (0.60, 0)
+- pb60v10_ PKR [2023-11-22 Wed 12:48]
+- pb60v15_ P   [2023-11-22 Wed 13:06]
+- pb60v10_ P   [2023-11-22 Wed 13:06]
   
 - \sigma(\Delta2) = 0.01854; \sigma = 0.0301 c/nm2
 - b = 0.40, v = 0.15
@@ -487,20 +490,20 @@ See effect from aa_ disc
 *** p2e (1-1 to 1-1-1 transition)
 - 1-1-1: Nx[46..44] (seed p2b/18, Nx42)
   - ./{1..6}
-  - /Go to 43 for clear transition/
+  - ./7,8 [2023-11-22 Wed 15:53]
   
 *** p2d
 - 1-1: Nx[41..35] (seed p2b/18) 
   - ./1,2: Nx41.8,41.7 (1-1)
-  - ./3,4: Nx41.6,41.5 *MANUALLY MONITOR ./3*; just need to cross 010
+  - ./3  : Nx41.6 running, trying most stable (slow) [2023-11-22 Wed 14:27]
 
 *** p2c (seed int_ SYSGp2/5; D30)
 - p24C Nx [60..50..-1] 
-  - 60..57: 2+2 [2023-11-21 Tue 19:05]
+  - 60..57: 2+2
   - 56    : 3+3
-  - 55..52: 2+2 /may need to use w-in change/
+  - 55..52: 2+2 ./9,10,11,12 [2023-11-22 Wed 13:17]
   - 51..50: 1+1+1
-  - DONE: ./{1,2,3,4,19,20,21,22}
+  - DONE: ./{1..8; 19..22}
     - {60.2..59} (2-2)
     - {51.2..50} (1-1-1)
     
