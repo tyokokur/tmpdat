@@ -70,7 +70,8 @@ a010x075s002c010N50
 
 * PROG NLH Fitting
 ** PROG NFH_ P
-- P relative: 30, 40, 50, 60
+- P relative: 30, 40, 50, 60 (1.23 to 1.67)
+  - 
 
 ** DONE NFM
 - b25v{20, 15, 10}; b = 2.5, v = {2.0, 1.5, 1.0}
