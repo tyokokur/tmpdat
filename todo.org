@@ -73,18 +73,16 @@ a010x075s002c010N50
 * PROG NLH Fitting
 ** PROG NFH_ P
 - P relative: 30, 40, 50, 60 (1.23 to 1.67); v05 , v10, v15
-  - Pr30v05 [2023-11-28 Tue 15:25] (all)
-  - Pr30v10
-  - Pr30v15
-  - Pr40v05
-  - Pr40v10
-  - Pr40v15
-  - Pr50v05
-  - Pr50v10
-  - Pr50v15
-  - Pr60v05
-  - Pr60v10
-  - Pr60v15
+  - Pr30v05, Pr30v10, Pr30v15; Pr30/v10/7 RERUN [2023-11-29 Wed 13:54]
+  - Pr40v05, Pr40v10, Pr40v15
+  - Pr50v05, Pr50v10, Pr50v15
+  - Pr60v05, Pr60v10, Pr60v15
+- Best trend when Pr = 100, but heights too small at high Cs; no
+  effect v05, plateau from v10 to v15 --> see if can modify using vXX
+  - Pr100v06
+  - Pr100v07
+  - Pr100v08
+  - Pr100v09
 
 ** DONE NFM
 - b25v{20, 15, 10}; b = 2.5, v = {2.0, 1.5, 1.0}
