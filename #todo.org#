@@ -29,6 +29,12 @@ a010x075s002c010N50
 - Lxy = 5, 10, 15 ./2,3 [2023-09-06 Wed 15:08]
 ** Parameter space
 ** SYSG replicate
+- Expansion strategy (11/28 start)
+  - Try init from 1D using nx,ny = 1 and init from there to expand
+    until not changing
+  - CURRENT
+    - 
+    
 - Concerns:
   - Lxy not large enough
   - dz far too large
