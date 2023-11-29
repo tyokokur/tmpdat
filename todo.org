@@ -34,7 +34,7 @@ a010x075s002c010N50
     until not changing
   - CURRENT
     - VALIDS/test: a040 1D N=1 for input into int.ipynb for dz -> 0.3
-    - Prelim nx,ny = 1 works for arbitrary case [2023-11-28 Tue 17:00]
+    - NxNy = 1 [2023-11-29 Wed 14:42] (p2a4)
     
 - Concerns:
   - Lxy not large enough
