@@ -20,6 +20,28 @@
 
 
 * PROG FFT test
+** Numerical
+a010x075s002c010N50
+- dz: 0.50, 0.25, 0.10; ./1 done
+  - *CODE FOR diff dz*: int_ vis.ipynb
+- ds: 0.05, 0.10, 0.15 ./1,2,3 [2023-09-06 Wed 12:19]
+- Y: 2, 5, 10;[2023-09-05 Tue 12:18]
+- Lxy = 5, 10, 15 ./2,3 [2023-09-06 Wed 15:08]
+** Parameter space
+** SYSG replicate
+- Expansion strategy (11/28 start)
+  - Try init from 1D using nx,ny = 1 and init from there to expand
+    until not changing
+  - CURRENT
+    - VALIDS/test: a040 1D N=1 for input into int.ipynb for dz -> 0.3
+    - Prelim nx,ny = 1 works for arbitrary case [2023-11-28 Tue 17:00]
+    
+- Concerns:
+  - Lxy not large enough
+  - dz far too large
+- p4a4 (a0.40 c1.25; SYSG/.../p4a4s02/3) [2023-09-06 Wed 15:12]
+- p3a4 (a0.40 c1.35; SYSG/.../p3a4s02/1) 
+- p2a4 (a0.40 c1.45; SYSG/.../p2a4s02/1) [2023-09-06 Wed 15:23]
 ** Multi-threaded
 - PRIORITIES
   - [-] dz = 17/150 = 0.113; dx, dy = ?
@@ -43,26 +65,6 @@
   - PB            : 11.972510 -->  8.406981 (2),  3.317846 (4)
   - num_ threads > 4: too much overhead (MDE_ FOR: 120)
  
-** Parameter space
-- s: a00_ sXX (s005, s010) 
-- x: a00_ xXX (x055, x075, x100) 
-- a: aXX_ x75 (a010, a020, a030)
-- N: a00_ NXX (N100, N150, N200)
-- L: Lxy05, Lxy10, Lxy15 [2023-09-06 Wed 15:05]
-** Numerical
-a010x075s002c010N50
-- dz: 0.50, 0.25, 0.10; ./1 done
-  - *CODE FOR diff dz*: int_ vis.ipynb
-- ds: 0.05, 0.10, 0.15 ./1,2,3 [2023-09-06 Wed 12:19]
-- Y: 2, 5, 10;[2023-09-05 Tue 12:18]
-- Lxy = 5, 10, 15 ./2,3 [2023-09-06 Wed 15:08]
-** SYSG replicate
-- Concerns:
-  - Lxy not large enough
-  - dz far too large
-- p4a4 (a0.40 c1.25; SYSG/.../p4a4s02/3) [2023-09-06 Wed 15:12]
-- p3a4 (a0.40 c1.35; SYSG/.../p3a4s02/1) 
-- p2a4 (a0.40 c1.45; SYSG/.../p2a4s02/1) [2023-09-06 Wed 15:23]
 ** Quenched surface
 - Hexagon code done
 
