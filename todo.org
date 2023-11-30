@@ -506,18 +506,18 @@ See effect from aa_ disc
 *** p2e (1-1 to 1-1-1 transition)
 - 1-1-1: Nx[46..44] (seed p2b/18, Nx42)
   - ./{1..6}
-  - ./7,8; ./7 slow run capped at 1e04 IT [2023-11-30 Thu 12:43]
+  - ./7,8; ./7 slow run capped at 1e04 IT (#2) [2023-11-30 Thu 12:43]
   
 *** p2d
 - 1-1: Nx[41..35] (seed p2b/18) 
   - ./1,2: Nx41.8,41.7
-  - ./3  : Slow run capped at 1e04 IT [2023-11-30 Thu 12:29]
+  - ./3  : Slow run capped at 1e04 IT (#3) [2023-11-30 Thu 15:43]
 
 *** p2c (seed int_ SYSGp2/5; D30)
 - p24C Nx [60..50..-1] 
   - 60..57: 2+2
   - 56    : 3+3
-  - 55..52: 2+2 ./{13..18} [2023-11-30 Thu 11:59]
+  - 55..52: 2+2 ./{13..18} *DOWNLOAD*
   - 51..50: 1+1+1
   - DONE: ./{1..12; 19..22}
     - {60.2..55} (2-2)
