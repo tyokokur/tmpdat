@@ -34,7 +34,7 @@ a010x075s002c010N50
     until not changing
   - CURRENT
     - VALIDS/test: a040 1D N=1 for input into int.ipynb for dz -> 0.3
-    - NxNy = 1, dz=0.2 [2023-11-29 Wed 14:42] (p2a4)
+    - NxNy = 1, dz=0.3
     
 - Concerns:
   - Lxy not large enough
@@ -73,16 +73,16 @@ a010x075s002c010N50
 * PROG NLH Fitting
 ** PROG NFH_ P
 - P relative: 30, 40, 50, 60 (1.23 to 1.67); v05 , v10, v15
-  - Pr30v05, Pr30v10, Pr30v15; Pr30/v10/7 RERUN [2023-11-29 Wed 13:54]
+  - Pr30v05, Pr30v10, Pr30v15; *DOWNLOADED*
   - Pr40v05, Pr40v10, Pr40v15 ./v10 still running
   - Pr50v05, Pr50v10, Pr50v15 ./v10 still running
   - Pr60v05, Pr60v10, Pr60v15 ./v10 still running
 - Best trend when Pr = 100, but heights too small at high Cs; no
   effect v05, plateau from v10 to v15 --> see if can modify using vXX
-  - Pr100v06 All [2023-11-29 Wed 14:27]
-  - Pr100v07
-  - Pr100v08
-  - Pr100v09
+  - Pr100v06 ./7 rerun [2023-11-30 Thu 10:52]
+  - Pr100v07 ./7,8 rerun [2023-11-30 Thu 10:54]
+  - Pr100v08 ./2,7 rerun
+  - Pr100v09 ./7 rerun
 
 ** DONE NFM
 - b25v{20, 15, 10}; b = 2.5, v = {2.0, 1.5, 1.0}
@@ -496,8 +496,8 @@ See effect from aa_ disc
 - p2e/{1..6}   Nx[46..44]
 
 ** 2-2
-- p2c/{1..8}   Nx[60..57]
-- p2c/{11..18} Nx[55..52]
+- p2c/{1..12}   Nx[60..55]
+- p2c/{13..18} Nx[55..52]
 
 ** 3-3
 - p2c/{9..10}  Nx[56]
@@ -506,21 +506,21 @@ See effect from aa_ disc
 *** p2e (1-1 to 1-1-1 transition)
 - 1-1-1: Nx[46..44] (seed p2b/18, Nx42)
   - ./{1..6}
-  - ./7,8 [2023-11-22 Wed 15:53]
+  - ./7,8; ./7 slow run capped at 1e04 IT [2023-11-30 Thu 12:43]
   
 *** p2d
 - 1-1: Nx[41..35] (seed p2b/18) 
-  - ./1,2: Nx41.8,41.7 (1-1)
-  - ./3  : Nx41.6 running, trying most stable (slow) [2023-11-22 Wed 14:27]
+  - ./1,2: Nx41.8,41.7
+  - ./3  : Slow run capped at 1e04 IT [2023-11-30 Thu 12:29]
 
 *** p2c (seed int_ SYSGp2/5; D30)
 - p24C Nx [60..50..-1] 
   - 60..57: 2+2
   - 56    : 3+3
-  - 55..52: 2+2 ./9,10,11,12 [2023-11-22 Wed 13:17]
+  - 55..52: 2+2 ./{13..18} [2023-11-30 Thu 11:59]
   - 51..50: 1+1+1
-  - DONE: ./{1..8; 19..22}
-    - {60.2..59} (2-2)
+  - DONE: ./{1..12; 19..22}
+    - {60.2..55} (2-2)
     - {51.2..50} (1-1-1)
     
 *** p2b (seed int_ SYSGp2/6; D25)
