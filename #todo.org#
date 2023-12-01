@@ -80,7 +80,7 @@ a010x075s002c010N50
 - Best trend when Pr = 100, but heights too small at high Cs; no
   effect v05, plateau from v10 to v15 --> see if can modify using vXX
   - Pr100v06 ./7 rerun [2023-11-30 Thu 10:52]
-  - Pr100v07 ./7,8 rerun [2023-11-30 Thu 10:54]
+  - Pr100v07 ./7 rerun [2023-11-30 Thu 10:54]
   - Pr100v08 ./2,7 rerun
   - Pr100v09 ./7 rerun
 
