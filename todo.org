@@ -79,10 +79,12 @@ a010x075s002c010N50
   - Pr60v05, Pr60v10, Pr60v15 ./v10 still running
 - Best trend when Pr = 100, but heights too small at high Cs; no
   effect v05, plateau from v10 to v15 --> see if can modify using vXX
-  - Pr100v06 ./7 rerun
+  - Pr100v06 ./7 running
   - Pr100v07 
   - Pr100v08 ./2 rerun 
   - Pr100v09
+  - Pr100v050 [2023-12-01 Fri 15:38]
+  - Pr100v055 [2023-12-01 Fri 15:28]
 
 ** DONE NFM
 - b25v{20, 15, 10}; b = 2.5, v = {2.0, 1.5, 1.0}
