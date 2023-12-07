@@ -83,14 +83,14 @@ a010x075s002c010N50
   - Pr100v{050,055}
   - Pr100v{05,10}cm200
 - Second round: D2 and non-phos
-  - pHb60v10_ Pr40 *TODO*
-    - pHb60v10D2_ Pr40
-    - Hb60v10_ Pr40
-    - Hb60v10D2_ Pr40
-  - pHb60v10_ Pr100cm200 *TODO*
-    - pHb60v10D2_ Pr100cm200
-    - Hb60v10_ Pr100cm200
-    - Hb60v10D2_ Pr100cm200
+  - pHb60v10_ Pr40 
+    - pHb60v10D2_ Pr40cm225 [2023-12-06 Wed 14:17]
+    - Hb60v10_ Pr40cm225 [2023-12-06 Wed 14:23]
+    - Hb60v10D2_ Pr40cm225 [2023-12-06 Wed 14:26]
+  - pHb60v10_ Pr100cm200 
+    - pHb60v10D2_ Pr100cm200 ./rerunning for conv [2023-12-06 Wed 13:44]
+    - Hb60v10_ Pr100cm200 [2023-12-06 Wed 14:05]
+    - Hb60v10D2_ Pr100cm200 [2023-12-06 Wed 14:05]
 
 ** DONE NFM
 - b25v{20, 15, 10}; b = 2.5, v = {2.0, 1.5, 1.0}
