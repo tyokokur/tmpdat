@@ -1,0 +1,38 @@
+#!/bin/bash
+echo "ph/it? "
+read opt
+
+if [ $opt = "it" ]
+then
+	file=$(echo it*)
+	range=1:5
+	gopts="set logscale y;"
+	echo $file
+else 
+	file=$(echo ph_a*)
+	gopts=""
+	range=1:2
+	echo $file
+fi
+
+change="blah"
+while [ $change != "n" ]
+do 
+	gnuplot << PLOTIT 
+	$gopts
+	plot '$file' using $range 
+PLOTIT
+
+	echo "Change? ([s]et/[u]sing/[n]o ) "
+	read change
+	if [ $change = "s" ]
+	then
+		echo "Set options: "
+		read gopts
+	elif [ $change = "u" ]
+	then 
+		echo "using {x}:{y}: "
+		read range
+	fi
+done
+
