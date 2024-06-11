@@ -1,0 +1,22 @@
+input.h //File to edit
+Makefile, tjygo, submit.sh //Files to copy
+//1//
+30! double c0_plus  = 1e-03;
+31! double c0_minus = 1e-03;
+//End!//
+
+
+//////////////////////
+Comments:
+* Keep "//" After first two lines for comments, as this is used as a separator in the code
+* Keep "//End!//" Tells code that you are finished
+* Keep //%d// format for each file. These also need to be sequential (1, 2, 3, etc.)
+* Format is as follows:
+Line 1: File to edit and copy to subdirectories
+Line 2: Files to copy to subdirectories (e.g. *.o, *.sh, *.txt besides the edited file)
+{
+    Line 3: //%d// : Start of changes, integer will also be the name of the subdirectory these files will be put into
+    Line 4 ~ x: Changes to edit file
+        {Line number}; {What to replace that line with}
+} Repeat as many times as necessary
+Last line: //End!// : Used to end loop, otherwise these comments would be read as changes too.
